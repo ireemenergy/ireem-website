@@ -1,0 +1,56 @@
+{
+    "slug": "unggung-widhiantoro",
+    "name": "Unggung Widhiantoro, S.T, M.Si, CEA, CCA",
+    "role": "Operating Director",
+    "title": "Direktur Operasional IREEM",
+    "photo": "https://v2.ireem.id/storage/special-page-staff/September2023/uv4o8WeS7jKF1eDOjkPR.jpg",
+    "photoLabel": "",
+    "fullBio": [
+        "Unggung Widhiantoro, S.T, M.Si, CEA, CCA adalah Operating Director IREEM Indonesia yang bertanggung jawab atas operasional sehari-hari dan implementasi program.",
+        "Dengan sertifikasi sebagai Certified Energy Auditor (CEA) dan Certified Carbon Analyst (CCA), beliau memiliki keahlian teknis yang kuat dalam efisiensi energi dan analisis karbon."
+    ],
+    "expertise": [
+        "Audit Energi",
+        "Analisis Karbon",
+        "Manajemen Operasional",
+        "Sistem Manajemen Energi"
+    ],
+    "education": [
+        {
+            "degree": "M.Si",
+            "field": "Environmental Science",
+            "institution": "Institut Pertanian Bogor"
+        },
+        {
+            "degree": "S.T",
+            "field": "Engineering",
+            "institution": "Universitas Indonesia"
+        }
+    ],
+    "experience": [
+        {
+            "position": "Operating Director",
+            "organization": "IREEM Indonesia",
+            "period": "2020 - Sekarang"
+        },
+        {
+            "position": "Energy Specialist",
+            "organization": "GIZ Indonesia",
+            "period": "2015 - 2020"
+        }
+    ],
+    "stats": [
+        {
+            "value": "15+",
+            "label": "Tahun Pengalaman"
+        },
+        {
+            "value": "100+",
+            "label": "Audit Dilakukan"
+        }
+    ],
+    "social": {
+        "email": "unggung@ireem.id",
+        "linkedin": "https://linkedin.com/in/unggung-widhiantoro"
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "schemaVersion": "1.0",
+    "slug": "bimtek-konservasi-energi-sumatera-utara",
+    "title": "Mendorong Konservasi Energi di Wilayah Provinsi Sumatera Bagian Utara",
+    "excerpt": "Lokakarya ketujuh diadakan di Pekanbaru untuk membantu gedung pemerintah di wilayah Sumatera bagian utara dalam mengelola energi dengan lebih baik melalui program UK-PACT MENTARI.",
+    "author": {
+        "name": "Latifa Andjani Yusuf",
+        "initials": "LA"
+    },
+    "date": "07 Mei 2024, 10:00 WIB",
+    "category": "Bimbingan Teknis",
+    "banner": {
+        "image": "../images/berita/bimtek-konservasi-energi-sumatera-utara/banner.jpg",
+        "caption": "Bimbingan Teknis Konservasi Energi di Pekanbaru, Riau"
+    },
+    "content": "<p><strong>Pekanbaru, 23–26 April 2024</strong> — <strong>Direktorat Konservasi Energi (EBTKE), Kementerian ESDM</strong>, bersama dengan <strong>IREEM</strong> melalui program <strong>UK-PACT MENTARI Energy Efficiency</strong>, menyelenggarakan rangkaian lokakarya (bimtek) ketujuh di Pekanbaru untuk membantu gedung pemerintah di wilayah Sumatera bagian utara dalam mengelola energi dengan lebih baik.</p><figure class=\"news-article__image\"><img src=\"../images/berita/bimtek-konservasi-energi-sumatera-utara/inline-1.jpg\" alt=\"Peserta bimtek\"><figcaption>Peserta bimbingan teknis dari berbagai provinsi Sumatera</figcaption></figure><h3>Partisipasi Peserta</h3><p>Sebanyak <strong>58 peserta</strong> dari <strong>45 instansi Organisasi Perangkat Daerah (OPD)</strong> di wilayah:</p><ul style=\"margin-bottom: 1.5rem; padding-left: 1.5rem;\"><li>Aceh</li><li>Sumatera Utara</li><li>Sumatera Barat</li><li>Riau</li><li>Bengkulu</li><li>Jambi</li><li>Kepulauan Riau</li></ul><p>Dari total peserta, <strong>21% adalah perempuan</strong>, menunjukkan komitmen pada inklusivitas gender dalam program ini.</p><figure class=\"news-article__image\"><img src=\"../images/berita/bimtek-konservasi-energi-sumatera-utara/inline-2.jpg\" alt=\"Sesi pelatihan\"><figcaption>Sesi pelatihan sistem manajemen energi</figcaption></figure><h3>Inovasi RESGO</h3><p>Dalam lokakarya ini, <strong>ESDM Provinsi Riau</strong> memperkenalkan aplikasi <strong>Riau Energy Saving Government Office (RESGO)</strong> untuk memantau penghematan energi dan air di gedung pemerintahan.</p><h3>Materi Pelatihan</h3><p>Pelatihan ini difokuskan pada sistem manajemen energi berbasis <strong>ISO 50005:2021</strong> dengan materi teknis meliputi:</p><ul style=\"margin-bottom: 1.5rem; padding-left: 1.5rem;\"><li><strong>OTTV</strong> (Overall Thermal Transfer Value)</li><li>Sistem AC dan pencahayaan</li><li>Transportasi vertikal</li><li>Sistem kelistrikan</li><li>Penggunaan alat ukur (<strong>Lux Meter</strong> dan <strong>Energy Meter</strong>)</li></ul><h3>Narasumber</h3><ul style=\"margin-bottom: 1.5rem; padding-left: 1.5rem;\"><li><strong>Ibu Rahmi Andarini</strong></li><li><strong>Bp. Totok Sulistyanto</strong></li><li><strong>Bp. Gunawan Wibisono</strong></li><li><strong>Bp. Parlindungan Marpaung</strong></li></ul><h3>Pejabat yang Hadir</h3><ul style=\"margin-bottom: 1.5rem; padding-left: 1.5rem;\"><li><strong>Bp. Herman</strong> — Kepala Dinas ESDM Riau</li><li><strong>Ibu Sakinah</strong> — Sekretaris Dinas ESDM Riau</li><li><strong>Bp. Arief Yunan</strong> — Direktur Eksekutif IREEM</li></ul><p>Kegiatan ini dilaksanakan dalam kerangka <strong>PP No. 33 Tahun 2023</strong> tentang Konservasi Energi dan merupakan bagian dari Program <strong>MENTARI Efisiensi Energi</strong> yang didukung oleh <strong>UK-PACT</strong>.</p>",
+    "related": [
+        {
+            "slug": "bimtek-manajemen-energi-29-provinsi",
+            "title": "Bimtek Manajemen Energi Gedung Pemerintah Hadir di 29 Provinsi Indonesia",
+            "date": "06 September 2023",
+            "accent": false
+        },
+        {
+            "slug": "bimtek-manajemen-energi-sumatera-selatan",
+            "title": "Bimtek Manajemen Energi di 5 Provinsi Sumatera Bagian Selatan",
+            "date": "14 Juni 2023",
+            "accent": true
+        },
+        {
+            "slug": "bimtek-manajemen-energi-kalimantan",
+            "title": "Bimtek Sistem Manajemen Energi di Wilayah Provinsi Kalimantan",
+            "date": "22 Agustus 2023",
+            "accent": false
+        },
+        {
+            "slug": "bimtek-manajemen-energi-jawa-timur",
+            "title": "Bimtek Manajemen Energi Gedung Pemerintah di Wilayah Jawa Timur",
+            "date": "28 Agustus 2023",
+            "accent": true
+        }
+    ]
+}

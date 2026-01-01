@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="id" data-lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact IREEM - Get in touch to discuss partnerships and collaborations.">
+    <title>Contact IREEM</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header-inner">
+            <a href="../" class="logo"><img src="../images/logo.png" alt="IREEM"></a>
+            <nav class="nav">
+                <div class="nav-item"><a href="../" class="nav-link">Home</a></div>
+                <div class="nav-item"><a href="../about/" class="nav-link">About</a></div>
+                <div class="nav-item"><a href="../what-we-do/" class="nav-link">What We Do</a></div>
+                <div class="nav-item"><a href="../how-we-work/" class="nav-link">How We Work</a></div>
+                <div class="nav-item"><a href="../impact/" class="nav-link">Impact</a></div>
+                <div class="nav-item"><a href="../insights/" class="nav-link">Insights</a></div>
+                <div class="nav-item"><a href="./" class="nav-link active">Partner</a></div>
+                <div class="nav-cta"><a href="contact.html" class="btn btn-primary btn-sm">Contact</a></div>
+            </nav>
+            <button class="menu-toggle"><span></span><span></span><span></span></button>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <nav class="breadcrumb"><a href="../">Home</a><span>/</span><a
+                        href="./">Partner</a><span>/</span><span>Contact</span></nav>
+                <h1>Contact IREEM</h1>
+                <p>Tell us your challenge and we will respond within 3 business days.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="grid grid-2" style="gap: var(--space-4xl);">
+                    <!-- Contact Form -->
+                    <div>
+                        <h2>Send Us a Message</h2>
+                        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" id="contact-form">
+                            <!-- Honeypot spam protection -->
+                            <input type="text" name="_gotcha" style="display:none">
+
+                            <div class="form-group">
+                                <label class="form-label" for="name">Your Name *</label>
+                                <input type="text" class="form-input" id="name" name="name" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label" for="email">Email Address *</label>
+                                <input type="email" class="form-input" id="email" name="email" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label" for="organization">Organization</label>
+                                <input type="text" class="form-input" id="organization" name="organization">
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label" for="interest">Area of Interest</label>
+                                <select class="form-select" id="interest" name="interest">
+                                    <option value="">Select an option</option>
+                                    <option value="energy-transition">Energy Transition & Low Carbon</option>
+                                    <option value="natural-resources">Natural Resources Management</option>
+                                    <option value="environmental">Environmental Management</option>
+                                    <option value="capacity-building">Capacity Building & Training</option>
+                                    <option value="partnership">General Partnership Inquiry</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label" for="message">Your Message *</label>
+                                <textarea class="form-textarea" id="message" name="message" required
+                                    placeholder="Tell us about your project, challenge, or collaboration idea..."></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+                        </form>
+
+                        <p class="small text-secondary mt-2">* Required fields. We respect your privacy and will not
+                            share your information.</p>
+                    </div>
+
+                    <!-- Contact Info -->
+                    <div>
+                        <h2>Other Ways to Reach Us</h2>
+
+                        <div class="card mt-2">
+                            <h4>📍 Office Address</h4>
+                            <p>Bogor, West Java, Indonesia</p>
+                        </div>
+
+                        <div class="card mt-2">
+                            <h4>📧 Email</h4>
+                            <p><a href="mailto:info@ireem.id">info@ireem.id</a></p>
+                        </div>
+
+                        <div class="card mt-2">
+                            <h4>🌐 Website</h4>
+                            <p><a href="https://ireem.id">www.ireem.id</a></p>
+                        </div>
+
+                        <div class="card mt-2" style="background: var(--color-light-bg); border: none;">
+                            <h4>Response Time</h4>
+                            <p>We typically respond within <strong>3 business days</strong>. For urgent matters, please
+                                indicate this in your message subject.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2024 IREEM. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>

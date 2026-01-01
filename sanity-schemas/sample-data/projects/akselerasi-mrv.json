@@ -1,0 +1,57 @@
+{
+    "_type": "project",
+    "title": "AKSELERASI – Sistem MRV untuk Mitigasi GRK Sektor Energi",
+    "slug": {
+        "current": "akselerasi-mrv"
+    },
+    "shortDescription": "Platform digital MRV untuk pemantauan dan pelaporan aksi mitigasi GRK sektor energi secara transparan.",
+    "donor": "UK PACT / KESDM",
+    "periodStart": "2023-01-01",
+    "periodEnd": "2025-12-31",
+    "status": "ongoing",
+    "programs": [
+        "energy",
+        "environment"
+    ],
+    "activities": [
+        {
+            "activityType": "technical-assistance",
+            "forms": [
+                "Pilot digitalisasi MRV",
+                "Integrasi langsung ke sistem KESDM"
+            ],
+            "achievements": [
+                {
+                    "label": "Aplikasi",
+                    "value": "Berjalan penuh di situs resmi MEMR"
+                },
+                {
+                    "label": "Penggunaan",
+                    "value": "Lintas direktorat untuk pelaporan aksi mitigasi"
+                }
+            ]
+        },
+        {
+            "activityType": "policy-advisory",
+            "forms": [
+                "Pengembangan platform MRV digital",
+                "Integrasi ke sistem resmi KESDM"
+            ],
+            "achievements": [
+                {
+                    "label": "Platform",
+                    "value": "AKSELERASI terintegrasi di KESDM"
+                }
+            ]
+        }
+    ],
+    "highlights": [
+        "Sistem digital pelaporan capaian aksi mitigasi GRK",
+        "Terintegrasi dengan sistem resmi KESDM",
+        "Digunakan lintas direktorat"
+    ],
+    "provinces": [
+        "national"
+    ],
+    "coverImage": null
+}

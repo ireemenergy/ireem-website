@@ -1,0 +1,50 @@
+{
+    "schemaVersion": "1.0",
+    "slug": "ireem-sambut-delegasi-belanda-climate-park",
+    "title": "IREEM Sambut Delegasi Belanda untuk Memajukan Pengembangan Climate Park di Indonesia",
+    "excerpt": "IREEM menyambut kunjungan dari Climate Action Plan & Park Systems (CAPPS) untuk membahas penelitian pengembangan Climate Park di Bali dan Jakarta.",
+    "author": {
+        "name": "Latifa Andjani Yusuf",
+        "initials": "LA"
+    },
+    "date": "23 April 2025, 10:00 WIB",
+    "category": "Kolaborasi Internasional",
+    "banner": {
+        "image": "../images/berita/ireem-sambut-delegasi-belanda-climate-park/banner.jpeg",
+        "caption": "IREEM menyambut delegasi dari Climate Action Plan & Park Systems (CAPPS) dari Belanda."
+    },
+    "content": "<p><strong>Jakarta, 15 April 2025</strong> '€” IREEM menyambut kunjungan dari <strong>Climate Action Plan & Park Systems (CAPPS)</strong>, sebuah LSM yang didirikan oleh Ir. Ron Gerards dari Wageningen University, untuk membahas penelitian mereka yang sedang berlangsung tentang pengembangan Climate Park di Bali dan Jakarta.</p><p>CAPPS berfokus pada penciptaan <strong>Climate Parks</strong> '€” area yang ditunjuk untuk mempromosikan solusi berbasis alam terhadap perubahan iklim sambil melibatkan masyarakat lokal, UKM, dan sektor perkebunan.</p><p>Delegasi yang hadir termasuk empat mahasiswa universitas dari <strong>Amsterdam Research Project, Vrije Universiteit Amsterdam</strong>. Kunjungan mereka bertujuan untuk:</p><ul style=\"margin-bottom: 1.5rem; padding-left: 1.5rem;\"><li>Menjelajahi lokasi potensial untuk pengembangan Climate Park</li><li>Mendapatkan wawasan tentang peraturan dan kebijakan Indonesia yang relevan</li><li>Mengidentifikasi mitra kolaborasi potensial</li></ul><p>Kredit karbon diharapkan menjadi aliran pendapatan utama untuk taman-taman ini.</p><p>Selama pertemuan, IREEM berbagi wawasan tentang <strong>regulasi penetapan harga karbon Indonesia</strong>, khususnya mengenai mekanisme kredit karbon. Diskusi juga mengeksplorasi bagaimana Climate Parks '€” yang awalnya diimplementasikan di Belgia '€” dapat diadaptasi ke konteks Indonesia, dengan potensi untuk uji coba dan replikasi akhirnya di bagian lain Indonesia.</p><p>Pertukaran ini menggarisbawahi komitmen bersama untuk memajukan solusi iklim, membangun infrastruktur ramah lingkungan, dan mendukung pembangunan perkotaan berkelanjutan di Indonesia. IREEM terbuka dan antusias tentang upaya kolaboratif semacam itu, dan menantikan untuk menjajaki kemitraan masa depan yang mendorong inovasi lingkungan yang berdampak.</p>",
+    "related": [
+        {
+            "slug": "ireem-uk-pact-iso-50001-certification",
+            "title": "IREEM Melalui Program Efisiensi Energi UK PACT Dukung Kementerian Keuangan dan Pemprov Jawa Tengah Raih Sertifikasi ISO 50001",
+            "date": "17 Juni 2025",
+            "accent": false
+        },
+        {
+            "slug": "ireem-gedsi-training",
+            "title": "IREEM Gelar Pelatihan GEDSI untuk Membangun Budaya Organisasi yang Adil dan Inklusif",
+            "date": "07 Juli 2025",
+            "accent": true
+        },
+        {
+            "slug": "ireem-eubce-2025",
+            "title": "IREEM Hadiri European Biomass Conference and Exhibition (EUBCE) 2025 untuk Mendukung Transisi Energi Bersih",
+            "date": "11 Juli 2025",
+            "accent": false
+        },
+        {
+            "slug": "kick-off-meeting-ike-benchmark",
+            "title": "Kick-Off Meeting Penyusunan Nilai Benchmark IKE: Langkah Strategis Menuju Efisiensi Energi di Bangunan Komersial",
+            "date": "22 Juli 2025",
+            "accent": false
+        },
+        {
+            "slug": "ireem-directorate-gesi-ghg-impact-assessment",
+            "title": "IREEM & Direktorat Konservasi Energi Perkuat Upaya GESI dan Pengurangan GRK",
+            "date": "08 Desember 2025",
+            "accent": true
+        }
+    ]
+}
+

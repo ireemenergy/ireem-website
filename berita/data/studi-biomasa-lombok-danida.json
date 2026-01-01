@@ -1,0 +1,37 @@
+{
+    "schemaVersion": "1.0",
+    "slug": "studi-biomasa-lombok-danida",
+    "title": "Studi Sumber Daya Biomassa di Lombok, Nusa Tenggara Barat: Kolaborasi IREEM dan Danida",
+    "excerpt": "Kerja sama pemerintah Indonesia dan Denmark untuk pengembangan pembangkit listrik menggunakan biomassa dari residu pertanian di Lombok.",
+    "author": {
+        "name": "Latifa Andjani Yusuf",
+        "initials": "LA"
+    },
+    "date": "27 Desember 2022, 10:00 WIB",
+    "category": "Biomassa",
+    "banner": {
+        "image": "../images/berita/studi-biomasa-lombok-danida/banner.jpg",
+        "caption": "Studi Biomassa IREEM-Danida di Lombok"
+    },
+    "content": "<p><strong>Lombok, Nusa Tenggara Barat</strong> — Kerja sama antar-pemerintah antara Indonesia dan Denmark telah memulai proyek pengembangan pembangkit listrik yang memanfaatkan biomassa dari residu pertanian, khususnya sekam padi dan jagung.</p><h3>Lokasi Pilot Project</h3><p><strong>Lombok</strong> terpilih sebagai area percontohan untuk proyek ini, yang bertujuan untuk memenuhi kebutuhan listrik yang terus meningkat secara berkelanjutan. Proyek ini melibatkan pembangunan pembangkit <strong>20-40 MW</strong> di dekat PLTU Jeranjang di Lombok Barat.</p><h3>Ruang Lingkup Studi</h3><p>Studi ini mencakup penilaian residu produksi dari pertanian padi dan jagung, serta didukung oleh konsultasi pemangku kepentingan dan analisis dampak lingkungan.</p><h3>Mitra Kerja Sama</h3><ul style=\"margin-bottom: 1.5rem; padding-left: 1.5rem;\"><li><strong>IREEM</strong></li><li><strong>Danida (DSIF - Danida Sustainable Infrastructure Finance)</strong></li><li><strong>Danish Energy Agency (DEA)</strong></li><li><strong>Kementerian ESDM</strong></li><li><strong>Dewan Energi Nasional (DEN/NEC)</strong></li><li><strong>PLN</strong></li></ul><h3>Target dan Komitmen</h3><p>Proyek ini sejalan dengan komitmen Indonesia untuk:</p><ul style=\"margin-bottom: 1.5rem; padding-left: 1.5rem;\"><li>Target pengurangan emisi <strong>26%</strong> (komitmen 2010)</li><li>Target pangsa energi terbarukan <strong>23%</strong> pada 2025</li></ul><p>Dengan kapasitas <strong>20-40 MW</strong>, pembangkit biomassa ini diharapkan dapat berkontribusi signifikan terhadap target energi terbarukan Indonesia.</p>",
+    "related": [
+        {
+            "slug": "percepatan-pemanfaatan-biomasa",
+            "title": "Percepatan Pemanfaatan Biomasa untuk Energi dan Pemberdayaan Ekonomi Daerah",
+            "date": "27 Desember 2022",
+            "accent": true
+        },
+        {
+            "slug": "ireem-biomassa-asean-congress-2025",
+            "title": "IREEM Dorong Pengembangan Biomassa untuk Mendukung Target Netralitas Karbon",
+            "date": "06 Oktober 2025",
+            "accent": false
+        },
+        {
+            "slug": "ireem-eubce-2025",
+            "title": "IREEM Hadiri European Biomass Conference and Exhibition (EUBCE) 2025",
+            "date": "11 Juli 2025",
+            "accent": true
+        }
+    ]
+}

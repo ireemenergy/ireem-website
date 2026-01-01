@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kemitraan - IREEM</title>
+    <link rel="icon" type="image/x-icon" href="../images/ireemicon2.ico">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="../index.html" class="logo">
+                <img src="../images/logo.png" alt="IREEM Logo" style="height: 48px;">
+            </a>
+
+            <nav class="nav-links">
+                <a href="../about/index.html" class="nav-link" data-i18n="nav.about">Tentang IREEM</a>
+                <a href="../program/index.html" class="nav-link" data-i18n="nav.program">Program</a>
+                <a href="../impact/index.html" class="nav-link" data-i18n="nav.impact">Dampak</a>
+                <a href="../publikasi/index.html" class="nav-link" data-i18n="nav.publications">Publikasi</a>
+                <a href="../berita/index.html" class="nav-link" data-i18n="nav.news">Berita</a>
+                <a href="../inovasi/index.html" class="nav-link" data-i18n="nav.innovation">Inovasi</a>
+                <a href="index.html" class="nav-link active" data-i18n="nav.partnership">Kemitraan</a>
+                <!-- Mobile CTA Button -->
+                <a href="proposal.html" class="nav-cta-mobile btn btn-primary" data-i18n="nav.partnershipCta">Ajukan
+                    Kemitraan</a>
+            </nav>
+
+            <!-- Language Switcher -->
+            <div class="lang-switcher">
+                <button data-lang="id" class="active">ID</button>
+                <span>|</span>
+                <button data-lang="en">EN</button>
+            </div>
+
+            <a href="proposal.html" class="btn btn-primary" data-i18n="nav.partnershipCta">Ajukan Kemitraan</a>
+
+            <!-- Mobile Menu Button -->
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero -->
+        <section class="section" style="padding-top: 8rem;">
+            <div class="container" style="max-width: 900px;">
+                <p class="small text-primary" style="font-weight: 700; text-transform: uppercase; letter-spacing: 2px;"
+                    data-i18n="hero.subtitle">Bergabung Bersama Kami</p>
+                <h1 data-i18n="hero.title">Kemitraan untuk Dampak yang Lebih Besar</h1>
+                <p class="lead" data-i18n="hero.description">Kami percaya bahwa perubahan sistemik hanya dapat dicapai
+                    melalui kolaborasi multi-pihak
+                    yang kuat.</p>
+            </div>
+        </section>
+
+        <!-- Collaboration Types - Accordion Style -->
+        <section class="section bg-white">
+            <div class="container">
+                <div class="mb-8 text-center">
+                    <h2 data-i18n="partner.heading">Bermitra dengan IREEM</h2>
+                    <p class="lead" style="max-width: 700px; margin: 0 auto;" data-i18n="partner.description">IREEM
+                        membuka pintu kolaborasi untuk
+                        mendorong aksi nyata
+                        transisi energi dan pengelolaan lingkungan yang efektif.</p>
+                </div>
+
+                <style>
+                    .accordion {
+                        max-width: 900px;
+                    }
+
+                    .accordion-item {
+                        background: white;
+                        border-radius: 12px;
+                        margin-bottom: 1rem;
+                        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+                        overflow: hidden;
+                    }
+
+                    .accordion-header {
+                        display: flex;
+                        align-items: center;
+                        padding: 1.25rem 1.5rem;
+                        cursor: pointer;
+                        gap: 1rem;
+                        transition: background 0.2s ease;
+                    }
+
+                    .accordion-header:hover {
+                        background: #f8fafc;
+                    }
+
+                    .accordion-icon {
+                        width: 48px;
+                        height: 48px;
+                        border-radius: 12px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-shrink: 0;
+                    }
+
+                    .accordion-title {
+                        flex: 1;
+                        font-weight: 600;
+                        font-size: 1.1rem;
+                        color: var(--color-primary);
+                        margin: 0;
+                    }
+
+                    .accordion-arrow {
+                        transition: transform 0.3s ease;
+                        color: var(--color-muted);
+                    }
+
+                    .accordion-item.active .accordion-arrow {
+                        transform: rotate(180deg);
+                    }
+
+                    .accordion-content {
+                        max-height: 0;
+                        overflow: hidden;
+                        transition: max-height 0.3s ease, padding 0.3s ease;
+                        padding: 0 1.5rem;
+                    }
+
+                    .accordion-item.active .accordion-content {
+                        max-height: 500px;
+                        padding: 0 1.5rem 1.5rem 1.5rem;
+                    }
+
+                    .accordion-content p,
+                    .accordion-content ul {
+                        color: #64748b;
+                        font-size: 0.95rem;
+                        line-height: 1.7;
+                    }
+
+                    .accordion-content ul {
+                        padding-left: 1.5rem;
+                        margin: 0.5rem 0;
+                    }
+
+                    .accordion-grid {
+                        display: grid;
+                        grid-template-columns: repeat(2, 1fr);
+                        gap: 1rem;
+                        max-width: 1000px;
+                        margin: 0 auto;
+                    }
+
+                    @media (max-width: 768px) {
+                        .accordion-grid {
+                            grid-template-columns: 1fr;
+                        }
+                    }
+                </style>
+
+                <div class="accordion accordion-grid">
+                    <!-- Capacity Building -->
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <div class="accordion-icon"
+                                style="background: linear-gradient(135deg, #d1fae5 0%, #a7f3d0 100%);">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#059669"
+                                    stroke-width="2">
+                                    <path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01" />
+                                </svg>
+                            </div>
+                            <h4 class="accordion-title">Capacity Building</h4>
+                            <svg class="accordion-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9" />
+                            </svg>
+                        </div>
+                        <div class="accordion-content">
+                            <p data-i18n="services.capacityBuilding.description">Pelatihan teknis, lokakarya, dan
+                                pendampingan untuk pengembangan kapasitas SDM.</p>
+                            <ul>
+                                <li data-i18n="services.capacityBuilding.item1">Pelatihan Manajer Energi & Auditor
+                                    Energi bersertifikat BNSP</li>
+                                <li data-i18n="services.capacityBuilding.item2">Workshop ISO 50001 dan Bangunan Gedung
+                                    Hijau</li>
+                                <li data-i18n="services.capacityBuilding.item3">Training of Trainers (ToT) untuk
+                                    multiplikasi dampak</li>
+                                <li data-i18n="services.capacityBuilding.item4">Modul perubahan iklim dan ekonomi hijau
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Pilot & Pipeline -->
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <div class="accordion-icon"
+                                style="background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2563eb"
+                                    stroke-width="2">
+                                    <circle cx="5" cy="12" r="2" />
+                                    <circle cx="12" cy="12" r="2" />
+                                    <circle cx="19" cy="12" r="2" />
+                                    <path d="M7 12h3m4 0h3" />
+                                </svg>
+                            </div>
+                            <h4 class="accordion-title">Pilot & Pipeline</h4>
+                            <svg class="accordion-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9" />
+                            </svg>
+                        </div>
+                        <div class="accordion-content">
+                            <p data-i18n="services.pilotPipeline.description">Studi kelayakan (FS), program percontohan,
+                                dan kemitraan IGA.</p>
+                            <ul>
+                                <li data-i18n="services.pilotPipeline.item1">Feasibility Study untuk proyek efisiensi
+                                    energi dan EBT</li>
+                                <li data-i18n="services.pilotPipeline.item2">Pilot project di sektor prioritas
+                                    (industri, bangunan, maritim)</li>
+                                <li data-i18n="services.pilotPipeline.item3">Investment Grade Audit (IGA) untuk bankable
+                                    projects</li>
+                                <li data-i18n="services.pilotPipeline.item4">Technical due diligence</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Policy Paper & MRV -->
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <div class="accordion-icon"
+                                style="background: linear-gradient(135deg, #d1fae5 0%, #a7f3d0 100%);">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#059669"
+                                    stroke-width="2">
+                                    <circle cx="12" cy="12" r="10" />
+                                    <path d="M12 16v-4M12 8h.01" />
+                                </svg>
+                            </div>
+                            <h4 class="accordion-title">Policy Paper & MRV</h4>
+                            <svg class="accordion-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9" />
+                            </svg>
+                        </div>
+                        <div class="accordion-content">
+                            <p data-i18n="services.policyMRV.description">Penyusunan rekomendasi kebijakan, riset data,
+                                dan pengembangan sistem MRV.</p>
+                            <ul>
+                                <li data-i18n="services.policyMRV.item1">Policy brief dan position paper untuk pengambil
+                                    kebijakan</li>
+                                <li data-i18n="services.policyMRV.item2">Riset dan analisis data energi dan lingkungan
+                                </li>
+                                <li data-i18n="services.policyMRV.item3">Pengembangan sistem Monitoring, Reporting, and
+                                    Verification (MRV)</li>
+                                <li data-i18n="services.policyMRV.item4">Platform digital pelaporan iklim (SINERGI,
+                                    AKSELERASI)</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- TA Institusional -->
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <div class="accordion-icon"
+                                style="background: linear-gradient(135deg, #ede9fe 0%, #ddd6fe 100%);">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#7c3aed"
+                                    stroke-width="2">
+                                    <path d="M12 2L2 7l10 5 10-5-10-5z" />
+                                    <path d="M2 17l10 5 10-5M2 12l10 5 10-5" />
+                                </svg>
+                            </div>
+                            <h4 class="accordion-title" data-i18n="services.taInstitutional.title">TA Institusional</h4>
+                            <svg class="accordion-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9" />
+                            </svg>
+                        </div>
+                        <div class="accordion-content">
+                            <p data-i18n="services.taInstitutional.description">Dukungan teknis implementasi sistem
+                                manajemen energi dan lingkungan di institusi.</p>
+                            <ul>
+                                <li data-i18n="services.taInstitutional.item1">Implementasi ISO 50001 dan ISO 50005</li>
+                                <li data-i18n="services.taInstitutional.item2">Pendampingan sertifikasi Bangunan Gedung
+                                    Hijau (BGH)</li>
+                                <li data-i18n="services.taInstitutional.item3">Audit energi untuk gedung pemerintah dan
+                                    komersial</li>
+                                <li data-i18n="services.taInstitutional.item4">Penyusunan rencana aksi efisiensi energi
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- ESCO Facilitation -->
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <div class="accordion-icon"
+                                style="background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#d97706"
+                                    stroke-width="2">
+                                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+                                    <path d="M16 2v4M8 2v4M3 10h18" />
+                                </svg>
+                            </div>
+                            <h4 class="accordion-title">ESCO Facilitation</h4>
+                            <svg class="accordion-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9" />
+                            </svg>
+                        </div>
+                        <div class="accordion-content">
+                            <p data-i18n="services.escoFacilitation.description">Memfasilitasi proyek efisiensi energi
+                                dengan Energy Service Companies (ESCO).</p>
+                            <ul>
+                                <li data-i18n="services.escoFacilitation.item1">Identifikasi dan matchmaking dengan
+                                    penyedia ESCO</li>
+                                <li data-i18n="services.escoFacilitation.item2">Pengembangan model bisnis ESCO untuk
+                                    sektor publik</li>
+                                <li data-i18n="services.escoFacilitation.item3">Penyusunan kontrak kinerja energi</li>
+                                <li data-i18n="services.escoFacilitation.item4">Monitoring dan verifikasi penghematan
+                                    energi</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Subnational Acceleration -->
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <div class="accordion-icon"
+                                style="background: linear-gradient(135deg, #fce7f3 0%, #fbcfe8 100%);">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#db2777"
+                                    stroke-width="2">
+                                    <path
+                                        d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83" />
+                                </svg>
+                            </div>
+                            <h4 class="accordion-title">Subnational Acceleration</h4>
+                            <svg class="accordion-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <polyline points="6 9 12 15 18 9" />
+                            </svg>
+                        </div>
+                        <div class="accordion-content">
+                            <p data-i18n="services.subnationalAcceleration.description">Akselerasi program energi
+                                terbarukan dan efisiensi di tingkat daerah.</p>
+                            <ul>
+                                <li data-i18n="services.subnationalAcceleration.item1">Pendampingan penyusunan RUED
+                                    (Rencana Umum Energi Daerah)</li>
+                                <li data-i18n="services.subnationalAcceleration.item2">Program efisiensi energi untuk
+                                    Pemda</li>
+                                <li data-i18n="services.subnationalAcceleration.item3">Pengembangan EBT skala kecil dan
+                                    menengah</li>
+                                <li data-i18n="services.subnationalAcceleration.item4">Capacity building untuk
+                                    stakeholder daerah</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <script>
+                    function toggleAccordion(header) {
+                        const item = header.parentElement;
+                        const wasActive = item.classList.contains('active');
+
+                        // Close all items
+                        document.querySelectorAll('.accordion-item').forEach(el => {
+                            el.classList.remove('active');
+                        });
+
+                        // Open clicked item if it wasn't active
+                        if (!wasActive) {
+                            item.classList.add('active');
+                        }
+                    }
+                </script>
+            </div>
+        </section>
+
+        <!-- Partnership Models -->
+        <section class="section">
+            <div class="container">
+                <div class="text-center mb-8">
+                    <h2 data-i18n="models.heading">Model Kemitraan</h2>
+                </div>
+                <div class="grid grid-3">
+                    <div class="card" style="border-top: 4px solid var(--color-accent);">
+                        <h4 data-i18n="models.bilateral.title">Proyek Bilateral</h4>
+                        <p class="small" data-i18n="models.bilateral.description">Kerjasama langsung dengan donor atau
+                            klien untuk implementasi program tertentu.
+                        </p>
+                        <br>
+                        <p class="small" style="color: var(--color-muted);" data-i18n="models.bilateral.example">Contoh:
+                            UK PACT, GIZ, USAID</p>
+                    </div>
+                    <div class="card" style="border-top: 4px solid var(--color-secondary);">
+                        <h4 data-i18n="models.consortium.title">Konsorsium Multi-Pihak</h4>
+                        <p class="small" data-i18n="models.consortium.description">Bergabung dalam konsorsium bersama
+                            lembaga internasional dan nasional lainnya.
+                        </p>
+                        <br>
+                        <p class="small" style="color: var(--color-muted);" data-i18n="models.consortium.example">
+                            Contoh: Partnership for Market Readiness</p>
+                    </div>
+                    <div class="card" style="border-top: 4px solid var(--color-primary);">
+                        <h4 data-i18n="models.government.title">Pendampingan Pemerintah</h4>
+                        <p class="small" data-i18n="models.government.description">Dukungan teknis langsung kepada
+                            kementerian dan pemerintah daerah.</p>
+                        <br>
+                        <p class="small" style="color: var(--color-muted);" data-i18n="models.government.example">
+                            Contoh: Kemenko Marves, Kementerian ESDM</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="section" style="background-color: var(--color-primary); color: white;">
+            <div class="container text-center">
+                <h2 style="color: white;" data-i18n="cta.heading">Mulai Kolaborasi</h2>
+                <p class="lead" style="color: rgba(255,255,255,0.9);" data-i18n="cta.description">Kami terbuka untuk
+                    mendiskusikan peluang kemitraan
+                    baru.</p>
+                <br>
+                <a href="proposal.html" class="btn btn-primary" style="font-size: 1rem; padding: 1rem 2rem;"
+                    data-i18n="cta.button">Ajukan
+                    Proposal Kemitraan</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div>
+                <img src="../images/logo-white.png" alt="IREEM" style="height: 36px; margin-bottom: 1rem;">
+                <p class="small" style="color: rgba(255,255,255,0.6); max-width: 280px; line-height: 1.6;">
+                    Institute for Management of Natural Resources, Energy and Environment.
+                </p>
+            </div>
+            <div>
+                <h5 style="color: white; margin-bottom: 0.75rem; font-size: 0.85rem;" data-i18n="footer.program">Program
+                </h5>
+                <div style="display: flex; flex-direction: column; gap: 0.4rem;">
+                    <a href="../program/energi.html" style="color: rgba(255,255,255,0.6); font-size: 0.8rem;"
+                        data-i18n="footer.energyClimate">Energi &
+                        Iklim</a>
+                    <a href="../program/lingkungan.html" style="color: rgba(255,255,255,0.6); font-size: 0.8rem;"
+                        data-i18n="footer.environment">Lingkungan</a>
+                    <a href="../program/sumber-daya.html" style="color: rgba(255,255,255,0.6); font-size: 0.8rem;"
+                        data-i18n="footer.naturalResources">Sumber Daya Alam</a>
+                    <a href="../program/gesi.html" style="color: rgba(255,255,255,0.6); font-size: 0.8rem;"
+                        data-i18n="footer.gesi">GESI</a>
+                </div>
+            </div>
+            <div>
+                <h5 style="color: white; margin-bottom: 0.75rem; font-size: 0.85rem;" data-i18n="footer.contact">Kontak
+                </h5>
+                <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+                    <a href="https://wa.me/6282142740508" target="_blank"
+                        style="color: rgba(255,255,255,0.6); font-size: 0.8rem; display: flex; align-items: center; gap: 0.5rem;">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path
+                                d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+                        </svg>
+                        0821-4274-0508
+                    </a>
+                    <a href="mailto:info@ireem.id"
+                        style="color: rgba(255,255,255,0.6); font-size: 0.8rem; display: flex; align-items: center; gap: 0.5rem;">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path
+                                d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                        </svg>
+                        info@ireem.id
+                    </a>
+                    <a href="https://maps.app.goo.gl/18JrCHCrNfFDt7nh6" target="_blank"
+                        style="color: rgba(255,255,255,0.6); font-size: 0.8rem; display: flex; align-items: center; gap: 0.5rem;">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                            <path d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                        </svg>
+                        Jakarta Selatan
+                    </a>
+                </div>
+            </div>
+            <div>
+                <h5 style="color: white; margin-bottom: 0.75rem; font-size: 0.85rem;" data-i18n="footer.followUs">Ikuti
+                    Kami</h5>
+                <div style="display: flex; gap: 0.75rem;">
+                    <a href="https://www.instagram.com/ireem.id" target="_blank" title="Instagram"
+                        style="color: rgba(255,255,255,0.7);">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                        </svg>
+                    </a>
+                    <a href="https://www.youtube.com/@IREEM_Indonesia" target="_blank" title="YouTube"
+                        style="color: rgba(255,255,255,0.7);">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z" />
+                        </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/company/ireem/" target="_blank" title="LinkedIn"
+                        style="color: rgba(255,255,255,0.7);">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container"
+            style="border-top: 1px solid rgba(255,255,255,0.1); padding-top: 1.5rem; margin-top: 2rem;">
+            <p class="small text-center" style="color: rgba(255,255,255,0.4);">&copy; 2024 IREEM. All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Main JS for navigation -->
+    <script src="../js/main.js"></script>
+
+    <!-- i18n Bilingual System -->
+    <script src="../js/i18n/index.js"></script>
+    <script src="../js/i18n/common.js"></script>
+    <script src="../js/i18n/kemitraan.js"></script>
+</body>
+
+</html>

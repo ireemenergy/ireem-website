@@ -1,0 +1,43 @@
+{
+    "schemaVersion": "1.0",
+    "slug": "pelatihan-sertifikasi-asesor-kompetensi",
+    "title": "Pelatihan dan Sertifikasi Asesor Kompetensi Bidang Konservasi Energi",
+    "excerpt": "Kementerian ESDM bersama IREEM dan BNSP menyelenggarakan pelatihan dan sertifikasi calon asesor kompetensi di bidang konservasi energi dengan 24 peserta.",
+    "author": {
+        "name": "Latifa Andjani Yusuf",
+        "initials": "LA"
+    },
+    "date": "05 Juni 2023, 10:00 WIB",
+    "category": "Pelatihan",
+    "banner": {
+        "image": "../images/berita/pelatihan-sertifikasi-asesor-kompetensi/banner.jpg",
+        "caption": "Pelatihan dan Sertifikasi Asesor Kompetensi di Bogor"
+    },
+    "content": "<p><strong>Bogor</strong> — Dalam rangka menyediakan sumber daya manusia yang berkompeten dalam mendukung pelaksanaan konservasi energi yang didukung oleh tersedianya auditor dan manajer energi yang berkompeten, maka perlu didukung dengan tersedianya <strong>asesor kompetensi</strong> di bidang serupa yang berkompeten dalam menilai dan menguji kompetensi terkait dengan penyelenggaraan konservasi energi.</p><h3>Kolaborasi Multi-Pihak</h3><p>Kegiatan pelatihan dan sertifikasi calon asesor kompetensi di bidang konservasi energi ini diselenggarakan berdasarkan kerjasama antara:</p><ul style=\"margin-bottom: 1.5rem; padding-left: 1.5rem;\"><li><strong>Kementerian Energi dan Sumber Daya Mineral (KESDM)</strong></li><li><strong>Institute of Natural Resources, Energy, and Environmental Management (IREEM)</strong></li><li><strong>Badan Nasional Sertifikasi Profesi (BNSP)</strong></li><li><strong>5 Lembaga Sertifikasi Profesi (LSP)</strong></li></ul><p>Dengan dukungan dari <strong>MENTARI Efisiensi Energi</strong> dari <strong>UK-PACT</strong>.</p><h3>Pelaksanaan Kegiatan</h3><p>Kegiatan ini diselenggarakan dalam serangkaian pelatihan dan sertifikasi calon asesor kompetensi yang diselenggarakan selama <strong>6 hari</strong>, mulai tanggal <strong>6 hingga 11 Desember 2022</strong>:</p><ul style=\"margin-bottom: 1.5rem; padding-left: 1.5rem;\"><li><strong>4 hari</strong> pelatihan</li><li><strong>2 hari</strong> evaluasi sertifikasi</li></ul><p>Sertifikasi difasilitasi oleh pengajar dan penguji yang telah ditetapkan oleh BNSP.</p><h3>Partisipasi Peserta</h3><p>Sebanyak <strong>17%</strong> peserta yang mengikuti pelatihan ini adalah wanita. Kegiatan pelatihan dan sertifikasi asesor kompetensi di bidang energi ini diharapkan dapat memfasilitasi tersedianya tenaga asesor kompetensi yang mampu:</p><ul style=\"margin-bottom: 1.5rem; padding-left: 1.5rem;\"><li>Memahami Kebijakan Sistem Sertifikasi Kompetensi</li><li>Merencanakan Aktivitas dan Proses Asesmen</li><li>Memberikan Kontribusi dalam Validasi Asesmen</li><li>Melaksanakan Asesmen</li><li>Mengases Kompetensi</li></ul><p>Kompetensi tersebut sangat berperan penting dalam mendukung pelaksanaan konservasi energi nasional.</p><h3>Hasil Kegiatan</h3><p>Kegiatan pelatihan dan sertifikasi calon asesor ini diikuti oleh <strong>24 peserta</strong> dengan kompetensi yang siap mendongkrak kapabilitas sumber daya manusia.</p><p>Kegiatan ini merupakan bagian dari Program <strong>MENTARI Efisiensi Energi</strong> yang didukung oleh <strong>UK-PACT</strong> (Partnering for Accelerated Climate Transition).</p>",
+    "related": [
+        {
+            "slug": "ireem-pelatihan-sertifikasi-auditor-energi",
+            "title": "IREEM Menyelenggarakan Pelatihan dan Sertifikasi Auditor Energi Gedung",
+            "date": "01 November 2024",
+            "accent": false
+        },
+        {
+            "slug": "pelatihan-sertifikasi-manajer-energi-tegal",
+            "title": "Pelatihan dan Sertifikasi Manajer Energi bagi Pengelola Gedung Pemerintah",
+            "date": "26 September 2023",
+            "accent": true
+        },
+        {
+            "slug": "training-of-trainer-manajer-auditor-energi",
+            "title": "Training of Trainer: Manajer dan Auditor Energi Dibekali Pengetahuan Perubahan Iklim",
+            "date": "10 Juli 2023",
+            "accent": false
+        },
+        {
+            "slug": "31-pengelola-gedung-kompeten-manajer-energi",
+            "title": "31 Pengelola Gedung Dinyatakan Kompeten sebagai Manajer Energi",
+            "date": "26 September 2023",
+            "accent": true
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+﻿{
+    "schemaVersion": "1.0",
+    "slug": "fgd-profiling-kapal-gap-analysis",
+    "title": "Mendukung Transisi Energi di Sektor Maritim: FGD Profiling Kapal & Gap Analysis",
+    "excerpt": "IREEM bersama mitra konsorsiumnya Traction Energy Asia menyelenggarakan Focus Group Discussion (FGD) tentang Profiling Kapal & Gap Analysis sebagai bagian dari proyek UK PACT Melaju untuk mendorong transisi energi di sektor maritim Indonesia.",
+    "author": {
+        "name": "Ardhia Nur Zafira",
+        "initials": "AZ"
+    },
+    "date": "02 Oktober 2025, 10:00 WIB",
+    "category": "Sektor Maritim",
+    "banner": {
+        "image": "../images/berita/fgd-profiling-kapal-gap-analysis/banner.jpg",
+        "caption": "Focus Group Discussion (FGD) tentang Profiling Kapal & Gap Analysis di Hotel Mercure Jakarta Sabang."
+    },
+    "content": "<p><strong>Jakarta</strong> — Institute for Natural Resources, Energy, and Environmental Management (IREEM), bersama mitra konsorsiumnya <strong>Traction Energy Asia</strong>, menyelenggarakan Focus Group Discussion (FGD) tentang Profiling Kapal & Gap Analysis di Hotel Mercure Jakarta Sabang. Kegiatan ini merupakan bagian dari proyek <strong>UK PACT Melaju</strong>, kolaborasi antara Pemerintah Indonesia dan Pemerintah Inggris yang dikoordinasikan oleh Kementerian Perhubungan.</p><p>Acara ini mempertemukan para regulator, pelaku industri pelayaran, produsen energi, akademisi, dan mitra internasional untuk membahas transisi energi di sektor maritim.</p><figure class=\"news-article__image\"><img src=\"../images/berita/fgd-profiling-kapal-gap-analysis/inline-1.jpg\" alt=\"Suasana diskusi FGD dengan peserta di meja rapat\"><figcaption class=\"news-article__caption\">Suasana diskusi intensif antar peserta FGD yang membahas transisi energi sektor maritim.</figcaption></figure><p>Tujuan dari FGD ini adalah untuk melakukan pemetaan komprehensif terhadap armada kapal Indonesia saat ini, meliputi:</p><ul style=\"margin-bottom: 1.5rem; padding-left: 1.5rem;\"><li>Identifikasi jenis kapal dan mesin yang beroperasi serta kompatibilitasnya dengan bahan bakar alternatif</li><li>Analisis volume konsumsi bahan bakar pada kapal logistik dan penumpang</li><li>Penilaian struktur biaya dan pendapatan perjalanan</li><li>Identifikasi faktor emisi dari penggunaan bahan bakar konvensional</li><li>Pelaksanaan gap analysis antara kondisi saat ini, standar internasional, dan rencana transisi energi nasional</li></ul><figure class=\"news-article__image\"><img src=\"../images/berita/fgd-profiling-kapal-gap-analysis/inline-2.jpg\" alt=\"Pembicara menyampaikan paparan di FGD\"><figcaption class=\"news-article__caption\">Narasumber menyampaikan paparan tentang strategi transisi energi maritim.</figcaption></figure><p>Diskusi ini dihadiri oleh <strong>36 peserta</strong> yang mewakili berbagai sektor dan pemangku kepentingan. Dari sisi regulasi, hadir perwakilan dari Kementerian Perhubungan yaitu Pusat Pengelolaan Transportasi Berkelanjutan (PPTB), Sekretariat Direktorat Jenderal Perhubungan Laut, Direktorat Pelayaran dan Pelaut, Direktorat Lalu Lintas Laut, dan Direktorat Pelabuhan.</p><p>Selain itu, turut hadir Kementerian Energi dan Sumber Daya Mineral (Direktorat Bioenergi) serta Kementerian Koordinator Bidang Infrastruktur dan Pembangunan Daerah.</p><p>Dari sektor pelayaran, hadir perwakilan <strong>PT PELNI</strong> dan <strong>PT Dharma Lautan Utama</strong>. Lembaga penelitian dan akademisi diwakili oleh BKI, BRIN, dan ITS. Sektor energi dan teknologi meliputi PT Yanmar Diesel Indonesia, Pertamina (Patra Niaga, Subholding Power & NRE, dan tim biofuel), APROBI, PT Bali Hijau, dan Pupuk Indonesia.</p><p>FGD ini berfungsi sebagai platform untuk menyelaraskan perspektif antara pemerintah, industri, lembaga penelitian, dan mitra internasional dalam merumuskan strategi transisi energi maritim yang lebih berkelanjutan, khususnya terkait bahan bakar alternatif.</p>",
+    "related": [
+        {
+            "slug": "ireem-uk-pact-maritime-energy-training",
+            "title": "Memperkuat Transisi Energi Indonesia: IREEM dan UK PACT Gelar Pelatihan Manajer Energi untuk Sektor Maritim",
+            "date": "27 Oktober 2025",
+            "accent": false
+        },
+        {
+            "slug": "ireem-biomassa-asean-congress-2025",
+            "title": "IREEM Dorong Pengembangan Biomassa untuk Mendukung Target Netralitas Karbon",
+            "date": "06 Oktober 2025",
+            "accent": true
+        },
+        {
+            "slug": "ireem-directorate-gesi-ghg-impact-assessment",
+            "title": "IREEM & Direktorat Konservasi Energi Perkuat Upaya GESI dan Pengurangan GRK",
+            "date": "08 Desember 2025",
+            "accent": false
+        },
+        {
+            "slug": "kuliah-umum-unsoed-ireem",
+            "title": "Teknik Elektro UNSOED Gelar Kuliah Umum: Kolaborasi UNSOED–IREEM Bahas Peran Insinyur dalam Energi Berkelanjutan",
+            "date": "01 Oktober 2025",
+            "accent": false
+        },
+        {
+            "slug": "capacity-building-manajemen-energi-bangunan",
+            "title": "Peningkatan Kapasitas Mendukung Implementasi Manajemen Energi di Sektor Bangunan",
+            "date": "12 September 2025",
+            "accent": true
+        }
+    ]
+}

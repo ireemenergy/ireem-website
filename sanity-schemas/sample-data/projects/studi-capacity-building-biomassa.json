@@ -1,0 +1,56 @@
+{
+    "_type": "project",
+    "title": "Studi & Capacity Building Biomassa",
+    "slug": {
+        "current": "studi-capacity-building-biomassa"
+    },
+    "shortDescription": "Pelatihan teknis identifikasi sumber biomassa dan workshop untuk pemerintah lokal & desa di NTB.",
+    "donor": "PEMConsult / Danida (DSIF)",
+    "periodStart": "2021-01-01",
+    "periodEnd": "2022-12-31",
+    "status": "completed",
+    "programs": [
+        "energy",
+        "natural-resources"
+    ],
+    "activities": [
+        {
+            "activityType": "capacity-building",
+            "forms": [
+                "Pelatihan teknis identifikasi sumber biomassa",
+                "Workshop untuk pemerintah lokal & desa"
+            ],
+            "achievements": [
+                {
+                    "label": "Kajian",
+                    "value": "Potensi biomassa lokal"
+                },
+                {
+                    "label": "Rekomendasi",
+                    "value": "Pengembangan energi biomassa untuk desa konservasi"
+                }
+            ]
+        },
+        {
+            "activityType": "research",
+            "forms": [
+                "Kajian potensi biomassa dari residu pertanian"
+            ],
+            "achievements": [
+                {
+                    "label": "Lokasi kajian",
+                    "value": "Sumbawa, Lombok"
+                }
+            ]
+        }
+    ],
+    "highlights": [
+        "Kajian potensi biomassa lokal",
+        "Rekomendasi pengembangan energi biomassa untuk desa konservasi",
+        "Pelatihan teknis di Sumbawa & Lombok"
+    ],
+    "provinces": [
+        "ntb"
+    ],
+    "coverImage": null
+}

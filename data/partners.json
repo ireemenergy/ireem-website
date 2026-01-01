@@ -1,0 +1,40 @@
+{
+    "partners": [
+        {
+            "name": "UK PACT",
+            "logo": "/images/partners/uk-pact.png",
+            "type": "donor",
+            "url": ""
+        },
+        {
+            "name": "Ministry of Energy and Mineral Resources",
+            "logo": "/images/partners/esdm.png",
+            "type": "government",
+            "url": ""
+        },
+        {
+            "name": "Ministry of Environment and Forestry",
+            "logo": "/images/partners/klhk.png",
+            "type": "government",
+            "url": ""
+        },
+        {
+            "name": "GIZ",
+            "logo": "/images/partners/giz.png",
+            "type": "donor",
+            "url": ""
+        },
+        {
+            "name": "UNDP Indonesia",
+            "logo": "/images/partners/undp.png",
+            "type": "donor",
+            "url": ""
+        },
+        {
+            "name": "IPB University",
+            "logo": "/images/partners/ipb.png",
+            "type": "academic",
+            "url": ""
+        }
+    ]
+}

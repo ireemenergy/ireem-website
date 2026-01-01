@@ -1,0 +1,43 @@
+{
+    "schemaVersion": "1.0",
+    "slug": "bimtek-manajemen-energi-jawa-barat",
+    "title": "Bimbingan Teknis: Penerapan Manajemen Energi di Bangunan Gedung Pemerintah di Lingkup Jawa Barat",
+    "excerpt": "Direktorat Konservasi Energi bersama MENTARI Efisiensi Energi menyelenggarakan Bimtek Penerapan Manajemen Energi di Bandung dengan 57 peserta dari 41 instansi.",
+    "author": {
+        "name": "Latifa Andjani Yusuf",
+        "initials": "LA"
+    },
+    "date": "05 Juni 2023, 10:00 WIB",
+    "category": "Bimbingan Teknis",
+    "banner": {
+        "image": "../images/berita/bimtek-manajemen-energi-jawa-barat/banner.jpg",
+        "caption": "Bimbingan Teknis Manajemen Energi di Bandung, Jawa Barat"
+    },
+    "content": "<p><strong>Bandung</strong> — Kementerian ESDM melalui <strong>Direktorat Konservasi Energi</strong> bersama dengan <strong>MENTARI Efisiensi Energi</strong>, didukung oleh <strong>UK Partnering for Accelerated Climate Transitions (UK-PACT)</strong>, menyelenggarakan <strong>Bimbingan Teknis (Bimtek) Penerapan Manajemen Energi di Bangunan Gedung Pemerintah</strong>.</p><h3>Pelaksanaan Kegiatan</h3><p>Kegiatan ini berlangsung selama <strong>4 hari</strong>, mulai tanggal <strong>13 hingga 16 Maret 2023</strong> di Bandung, Jawa Barat.</p><h3>Tujuan Bimbingan Teknis</h3><p>Tujuan bimbingan teknis ini adalah untuk menghasilkan sumber daya manusia yang mampu memahami dan menerapkan penghematan serta konservasi energi, khususnya pada bangunan gedung yang dikelola. Program ini juga menekankan integrasi sistem manajemen energi ke dalam gedung publik sebagai strategi pengurangan emisi gas rumah kaca (GRK) yang terjangkau.</p><h3>Partisipasi Peserta</h3><p>Kegiatan ini diikuti oleh:</p><ul style=\"margin-bottom: 1.5rem; padding-left: 1.5rem;\"><li><strong>57 peserta</strong> dari <strong>41 instansi</strong> berbeda</li><li><strong>6 peserta wanita</strong> (UK-PACT MENTARI mendorong partisipasi perempuan)</li></ul><h3>Narasumber</h3><p>Para narasumber yang mengisi pelatihan ini antara lain:</p><ul style=\"margin-bottom: 1.5rem; padding-left: 1.5rem;\"><li><strong>Endra Dedy Tamtama</strong> — Koordinator Pengawasan Konservasi Energi, Direktorat EBTKE</li><li><strong>Parlindungan Marpaung</strong> — Tenaga Ahli Konservasi Energi</li><li><strong>Totok Sulistiyanto</strong> — Tenaga Ahli Konservasi Energi dan Bangunan Gedung Hijau</li><li><strong>Titovianto Widyantoro</strong> — Tenaga Ahli Konservasi Energi dan Sistem Manajemen Energi</li><li><strong>Rahmi Andarini</strong> — Tenaga Ahli Konservasi Energi</li></ul><h3>Materi Pelatihan</h3><p>Materi yang disampaikan dalam bimtek meliputi:</p><ol style=\"margin-bottom: 1.5rem; padding-left: 1.5rem;\"><li>Kebijakan dan Program Konservasi Energi</li><li>Best Practice Pelaksanaan Konservasi Energi di Gedung Pemerintah</li><li>Pengantar Pelaporan Data dan Manajemen Energi melalui <strong>aplikasi POME</strong></li><li>Pengantar Manajemen Energi berdasarkan <strong>ISO 50005:2021</strong></li><li>Pelatihan Materi terkait <strong>Bangunan Gedung Hijau (BGH)</strong></li></ol><p>Kegiatan ini merupakan bagian dari Program <strong>MENTARI Efisiensi Energi</strong> yang didukung oleh <strong>UK-PACT</strong> (Partnering for Accelerated Climate Transition).</p>",
+    "related": [
+        {
+            "slug": "bimtek-manajemen-energi-sumatera-selatan",
+            "title": "Bimtek Manajemen Energi di 5 Provinsi Sumatera Bagian Selatan",
+            "date": "14 Juni 2023",
+            "accent": false
+        },
+        {
+            "slug": "bimtek-manajemen-energi-29-provinsi",
+            "title": "Bimtek Manajemen Energi Gedung Pemerintah Hadir di 29 Provinsi Indonesia",
+            "date": "06 September 2023",
+            "accent": true
+        },
+        {
+            "slug": "bimtek-manajemen-energi-jawa-timur",
+            "title": "Bimtek Manajemen Energi Gedung Pemerintah di Wilayah Jawa Timur",
+            "date": "28 Agustus 2023",
+            "accent": false
+        },
+        {
+            "slug": "bimtek-manajemen-energi-kalimantan",
+            "title": "Bimtek Sistem Manajemen Energi di Wilayah Provinsi Kalimantan",
+            "date": "22 Agustus 2023",
+            "accent": true
+        }
+    ]
+}

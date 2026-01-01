@@ -1,0 +1,65 @@
+{
+    "_type": "project",
+    "title": "Coal to Clean Credit Initiative (CCCI) – Grid Emission Factor",
+    "slug": {
+        "current": "grid-emission-factor-ccci"
+    },
+    "shortDescription": "Penyusunan metodologi dan pedoman nasional perhitungan faktor emisi grid untuk mekanisme kredit karbon.",
+    "donor": "South Pole / DJK KESDM",
+    "periodStart": "2022-01-01",
+    "periodEnd": "2023-12-31",
+    "status": "completed",
+    "programs": [
+        "energy"
+    ],
+    "activities": [
+        {
+            "activityType": "research",
+            "forms": [
+                "Penyusunan metodologi GEF nasional",
+                "Kajian faktor emisi"
+            ],
+            "achievements": [
+                {
+                    "label": "Guideline",
+                    "value": "Perhitungan faktor emisi grid Indonesia"
+                }
+            ]
+        },
+        {
+            "activityType": "capacity-building",
+            "forms": [
+                "Workshop",
+                "FGD tentang faktor emisi grid nasional",
+                "Capacity building teknis GHG accounting"
+            ],
+            "achievements": [
+                {
+                    "label": "Kapasitas DJK & stakeholder energi",
+                    "value": "Meningkat"
+                }
+            ]
+        },
+        {
+            "activityType": "policy-advisory",
+            "forms": [
+                "Penyusunan pedoman nasional perhitungan faktor emisi grid"
+            ],
+            "achievements": [
+                {
+                    "label": "Output",
+                    "value": "Dasar mekanisme kredit karbon sektor ketenagalistrikan"
+                }
+            ]
+        }
+    ],
+    "highlights": [
+        "Pedoman nasional perhitungan faktor emisi grid",
+        "Workshop & FGD dengan DJK KESDM",
+        "Dasar mekanisme kredit karbon sektor ketenagalistrikan"
+    ],
+    "provinces": [
+        "national"
+    ],
+    "coverImage": null
+}

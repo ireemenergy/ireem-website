@@ -1,0 +1,43 @@
+{
+    "_type": "project",
+    "title": "Penyusunan Renstra KESDM 2025–2029",
+    "slug": {
+        "current": "renstra-kesdm-2025-2029"
+    },
+    "shortDescription": "Dukungan teknokratik penyusunan Rencana Strategis ESDM berbasis evidence untuk periode 2025–2029.",
+    "donor": "GIZ Explore / Biro Perencanaan KESDM",
+    "periodStart": "2024-01-01",
+    "periodEnd": "2025-12-31",
+    "status": "ongoing",
+    "programs": [
+        "energy"
+    ],
+    "activities": [
+        {
+            "activityType": "policy-advisory",
+            "forms": [
+                "Perencanaan kebijakan energi",
+                "Penyelarasan strategis dengan RPJMN & RPJPN"
+            ],
+            "achievements": [
+                {
+                    "label": "Dokumen",
+                    "value": "Renstra KESDM 2025–2029"
+                },
+                {
+                    "label": "Penyelarasan",
+                    "value": "RPJMN & RPJPN"
+                }
+            ]
+        }
+    ],
+    "highlights": [
+        "Mendukung KESDM dalam penyusunan Renstra 2025–2029",
+        "Penyelarasan dengan RPJMN & RPJPN",
+        "Pengembangan indikator kinerja dan prioritas kebijakan sektor energi"
+    ],
+    "provinces": [
+        "national"
+    ],
+    "coverImage": null
+}

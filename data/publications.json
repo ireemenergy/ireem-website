@@ -1,0 +1,58 @@
+{
+    "publications": [
+        {
+            "id": "guidebook-energy-audit",
+            "title": "Guidebook for Investment-Grade Energy Audits",
+            "description": "Comprehensive guide for conducting investment-grade energy audits in buildings and industrial facilities.",
+            "type": "Guidebook",
+            "year": "2023",
+            "pillar": "Energy Transition",
+            "downloadUrl": ""
+        },
+        {
+            "id": "policy-brief-carbon",
+            "title": "Policy Brief: Low Carbon Development Pathways for Indonesia",
+            "description": "Analysis and recommendations for Indonesia's transition to a low-carbon economy.",
+            "type": "Policy Brief",
+            "year": "2023",
+            "pillar": "Energy Transition",
+            "downloadUrl": ""
+        },
+        {
+            "id": "report-mrv-framework",
+            "title": "MRV Framework for Energy Efficiency Programs",
+            "description": "Technical report on establishing robust Monitoring, Reporting, and Verification systems.",
+            "type": "Technical Report",
+            "year": "2022",
+            "pillar": "Environmental Management",
+            "downloadUrl": ""
+        },
+        {
+            "id": "training-manual-energy",
+            "title": "Energy Manager Training Manual",
+            "description": "Training materials for energy management professionals and certification candidates.",
+            "type": "Training Manual",
+            "year": "2022",
+            "pillar": "Energy Transition",
+            "downloadUrl": ""
+        },
+        {
+            "id": "guidebook-gedsi",
+            "title": "GEDSI Integration in Energy Projects",
+            "description": "Practical guidelines for mainstreaming gender equality and social inclusion in energy sector projects.",
+            "type": "Guidebook",
+            "year": "2023",
+            "pillar": "Cross-cutting",
+            "downloadUrl": ""
+        },
+        {
+            "id": "report-natural-resources",
+            "title": "Baseline Assessment: Natural Resources in Eastern Indonesia",
+            "description": "Comprehensive assessment report on natural resource conditions and management recommendations.",
+            "type": "Research Report",
+            "year": "2022",
+            "pillar": "Natural Resources",
+            "downloadUrl": ""
+        }
+    ]
+}

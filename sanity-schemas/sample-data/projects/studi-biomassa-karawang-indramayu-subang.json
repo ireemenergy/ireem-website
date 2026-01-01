@@ -1,0 +1,52 @@
+{
+    "_type": "project",
+    "title": "Studi Biomassa Karawang-Indramayu-Subang",
+    "slug": {
+        "current": "studi-biomassa-karawang-indramayu-subang"
+    },
+    "shortDescription": "Workshop teknis ketersediaan jerami padi untuk bioenergi dan capacity building pemda & komunitas lokal.",
+    "donor": "PT Gas Strategies Indonesia",
+    "periodStart": "2021-01-01",
+    "periodEnd": "2021-12-31",
+    "status": "completed",
+    "programs": [
+        "energy",
+        "natural-resources"
+    ],
+    "activities": [
+        {
+            "activityType": "research",
+            "forms": [
+                "Studi ketersediaan jerami padi sebagai bahan baku energi"
+            ],
+            "achievements": [
+                {
+                    "label": "Rekomendasi",
+                    "value": "Potensi bioenergi berbasis limbah pertanian"
+                }
+            ]
+        },
+        {
+            "activityType": "capacity-building",
+            "forms": [
+                "Workshop teknis ketersediaan jerami padi untuk bioenergi",
+                "Capacity building pemda & komunitas lokal"
+            ],
+            "achievements": [
+                {
+                    "label": "Lokasi",
+                    "value": "Karawang, Indramayu, Subang"
+                }
+            ]
+        }
+    ],
+    "highlights": [
+        "Workshop teknis ketersediaan jerami padi untuk bioenergi",
+        "Rekomendasi potensi bioenergi berbasis limbah pertanian",
+        "Capacity building pemda & komunitas lokal"
+    ],
+    "provinces": [
+        "jawa-barat"
+    ],
+    "coverImage": null
+}

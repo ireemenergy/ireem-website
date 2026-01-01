@@ -1,0 +1,52 @@
+{
+    "_type": "project",
+    "title": "Pengembangan IKE untuk Bangunan Khusus",
+    "slug": {
+        "current": "ike-bangunan-khusus"
+    },
+    "shortDescription": "Penyusunan standar Indeks Konsumsi Energi (IKE) untuk RS Tipe A, bandara, stasiun, MRT, dan universitas.",
+    "donor": "GIZ SETI / Direktorat Konservasi Energi KESDM",
+    "periodStart": "2024-01-01",
+    "periodEnd": "2026-12-31",
+    "status": "ongoing",
+    "programs": [
+        "energy"
+    ],
+    "activities": [
+        {
+            "activityType": "research",
+            "forms": [
+                "Metodologi survei",
+                "Benchmarking berbasis kebijakan"
+            ],
+            "achievements": [
+                {
+                    "label": "Standar IKE",
+                    "value": "RS Tipe A, bandara, stasiun, MRT, universitas"
+                }
+            ]
+        },
+        {
+            "activityType": "capacity-building",
+            "forms": [
+                "Pelatihan metodologi perhitungan IKE",
+                "Workshop pengumpulan & validasi data energi"
+            ],
+            "achievements": [
+                {
+                    "label": "Kapasitas stakeholder",
+                    "value": "Meningkat untuk survei & analisis energi"
+                }
+            ]
+        }
+    ],
+    "highlights": [
+        "Standar IKE untuk RS Tipe A, universitas, bandara, stasiun",
+        "Metodologi survei dan benchmarking",
+        "Regulasi efisiensi energi bangunan khusus"
+    ],
+    "provinces": [
+        "national"
+    ],
+    "coverImage": null
+}

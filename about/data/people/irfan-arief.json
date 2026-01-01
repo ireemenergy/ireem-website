@@ -1,0 +1,46 @@
+{
+    "slug": "irfan-arief",
+    "name": "Irfan Arief, S.T, MBA",
+    "role": "Treasury",
+    "title": "Bendahara IREEM",
+    "photo": "https://v2.ireem.id/storage/special-page-staff/September2023/Wk0bKs8C3yy2mLCdXCnt.jpg",
+    "photoLabel": "",
+    "fullBio": [
+        "Irfan Arief, S.T, MBA adalah Treasury IREEM Indonesia yang bertanggung jawab atas keuangan dan perbendaharaan organisasi.",
+        "Dengan latar belakang teknik dan MBA, beliau membawa pendekatan yang terstruktur dan profesional dalam pengelolaan keuangan IREEM."
+    ],
+    "expertise": [
+        "Manajemen Keuangan",
+        "Penganggaran",
+        "Pelaporan Keuangan",
+        "Tata Kelola Keuangan NGO"
+    ],
+    "education": [
+        {
+            "degree": "MBA",
+            "field": "Business Administration",
+            "institution": "Business School"
+        },
+        {
+            "degree": "S.T",
+            "field": "Engineering",
+            "institution": "Institut Teknologi"
+        }
+    ],
+    "experience": [
+        {
+            "position": "Treasury",
+            "organization": "IREEM Indonesia",
+            "period": "2020 - Sekarang"
+        }
+    ],
+    "stats": [
+        {
+            "value": "10+",
+            "label": "Tahun Pengalaman"
+        }
+    ],
+    "social": {
+        "email": "info@ireem.id"
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "_type": "project",
+    "title": "Scaling-Up Strategies for Transforming Actions in Energy Efficiency",
+    "slug": {
+        "current": "scaling-up-ee-buildings-maritime"
+    },
+    "shortDescription": "Pengembangan kebijakan perluasan efisiensi energi (UK PACT Phase 2) untuk sektor bangunan dan maritim.",
+    "donor": "UK PACT / FCDO",
+    "periodStart": "2025-01-01",
+    "periodEnd": "2026-12-31",
+    "status": "ongoing",
+    "programs": [
+        "energy"
+    ],
+    "activities": [
+        {
+            "activityType": "policy-advisory",
+            "forms": [
+                "Pengembangan kerangka nasional konservasi energi",
+                "Masukan regulasi transisi rendah karbon"
+            ],
+            "achievements": [
+                {
+                    "label": "Sektor target",
+                    "value": "Bangunan & Maritim"
+                }
+            ]
+        }
+    ],
+    "highlights": [
+        "Memperkuat kerangka nasional konservasi energi & mitigasi GHG",
+        "Masukan regulasi untuk transisi rendah karbon di sektor bangunan dan maritim",
+        "Kolaborasi dengan KESDM & Kementerian Perhubungan"
+    ],
+    "provinces": [
+        "national"
+    ],
+    "coverImage": null
+}

@@ -1,0 +1,40 @@
+{
+    "_type": "project",
+    "title": "Indeks Ketahanan Energi (Energy Independence Index)",
+    "slug": {
+        "current": "indeks-ketahanan-energi"
+    },
+    "shortDescription": "Pengembangan instrumen kebijakan ketahanan energi melalui analisis sistem dinamis dan indikator kebijakan.",
+    "donor": "Dewan Energi Nasional (DEN)",
+    "periodStart": "2024-01-01",
+    "periodEnd": "2025-12-31",
+    "status": "ongoing",
+    "programs": [
+        "energy"
+    ],
+    "activities": [
+        {
+            "activityType": "policy-advisory",
+            "forms": [
+                "Analisis sistem dinamis",
+                "Pengembangan indikator kebijakan",
+                "Metodologi ketahanan energi"
+            ],
+            "achievements": [
+                {
+                    "label": "Output",
+                    "value": "Instrumen kebijakan ketahanan energi nasional"
+                }
+            ]
+        }
+    ],
+    "highlights": [
+        "Analisis sistem dinamis",
+        "Indikator kebijakan ketahanan energi",
+        "Metodologi untuk perumusan kebijakan ketahanan energi nasional"
+    ],
+    "provinces": [
+        "national"
+    ],
+    "coverImage": null
+}

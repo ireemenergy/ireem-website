@@ -1,0 +1,52 @@
+{
+  "metrics": [
+    {
+      "value": "3",
+      "label": "Energy modelling exercises supported"
+    },
+    {
+      "value": "6",
+      "label": "National guidebooks developed"
+    },
+    {
+      "value": "3",
+      "label": "Medium-term strategic plans formulated"
+    },
+    {
+      "value": "9",
+      "label": "Policy and regulatory recommendations produced"
+    },
+    {
+      "value": "200+",
+      "label": "Certified energy professionals trained"
+    },
+    {
+      "value": "2,000+",
+      "label": "Training participants reached"
+    },
+    {
+      "value": "30",
+      "label": "Institutions received technical assistance"
+    },
+    {
+      "value": "7",
+      "label": "Pilot projects implemented"
+    },
+    {
+      "value": "4",
+      "label": "National MRV systems supported"
+    },
+    {
+      "value": "29",
+      "label": "Provinces covered nationwide"
+    },
+    {
+      "value": "USD 4M",
+      "label": "Donor support mobilized"
+    },
+    {
+      "value": "20+",
+      "label": "GEDSI-related knowledge products developed"
+    }
+  ]
+}

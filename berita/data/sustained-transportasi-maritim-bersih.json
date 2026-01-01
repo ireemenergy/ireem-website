@@ -1,0 +1,49 @@
+{
+    "schemaVersion": "1.0",
+    "slug": "sustained-transportasi-maritim-bersih",
+    "title": "Melalui SUSTAINED, Menuju Transportasi Maritim yang Lebih Bersih",
+    "excerpt": "Kementerian Perhubungan, bekerja sama dengan Pemerintah Inggris melalui program UK PACT, berupaya mempercepat pengurangan emisi gas rumah kaca (GRK) dan mengembangkan transportasi rendah karbon di Indonesia melalui program SUSTAINED.",
+    "author": {
+        "name": "Ardhia Nur Zafira",
+        "initials": "AZ"
+    },
+    "date": "19 Agustus 2025, 10:00 WIB",
+    "category": "Sektor Maritim",
+    "banner": {
+        "image": "../images/berita/sustained-transportasi-maritim-bersih/banner.jpg",
+        "caption": "Rapat koordinasi program SUSTAINED di Hotel Mercure Jakarta Sabang untuk menyesuaikan rencana kerja UK PACT Fase II."
+    },
+    "content": "<p><strong>Jakarta, 13 Agustus 2025</strong> — Kementerian Perhubungan, bekerja sama dengan Pemerintah Inggris melalui program UK Partnering for Accelerating Climate Transition (UK PACT), berupaya mempercepat pengurangan emisi gas rumah kaca (GRK) dan mengembangkan transportasi rendah karbon di Indonesia. Kolaborasi ini melibatkan Institute for Natural Resources, Energy, and Environmental Management (IREEM) sebagai salah satu mitra pelaksana, melalui program yang disebut <strong>SUSTAINED</strong> (Scaling Up Strategies for Transforming Actions in Energy Efficiency and Carbon Reduction in Buildings and Maritime Sector).</p><p>Sebagai bagian dari program tersebut, sebuah rapat koordinasi diadakan di Hotel Mercure Jakarta Sabang untuk menyesuaikan rencana kerja UK PACT Fase II dan menyepakati tindak lanjut. Rapat dibuka oleh Pusat Pengelolaan Transportasi Berkelanjutan (PPTB) Kementerian Perhubungan bersama Kedutaan Besar Inggris di Jakarta, dan dihadiri oleh perwakilan dari Direktorat Konservasi Energi Kementerian ESDM, Sekretariat Direktorat Jenderal Perhubungan Laut, Direktorat Pelabuhan Kementerian Perhubungan, Direktorat Pelayaran dan Pelaut, Badan Pengembangan SDM Perhubungan, PT Pelabuhan Indonesia (Pelindo), otoritas pelabuhan di sekitar Jakarta, perusahaan pelayaran, dan tenaga ahli teknis.</p><p>Diskusi mencakup empat agenda utama:</p><ul style=\"margin-bottom: 1.5rem; padding-left: 1.5rem;\"><li>Pelatihan dan sertifikasi manajer energi</li><li>Penyusunan buku panduan praktik efisiensi energi di sektor maritim</li><li>Peningkatan kapasitas dalam efisiensi energi</li><li>Penilaian kesenjangan implementasi manajemen energi di sektor maritim</li></ul><p>Pengarusutamaan manajemen energi ini sejalan dengan <strong>Peraturan Pemerintah No. 33/2023 tentang Konservasi Energi</strong>, yang menekankan efisiensi energi di sektor maritim, dan <strong>Peraturan Menteri Perhubungan No. KM 8/2023 tentang Rencana Strategis Mitigasi Energi di Sektor Transportasi</strong>.</p><blockquote class=\"news-article__quote\"><p>Melalui program SUSTAINED, Indonesia diharapkan dapat memperkuat tata kelola energi di sektor maritim, mengurangi konsumsi energi, menurunkan emisi GRK, dan mendorong adopsi teknologi hijau yang berkelanjutan.</p></blockquote><p>Rapat diakhiri dengan kesepakatan untuk memulai pelatihan dan sertifikasi manajer energi pada akhir September 2025, sementara buku panduan efisiensi energi maritim ditargetkan selesai pada akhir 2025 dan akan disebarluaskan mulai 2026 sebagai langkah konkret menuju transportasi rendah karbon di Indonesia.</p>",
+    "related": [
+        {
+            "slug": "ireem-uk-pact-maritime-energy-training",
+            "title": "Memperkuat Transisi Energi Indonesia: IREEM dan UK PACT Gelar Pelatihan Manajer Energi untuk Sektor Maritim",
+            "date": "27 Oktober 2025",
+            "accent": false
+        },
+        {
+            "slug": "fgd-profiling-kapal-gap-analysis",
+            "title": "Mendukung Transisi Energi di Sektor Maritim: FGD Profiling Kapal & Gap Analysis",
+            "date": "02 Oktober 2025",
+            "accent": true
+        },
+        {
+            "slug": "capacity-building-manajemen-energi-bangunan",
+            "title": "Peningkatan Kapasitas Mendukung Implementasi Manajemen Energi di Sektor Bangunan",
+            "date": "12 September 2025",
+            "accent": false
+        },
+        {
+            "slug": "ireem-directorate-gesi-ghg-impact-assessment",
+            "title": "IREEM & Direktorat Konservasi Energi Perkuat Upaya GESI dan Pengurangan GRK",
+            "date": "08 Desember 2025",
+            "accent": false
+        },
+        {
+            "slug": "ireem-biomassa-asean-congress-2025",
+            "title": "IREEM Dorong Pengembangan Biomassa untuk Mendukung Target Netralitas Karbon",
+            "date": "06 Oktober 2025",
+            "accent": true
+        }
+    ]
+}

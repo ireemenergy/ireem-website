@@ -1,0 +1,49 @@
+{
+    "schemaVersion": "1.0",
+    "slug": "ditjen-ebtke-aplikasi-akselerasi",
+    "title": "Ditjen EBTKE Kembangkan Aplikasi AKSELERASI untuk Memperkuat Aksi Mitigasi GRK Sektor Energi",
+    "excerpt": "Direktorat Jenderal EBTKE bekerja sama dengan Kedutaan Besar Inggris dan IREEM mengembangkan aplikasi berbasis web bernama AKSELERASI untuk pelaporan mitigasi emisi GRK sektor energi.",
+    "author": {
+        "name": "Latifa Andjani Yusuf",
+        "initials": "LA"
+    },
+    "date": "14 Februari 2025, 10:00 WIB",
+    "category": "GRK & Mitigasi",
+    "banner": {
+        "image": "../images/berita/ditjen-ebtke-aplikasi-akselerasi/banner.jpg",
+        "caption": "Peluncuran Aplikasi AKSELERASI untuk memperkuat aksi mitigasi GRK sektor energi."
+    },
+    "content": "<p><strong>Jakarta</strong> '€” Direktorat Jenderal Energi Baru, Terbarukan, dan Konservasi Energi (EBTKE), melalui Direktorat Konservasi Energi, bekerja sama dengan Kedutaan Besar Inggris di Jakarta dan Institute for Natural Resources, Energy, and Environmental Management (IREEM), telah mengembangkan aplikasi pelaporan berbasis web berjudul <strong>Aksi Mitigasi Emisi Gas Rumah Kaca Sektor Energi (AKSELERASI)</strong>.</p><p>Inisiatif ini dilaksanakan di bawah <strong>Program Efisiensi Energi UK PACT MENTARI</strong>, sebagai bagian dari kemitraan kolaboratif antara Pemerintah Indonesia dan Pemerintah Inggris.</p><p>Direktur Konservasi Energi, <strong>Bapak Hendra Iswahyudi</strong>, menyatakan bahwa pengembangan aplikasi AKSELERASI dimulai pada 2023. Beliau mencatat bahwa aplikasi ini merupakan salah satu upaya kolaboratif yang dilakukan oleh Ditjen EBTKE dan mitranya untuk mempercepat implementasi mitigasi emisi gas rumah kaca (GRK) di sektor energi.</p><blockquote class=\"news-article__quote\"><p>\"Perubahan iklim adalah tantangan global yang menuntut tindakan nyata dan terukur. Dalam konteks nasional, Pemerintah Indonesia telah menetapkan target ambisius untuk mengurangi emisi gas rumah kaca (GRK), sejalan dengan komitmennya di bawah Perjanjian Paris dan dokumen Enhanced Nationally Determined Contribution (E-NDC). Untuk mencapai target ini, pengembangan aplikasi AKSELERASI merupakan salah satu langkah strategis yang kami lakukan bersama.\"</p><cite>'€” Bapak Hendra Iswahyudi, Direktur Konservasi Energi</cite></blockquote><p>Bapak Hendra lebih lanjut menjelaskan bahwa tujuan utama pengembangan aplikasi AKSELERASI meliputi:</p><ul style=\"margin-bottom: 1.5rem; padding-left: 1.5rem;\"><li>Digitalisasi proses pemantauan dan evaluasi untuk pelaporan yang lebih cepat, akurat, dan transparan</li><li>Memfasilitasi unit teknis dan pelaku usaha dalam menghitung dan melaporkan pencapaian aksi mitigasi</li><li>Meningkatkan akurasi pelaporan dan mengoptimalkan pengelolaan data</li></ul><p>Sesuai fungsi dan tujuannya, AKSELERASI adalah aplikasi non-publik yang hanya dapat diakses oleh Penanggung Jawab Aksi Mitigasi Gas Rumah Kaca (GRK):</p><p><a href=\"https://simebtke.esdm.go.id/sinergi/akselerasigrk\" target=\"_blank\" class=\"btn-link\">Akses Aplikasi AKSELERASI <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5 12h14\"/><path d=\"M12 5l7 7-7 7\"/></svg></a></p><p>Jenis aksi mitigasi yang ditampilkan dalam aplikasi AKSELERASI meliputi langkah-langkah efisiensi energi, pemanfaatan sumber energi baru dan terbarukan, bahan bakar rendah karbon, penerapan teknologi pembangkit listrik bersih, serta kegiatan lainnya seperti reklamasi lahan pasca tambang, inisiatif mitigasi di sub-sektor transportasi, dan aksi mitigasi di sub-sektor industri.</p><blockquote class=\"news-article__quote\"><p>\"Kami mengajak seluruh pemangku kepentingan terkait untuk bersinergi dan berkolaborasi dalam pemanfaatan aplikasi AKSELERASI. Harapan kami, aplikasi ini dapat menjadi solusi efektif untuk memantau dan mengevaluasi aksi mitigasi emisi di sektor energi.\"</p><cite>'€” Bapak Hendra Iswahyudi, Direktur Konservasi Energi</cite></blockquote>",
+    "related": [
+        {
+            "slug": "ireem-sambut-delegasi-belanda-climate-park",
+            "title": "IREEM Sambut Delegasi Belanda untuk Memajukan Pengembangan Climate Park di Indonesia",
+            "date": "23 April 2025",
+            "accent": false
+        },
+        {
+            "slug": "ireem-uk-pact-iso-50001-certification",
+            "title": "IREEM Melalui Program Efisiensi Energi UK PACT Dukung Kementerian Keuangan dan Pemprov Jawa Tengah Raih Sertifikasi ISO 50001",
+            "date": "17 Juni 2025",
+            "accent": true
+        },
+        {
+            "slug": "ireem-directorate-gesi-ghg-impact-assessment",
+            "title": "IREEM & Direktorat Konservasi Energi Perkuat Upaya GESI dan Pengurangan GRK",
+            "date": "08 Desember 2025",
+            "accent": false
+        },
+        {
+            "slug": "capacity-building-manajemen-energi-bangunan",
+            "title": "Peningkatan Kapasitas Mendukung Implementasi Manajemen Energi di Sektor Bangunan",
+            "date": "12 September 2025",
+            "accent": false
+        },
+        {
+            "slug": "net-zero-energy-sni-iso-50010",
+            "title": "Menuju Net Zero Energy: Kementerian ESDM dan Komite Teknis 27'€“06 Bahas Draft SNI ISO 50010:2023",
+            "date": "07 Agustus 2025",
+            "accent": true
+        }
+    ]
+}

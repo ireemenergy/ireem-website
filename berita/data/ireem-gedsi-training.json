@@ -1,0 +1,49 @@
+{
+    "schemaVersion": "1.0",
+    "slug": "ireem-gedsi-training",
+    "title": "IREEM Gelar Pelatihan GEDSI untuk Membangun Budaya Organisasi yang Adil dan Inklusif",
+    "excerpt": "Sebagai upaya untuk memastikan semua orang tanpa memandang gender, latar belakang, identitas, atau disabilitas memiliki akses yang sama terhadap sumber daya, peluang, dan manfaat, IREEM berkomitmen menerapkan prinsip-prinsip GEDSI.",
+    "author": {
+        "name": "Ardhia Nur Zafira",
+        "initials": "AZ"
+    },
+    "date": "07 Juli 2025, 10:00 WIB",
+    "category": "GEDSI",
+    "banner": {
+        "image": "../images/berita/ireem-gedsi-training/banner.jpg",
+        "caption": "Pelatihan GEDSI untuk membangun budaya organisasi yang adil dan inklusif di IREEM."
+    },
+    "content": "<p><strong>4 Juli 2025</strong> '€” Sebagai upaya untuk memastikan bahwa semua orang tanpa memandang gender, latar belakang, identitas, atau disabilitas memiliki akses yang sama terhadap sumber daya, peluang, dan manfaat dalam semua aspek, IREEM berkomitmen untuk mendorong partisipasi dan kepemimpinan perempuan, penyandang disabilitas, dan kelompok rentan lainnya dalam tenaga kerja sektor efisiensi energi melalui penerapan prinsip-prinsip <strong>GEDSI</strong> (Gender Equality, Disability, and Social Inclusion).</p><figure class=\"news-article__image\"><img src=\"../images/berita/ireem-gedsi-training/inline-1.jpg\" alt=\"Sesi pelatihan GEDSI\"><figcaption>Sesi pelatihan GEDSI di IREEM</figcaption></figure><p>GEDSI adalah pendekatan yang bertujuan untuk memastikan bahwa semua individu, termasuk penyandang disabilitas, memiliki kesempatan yang adil untuk mengakses sumber daya, layanan, dan proses pengambilan keputusan.</p><p>Sebagai wujud nyata dari komitmen ini, IREEM baru-baru ini menyelenggarakan <strong>pelatihan pengenalan GEDSI</strong> yang difasilitasi oleh <strong>Ibu Anny Andaryati</strong>, seorang ahli GEDSI. Pelatihan ini berfungsi sebagai landasan penting bagi IREEM dalam membangun budaya organisasi yang lebih inklusif, adil, dan setara.</p><figure class=\"news-article__image\"><img src=\"../images/berita/ireem-gedsi-training/inline-2.jpg\" alt=\"Peserta pelatihan GEDSI\"><figcaption>Peserta pelatihan GEDSI bersama fasilitator</figcaption></figure><p>Dengan mengintegrasikan prinsip-prinsip GEDSI, IREEM berusaha untuk menciptakan lingkungan kerja yang lebih inklusif, beragam, ramah, dan berbasis kesetaraan. Hal ini diharapkan tidak hanya memperkuat hubungan di tempat kerja tetapi juga meningkatkan kinerja organisasi, kreativitas, dan inovasi.</p><p>Melalui pelatihan ini, IREEM menegaskan kembali komitmennya untuk mendukung pembangunan berkelanjutan yang inklusif, memastikan bahwa tidak ada kelompok yang tertinggal. Dengan demikian, transisi ke energi bersih dan pengelolaan lingkungan yang lebih baik dapat terwujud secara adil, setara, dan benar-benar bermanfaat bagi semua.</p>",
+    "related": [
+        {
+            "slug": "ireem-directorate-gesi-ghg-impact-assessment",
+            "title": "IREEM & Direktorat Konservasi Energi Perkuat Upaya GESI dan Pengurangan GRK",
+            "date": "08 Desember 2025",
+            "accent": false
+        },
+        {
+            "slug": "ireem-eubce-2025",
+            "title": "IREEM Hadiri European Biomass Conference and Exhibition (EUBCE) 2025 untuk Mendukung Transisi Energi Bersih",
+            "date": "11 Juli 2025",
+            "accent": true
+        },
+        {
+            "slug": "kick-off-meeting-ike-benchmark",
+            "title": "Kick-Off Meeting Penyusunan Nilai Benchmark IKE: Langkah Strategis Menuju Efisiensi Energi di Bangunan Komersial",
+            "date": "22 Juli 2025",
+            "accent": false
+        },
+        {
+            "slug": "rscm-ireem-audit-energi-hvac-boiler",
+            "title": "Mendorong Rumah Sakit Lebih Berkelanjutan: RSCM dan IREEM Kolaborasi Audit Energi untuk Sistem HVAC dan Boiler",
+            "date": "25 Juli 2025",
+            "accent": false
+        },
+        {
+            "slug": "net-zero-energy-sni-iso-50010",
+            "title": "Menuju Net Zero Energy: Kementerian ESDM dan Komite Teknis 27'€“06 Bahas Draft SNI ISO 50010:2023",
+            "date": "07 Agustus 2025",
+            "accent": true
+        }
+    ]
+}

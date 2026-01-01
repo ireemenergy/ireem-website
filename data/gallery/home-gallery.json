@@ -1,0 +1,63 @@
+{
+    "sectionTitle": "Dalam Aksi",
+    "sectionSubtitle": "Sorotan Kegiatan",
+    "sectionDescription": "Momen-momen dari berbagai program dan aktivitas IREEM di lapangan",
+    "items": [
+        {
+            "id": "capacity-building-energi",
+            "title": "Capacity Building Manajemen Energi",
+            "description": "Workshop pengembangan kapasitas untuk pengelolaan energi gedung",
+            "image": "images/berita/capacity-building-manajemen-energi-bangunan/banner.JPG",
+            "link": "berita/detail.html?slug=capacity-building-manajemen-energi-bangunan"
+        },
+        {
+            "id": "bimtek-jawa-timur",
+            "title": "Bimtek Manajemen Energi Jawa Timur",
+            "description": "Pendampingan teknis efisiensi energi di provinsi Jawa Timur",
+            "image": "images/berita/bimtek-manajemen-energi-jawa-timur/banner.jpg",
+            "link": "berita/detail.html?slug=bimtek-manajemen-energi-jawa-timur"
+        },
+        {
+            "id": "bimtek-kalimantan",
+            "title": "Bimtek Manajemen Energi Kalimantan",
+            "description": "Ekspansi program ke wilayah Kalimantan untuk transisi energi",
+            "image": "images/berita/bimtek-manajemen-energi-kalimantan/banner.jpg",
+            "link": "berita/detail.html?slug=bimtek-manajemen-energi-kalimantan"
+        },
+        {
+            "id": "budaya-gesi",
+            "title": "Budaya Organisasi GESI",
+            "description": "Workshop pengarusutamaan gender dan inklusi sosial",
+            "image": "images/berita/budaya-organisasi-gesi/banner.jpg",
+            "link": "berita/detail.html?slug=budaya-organisasi-gesi"
+        },
+        {
+            "id": "bimtek-dki-banten",
+            "title": "Bimtek Manajemen Energi DKI & Banten",
+            "description": "Peningkatan kapasitas pengelola gedung di ibukota",
+            "image": "images/berita/bimtek-manajemen-energi-banten-dki/banner.jpg",
+            "link": "berita/detail.html?slug=bimtek-manajemen-energi-banten-dki"
+        },
+        {
+            "id": "kunjungan-gedung-hijau",
+            "title": "Kunjungan Gedung Bangunan Hijau",
+            "description": "Studi lapangan ke gedung-gedung percontohan efisiensi energi",
+            "image": "images/berita/ditjen-ebtke-kunjungan-gedung-inspiratif/banner.jpg",
+            "link": "berita/detail.html?slug=ditjen-ebtke-kunjungan-gedung-inspiratif"
+        },
+        {
+            "id": "sertifikasi-manajer-energi",
+            "title": "Sertifikasi Manajer Energi",
+            "description": "31 pengelola gedung lulus sertifikasi manajer energi profesional",
+            "image": "images/berita/31-pengelola-gedung-manajer-energi/banner.jpg",
+            "link": "berita/detail.html?slug=31-pengelola-gedung-manajer-energi"
+        },
+        {
+            "id": "bimtek-sumatera",
+            "title": "Bimtek Manajemen Energi Sumatera",
+            "description": "Program pendampingan teknis di wilayah Sumatera Selatan",
+            "image": "images/berita/bimtek-manajemen-energi-sumatera-selatan/banner.jpg",
+            "link": "berita/detail.html?slug=bimtek-manajemen-energi-sumatera-selatan"
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "_type": "project",
+    "title": "Studi Business Model Pembiayaan Efisiensi Energi",
+    "slug": {
+        "current": "studi-pembiayaan-efisiensi-energi"
+    },
+    "shortDescription": "Kajian kelayakan model pendanaan efisiensi energi di sektor publik.",
+    "donor": "UK PACT",
+    "periodStart": "2024-01-01",
+    "periodEnd": "2024-12-31",
+    "status": "completed",
+    "programs": [
+        "energy"
+    ],
+    "activities": [
+        {
+            "activityType": "research",
+            "forms": [
+                "Kajian kelayakan",
+                "Studi business model"
+            ],
+            "achievements": [
+                {
+                    "label": "Output",
+                    "value": "Rekomendasi model pendanaan efisiensi energi"
+                }
+            ]
+        }
+    ],
+    "highlights": [
+        "Kajian kelayakan model pendanaan efisiensi energi",
+        "Fokus pada sektor publik"
+    ],
+    "provinces": [
+        "national"
+    ],
+    "coverImage": null
+}

@@ -1,0 +1,56 @@
+{
+    "slug": "arief-yunan",
+    "name": "Dr. Ir. Arief Yunan, M.Si., IPU, ASEAN Eng.",
+    "role": "Executive Director",
+    "title": "Direktur Eksekutif IREEM",
+    "photo": "https://v2.ireem.id/storage/special-page-staff/September2023/lnvm8nLSxzIrAWO814r2.png",
+    "photoLabel": "",
+    "fullBio": [
+        "Dr. Ir. Arief Yunan, M.Si., IPU, ASEAN Eng. adalah Executive Director IREEM Indonesia yang memimpin strategi dan operasional organisasi.",
+        "Dengan gelar insinyur profesional ASEAN dan latar belakang kuat di bidang teknik dan manajemen energi, beliau membawa IREEM menjadi lembaga terdepan dalam konservasi energi dan lingkungan di Indonesia."
+    ],
+    "expertise": [
+        "Manajemen Energi",
+        "Audit Energi",
+        "Kepemimpinan Organisasi",
+        "Engineering Management"
+    ],
+    "education": [
+        {
+            "degree": "Dr.",
+            "field": "Environmental Management",
+            "institution": "Institut Pertanian Bogor"
+        },
+        {
+            "degree": "M.Si",
+            "field": "Environmental Science",
+            "institution": "Institut Pertanian Bogor"
+        }
+    ],
+    "experience": [
+        {
+            "position": "Executive Director",
+            "organization": "IREEM Indonesia",
+            "period": "2020 - Sekarang"
+        },
+        {
+            "position": "ASEAN Chartered Professional Engineer",
+            "organization": "ASEAN Federation of Engineering Organisations",
+            "period": "2018 - Sekarang"
+        }
+    ],
+    "stats": [
+        {
+            "value": "20+",
+            "label": "Tahun Pengalaman"
+        },
+        {
+            "value": "50+",
+            "label": "Proyek Dipimpin"
+        }
+    ],
+    "social": {
+        "email": "arief.yunan@ireem.id",
+        "linkedin": "https://linkedin.com/in/arief-yunan"
+    }
+}

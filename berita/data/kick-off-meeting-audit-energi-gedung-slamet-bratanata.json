@@ -1,0 +1,49 @@
+{
+    "schemaVersion": "1.0",
+    "slug": "kick-off-meeting-audit-energi-gedung-slamet-bratanata",
+    "title": "Kick-Off Meeting Audit Energi di Gedung Slamet Bratanata",
+    "excerpt": "Direktorat Konservasi Energi bersama UK PACT dan IREEM mengadakan kick-off meeting untuk audit energi di Gedung Slamet Bratanata.",
+    "author": {
+        "name": "Latifa Andjani Yusuf",
+        "initials": "LA"
+    },
+    "date": "19 Desember 2024, 15:00 WIB",
+    "category": "Audit Energi",
+    "banner": {
+        "image": "../images/berita/kick-off-meeting-audit-energi-gedung-slamet-bratanata/banner.jpeg",
+        "caption": "Kick-Off Meeting Audit Energi di Gedung Slamet Bratanata"
+    },
+    "content": "<p><strong>Senin, 16 Desember 2024</strong> '€” Direktorat Konservasi Energi di bawah Direktorat Jenderal Energi Baru, Terbarukan, dan Konservasi Energi (EBTKE), Kementerian ESDM, bekerja sama dengan Kedutaan Besar Inggris di Jakarta melalui program <strong>UK PACT MENTARI Efisiensi Energi</strong>, mengadakan Kick-Off Meeting untuk Audit Energi di Gedung Slamet Bratanata. Inisiatif ini dikelola oleh <strong>IREEM</strong> dan sejalan dengan tujuan Peraturan Pemerintah No. 33 Tahun 2023 tentang Konservasi Energi.</p><figure class=\"news-article__image\"><img src=\"../images/berita/kick-off-meeting-audit-energi-gedung-slamet-bratanata/inline-1.jpeg\" alt=\"Pembukaan Kick-Off Meeting\"><figcaption>Pembukaan acara oleh Koordinator Pengawasan Konservasi Energi</figcaption></figure><p>Acara ini secara resmi dibuka oleh <strong>Bapak Endra Deddy Tamtama</strong>, Koordinator Pengawasan Konservasi Energi, mewakili Direktur Konservasi Energi. Dalam sambutannya, beliau menekankan peran penting audit energi dalam memajukan upaya konservasi di berbagai sektor, khususnya di gedung pemerintah.</p><blockquote class=\"news-article__quote\"><p>\"Audit energi berfungsi sebagai titik awal strategis untuk memahami pola konsumsi dan mengidentifikasi peluang efisiensi, yang menghasilkan manfaat lingkungan dan operasional yang signifikan.\"</p><cite>'€” Bapak Endra Deddy Tamtama, Koordinator Pengawasan Konservasi Energi</cite></blockquote><p>Kick-Off Meeting ini dirancang untuk membangun fondasi komprehensif bagi proses audit energi yang akan datang dengan membentuk pemahaman bersama di antara semua pemangku kepentingan tentang tujuan, metodologi, dan tahapannya.</p><h3>Kegiatan Lapangan</h3><p>Sebagai bagian dari pelaksanaan audit, IREEM didukung oleh PT Sucofindo, melakukan beberapa kegiatan lapangan:</p><ol style=\"margin-bottom: 1.5rem; padding-left: 1.5rem;\"><li><strong>Walk-Through Audit</strong> '€” Inspeksi awal fasilitas dan peralatan untuk mengidentifikasi peluang efisiensi energi secara umum.</li><li><strong>Pengukuran Panel Listrik</strong> '€” Analisis konsumsi energi pada panel listrik utama untuk mendapatkan wawasan detail tentang distribusi energi dalam gedung.</li><li><strong>Penilaian Kenyamanan Termal</strong> '€” Evaluasi parameter termal seperti suhu, kelembaban, dan kualitas udara untuk memastikan efisiensi optimal sistem HVAC.</li><li><strong>Pengumpulan Data Sekunder</strong> '€” Kompilasi data pendukung termasuk laporan penggunaan energi historis, spesifikasi teknis peralatan, dan kebijakan operasional terkait energi.</li></ol><figure class=\"news-article__image\"><img src=\"../images/berita/kick-off-meeting-audit-energi-gedung-slamet-bratanata/inline-2.jpeg\" alt=\"Tim audit di Gedung Slamet Bratanata\"><figcaption>Tim IREEM dan PT Sucofindo melakukan walk-through audit</figcaption></figure><p>Inisiatif ini bertujuan untuk menjadikan <strong>Gedung Slamet Bratanata</strong> sebagai tolok ukur untuk gedung perkantoran hemat energi di seluruh Indonesia. Diharapkan model ini dapat menginspirasi upaya serupa di institusi lain, menumbuhkan budaya konservasi energi dan keberlanjutan di berbagai sektor.</p>",
+    "related": [
+        {
+            "slug": "ditjen-ebtke-kunjungan-gedung-inspiratif",
+            "title": "Ditjen EBTKE Promosikan Efisiensi Energi Melalui Kunjungan ke Gedung Inspiratif",
+            "date": "24 Desember 2024",
+            "accent": true
+        },
+        {
+            "slug": "ireem-uk-pact-iso-50001-certification",
+            "title": "IREEM Melalui Program Efisiensi Energi UK PACT Dukung Kementerian Keuangan dan Pemprov Jawa Tengah Raih Sertifikasi ISO 50001",
+            "date": "17 Juni 2025",
+            "accent": false
+        },
+        {
+            "slug": "rspm-rscm-iso-50001-certification",
+            "title": "Mendorong Rumah Sakit yang Lebih Berkelanjutan: RSCM dan IREEM Berkolaborasi dalam Audit Energi",
+            "date": "15 Agustus 2025",
+            "accent": false
+        },
+        {
+            "slug": "capacity-building-manajemen-energi-bangunan",
+            "title": "Peningkatan Kapasitas Mendukung Implementasi Manajemen Energi di Sektor Bangunan",
+            "date": "12 September 2025",
+            "accent": true
+        },
+        {
+            "slug": "ditjen-ebtke-aplikasi-akselerasi",
+            "title": "Ditjen EBTKE Kembangkan Aplikasi AKSELERASI untuk Memperkuat Aksi Mitigasi GRK Sektor Energi",
+            "date": "14 Februari 2025",
+            "accent": false
+        }
+    ]
+}

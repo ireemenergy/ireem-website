@@ -1,0 +1,37 @@
+{
+    "schemaVersion": "1.0",
+    "slug": "launching-buku-pltn",
+    "title": "Launching dan Pembahasan Buku: Pembangkit Listrik Tenaga Nuklir Pilihan Terakhir",
+    "excerpt": "Diskusi peluncuran buku karya mantan Menteri ESDM Purnomo Yusgiantoro tentang kebijakan energi nuklir di Indonesia.",
+    "author": {
+        "name": "Latifa Andjani Yusuf",
+        "initials": "LA"
+    },
+    "date": "27 Desember 2022, 10:00 WIB",
+    "category": "Forum",
+    "banner": {
+        "image": "../images/berita/launching-buku-pltn/banner.jpg",
+        "caption": "Launching Buku PLTN Pilihan Terakhir"
+    },
+    "content": "<p>Mantan Menteri Energi dan Sumber Daya Mineral (ESDM), <strong>Prof. Purnomo Yusgiantoro</strong>, mendiskusikan <strong>Peraturan Pemerintah No. 79 Tahun 2014</strong> yang mengidentifikasi tenaga nuklir sebagai \"pilihan terakhir\" dalam bauran energi nasional.</p><h3>Pandangan tentang Kebijakan Nuklir</h3><p>Prof. Purnomo menekankan bahwa <strong>Dewan Energi Nasional (DEN)</strong> harus memimpin diskusi tentang kebijakan nuklir berdasarkan prinsip <strong>4A</strong>:</p><ul style=\"margin-bottom: 1.5rem; padding-left: 1.5rem;\"><li><strong>Availability</strong> (Ketersediaan)</li><li><strong>Acceptance</strong> (Penerimaan)</li><li><strong>Accessibility</strong> (Aksesibilitas)</li><li><strong>Affordability</strong> (Keterjangkauan)</li></ul><h3>Sejarah Pengembangan PLTN Indonesia</h3><p>Artikel ini juga menyinggung upaya historis pengembangan nuklir di <strong>Gunung Muria</strong> dengan kapasitas rencana <strong>4.000 MW</strong> yang kemudian ditolak karena penolakan masyarakat.</p><h3>Target dan Kesiapan</h3><ul style=\"margin-bottom: 1.5rem; padding-left: 1.5rem;\"><li><strong>Target NDC:</strong> Pengurangan karbon 29% pada 2030</li><li><strong>Kesiapan Infrastruktur:</strong> 16 dari 19 poin infrastruktur siap (berdasarkan penilaian IAEA/BATAN 2009)</li><li><strong>Regulasi:</strong> PP No. 79 Tahun 2014</li></ul><h3>Penyelenggara</h3><p>Acara ini diselenggarakan dengan dukungan dari <strong>Universitas Pertahanan</strong> sebagai wadah diskusi akademis tentang kebijakan energi nuklir Indonesia.</p>",
+    "related": [
+        {
+            "slug": "optimalisasi-peran-panas-bumi",
+            "title": "Optimalisasi Peran Panas Bumi dalam Mewujudkan Ketahanan Energi Nasional",
+            "date": "27 Desember 2022",
+            "accent": true
+        },
+        {
+            "slug": "optimalisasi-konservasi-nze-2060",
+            "title": "Optimalisasi Konservasi dan Efisiensi Energi untuk NZE 2060",
+            "date": "27 Desember 2022",
+            "accent": false
+        },
+        {
+            "slug": "percepatan-pemanfaatan-biomasa",
+            "title": "Percepatan Pemanfaatan Biomasa untuk Energi dan Pemberdayaan Ekonomi Daerah",
+            "date": "27 Desember 2022",
+            "accent": true
+        }
+    ]
+}

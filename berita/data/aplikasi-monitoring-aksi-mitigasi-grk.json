@@ -1,0 +1,43 @@
+{
+    "schemaVersion": "1.0",
+    "slug": "aplikasi-monitoring-aksi-mitigasi-grk",
+    "title": "Pengembangan Aplikasi Sistem Monitoring Aksi Mitigasi Emisi Gas Rumah Kaca Sektor Energi",
+    "excerpt": "DJEBTKE dan Kementerian ESDM bekerja sama dengan program UK-PACT MENTARI mengembangkan aplikasi monitoring dan pelaporan emisi gas rumah kaca sektor energi untuk meningkatkan efisiensi dan akurasi pelaporan.",
+    "author": {
+        "name": "Latifa Andjani Yusuf",
+        "initials": "LA"
+    },
+    "date": "07 Agustus 2023, 10:00 WIB",
+    "category": "Teknologi",
+    "banner": {
+        "image": "../images/berita/aplikasi-monitoring-aksi-mitigasi-grk/banner.jpg",
+        "caption": "Rapat pengembangan aplikasi monitoring emisi GRK sektor energi"
+    },
+    "content": "<p>Pemerintah Indonesia melalui <strong>Direktorat Jenderal Energi Baru Terbarukan dan Konservasi Energi (DJEBTKE)</strong>, Kementerian Energi dan Sumber Daya Mineral (ESDM), bekerja sama dengan pemerintah Inggris Raya melalui program <strong>MENTARI Efisiensi Energi</strong>, mengadakan rapat pengembangan aplikasi monitoring dan pelaporan emisi <strong>Gas Rumah Kaca (GRK)</strong> sektor energi. Rapat yang berlangsung pada <strong>4 Agustus 2023</strong> di Bekasi secara hybrid (offline dan online) ini melibatkan pengembang aplikasi, ahli lingkungan, spesialis IT, dan manajemen.</p><figure class=\"news-article__image\"><img src=\"../images/berita/aplikasi-monitoring-aksi-mitigasi-grk/inline-1.jpg\" alt=\"Suasana rapat pengembangan\"><figcaption>Suasana rapat pengembangan aplikasi monitoring emisi GRK</figcaption></figure><h3>Latar Belakang Pengembangan</h3><p>Pengembangan aplikasi ini dilatarbelakangi oleh beberapa faktor penting:</p><ul style=\"margin-bottom: 1.5rem; padding-left: 1.5rem;\"><li>Kebutuhan mematuhi regulasi pelaporan emisi</li><li>Meningkatnya kesadaran lingkungan</li><li>Tujuan menciptakan rencana mitigasi konkret berdasarkan analisis data</li></ul><p>Aplikasi ini bertujuan mengidentifikasi pola konsumsi energi yang tidak efisien serta meningkatkan transparansi dan akuntabilitas bagi pemangku kepentingan.</p><figure class=\"news-article__image\"><img src=\"../images/berita/aplikasi-monitoring-aksi-mitigasi-grk/inline-2.jpg\" alt=\"Diskusi teknis\"><figcaption>Diskusi teknis pengembangan fitur aplikasi</figcaption></figure><h3>Digitalisasi Monitoring Emisi</h3><p>Bapak <strong>Endra Dedy Tamtama</strong> selaku Koordinator Pengawasan Konservasi Energi menekankan pentingnya digitalisasi dalam monitoring GRK.</p><blockquote class=\"news-article__quote\"><p>\"Digitalisasi akan membuat monitoring GRK menjadi lebih efisien, akurat, dan terintegrasi dengan sistem manajemen energi. Akses data real-time akan menghasilkan pengambilan keputusan yang lebih cepat dan tepat.\"</p><cite>— Endra Dedy Tamtama, Koordinator Pengawasan Konservasi Energi</cite></blockquote><h3>Manfaat Aplikasi</h3><p>Aplikasi monitoring ini diharapkan dapat memberikan berbagai manfaat:</p><ul style=\"margin-bottom: 1.5rem; padding-left: 1.5rem;\"><li>Efisiensi dan akurasi pelaporan emisi GRK</li><li>Integrasi dengan sistem manajemen energi existing</li><li>Akses data real-time untuk pengambilan keputusan</li><li>Identifikasi pola konsumsi energi tidak efisien</li><li>Peningkatan transparansi dan akuntabilitas</li></ul><p>Dengan adanya aplikasi ini, diharapkan upaya mitigasi emisi GRK sektor energi di Indonesia dapat berjalan lebih efektif dan terukur.</p>",
+    "related": [
+        {
+            "slug": "ireem-directorate-gesi-ghg-impact-assessment",
+            "title": "IREEM & Direktorat Konservasi Energi Perkuat Upaya GESI dan Pengurangan GRK",
+            "date": "08 Desember 2025",
+            "accent": false
+        },
+        {
+            "slug": "kick-off-meeting-ike-benchmark",
+            "title": "IREEM Dorong Penetapan Benchmark Intensitas Konsumsi Energi di Indonesia",
+            "date": "19 Mei 2024",
+            "accent": true
+        },
+        {
+            "slug": "ditjen-ebtke-aplikasi-akselerasi",
+            "title": "Ditjen EBTKE Kembangkan Aplikasi 'Akselerasi' untuk Dorong Konservasi Energi",
+            "date": "03 Mei 2024",
+            "accent": false
+        },
+        {
+            "slug": "net-zero-energy-sni-iso-50010",
+            "title": "Mencapai Net-Zero Energy Bangunan Indonesia melalui SNI ISO 50010:2023",
+            "date": "27 Juni 2024",
+            "accent": true
+        }
+    ]
+}

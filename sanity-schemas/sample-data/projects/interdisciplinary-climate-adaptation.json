@@ -1,0 +1,39 @@
+{
+    "_type": "project",
+    "title": "Interdisciplinary Climate Adaptation & Environmental Management",
+    "slug": {
+        "current": "interdisciplinary-climate-adaptation"
+    },
+    "shortDescription": "Ketahanan lingkungan, adaptasi iklim, dan pendekatan lintas sektor untuk pengelolaan lingkungan berkelanjutan.",
+    "donor": "Internal / Kolaboratif",
+    "periodStart": "2022-01-01",
+    "periodEnd": null,
+    "status": "ongoing",
+    "programs": [
+        "environment"
+    ],
+    "activities": [
+        {
+            "activityType": "research",
+            "forms": [
+                "Kajian adaptasi iklim",
+                "Pendekatan lintas sektor"
+            ],
+            "achievements": [
+                {
+                    "label": "Fokus",
+                    "value": "Ketahanan lingkungan & adaptasi iklim"
+                }
+            ]
+        }
+    ],
+    "highlights": [
+        "Ketahanan lingkungan",
+        "Adaptasi iklim",
+        "Pendekatan lintas sektor"
+    ],
+    "provinces": [
+        "national"
+    ],
+    "coverImage": null
+}

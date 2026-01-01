@@ -1,0 +1,43 @@
+{
+    "schemaVersion": "1.0",
+    "slug": "31-pengelola-gedung-manajer-energi",
+    "title": "31 Pengelola Gedung Dinyatakan \"Kompeten\" Sebagai Manajer Energi di Bangunan Gedung",
+    "excerpt": "Sebanyak 31 pengelola gedung dari Kementerian dan SKPD di Jawa Barat, Jawa Tengah, dan DIY dinyatakan kompeten setelah mengikuti uji kompetensi manajer energi.",
+    "author": {
+        "name": "Latifa Andjani Yusuf",
+        "initials": "LA"
+    },
+    "date": "02 Oktober 2023, 10:00 WIB",
+    "category": "Sertifikasi",
+    "banner": {
+        "image": "../images/berita/31-pengelola-gedung-manajer-energi/banner.jpg",
+        "caption": "Peserta uji kompetensi manajer energi bangunan gedung."
+    },
+    "content": "<p>Sebanyak <strong>31 orang pengelola gedung</strong> dari lingkungan Kementerian dan Satuan Kerja Perangkat Daerah (SKPD) di lingkungan <strong>Provinsi Jawa Barat, Jawa Tengah, dan Daerah Istimewa Yogyakarta</strong> telah dinyatakan kompeten sebagai Manajer Energi di Bangunan Gedung.</p><figure class=\"news-article__image\"><img src=\"../images/berita/31-pengelola-gedung-manajer-energi/inline-1.jpg\" alt=\"Proses uji kompetensi\"><figcaption>Peserta mengikuti proses uji kompetensi manajer energi</figcaption></figure><p>Hal ini menyusul rampungnya uji kompetensi yang dilakukan pada <strong>September 2023</strong>. Para peserta mengikuti serangkaian tahapan uji kompetensi yang mencakup:</p><ul style=\"margin-bottom: 1.5rem; padding-left: 1.5rem;\"><li>Verifikasi portofolio</li><li>Uji tulis</li><li>Wawancara</li></ul><h3>Tim Asesor LSP HAKE</h3><p>Proses pengujian dilakukan oleh <strong>5 orang asesor</strong> dari <strong>Lembaga Sertifikasi Profesi (LSP) HAKE</strong> yang memiliki keahlian dan pengalaman luas di bidang manajemen energi.</p><figure class=\"news-article__image\"><img src=\"../images/berita/31-pengelola-gedung-manajer-energi/inline-2.jpg\" alt=\"Sertifikasi peserta\"><figcaption>Penyerahan sertifikat kepada peserta yang dinyatakan kompeten</figcaption></figure><h3>Dukungan IREEM</h3><p>Keberhasilan seluruh peserta dalam meraih predikat \"<strong>Kompeten</strong>\" ini menjadi bukti komitmen mereka dalam meningkatkan efisiensi energi di instansi masing-masing. IREEM sebagai lembaga yang mendampingi para peserta selama proses persiapan hingga uji kompetensi turut bangga atas pencapaian ini.</p><h3>Dampak untuk Penghematan Energi Nasional</h3><p>Dengan adanya tenaga manajer energi yang tersertifikasi, diharapkan pengelolaan energi di bangunan gedung pemerintah dapat dilakukan secara <strong>profesional dan berkelanjutan</strong>, guna mendukung target penghematan energi nasional.</p>",
+    "related": [
+        {
+            "slug": "bimtek-manajemen-energi-banten-dki",
+            "title": "Bimbingan Teknis Sistem Manajemen Energi di Wilayah Provinsi Banten dan DKI Jakarta",
+            "date": "02 Oktober 2023",
+            "accent": false
+        },
+        {
+            "slug": "bimtek-manajemen-energi-jawa-timur",
+            "title": "Semangat Efisiensi Energi: Bimbingan Teknis Penerapan Manajemen Energi di Jawa Timur",
+            "date": "14 Desember 2023",
+            "accent": true
+        },
+        {
+            "slug": "bimtek-manajemen-energi-29-provinsi",
+            "title": "Kementerian ESDM dan Kedutaan Besar Inggris Menyelenggarakan Bimtek Penerapan Manajemen Energi di 29 Provinsi",
+            "date": "23 Juli 2024",
+            "accent": false
+        },
+        {
+            "slug": "capacity-building-manajemen-energi-bangunan",
+            "title": "Peningkatan Kapasitas Mendukung Implementasi Manajemen Energi di Sektor Bangunan",
+            "date": "12 September 2025",
+            "accent": true
+        }
+    ]
+}

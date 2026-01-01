@@ -1,0 +1,41 @@
+{
+    "_type": "project",
+    "title": "Energy Audits Level 2 (Berbagai Gedung Pemerintah)",
+    "slug": {
+        "current": "energy-audits-level-2"
+    },
+    "shortDescription": "Audit energi pada gedung kementerian, provinsi, rumah sakit, dan universitas.",
+    "donor": "UK PACT INTENS",
+    "periodStart": "2023-01-01",
+    "periodEnd": "2024-12-31",
+    "status": "completed",
+    "programs": [
+        "energy"
+    ],
+    "activities": [
+        {
+            "activityType": "technical-assistance",
+            "forms": [
+                "Audit energi pada gedung kementerian, provinsi, rumah sakit, universitas"
+            ],
+            "achievements": [
+                {
+                    "label": "Temuan potensi penghematan besar",
+                    "value": "10+"
+                },
+                {
+                    "label": "Nilai investasi potensial",
+                    "value": "GBP 4.5 juta"
+                }
+            ]
+        }
+    ],
+    "highlights": [
+        "10+ temuan potensi penghematan besar",
+        "Identifikasi nilai investasi potensial GBP 4.5 juta melalui rekomendasi efisiensi energi"
+    ],
+    "provinces": [
+        "national"
+    ],
+    "coverImage": null
+}

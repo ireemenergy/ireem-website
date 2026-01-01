@@ -1,0 +1,42 @@
+{
+    "_type": "project",
+    "title": "Masukan Kebijakan untuk GR 33/2023 tentang Konservasi Energi",
+    "slug": {
+        "current": "masukan-kebijakan-gr-33-2023"
+    },
+    "shortDescription": "Penyusunan naskah akademis pembentukan Jabatan Fungsional Pengawas Konservasi Energi yang diadopsi dalam GR 33/2023.",
+    "donor": "KESDM melalui UK PACT INTENS",
+    "periodStart": "2023-01-01",
+    "periodEnd": "2023-12-31",
+    "status": "completed",
+    "programs": [
+        "energy"
+    ],
+    "activities": [
+        {
+            "activityType": "policy-advisory",
+            "forms": [
+                "Penyusunan naskah akademis",
+                "Kelembagaan jabatan fungsional"
+            ],
+            "achievements": [
+                {
+                    "label": "Regulasi",
+                    "value": "GR 33/2023"
+                },
+                {
+                    "label": "Jabatan",
+                    "value": "Pengawas Konservasi Energi (Energy-Saving Superintendent)"
+                }
+            ]
+        }
+    ],
+    "highlights": [
+        "Naskah akademis pembentukan Jabatan Fungsional Pengawas Konservasi Energi",
+        "Diadopsi dalam GR 33/2023"
+    ],
+    "provinces": [
+        "national"
+    ],
+    "coverImage": null
+}

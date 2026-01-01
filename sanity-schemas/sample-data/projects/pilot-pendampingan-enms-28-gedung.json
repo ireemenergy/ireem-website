@@ -1,0 +1,42 @@
+{
+    "_type": "project",
+    "title": "Pilot Pendampingan EnMS 28 Gedung Pemerintah",
+    "slug": {
+        "current": "pilot-pendampingan-enms-28-gedung"
+    },
+    "shortDescription": "Pendampingan intensif implementasi EnMS (ISO 50005) pada 28 gedung pemerintah.",
+    "donor": "UK PACT INTENS",
+    "periodStart": "2023-01-01",
+    "periodEnd": "2024-12-31",
+    "status": "completed",
+    "programs": [
+        "energy"
+    ],
+    "activities": [
+        {
+            "activityType": "technical-assistance",
+            "forms": [
+                "Pendampingan intensif implementasi EnMS (ISO 50005)"
+            ],
+            "achievements": [
+                {
+                    "label": "Gedung mencapai sertifikasi internasional",
+                    "value": "3"
+                },
+                {
+                    "label": "Gedung mencapai monitoring & verification penuh",
+                    "value": "12"
+                }
+            ]
+        }
+    ],
+    "highlights": [
+        "Pendampingan intensif 28 gedung pemerintah",
+        "3 gedung mencapai sertifikasi internasional",
+        "12 gedung mencapai monitoring & verification penuh"
+    ],
+    "provinces": [
+        "national"
+    ],
+    "coverImage": null
+}

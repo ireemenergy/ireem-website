@@ -1,0 +1,39 @@
+{
+    "_type": "project",
+    "title": "Alternative Fuel Mapping (Rice Husk & Agricultural Waste)",
+    "slug": {
+        "current": "alternative-fuel-mapping"
+    },
+    "shortDescription": "Pemanfaatan limbah pertanian & SDA sekunder untuk bahan bakar alternatif.",
+    "donor": "Internal / Kolaboratif",
+    "periodStart": "2022-01-01",
+    "periodEnd": "2023-12-31",
+    "status": "completed",
+    "programs": [
+        "natural-resources",
+        "energy"
+    ],
+    "activities": [
+        {
+            "activityType": "research",
+            "forms": [
+                "Pemetaan bahan bakar alternatif",
+                "Pemanfaatan limbah pertanian & SDA sekunder"
+            ],
+            "achievements": [
+                {
+                    "label": "Lokasi",
+                    "value": "Multi lokasi"
+                }
+            ]
+        }
+    ],
+    "highlights": [
+        "Pemanfaatan limbah pertanian & SDA sekunder",
+        "Multi lokasi"
+    ],
+    "provinces": [
+        "national"
+    ],
+    "coverImage": null
+}

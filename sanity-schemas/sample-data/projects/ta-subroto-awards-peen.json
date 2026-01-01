@@ -1,0 +1,59 @@
+{
+    "_type": "project",
+    "title": "Technical Assistance – Subroto Awards (PEEN)",
+    "slug": {
+        "current": "ta-subroto-awards-peen"
+    },
+    "shortDescription": "Bimbingan teknis untuk peserta penghargaan efisiensi energi nasional (PEEN).",
+    "donor": "KESDM (EBTKE)",
+    "periodStart": "2023-01-01",
+    "periodEnd": "2024-12-31",
+    "status": "completed",
+    "programs": [
+        "energy"
+    ],
+    "activities": [
+        {
+            "activityType": "capacity-building",
+            "forms": [
+                "Bimbingan teknis (Bimtek)",
+                "Asistensi penyusunan dokumen & proposal"
+            ],
+            "achievements": [
+                {
+                    "label": "Peserta 2022",
+                    "value": "191"
+                },
+                {
+                    "label": "Peserta 2023",
+                    "value": "212"
+                },
+                {
+                    "label": "Peserta 2024",
+                    "value": "186"
+                }
+            ]
+        },
+        {
+            "activityType": "technical-assistance",
+            "forms": [
+                "Pendampingan peserta PEEN kategori Bangunan Hemat Energi"
+            ],
+            "achievements": [
+                {
+                    "label": "Dukungan capacity building",
+                    "value": "Pemerintah daerah & swasta"
+                }
+            ]
+        }
+    ],
+    "highlights": [
+        "Peningkatan jumlah peserta dari 191 (2022) → 212 (2023)",
+        "186 peserta di 2024 tetap terfasilitasi",
+        "Dukungan capacity building ke pemerintah daerah & swasta"
+    ],
+    "provinces": [
+        "national"
+    ],
+    "coverImage": null
+}

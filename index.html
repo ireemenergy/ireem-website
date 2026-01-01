@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/ireemicon2.ico">
+    <title>IREEM - Institute for Natural Resources, Energy, and Environmental Management</title>
+
+    <!-- Design System -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- Editorial Header -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="IREEM Logo" style="height: 48px;">
+            </a>
+
+            <nav class="nav-links">
+                <a href="about/index.html" class="nav-link" data-i18n="nav.about">Tentang IREEM</a>
+                <a href="program/index.html" class="nav-link" data-i18n="nav.program">Program</a>
+                <a href="impact/index.html" class="nav-link" data-i18n="nav.impact">Dampak</a>
+                <a href="publikasi/index.html" class="nav-link" data-i18n="nav.publications">Publikasi</a>
+                <a href="berita/index.html" class="nav-link" data-i18n="nav.news">Berita</a>
+                <a href="inovasi/index.html" class="nav-link" data-i18n="nav.innovation">Inovasi</a>
+                <a href="kemitraan/index.html" class="nav-link" data-i18n="nav.partnership">Kemitraan</a>
+                <!-- Mobile CTA Button -->
+                <a href="kemitraan/proposal.html" class="nav-cta-mobile btn btn-primary"
+                    data-i18n="nav.partnershipCta">Ajukan Kemitraan</a>
+            </nav>
+
+            <!-- Language Switcher -->
+            <div class="lang-switcher">
+                <button data-lang="id" class="active">ID</button>
+                <span>|</span>
+                <button data-lang="en">EN</button>
+            </div>
+
+            <a href="kemitraan/proposal.html" class="btn btn-primary" data-i18n="nav.partnershipCta">Ajukan
+                Kemitraan</a>
+
+            <!-- Mobile Menu Button -->
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Signature Hero Section with Slideshow -->
+        <section class="hero" style="position: relative; overflow: hidden;">
+            <!-- Slideshow Background -->
+            <!-- Slideshow Background - Dynamically loaded from Sanity -->
+            <div class="hero-slideshow"></div>
+
+            <!-- Gradient Overlay -->
+            <div class="header-overlay"
+                style="position: absolute; inset:0; background: linear-gradient(90deg, rgba(14,58,93,0.95) 0%, rgba(14,58,93,0.75) 50%, rgba(14,58,93,0.4) 100%); z-index: 2;">
+            </div>
+
+            <!-- Content -->
+            <div class="container hero-content" style="position: relative; z-index: 3;">
+                <div class="hero-tagline hero-animate" style="--delay: 0.1s;" data-i18n="hero.tagline">Institute for
+                    Natural Resources, Energy,
+                    and Environmental Management</div>
+                <h1 class="hero-animate" style="color: white; --delay: 0.3s;" data-i18n="hero.title">Menjembatani Sains,
+                    Kebijakan, dan Aksi
+                    Iklim di Indonesia.</h1>
+                <p class="lead hero-animate" style="color: rgba(255,255,255,0.9); margin-bottom: 2rem; --delay: 0.5s;"
+                    data-i18n="hero.subtitle">
+                    Kami mempercepat transisi energi dan pengelolaan sumber daya alam yang berkelanjutan dan inklusif
+                    (GESI) melalui bukti, kebijakan, dan implementasi nyata.
+                </p>
+                <div class="hero-animate" style="display: flex; gap: 1rem; flex-wrap: wrap; --delay: 0.7s;">
+                    <a href="program/" class="btn btn-primary" data-i18n="hero.ctaExplore">Jelajahi Program</a>
+                    <a href="impact/" class="btn btn-outline" data-i18n="hero.ctaImpact">Lihat Jejak Dampak</a>
+                </div>
+            </div>
+
+            <!-- Slideshow Navigation Dots - Dynamically loaded from Sanity -->
+            <div class="hero-dots"
+                style="position: absolute; bottom: 2rem; left: 50%; transform: translateX(-50%); z-index: 4; display: flex; gap: 0.5rem;">
+            </div>
+
+            <style>
+                .hero-slideshow {
+                    position: absolute;
+                    inset: 0;
+                    z-index: 1;
+                }
+
+                .hero-slide {
+                    position: absolute;
+                    inset: 0;
+                    background-size: cover;
+                    background-position: center;
+                    opacity: 0;
+                    transition: opacity 1.5s ease-in-out, transform 8s ease-out;
+                    transform: scale(1);
+                }
+
+                .hero-slide.active {
+                    opacity: 1;
+                    transform: scale(1.05);
+                }
+
+                .hero-dot {
+                    width: 12px;
+                    height: 12px;
+                    border-radius: 50%;
+                    border: 2px solid rgba(255, 255, 255, 0.7);
+                    background: transparent;
+                    cursor: pointer;
+                    transition: all 0.3s ease;
+                    padding: 0;
+                }
+
+                .hero-dot:hover {
+                    background: rgba(255, 255, 255, 0.5);
+                }
+
+                .hero-dot.active {
+                    background: var(--color-accent);
+                    border-color: var(--color-accent);
+                    transform: scale(1.2);
+                }
+
+                /* Progress bar on active dot */
+                .hero-dot.active::after {
+                    content: '';
+                    position: absolute;
+                    inset: -3px;
+                    border-radius: 50%;
+                    border: 2px solid transparent;
+                    border-top-color: white;
+                    animation: dotProgress 6s linear;
+                }
+
+                @keyframes dotProgress {
+                    from {
+                        transform: rotate(0deg);
+                    }
+
+                    to {
+                        transform: rotate(360deg);
+                    }
+                }
+
+                /* Hero Content Animation */
+                @keyframes heroFadeSlideUp {
+                    from {
+                        opacity: 0;
+                        transform: translateY(30px);
+                    }
+
+                    to {
+                        opacity: 1;
+                        transform: translateY(0);
+                    }
+                }
+
+                .hero-animate {
+                    opacity: 0;
+                    animation: heroFadeSlideUp 0.8s ease-out forwards;
+                    animation-delay: var(--delay, 0s);
+                }
+            </style>
+
+            <script>
+                let currentSlide = 0;
+                const slides = document.querySelectorAll('.hero-slide');
+                const dots = document.querySelectorAll('.hero-dot');
+                const totalSlides = slides.length;
+                let slideInterval;
+
+                function goToSlide(index) {
+                    slides[currentSlide].classList.remove('active');
+                    dots[currentSlide].classList.remove('active');
+
+                    currentSlide = index;
+
+                    slides[currentSlide].classList.add('active');
+                    dots[currentSlide].classList.add('active');
+
+                    // Reset interval
+                    clearInterval(slideInterval);
+                    startSlideshow();
+                }
+
+                function nextSlide() {
+                    const nextIndex = (currentSlide + 1) % totalSlides;
+                    goToSlide(nextIndex);
+                }
+
+                function startSlideshow() {
+                    slideInterval = setInterval(nextSlide, 6000);
+                }
+            </script>
+        </section>
+
+        <!-- Editorial Introduction -->
+        <section class="section">
+            <div class="container grid-asymmetric">
+                <div>
+                    <h2 class="highlight" data-i18n="intro.heading">Kami Membangun Ekosistem Berkelanjutan.</h2>
+                    <p class="lead" data-i18n="intro.lead">Didirikan pada tahun 2017, IREEM adalah organisasi nirlaba
+                        yang beroperasi di
+                        persimpangan antara keahlian teknis dan pembentukan kebijakan.</p>
+                    <p data-i18n="intro.description">Fokus kami tidak hanya pada riset di atas kertas, tetapi juga pada
+                        bagaimana riset tersebut
+                        diterjemahkan menjadi kebijakan nasional, panduan teknis industri, dan peningkatan kapasitas di
+                        tingkat daerah.</p>
+                    <br>
+                    <a href="about/" class="btn-text" data-i18n-html="intro.readProfile">Baca Profil Lengkap &rarr;</a>
+                </div>
+                <div style="padding-top: 1rem;">
+                    <div style="background: #EBF8FF; padding: 2rem; border-radius: 8px;">
+                        <h4 data-i18n="intro.strategicFocus">Fokus Strategis</h4>
+                        <ul
+                            style="list-style: none; margin-top: 1rem; display: grid; gap: 0.5rem; color: var(--color-primary); font-weight: 500;">
+                            <li>&bull; Decarbonization Strategy</li>
+                            <li>&bull; Green Financing</li>
+                            <li>&bull; Sustainable Landscapes</li>
+                            <li>&bull; Circular Economy</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4 Pillars Section -->
+        <section class="section bg-white">
+            <div class="container">
+                <div style="text-align: center; max-width: 700px; margin: 0 auto 4rem auto;">
+                    <h2 data-i18n="pillars.heading">3 Pilar Program</h2>
+                    <p data-i18n="pillars.description">Pendekatan holistik kami mencakup seluruh rantai nilai transisi
+                        hijau.</p>
+                </div>
+
+                <div class="grid grid-3">
+                    <!-- Energy & Climate -->
+                    <a href="program/energi.html" class="pillar-card">
+                        <div class="pillar-card__icon" style="color: var(--color-accent);">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
+                            </svg>
+                        </div>
+                        <h4 data-i18n="pillars.energy.title">Energi & Iklim</h4>
+                        <p class="small" data-i18n="pillars.energy.description">Transisi energi berkeadilan, efisiensi
+                            industri, dan strategi dekarbonisasi.
+                        </p>
+                    </a>
+
+                    <!-- Environment -->
+                    <a href="program/lingkungan.html" class="pillar-card">
+                        <div class="pillar-card__icon" style="color: #22C55E;">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path
+                                    d="M12.75 3.03v.568c0 .334.148.65.405.864l1.068.89c.442.369.535 1.01.216 1.49l-.51.766a2.25 2.25 0 01-1.161.886l-.143.048a1.107 1.107 0 00-.57 1.664c.369.555.169 1.307-.427 1.605L9 13.125l.423 1.059a.956.956 0 01-1.652.928l-.679-.906a1.125 1.125 0 00-1.906.172L4.5 15.75l-.612.153M12.75 3.031a9 9 0 00-8.862 12.872M12.75 3.031a9 9 0 016.69 14.036m0 0l-.177-.529A2.25 2.25 0 0017.128 15H16.5l-.324-.324a1.453 1.453 0 00-2.328.377l-.036.073a1.586 1.586 0 01-.982.816l-.99.282c-.55.157-.894.702-.8 1.267l.073.438c.08.474.49.821.97.821.846 0 1.598.542 1.865 1.345l.215.643m5.276-3.67a9.012 9.012 0 01-5.276 3.67m0 0a9 9 0 01-10.275-4.835M15.75 9c0 .896-.393 1.7-1.016 2.25" />
+                            </svg>
+                        </div>
+                        <h4 data-i18n="pillars.environment.title">Manajemen Lingkungan</h4>
+                        <p class="small" data-i18n="pillars.environment.description">Pengelolaan limbah, ekonomi
+                            sirkular, dan pengendalian polusi.</p>
+                    </a>
+
+                    <!-- Natural Resources -->
+                    <a href="program/sumber-daya.html" class="pillar-card">
+                        <div class="pillar-card__icon" style="color: #0EA5E9;">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path
+                                    d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
+                            </svg>
+                        </div>
+                        <h4 data-i18n="pillars.resources.title">Sumber Daya Alam</h4>
+                        <p class="small" data-i18n="pillars.resources.description">Konservasi lanskap, pengelolaan air,
+                            dan keanekaragaman hayati.</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Impact Section -->
+        <section class="section-lg" style="background-color: var(--color-primary); color: white;">
+            <div class="container grid-asymmetric">
+                <div>
+                    <h2 style="color: white; border-bottom-color: var(--color-accent);" class="highlight"
+                        data-i18n="impact.heading">Dampak Nyata
+                        Untuk Indonesia</h2>
+                    <p style="color: rgba(255,255,255,0.8);" data-i18n="impact.description">Sejak 2017, kami telah
+                        bekerja sama dengan kementerian,
+                        donor internasional, dan sektor swasta untuk menghasilkan perubahan terukur.</p>
+                    <br>
+                    <a href="impact/" class="btn btn-primary" data-i18n="impact.viewReport">Lihat Laporan Dampak</a>
+                </div>
+                <div class="grid grid-2" id="home-impact-stats">
+                    <div>
+                        <div class="impact-number counter" style="color: var(--color-accent);" data-target="4"
+                            data-suffix="M+">0</div>
+                        <div class="small" style="color: rgba(255,255,255,0.7);"
+                            data-i18n="impact.stats.fundsMobilized">USD Dana Dimobilisasi</div>
+                    </div>
+                    <div>
+                        <div class="impact-number counter" style="color: var(--color-accent);" data-target="20"
+                            data-suffix="+">0</div>
+                        <div class="small" style="color: rgba(255,255,255,0.7);"
+                            data-i18n="impact.stats.provincesReached">Provinsi Dijangkau</div>
+                    </div>
+                    <div>
+                        <div class="impact-number counter" style="color: var(--color-accent);" data-target="15">0</div>
+                        <div class="small" style="color: rgba(255,255,255,0.7);"
+                            data-i18n="impact.stats.policiesSupported">Kebijakan Nasional Didukung</div>
+                    </div>
+                    <div>
+                        <div class="impact-number counter" style="color: var(--color-accent);" data-target="200"
+                            data-suffix="+">0</div>
+                        <div class="small" style="color: rgba(255,255,255,0.7);"
+                            data-i18n="impact.stats.auditorsCertified">Auditor Energi Tersertifikasi</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Activity Gallery Section -->
+        <section class="section" id="gallery"
+            style="background: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%); overflow: hidden;">
+            <div class="container">
+                <div class="text-center" style="margin-bottom: 3rem;">
+                    <p class="small"
+                        style="color: var(--color-accent); font-weight: 700; text-transform: uppercase; letter-spacing: 2px;"
+                        data-i18n="gallery.subtitle">
+                        Galeri Aktivitas
+                    </p>
+                    <h2 data-i18n="gallery.heading">Momen Terbaik dari Kegiatan Kami</h2>
+                    <p style="color: var(--color-muted); max-width: 600px; margin: 0 auto;"
+                        data-i18n="gallery.description">
+                        Dokumentasi visual berbagai pelatihan, workshop, dan kegiatan lapangan IREEM bersama para mitra.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Infinite Scroll Gallery - Dynamically populated by JS -->
+            <div class="gallery-infinite-wrapper" style="position: relative; overflow: hidden; padding: 1.5rem 0;">
+                <!-- Gradient Fade Left -->
+                <div
+                    style="position: absolute; left: 0; top: 0; bottom: 0; width: 100px; background: linear-gradient(90deg, #f8fafc 0%, transparent 100%); z-index: 10; pointer-events: none;">
+                </div>
+                <!-- Gradient Fade Right -->
+                <div
+                    style="position: absolute; right: 0; top: 0; bottom: 0; width: 100px; background: linear-gradient(90deg, transparent 0%, #ffffff 100%); z-index: 10; pointer-events: none;">
+                </div>
+
+                <!-- Empty container - populated by home-gallery.js -->
+                <div class="gallery-infinite-track" id="home-gallery-track" style="padding: 0.5rem 0;"></div>
+            </div>
+
+            <style>
+                .gallery-infinite-track {
+                    display: flex;
+                    gap: 1.5rem;
+                    animation: scrollGallery 40s linear infinite;
+                    width: fit-content;
+                }
+
+                .gallery-infinite-track:hover {
+                    animation-play-state: paused;
+                }
+
+                @keyframes scrollGallery {
+                    0% {
+                        transform: translateX(0);
+                    }
+
+                    100% {
+                        transform: translateX(-50%);
+                    }
+                }
+
+                .gallery-slide-light {
+                    flex: 0 0 300px;
+                    border-radius: 16px;
+                    overflow: hidden;
+                    background: white;
+                    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+                    transition: transform 0.4s ease, box-shadow 0.4s ease;
+                }
+
+                .gallery-slide-light:hover {
+                    transform: translateY(-8px);
+                    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.15);
+                }
+
+                .gallery-image-light {
+                    height: 180px;
+                    overflow: hidden;
+                }
+
+                .gallery-image-light img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    transition: transform 0.5s ease;
+                }
+
+                .gallery-slide-light:hover .gallery-image-light img {
+                    transform: scale(1.1);
+                }
+
+                .gallery-caption-light {
+                    padding: 1.25rem;
+                }
+
+                .gallery-caption-light h4 {
+                    color: var(--color-primary);
+                    font-size: 0.95rem;
+                    margin: 0 0 0.5rem 0;
+                    line-height: 1.4;
+                    font-weight: 600;
+                }
+
+                .gallery-caption-light p {
+                    color: var(--color-muted);
+                    font-size: 0.85rem;
+                    line-height: 1.5;
+                    margin: 0;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    line-clamp: 2;
+                    -webkit-box-orient: vertical;
+                    overflow: hidden;
+                }
+
+                @media (max-width: 768px) {
+                    .gallery-slide-light {
+                        flex: 0 0 260px;
+                    }
+
+                    .gallery-image-light {
+                        height: 150px;
+                    }
+                }
+            </style>
+        </section>
+
+        <!-- Partnership Strip - Scrolling Logo Wall -->
+        <section class="section"
+            style="overflow: hidden; background: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%);">
+            <div class="container text-center">
+                <p class="small"
+                    style="letter-spacing: 2px; text-transform: uppercase; color: var(--color-muted); margin-bottom: 1rem;"
+                    data-i18n="partners.subtitle">
+                    Mitra Terpercaya Kami</p>
+                <h2 style="margin-bottom: 3rem; font-size: 2rem;" data-i18n="partners.heading">Dipercaya oleh Institusi
+                    Terkemuka</h2>
+            </div>
+
+            <!-- Scrolling Container -->
+            <div class="logo-scroll-container"
+                style="position: relative; width: 100%; overflow: hidden; padding: 1rem 0;">
+                <!-- Gradient Fade Left -->
+                <div
+                    style="position: absolute; left: 0; top: 0; bottom: 0; width: 100px; background: linear-gradient(90deg, #f8fafc 0%, transparent 100%); z-index: 10; pointer-events: none;">
+                </div>
+                <!-- Gradient Fade Right -->
+                <div
+                    style="position: absolute; right: 0; top: 0; bottom: 0; width: 100px; background: linear-gradient(90deg, transparent 0%, #ffffff 100%); z-index: 10; pointer-events: none;">
+                </div>
+
+                <!-- Logo Track - Dynamically populated by JS -->
+                <div class="logo-scroll-track" id="home-partners-track"
+                    style="display: flex; animation: scrollLogos 40s linear infinite; width: fit-content;"></div>
+            </div>
+
+            <style>
+                @keyframes scrollLogos {
+                    0% {
+                        transform: translateX(0);
+                    }
+
+                    100% {
+                        transform: translateX(-50%);
+                    }
+                }
+
+                .logo-scroll-track:hover {
+                    animation-play-state: paused;
+                }
+
+                .logo-item {
+                    transition: transform 0.3s ease, opacity 0.3s ease;
+                }
+
+                .logo-item:hover {
+                    transform: scale(1.1);
+                }
+
+                .logo-item img {
+                    filter: grayscale(100%);
+                    opacity: 0.7;
+                    transition: filter 0.3s ease, opacity 0.3s ease;
+                }
+
+                .logo-item:hover img {
+                    filter: grayscale(0%);
+                    opacity: 1;
+                }
+            </style>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div>
+                <img src="images/logo-white.png" alt="IREEM" style="height: 36px; margin-bottom: 1rem;">
+                <p class="small" style="color: rgba(255,255,255,0.6); max-width: 280px; line-height: 1.6;">
+                    Institute for Management of Natural Resources, Energy and Environment.
+                </p>
+            </div>
+            <div>
+                <h5 style="color: white; margin-bottom: 0.75rem; font-size: 0.85rem;" data-i18n="nav.program">Program
+                </h5>
+                <div style="display: flex; flex-direction: column; gap: 0.4rem;">
+                    <a href="program/energi.html" style="color: rgba(255,255,255,0.6); font-size: 0.8rem;"
+                        data-i18n="footer.energyClimate">Energi &
+                        Iklim</a>
+                    <a href="program/lingkungan.html" style="color: rgba(255,255,255,0.6); font-size: 0.8rem;"
+                        data-i18n="footer.environment">Lingkungan</a>
+                    <a href="program/sumber-daya.html" style="color: rgba(255,255,255,0.6); font-size: 0.8rem;"
+                        data-i18n="footer.naturalResources">Sumber
+                        Daya Alam</a>
+                    <a href="program/gesi.html" style="color: rgba(255,255,255,0.6); font-size: 0.8rem;"
+                        data-i18n="footer.gesi">GESI</a>
+                </div>
+            </div>
+            <div>
+                <h5 style="color: white; margin-bottom: 0.75rem; font-size: 0.85rem;" data-i18n="footer.contact">Kontak
+                </h5>
+                <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+                    <a href="https://wa.me/6282142740508" target="_blank"
+                        style="color: rgba(255,255,255,0.6); font-size: 0.8rem; display: flex; align-items: center; gap: 0.5rem;">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path
+                                d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+                        </svg>
+                        0821-4274-0508
+                    </a>
+                    <a href="mailto:info@ireem.id"
+                        style="color: rgba(255,255,255,0.6); font-size: 0.8rem; display: flex; align-items: center; gap: 0.5rem;">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path
+                                d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                        </svg>
+                        info@ireem.id
+                    </a>
+                    <a href="https://maps.app.goo.gl/18JrCHCrNfFDt7nh6" target="_blank"
+                        style="color: rgba(255,255,255,0.6); font-size: 0.8rem; display: flex; align-items: center; gap: 0.5rem;">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                            <path d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                        </svg>
+                        Jakarta Selatan
+                    </a>
+                </div>
+            </div>
+            <div>
+                <h5 style="color: white; margin-bottom: 0.75rem; font-size: 0.85rem;" data-i18n="footer.followUs">Ikuti
+                    Kami</h5>
+                <div style="display: flex; gap: 0.75rem;">
+                    <a href="https://www.instagram.com/ireem.id" target="_blank" title="Instagram"
+                        style="color: rgba(255,255,255,0.7);">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                        </svg>
+                    </a>
+                    <a href="https://www.youtube.com/@IREEM_Indonesia" target="_blank" title="YouTube"
+                        style="color: rgba(255,255,255,0.7);">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z" />
+                        </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/company/ireem/" target="_blank" title="LinkedIn"
+                        style="color: rgba(255,255,255,0.7);">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container"
+            style="border-top: 1px solid rgba(255,255,255,0.1); padding-top: 1.5rem; margin-top: 2rem;">
+            <p class="small text-center" style="color: rgba(255,255,255,0.4);">&copy; 2024 IREEM. All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+
+    <!-- i18n Bilingual System -->
+    <script src="js/i18n/index.js"></script>
+    <script src="js/i18n/common.js"></script>
+    <script src="js/i18n/home.js"></script>
+
+    <!-- Page Scripts -->
+    <script src="js/home-hero.js"></script>
+    <script src="js/home-partners.js"></script>
+    <script src="js/home-gallery.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berita & Update - IREEM</title>
+    <link rel="icon" type="image/x-icon" href="../images/ireemicon2.ico">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="../index.html" class="logo">
+                <img src="../images/logo.png" alt="IREEM Logo" style="height: 48px;">
+            </a>
+
+            <nav class="nav-links">
+                <a href="../about/index.html" class="nav-link" data-i18n="nav.about">Tentang IREEM</a>
+                <a href="../program/index.html" class="nav-link" data-i18n="nav.program">Program</a>
+                <a href="../impact/index.html" class="nav-link" data-i18n="nav.impact">Dampak</a>
+                <a href="../publikasi/index.html" class="nav-link" data-i18n="nav.publications">Publikasi</a>
+                <a href="index.html" class="nav-link active" data-i18n="nav.news">Berita</a>
+                <a href="../inovasi/index.html" class="nav-link" data-i18n="nav.innovation">Inovasi</a>
+                <a href="../kemitraan/index.html" class="nav-link" data-i18n="nav.partnership">Kemitraan</a>
+                <!-- Mobile CTA Button -->
+                <a href="../kemitraan/proposal.html" class="nav-cta-mobile btn btn-primary"
+                    data-i18n="nav.partnershipCta">Ajukan Kemitraan</a>
+            </nav>
+
+            <!-- Language Switcher -->
+            <div class="lang-switcher">
+                <button data-lang="id" class="active">ID</button>
+                <span>|</span>
+                <button data-lang="en">EN</button>
+            </div>
+
+            <a href="../kemitraan/proposal.html" class="btn btn-primary" data-i18n="nav.partnershipCta">Ajukan
+                Kemitraan</a>
+
+            <!-- Mobile Menu Button -->
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero -->
+        <section class="section" style="padding-top: 8rem;">
+            <div class="container" style="max-width: 900px;">
+                <p class="small text-primary" style="font-weight: 700; text-transform: uppercase; letter-spacing: 2px;"
+                    data-i18n="newsPage.tagline">
+                    Berita & Update</p>
+                <h1 data-i18n="newsPage.title">Kabar Terbaru dari IREEM</h1>
+                <p class="lead" data-i18n="newsPage.subtitle">Ikuti perkembangan proyek, acara, dan publikasi terbaru
+                    kami.</p>
+            </div>
+        </section>
+
+        <!-- News Grid -->
+        <section class="section bg-white news-section">
+            <div class="container">
+                <!-- Dynamic News Grid -->
+                <div id="news-grid" class="grid grid-3" style="gap: 2rem;">
+                    <!-- Loading state -->
+                    <div class="text-center" style="grid-column: 1 / -1; padding: 4rem 0;">
+                        <p style="color: var(--color-muted);">Memuat berita...</p>
+                    </div>
+                </div>
+
+                <!-- Pagination Controls -->
+                <div id="pagination"></div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div>
+                <img src="../images/logo-white.png" alt="IREEM" style="height: 36px; margin-bottom: 1rem;">
+                <p class="small" style="color: rgba(255,255,255,0.6); max-width: 280px; line-height: 1.6;">
+                    Institute for Management of Natural Resources, Energy and Environment.
+                </p>
+            </div>
+            <div>
+                <h5 style="color: white; margin-bottom: 0.75rem; font-size: 0.85rem;" data-i18n="footer.program">Program
+                </h5>
+                <div style="display: flex; flex-direction: column; gap: 0.4rem;">
+                    <a href="../program/energi.html" style="color: rgba(255,255,255,0.6); font-size: 0.8rem;"
+                        data-i18n="footer.energyClimate">Energi &
+                        Iklim</a>
+                    <a href="../program/lingkungan.html" style="color: rgba(255,255,255,0.6); font-size: 0.8rem;"
+                        data-i18n="footer.environment">Lingkungan</a>
+                    <a href="../program/sumber-daya.html" style="color: rgba(255,255,255,0.6); font-size: 0.8rem;"
+                        data-i18n="footer.naturalResources">Sumber Daya Alam</a>
+                    <a href="../program/gesi.html" style="color: rgba(255,255,255,0.6); font-size: 0.8rem;"
+                        data-i18n="footer.gesi">GESI</a>
+                </div>
+            </div>
+            <div>
+                <h5 style="color: white; margin-bottom: 0.75rem; font-size: 0.85rem;" data-i18n="footer.contact">Kontak
+                </h5>
+                <div style="display: flex; flex-direction: column; gap: 0.4rem;">
+                    <a href="tel:+622122795050" style="color: rgba(255,255,255,0.6); font-size: 0.8rem;">+62 21 2279
+                        5050</a>
+                    <a href="mailto:info@ireem.id"
+                        style="color: rgba(255,255,255,0.6); font-size: 0.8rem;">info@ireem.id</a>
+                    <p style="color: rgba(255,255,255,0.6); font-size: 0.8rem; margin: 0; line-height: 1.5;">
+                        Gedung Graha Surveyor Indonesia Lt. 25<br>
+                        Jl. Jend. Gatot Subroto Kav. 56<br>
+                        Jakarta Selatan 12950
+                    </p>
+                </div>
+            </div>
+            <div>
+                <h5 style="color: white; margin-bottom: 0.75rem; font-size: 0.85rem;" data-i18n="footer.followUs">Ikuti
+                    Kami</h5>
+                <div style="display: flex; gap: 1rem; margin-top: 0.5rem;">
+                    <a href="https://www.instagram.com/ireem.indonesia/" target="_blank" title="Instagram"
+                        style="color: rgba(255,255,255,0.7);">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                        </svg>
+                    </a>
+                    <a href="https://www.youtube.com/@IREEM_Indonesia" target="_blank" title="YouTube"
+                        style="color: rgba(255,255,255,0.7);">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z" />
+                        </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/company/ireem/" target="_blank" title="LinkedIn"
+                        style="color: rgba(255,255,255,0.7);">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container"
+            style="border-top: 1px solid rgba(255,255,255,0.1); padding-top: 1.5rem; margin-top: 2rem;">
+            <p class="small text-center" style="color: rgba(255,255,255,0.4);">&copy; 2024 IREEM. All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Main JS for navigation -->
+    <script src="../js/main.js"></script>
+
+    <!-- i18n Bilingual System -->
+    <script src="../js/i18n/index.js"></script>
+    <script src="../js/i18n/common.js"></script>
+
+    <!-- Sanity CMS News List Script -->
+    <script src="js/news-list.js"></script>
+</body>
+
+</html>

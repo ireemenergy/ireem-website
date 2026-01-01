@@ -1,0 +1,49 @@
+{
+    "schemaVersion": "1.0",
+    "slug": "ireem-eubce-2025",
+    "title": "IREEM Hadiri European Biomass Conference and Exhibition (EUBCE) 2025 untuk Mendukung Transisi Energi Bersih",
+    "excerpt": "IREEM menegaskan komitmennya dalam mendukung transisi energi bersih dengan berpartisipasi dalam European Biomass Conference and Exhibition (EUBCE) 2025 di Valencia, Spanyol.",
+    "author": {
+        "name": "Ardhia Nur Zafira",
+        "initials": "AZ"
+    },
+    "date": "11 Juli 2025, 10:00 WIB",
+    "category": "Biomassa",
+    "banner": {
+        "image": "../images/berita/ireem-eubce-2025/banner.jpg",
+        "caption": "Tim IREEM berpartisipasi dalam European Biomass Conference and Exhibition (EUBCE) 2025 di Valencia, Spanyol."
+    },
+    "content": "<p><strong>Valencia, Spanyol, 9'€“12 Juni 2025</strong> '€” IREEM menegaskan komitmennya untuk mendukung transisi energi bersih dengan berpartisipasi dalam <strong>European Biomass Conference and Exhibition (EUBCE) 2025</strong> internasional. EUBCE ke-33 diselenggarakan oleh ETA'€‘Florence Renewable Energies bekerja sama dengan European Commission Joint Research Centre (JRC), mempertemukan ilmuwan, akademisi, pelaku industri, peneliti, dan pembuat kebijakan dari lebih dari 80 negara untuk membahas kemajuan penelitian dan teknologi biomassa dan energi terbarukan.</p><figure class=\"news-article__image\"><img src=\"../images/berita/ireem-eubce-2025/inline-1.jpg\" alt=\"Tim IREEM di EUBCE 2025\"><figcaption>Tim IREEM berpartisipasi dalam sesi EUBCE 2025</figcaption></figure><p>Dengan tema <em>\"Supporting a Sustainable Energy Transition\"</em>, EUBCE 2025 berfokus pada penggunaan biomassa untuk mengurangi emisi karbon, memperkuat pengembangan energi terbarukan, dan mendukung ekonomi sirkular berbasis bio. Konferensi ini juga membahas topik-topik strategis seperti konversi biomassa menjadi energi terbarukan, bahan bakar nabati berkelanjutan, integrasi bioenergi, dan kebijakan bioekonomi.</p><p>Studi terbaru menunjukkan bahwa tanpa bioenergi, biaya transisi energi global dapat meningkat hingga 20%, menyoroti peran penting karbon biogenik dalam mencapai sistem energi rendah emisi dan hemat biaya.</p><figure class=\"news-article__image\"><img src=\"../images/berita/ireem-eubce-2025/inline-2.jpg\" alt=\"Presentasi di EUBCE 2025\"><figcaption>Sesi presentasi di EUBCE 2025</figcaption></figure><p>IREEM diwakili oleh <strong>Bapak Arief Yunan</strong> dan <strong>Bapak Unggung Widhiantoro</strong>, yang berpartisipasi aktif sebagai pembicara dalam sesi ilmiah:</p><ul style=\"margin-bottom: 1.5rem; padding-left: 1.5rem;\"><li><strong>Bapak Arief</strong> mempresentasikan <em>\"Local Biomass Development in Indonesia: A Root Cause Perspective on Key Barriers\"</em></li><li><strong>Bapak Unggung</strong> menyampaikan <em>\"Harnessing Local Biomass in Indonesia for a Just Energy Transition: A System Dynamics Approach to Linking Emission Trading and Local Biomass Optimization\"</em></li></ul><p>Kehadiran IREEM di EUBCE 2025 diharapkan dapat memperluas jaringan internasional, membuka peluang kolaborasi strategis, dan mendukung kemajuan teknologi energi terbarukan di Indonesia. Komitmen ini merupakan bagian dari langkah konkret menuju transisi energi yang lebih bersih, berkelanjutan, dan rendah karbon.</p>",
+    "related": [
+        {
+            "slug": "ireem-biomassa-asean-congress-2025",
+            "title": "IREEM Dorong Pengembangan Biomassa untuk Mendukung Target Netralitas Karbon",
+            "date": "06 Oktober 2025",
+            "accent": false
+        },
+        {
+            "slug": "kick-off-meeting-ike-benchmark",
+            "title": "Kick-Off Meeting Penyusunan Nilai Benchmark IKE: Langkah Strategis Menuju Efisiensi Energi di Bangunan Komersial",
+            "date": "22 Juli 2025",
+            "accent": true
+        },
+        {
+            "slug": "rscm-ireem-audit-energi-hvac-boiler",
+            "title": "Mendorong Rumah Sakit Lebih Berkelanjutan: RSCM dan IREEM Kolaborasi Audit Energi untuk Sistem HVAC dan Boiler",
+            "date": "25 Juli 2025",
+            "accent": false
+        },
+        {
+            "slug": "net-zero-energy-sni-iso-50010",
+            "title": "Menuju Net Zero Energy: Kementerian ESDM dan Komite Teknis 27'€“06 Bahas Draft SNI ISO 50010:2023",
+            "date": "07 Agustus 2025",
+            "accent": false
+        },
+        {
+            "slug": "capacity-building-manajemen-energi-bangunan",
+            "title": "Peningkatan Kapasitas Mendukung Implementasi Manajemen Energi di Sektor Bangunan",
+            "date": "12 September 2025",
+            "accent": true
+        }
+    ]
+}

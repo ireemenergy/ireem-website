@@ -1,0 +1,45 @@
+{
+    "slug": "rachman-kurniawan",
+    "name": "Dr. Ir. Rachman Kurniawan, M.Sc.",
+    "role": "Secretary",
+    "title": "Sekretaris IREEM",
+    "photo": "https://v2.ireem.id/storage/special-page-staff/December2022/QfIvjRg0cgADoRKPVLS2.png",
+    "photoLabel": "",
+    "fullBio": [
+        "Dr. Ir. Rachman Kurniawan, M.Sc. adalah Secretary IREEM Indonesia yang bertanggung jawab atas administrasi dan dokumentasi organisasi.",
+        "Dengan latar belakang akademis yang kuat, beliau memastikan tata kelola organisasi berjalan dengan baik dan sesuai standar."
+    ],
+    "expertise": [
+        "Administrasi Organisasi",
+        "Manajemen Dokumentasi",
+        "Tata Kelola"
+    ],
+    "education": [
+        {
+            "degree": "Dr.",
+            "field": "Environmental Science",
+            "institution": "Institut Pertanian Bogor"
+        },
+        {
+            "degree": "M.Sc",
+            "field": "Environmental Management",
+            "institution": "University Abroad"
+        }
+    ],
+    "experience": [
+        {
+            "position": "Secretary",
+            "organization": "IREEM Indonesia",
+            "period": "2020 - Sekarang"
+        }
+    ],
+    "stats": [
+        {
+            "value": "20+",
+            "label": "Tahun Pengalaman"
+        }
+    ],
+    "social": {
+        "email": "info@ireem.id"
+    }
+}

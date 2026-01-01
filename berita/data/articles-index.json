@@ -1,0 +1,382 @@
+﻿{
+    "schemaVersion": "1.0",
+    "lastUpdated": "2025-12-26",
+    "articles": [
+        {
+            "slug": "ireem-directorate-gesi-ghg-impact-assessment",
+            "title": "IREEM \u0026 Direktorat Konservasi Energi Perkuat Upaya GESI dan Pengurangan GRK: 40,6% Perempuan Berperan Sentral dalam Impact Assessment",
+            "excerpt": "Direktorat Konservasi Energi, Kementerian ESDM, bersama dengan IREEM menyelenggarakan kegiatan Impact Assessment dan Mentoring Grup 3 di Yogyakarta dengan fokus kuat pada inklusivitas gender.",
+            "date": "08 Desember 2025",
+            "category": "GESI \u0026 GRK",
+            "thumbnail": "../images/berita/gesi-ghg-banner.jpg"
+        },
+        {
+            "slug": "ireem-uk-pact-maritime-energy-training",
+            "title": "Memperkuat Transisi Energi Indonesia: IREEM dan UK PACT Gelar Pelatihan Manajer Energi untuk Sektor Maritim",
+            "excerpt": "Pelatihan dan sertifikasi manajer energi merupakan inisiatif baru untuk sektor maritim sebagai salah satu konsumen energi hilir terbesar di Indonesia.",
+            "date": "27 Oktober 2025",
+            "category": "Sektor Maritim",
+            "thumbnail": "../images/berita/maritime-training-banner.png"
+        },
+        {
+            "slug": "ireem-biomassa-asean-congress-2025",
+            "title": "IREEM Dorong Pengembangan Biomassa untuk Mendukung Target Netralitas Karbon",
+            "excerpt": "IREEM memperkuat komitmennya dalam transisi energi Indonesia dengan berpartisipasi dalam ASEAN Biomass Utilization Congress 2025.",
+            "date": "06 Oktober 2025",
+            "category": "Biomassa",
+            "thumbnail": "../images/berita/ireem-biomassa-asean-congress-2025/banner.png"
+        },
+        {
+            "slug": "fgd-profiling-kapal-gap-analysis",
+            "title": "Mendukung Transisi Energi di Sektor Maritim: FGD Profiling Kapal & Gap Analysis",
+            "excerpt": "IREEM bersama Traction Energy Asia menyelenggarakan FGD tentang Profiling Kapal & Gap Analysis sebagai bagian dari proyek UK PACT Melaju.",
+            "date": "02 Oktober 2025",
+            "category": "Sektor Maritim",
+            "thumbnail": "../images/berita/fgd-profiling-kapal-gap-analysis/banner.jpg"
+        },
+        {
+            "slug": "kuliah-umum-unsoed-ireem",
+            "title": "Teknik Elektro UNSOED Gelar Kuliah Umum: Kolaborasi UNSOED–IREEM Bahas Peran Insinyur dalam Energi Berkelanjutan",
+            "excerpt": "Program Studi Teknik Elektro UNSOED menyelenggarakan Kuliah Umum seri ke-2 bertema \"Peran Insinyur dalam Transisi Menuju Energi Bersih Berkelanjutan.\"",
+            "date": "01 Oktober 2025",
+            "category": "Pendidikan",
+            "thumbnail": "../images/berita/kuliah-umum-unsoed-ireem/banner.jpg"
+        },
+        {
+            "slug": "capacity-building-manajemen-energi-bangunan",
+            "title": "Peningkatan Kapasitas Mendukung Implementasi Manajemen Energi di Sektor Bangunan",
+            "excerpt": "Direktorat Jenderal EBTKE Kementerian ESDM bersama IREEM menyelenggarakan Capacity Building tentang Manajemen Energi Bangunan.",
+            "date": "12 September 2025",
+            "category": "Manajemen Energi",
+            "thumbnail": "../images/berita/capacity-building-manajemen-energi-bangunan/banner.JPG"
+        },
+        {
+            "slug": "sustained-transportasi-maritim-bersih",
+            "title": "Melalui SUSTAINED, Menuju Transportasi Maritim yang Lebih Bersih",
+            "excerpt": "Kementerian Perhubungan bekerja sama dengan Pemerintah Inggris melalui program UK PACT untuk mengembangkan transportasi rendah karbon melalui program SUSTAINED.",
+            "date": "19 Agustus 2025",
+            "category": "Sektor Maritim",
+            "thumbnail": "../images/berita/sustained-transportasi-maritim-bersih/banner.jpg"
+        },
+        {
+            "slug": "net-zero-energy-sni-iso-50010",
+            "title": "Menuju Net Zero Energy: Kementerian ESDM dan Komite Teknis 27–06 Bahas Draft SNI ISO 50010:2023",
+            "excerpt": "Pemerintah Indonesia melalui Kementerian ESDM terus menunjukkan komitmennya dalam mempercepat transisi menuju sistem energi bersih dengan menyusun draft RSNI ISO 50010:2023.",
+            "date": "07 Agustus 2025",
+            "category": "Standar Energi",
+            "thumbnail": "../images/berita/net-zero-energy-sni-iso-50010/banner.jpg"
+        },
+        {
+            "slug": "rscm-ireem-audit-energi-hvac-boiler",
+            "title": "Mendorong Rumah Sakit Lebih Berkelanjutan: RSCM dan IREEM Kolaborasi Audit Energi untuk Sistem HVAC dan Boiler",
+            "excerpt": "RS Dr. Cipto Mangunkusumo bermitra dengan IREEM untuk melaksanakan audit energi sistem HVAC dan boiler dalam upaya mendorong rumah sakit lebih berkelanjutan.",
+            "date": "25 Juli 2025",
+            "category": "Efisiensi Energi",
+            "thumbnail": "../images/berita/rscm-ireem-audit-energi-hvac-boiler/banner.jpg"
+        },
+        {
+            "slug": "kick-off-meeting-ike-benchmark",
+            "title": "Kick-Off Meeting Penyusunan Nilai Benchmark IKE: Langkah Strategis Menuju Efisiensi Energi di Bangunan Komersial",
+            "excerpt": "Direktorat Konservasi Energi Kementerian ESDM menyelenggarakan Kick-Off Meeting untuk pengembangan nilai benchmark IKE di bangunan komersial.",
+            "date": "22 Juli 2025",
+            "category": "Efisiensi Energi",
+            "thumbnail": "../images/berita/kick-off-meeting-ike-benchmark/banner.jpeg"
+        },
+        {
+            "slug": "ireem-eubce-2025",
+            "title": "IREEM Hadiri European Biomass Conference and Exhibition (EUBCE) 2025 untuk Mendukung Transisi Energi Bersih",
+            "excerpt": "IREEM berpartisipasi dalam European Biomass Conference and Exhibition (EUBCE) 2025 di Valencia, Spanyol untuk mendukung transisi energi bersih.",
+            "date": "11 Juli 2025",
+            "category": "Biomassa",
+            "thumbnail": "../images/berita/ireem-eubce-2025/banner.jpg"
+        },
+        {
+            "slug": "ireem-gedsi-training",
+            "title": "IREEM Gelar Pelatihan GEDSI untuk Membangun Budaya Organisasi yang Adil dan Inklusif",
+            "excerpt": "IREEM berkomitmen menerapkan prinsip-prinsip GEDSI untuk memastikan semua orang memiliki akses yang sama terhadap sumber daya dan peluang.",
+            "date": "07 Juli 2025",
+            "category": "GEDSI",
+            "thumbnail": "../images/berita/ireem-gedsi-training/banner.jpg"
+        },
+        {
+            "slug": "ireem-uk-pact-iso-50001-certification",
+            "title": "IREEM Melalui Program Efisiensi Energi UK PACT Dukung Kementerian Keuangan dan Pemprov Jawa Tengah Raih Sertifikasi ISO 50001",
+            "excerpt": "IREEM berhasil membimbing Kementerian Keuangan dan Sekretariat Provinsi Jawa Tengah dalam memperoleh sertifikasi ISO 50001 untuk Sistem Manajemen Energi.",
+            "date": "17 Juni 2025",
+            "category": "Manajemen Energi",
+            "thumbnail": "../images/berita/ireem-uk-pact-iso-50001-certification/banner.jpg"
+        },
+        {
+            "slug": "ireem-sambut-delegasi-belanda-climate-park",
+            "title": "IREEM Sambut Delegasi Belanda untuk Memajukan Pengembangan Climate Park di Indonesia",
+            "excerpt": "IREEM menyambut kunjungan dari Climate Action Plan \u0026 Park Systems (CAPPS) untuk membahas penelitian pengembangan Climate Park di Indonesia.",
+            "date": "23 April 2025",
+            "category": "Kolaborasi Internasional",
+            "thumbnail": "../images/berita/ireem-sambut-delegasi-belanda-climate-park/banner.jpeg"
+        },
+        {
+            "slug": "ditjen-ebtke-aplikasi-akselerasi",
+            "title": "Ditjen EBTKE Kembangkan Aplikasi AKSELERASI untuk Memperkuat Aksi Mitigasi GRK Sektor Energi",
+            "excerpt": "Direktorat Jenderal EBTKE bekerja sama dengan Kedutaan Besar Inggris dan IREEM mengembangkan aplikasi berbasis web AKSELERASI.",
+            "date": "14 Februari 2025",
+            "category": "GRK \u0026 Mitigasi",
+            "thumbnail": "../images/berita/ditjen-ebtke-aplikasi-akselerasi/banner.jpg"
+        },
+        {
+            "slug": "ditjen-ebtke-kunjungan-gedung-inspiratif",
+            "title": "Ditjen EBTKE Promosikan Efisiensi Energi Melalui Kunjungan ke Gedung Inspiratif",
+            "excerpt": "Kementerian ESDM mengunjungi gedung-gedung pemenang PSBE 2023 dan PEEN 2024 untuk mempromosikan penerapan efisiensi energi.",
+            "date": "24 Desember 2024",
+            "category": "Efisiensi Energi",
+            "thumbnail": "../images/berita/ditjen-ebtke-kunjungan-gedung-inspiratif/banner.jpg"
+        },
+        {
+            "slug": "kick-off-meeting-audit-energi-gedung-slamet-bratanata",
+            "title": "Kick-Off Meeting Audit Energi di Gedung Slamet Bratanata",
+            "excerpt": "Direktorat Konservasi Energi bersama UK PACT dan IREEM mengadakan kick-off meeting untuk audit energi di Gedung Slamet Bratanata.",
+            "date": "19 Desember 2024",
+            "category": "Audit Energi",
+            "thumbnail": "../images/berita/kick-off-meeting-audit-energi-gedung-slamet-bratanata/banner.jpeg"
+        },
+        {
+            "slug": "ireem-pelatihan-sertifikasi-auditor-energi",
+            "title": "IREEM Mengimplementasikan Pelatihan dan Sertifikasi untuk Auditor Energi",
+            "excerpt": "Direktorat Konservasi Energi bekerja sama dengan IREEM melalui program UK-PACT MENTARI menyelenggarakan Pelatihan dan Sertifikasi Auditor Energi di Bandung.",
+            "date": "4 Desember 2024",
+            "category": "Pelatihan \u0026 Sertifikasi",
+            "thumbnail": "../images/berita/ireem-pelatihan-sertifikasi-auditor-energi/banner.jpeg"
+        },
+        {
+            "slug": "kolaborasi-esdm-uk-pact-mv-training",
+            "title": "Kolaborasi Kementerian ESDM dan UK PACT: Peningkatan Kompetensi M\u0026V Kinerja Energi",
+            "excerpt": "Direktorat Konservasi Energi bekerja sama dengan UK PACT MENTARI dan IREEM menyelenggarakan pelatihan M\u0026V Kinerja Energi.",
+            "date": "8 November 2024",
+            "category": "Pelatihan \u0026 Sertifikasi",
+            "thumbnail": "../images/berita/kolaborasi-esdm-uk-pact-mv-training/banner.JPG"
+        },
+        {
+            "slug": "energy-efficiency-in-action-pelatihan-manajer-energi",
+            "title": "Energy Efficiency in Action: Program Pelatihan dan Sertifikasi untuk Manajer Energi Instansi Pemerintah",
+            "excerpt": "Direktorat Konservasi Energi dan IREEM menyelenggarakan pelatihan dan sertifikasi manajer energi untuk pengelola gedung pemerintah.",
+            "date": "8 November 2024",
+            "category": "Pelatihan \u0026 Sertifikasi",
+            "thumbnail": "../images/berita/energy-efficiency-in-action-pelatihan-manajer-energi/banner.jpg"
+        },
+        {
+            "slug": "peen-2024-efisiensi-energi-nasional",
+            "title": "Penghargaan Efisiensi Energi Nasional 2024: Siapakah yang Akan Mewakili Indonesia di Tingkat Global?",
+            "excerpt": "Setelah meninjau proposal dari 186 institusi peserta, juri PEEN 2024 memasuki tahap akhir seleksi untuk menentukan pemenang.",
+            "date": "27 September 2024",
+            "category": "Penghargaan",
+            "thumbnail": "../images/berita/peen-2024-efisiensi-energi-nasional/banner.jpeg"
+        },
+        {
+            "slug": "bimtek-manajemen-energi-kalimantan",
+            "title": "Kota Balikpapan Menjadi Tuan Rumah Bimbingan Teknis Penerapan Manajemen Energi Se-Kalimantan",
+            "excerpt": "Ditjen EBTKE bersama UK PACT dan IREEM menyelenggarakan Bimtek Penerapan Manajemen Energi Gedung Pemerintah di Provinsi Kalimantan.",
+            "date": "2 Agustus 2024",
+            "category": "Bimbingan Teknis",
+            "thumbnail": "../images/berita/bimtek-manajemen-energi-kalimantan/banner.jpg"
+        },
+        {
+            "slug": "bimtek-manajemen-energi-29-provinsi",
+            "title": "Kementerian ESDM dan Kedutaan Besar Inggris Menyelenggarakan Bimtek Penerapan Manajemen Energi di 29 Provinsi Indonesia",
+            "excerpt": "Rangkaian Bimtek di 8 kota mencakup 29 provinsi dengan 450 peserta dari 314 institusi untuk mendukung implementasi PP No. 33/2023.",
+            "date": "23 Juli 2024",
+            "category": "Bimbingan Teknis",
+            "thumbnail": "../images/berita/bimtek-manajemen-energi-29-provinsi/banner.jpg"
+        },
+        {
+            "slug": "bimtek-konservasi-energi-sumatera-utara",
+            "title": "Mendorong Konservasi Energi di Wilayah Provinsi Sumatera Bagian Utara",
+            "excerpt": "Lokakarya ketujuh diadakan di Pekanbaru untuk membantu gedung pemerintah di wilayah Sumatera bagian utara dalam mengelola energi.",
+            "date": "07 Mei 2024",
+            "category": "Bimbingan Teknis",
+            "thumbnail": "../images/berita/bimtek-konservasi-energi-sumatera-utara/banner.jpg"
+        },
+        {
+            "slug": "bimtek-manajemen-energi-sulawesi-maluku",
+            "title": "Bimbingan Teknis Implementasi Manajemen Energi: Meningkatkan Efisiensi Energi di Wilayah Sulawesi dan Maluku",
+            "excerpt": "Bimtek keenam diadakan di Makassar untuk meningkatkan pengetahuan pengelola gedung pemerintah di Sulawesi dan Maluku.",
+            "date": "05 April 2024",
+            "category": "Bimbingan Teknis",
+            "thumbnail": "../images/berita/bimtek-manajemen-energi-sulawesi-maluku/banner.jpg"
+        },
+        {
+            "slug": "gesi-pelatihan-sertifikasi-energi",
+            "title": "Menerapkan Prinsip GESI dalam Program Pelatihan dan Sertifikasi Energi untuk Pengelola Gedung Pemerintah",
+            "excerpt": "Program pelatihan manajer energi di Bogor mengintegrasikan prinsip GESI untuk mendorong partisipasi perempuan di sektor energi.",
+            "date": "04 April 2024",
+            "category": "GESI",
+            "thumbnail": "../images/berita/gesi-pelatihan-sertifikasi-energi/banner.jpg"
+        },
+        {
+            "slug": "budaya-organisasi-gesi",
+            "title": "Membangun Budaya Organisasi yang Menghargai GESI",
+            "excerpt": "IREEM mengadakan pelatihan internal GESI untuk memastikan semua aktivitas proyek mendukung kesetaraan gender dan inklusi sosial.",
+            "date": "19 Februari 2024",
+            "category": "GESI",
+            "thumbnail": "../images/berita/budaya-organisasi-gesi/banner.jpg"
+        },
+        {
+            "slug": "pendampingan-penyusunan-proposal-peen-2024",
+            "title": "Pendampingan Penyusunan Proposal Penghargaan Efisiensi Energi Nasional (PEEN) 2024",
+            "excerpt": "Direktorat Konservasi Energi mengadakan pendampingan penyusunan kuesioner PEEN 2024, dihadiri 32 peserta dari 11 instansi.",
+            "date": "8 Juli 2024",
+            "category": "Pendampingan",
+            "thumbnail": "../images/berita/pendampingan-penyusunan-proposal-peen-2024/banner.jpg"
+        },
+        {
+            "slug": "bimtek-manajemen-energi-jawa-timur",
+            "title": "Semangat Efisiensi Energi: Bimbingan Teknis Penerapan Manajemen Energi di Jawa Timur",
+            "excerpt": "Bimtek penerapan manajemen energi untuk K/L Pusat dan Provinsi Jawa Timur di Surabaya, dihadiri 47 peserta dari 30 instansi.",
+            "date": "14 Desember 2023",
+            "category": "Bimbingan Teknis",
+            "thumbnail": "../images/berita/bimtek-manajemen-energi-jawa-timur/banner.jpg"
+        },
+        {
+            "slug": "ireem-kunjungan-danish-energy-agency",
+            "title": "IREEM Menerima Kunjungan Perwakilan Danish Energy Agency (DEA)",
+            "excerpt": "IREEM menyambut delegasi dari Danish Energy Agency untuk membahas kolaborasi program efisiensi energi UK-PACT Mentari dan INDODEPP.",
+            "date": "14 November 2023",
+            "category": "Kerja Sama Internasional",
+            "thumbnail": "../images/berita/ireem-kunjungan-danish-energy-agency/banner.jpg"
+        },
+        {
+            "slug": "bimtek-manajemen-energi-banten-dki",
+            "title": "Bimbingan Teknis Sistem Manajemen Energi di Wilayah Provinsi Banten dan DKI Jakarta",
+            "excerpt": "Bimtek penerapan manajemen energi gedung pemerintah untuk wilayah DKI Jakarta dan Banten diikuti oleh 52 peserta dari 41 instansi.",
+            "date": "02 Oktober 2023",
+            "category": "Bimbingan Teknis",
+            "thumbnail": "../images/berita/bimtek-manajemen-energi-banten-dki/banner.jpg"
+        },
+        {
+            "slug": "31-pengelola-gedung-manajer-energi",
+            "title": "31 Pengelola Gedung Dinyatakan \"Kompeten\" Sebagai Manajer Energi di Bangunan Gedung",
+            "excerpt": "Sebanyak 31 pengelola gedung dari Kementerian dan SKPD di Jawa Barat, Jawa Tengah, dan DIY dinyatakan kompeten setelah mengikuti uji kompetensi manajer energi.",
+            "date": "02 Oktober 2023",
+            "category": "Sertifikasi",
+            "thumbnail": "../images/berita/31-pengelola-gedung-manajer-energi/banner.jpg"
+        },
+        {
+            "slug": "pelatihan-sertifikasi-manajer-energi-tegal",
+            "title": "Pelatihan dan Sertifikasi Manajer Energi bagi Pengelola Gedung Pemerintah",
+            "excerpt": "Direktorat Konservasi Energi bersama IREEM melalui program UK-PACT MENTARI mengadakan pelatihan dan sertifikasi manajer energi bagi 37 pengelola gedung pemerintah di Kota Tegal.",
+            "date": "26 September 2023",
+            "category": "Pelatihan",
+            "thumbnail": "../images/berita/pelatihan-sertifikasi-manajer-energi-tegal/banner.jpg"
+        },
+        {
+            "slug": "aplikasi-monitoring-aksi-mitigasi-grk",
+            "title": "Pengembangan Aplikasi Sistem Monitoring Aksi Mitigasi Emisi Gas Rumah Kaca Sektor Energi",
+            "excerpt": "DJEBTKE dan Kementerian ESDM bekerja sama dengan program UK-PACT MENTARI mengembangkan aplikasi monitoring dan pelaporan emisi gas rumah kaca sektor energi.",
+            "date": "07 Agustus 2023",
+            "category": "Teknologi",
+            "thumbnail": "../images/berita/aplikasi-monitoring-aksi-mitigasi-grk/banner.jpg"
+        },
+        {
+            "slug": "workshop-pendampingan-psbe-2023",
+            "title": "Workshop Pendampingan Pengisian Kuisioner dan Penyusunan Proposal Kategori Gedung Hemat Energi Peserta PSBE Tahun 2023",
+            "excerpt": "DJEBTKE dan IREEM menyelenggarakan pendampingan pengisian kuisioner dan penyusunan proposal untuk peserta Penghargaan Subroto Bidang Efisiensi Energi (PSBE) 2023.",
+            "date": "18 Juli 2023",
+            "category": "Penghargaan",
+            "thumbnail": "../images/berita/workshop-pendampingan-psbe-2023/banner.jpg"
+        },
+        {
+            "slug": "training-of-trainer-manajer-auditor-energi",
+            "title": "Training of Trainer: Manajer dan Auditor Energi Dibekali Pengetahuan Perubahan Iklim untuk Pengelolaan Energi pada Bangunan Gedung",
+            "excerpt": "Direktorat Konservasi Energi bersama IREEM menyelenggarakan Training of Trainer (ToT) sebagai tindak lanjut peluncuran buku pedoman aspek perubahan iklim untuk manajer dan auditor energi.",
+            "date": "10 Juli 2023",
+            "category": "Pelatihan",
+            "thumbnail": "../images/berita/training-of-trainer-manajer-auditor-energi/banner.jpg"
+        },
+        {
+            "slug": "peluncuran-buku-pedoman-efisiensi-energi",
+            "title": "Peluncuran Buku Pedoman Efisiensi Energi",
+            "excerpt": "Kementerian ESDM melalui program MENTARI Efisiensi Energi meluncurkan 3 buku panduan mengenai efisiensi energi pada bangunan gedung.",
+            "date": "20 Juni 2023",
+            "category": "Publikasi",
+            "thumbnail": "../images/berita/peluncuran-buku-pedoman-efisiensi-energi/banner.jpg"
+        },
+        {
+            "slug": "bimtek-manajemen-energi-sumatera-selatan",
+            "title": "Kolaborasi Pusat dan 5 Provinsi Sumatera Bagian Selatan dalam Penguatan Penerapan Manajemen Energi di Gedung Pemerintah",
+            "excerpt": "Direktorat Konservasi Energi bersama IREEM menyelenggarakan Bimtek Penerapan Manajemen Energi Gedung Pemerintah untuk wilayah Sumatera bagian Selatan.",
+            "date": "14 Juni 2023",
+            "category": "Bimbingan Teknis",
+            "thumbnail": "../images/berita/bimtek-manajemen-energi-sumatera-selatan/banner.jpg"
+        },
+        {
+            "slug": "sosialisasi-psbe-instansi-pemerintah",
+            "title": "Sosialisasi PSBE di Instansi Pemerintah dan Kategori Gedung Hemat Energi",
+            "excerpt": "Kementerian ESDM menyelenggarakan sosialisasi Penghargaan Subroto Bidang Efisiensi Energi (PSBE) 2023 secara hybrid di Bandung.",
+            "date": "14 Juni 2023",
+            "category": "Penghargaan",
+            "thumbnail": "../images/berita/sosialisasi-psbe-instansi-pemerintah/banner.jpg"
+        },
+        {
+            "slug": "pelatihan-sertifikasi-asesor-kompetensi",
+            "title": "Pelatihan dan Sertifikasi Asesor Kompetensi Bidang Konservasi Energi",
+            "excerpt": "Kementerian ESDM bersama IREEM dan BNSP menyelenggarakan pelatihan dan sertifikasi calon asesor kompetensi di bidang konservasi energi.",
+            "date": "05 Juni 2023",
+            "category": "Pelatihan",
+            "thumbnail": "../images/berita/pelatihan-sertifikasi-asesor-kompetensi/banner.jpg"
+        },
+        {
+            "slug": "bimtek-manajemen-energi-jawa-barat",
+            "title": "Bimbingan Teknis: Penerapan Manajemen Energi di Bangunan Gedung Pemerintah di Lingkup Jawa Barat",
+            "excerpt": "Direktorat Konservasi Energi bersama MENTARI Efisiensi Energi menyelenggarakan Bimtek Penerapan Manajemen Energi di Bandung dengan 57 peserta.",
+            "date": "05 Juni 2023",
+            "category": "Bimbingan Teknis",
+            "thumbnail": "../images/berita/bimtek-manajemen-energi-jawa-barat/banner.jpg"
+        },
+        {
+            "slug": "bimtek-manajemen-energi-diy-jateng",
+            "title": "Bimbingan Teknis: Penerapan Manajemen Energi di Bangunan Gedung Pemerintah Wilayah DIY dan Jawa Tengah",
+            "excerpt": "Bimtek manajemen energi untuk gedung pemerintah di wilayah DIY dan Jawa Tengah diikuti lebih dari 60 instansi dengan 31% peserta perempuan.",
+            "date": "05 Juni 2023",
+            "category": "Bimbingan Teknis",
+            "thumbnail": "../images/berita/bimtek-manajemen-energi-diy-jateng/banner.jpg"
+        },
+        {
+            "slug": "optimalisasi-peran-panas-bumi",
+            "title": "Optimalisasi Peran Panas Bumi dalam Mewujudkan Ketahanan Energi Nasional",
+            "excerpt": "IREEM menyelenggarakan FGD tentang optimalisasi peran energi panas bumi dalam mewujudkan ketahanan energi nasional.",
+            "date": "27 Desember 2022",
+            "category": "Forum",
+            "thumbnail": "../images/berita/optimalisasi-peran-panas-bumi/banner.jpg"
+        },
+        {
+            "slug": "percepatan-pemanfaatan-biomasa",
+            "title": "Percepatan Pemanfaatan Biomasa untuk Energi dan Pemberdayaan Ekonomi Daerah",
+            "excerpt": "IREEM bersama Ikatan Alumni PSDA-L IPB menggelar FGD tentang percepatan pemanfaatan biomassa untuk energi dan pemberdayaan ekonomi daerah.",
+            "date": "27 Desember 2022",
+            "category": "Forum",
+            "thumbnail": "../images/berita/percepatan-pemanfaatan-biomasa/banner.jpg"
+        },
+        {
+            "slug": "studi-biomasa-lombok-danida",
+            "title": "Studi Sumber Daya Biomassa di Lombok, Nusa Tenggara Barat: Kolaborasi IREEM dan Danida",
+            "excerpt": "Kerja sama Indonesia-Denmark untuk pengembangan pembangkit listrik biomassa dari residu pertanian di Lombok.",
+            "date": "27 Desember 2022",
+            "category": "Biomassa",
+            "thumbnail": "../images/berita/studi-biomasa-lombok-danida/banner.jpg"
+        },
+        {
+            "slug": "optimalisasi-konservasi-nze-2060",
+            "title": "Optimalisasi Upaya Konservasi dan Efisiensi Energi dalam Mendukung Pencapaian Net Zero Emission Indonesia 2060",
+            "excerpt": "Webinar membahas strategi konservasi dan efisiensi energi untuk mendukung target NZE Indonesia 2060.",
+            "date": "27 Desember 2022",
+            "category": "Forum",
+            "thumbnail": "../images/berita/optimalisasi-konservasi-nze-2060/banner.jpg"
+        },
+        {
+            "slug": "launching-buku-pltn",
+            "title": "Launching dan Pembahasan Buku: Pembangkit Listrik Tenaga Nuklir Pilihan Terakhir",
+            "excerpt": "Diskusi peluncuran buku karya mantan Menteri ESDM Purnomo Yusgiantoro tentang kebijakan energi nuklir.",
+            "date": "27 Desember 2022",
+            "category": "Forum",
+            "thumbnail": "../images/berita/launching-buku-pltn/banner.jpg"
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "schemaVersion": "1.0",
+    "slug": "optimalisasi-konservasi-nze-2060",
+    "title": "Optimalisasi Upaya Konservasi dan Efisiensi Energi dalam Mendukung Pencapaian Net Zero Emission Indonesia 2060",
+    "excerpt": "Webinar IREEM membahas strategi optimalisasi konservasi dan efisiensi energi untuk mendukung target Net Zero Emission Indonesia 2060.",
+    "author": {
+        "name": "Latifa Andjani Yusuf",
+        "initials": "LA"
+    },
+    "date": "27 Desember 2022, 10:00 WIB",
+    "category": "Forum",
+    "banner": {
+        "image": "../images/berita/optimalisasi-konservasi-nze-2060/banner.jpg",
+        "caption": "Webinar Optimalisasi Konservasi dan Efisiensi Energi"
+    },
+    "content": "<p>Indonesia telah menargetkan pencapaian <strong>Net Zero Emission (NZE) pada tahun 2060</strong>. Kementerian Lingkungan Hidup dan Kehutanan (KLHK) telah menerbitkan <strong>Long Term Strategy (LTS) for Low Carbon and Climate Resilience (LCCR) 2050</strong> yang menekankan pengembangan energi terbarukan dan konservasi/efisiensi energi.</p><h3>Potensi Konservasi Energi per Sektor</h3><ul style=\"margin-bottom: 1.5rem; padding-left: 1.5rem;\"><li><strong>Rumah Tangga:</strong> 15-30%</li><li><strong>Bangunan Komersial:</strong> 10-30%</li><li><strong>Transportasi:</strong> 15-35%</li><li><strong>Sektor Industri:</strong> 10-30%</li><li><strong>Sektor Lainnya:</strong> 25%</li></ul><h3>Target Pengurangan Emisi NDC 2030</h3><p>Total target pengurangan emisi mencapai <strong>314 juta ton CO2e</strong>, dengan rincian:</p><ul style=\"margin-bottom: 1.5rem; padding-left: 1.5rem;\"><li><strong>Efisiensi Energi:</strong> 41,76 juta ton</li><li><strong>Pengembangan EBT:</strong> 183,6 juta ton</li><li><strong>Energy Net:</strong> 74 juta ton</li><li><strong>Fuel Switching:</strong> 9,59 juta ton</li><li><strong>AFOLU:</strong> 5 juta ton</li></ul><h3>Target Penghematan Sektoral</h3><ul style=\"margin-bottom: 1.5rem; padding-left: 1.5rem;\"><li><strong>Komersial:</strong> 165 ktoe penghematan listrik</li><li><strong>Rumah Tangga:</strong> 2.245 ktoe penghematan listrik</li><li><strong>Industri:</strong> 3.302 ktoe batubara & 586 ktoe BBM</li><li><strong>Transportasi:</strong> 6.395 ktoe BBM</li></ul><h3>Tantangan Implementasi</h3><p>Beberapa tantangan yang dihadapi dalam implementasi konservasi energi meliputi kesadaran pengguna energi, implementasi regulasi, dan pendanaan.</p><p>Materi lengkap webinar dapat diakses di: <a href=\"https://bit.ly/3SDoAZC\" target=\"_blank\">https://bit.ly/3SDoAZC</a></p>",
+    "related": [
+        {
+            "slug": "optimalisasi-peran-panas-bumi",
+            "title": "Optimalisasi Peran Panas Bumi dalam Mewujudkan Ketahanan Energi Nasional",
+            "date": "27 Desember 2022",
+            "accent": true
+        },
+        {
+            "slug": "percepatan-pemanfaatan-biomasa",
+            "title": "Percepatan Pemanfaatan Biomasa untuk Energi dan Pemberdayaan Ekonomi Daerah",
+            "date": "27 Desember 2022",
+            "accent": false
+        },
+        {
+            "slug": "aplikasi-monitoring-aksi-mitigasi-grk",
+            "title": "Pengembangan Aplikasi Sistem Monitoring Aksi Mitigasi Emisi Gas Rumah Kaca",
+            "date": "07 Agustus 2023",
+            "accent": true
+        }
+    ]
+}

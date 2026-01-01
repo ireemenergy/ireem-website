@@ -1,0 +1,38 @@
+{
+    "_type": "project",
+    "title": "Biomass Resource Assessment Sumbawa",
+    "slug": {
+        "current": "biomass-resource-assessment-sumbawa"
+    },
+    "shortDescription": "Biomassa netral karbon untuk transisi energi di Sumbawa.",
+    "donor": "PEMconsult",
+    "periodStart": "2021-01-01",
+    "periodEnd": "2021-12-31",
+    "status": "completed",
+    "programs": [
+        "natural-resources",
+        "energy"
+    ],
+    "activities": [
+        {
+            "activityType": "research",
+            "forms": [
+                "Kajian biomassa netral karbon untuk transisi energi"
+            ],
+            "achievements": [
+                {
+                    "label": "Lokasi",
+                    "value": "Sumbawa"
+                }
+            ]
+        }
+    ],
+    "highlights": [
+        "Biomassa netral karbon untuk transisi energi",
+        "Lokasi: Sumbawa"
+    ],
+    "provinces": [
+        "ntb"
+    ],
+    "coverImage": null
+}

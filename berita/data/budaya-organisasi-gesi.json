@@ -1,0 +1,37 @@
+{
+    "schemaVersion": "1.0",
+    "slug": "budaya-organisasi-gesi",
+    "title": "Membangun Budaya Organisasi yang Menghargai GESI",
+    "excerpt": "IREEM mengadakan pelatihan internal GESI untuk memastikan semua aktivitas proyek mendukung kesetaraan gender dan inklusi sosial.",
+    "author": {
+        "name": "Latifa Andjani Yusuf",
+        "initials": "LA"
+    },
+    "date": "19 Februari 2024, 10:00 WIB",
+    "category": "GESI",
+    "banner": {
+        "image": "../images/berita/budaya-organisasi-gesi/banner.jpg",
+        "caption": "Pelatihan Internal GESI oleh IREEM"
+    },
+    "content": "<p><strong>Jakarta, 12 Februari 2024</strong> — <strong>IREEM</strong> mengadakan pelatihan internal bertajuk \"<strong>Pengenalan GESI</strong>\". Pelatihan ini bertujuan untuk memastikan bahwa semua aktivitas proyek—termasuk yang berkaitan dengan kesetaraan gender—mendukung perlindungan sosial, lingkungan, serta inisiatif iklim.</p><figure class=\"news-article__image\"><img src=\"../images/berita/budaya-organisasi-gesi/inline-1.jpg\" alt=\"Pelatihan GESI\"><figcaption>Sesi pelatihan internal GESI di kantor IREEM</figcaption></figure><h3>Apa Itu GESI?</h3><blockquote style=\"border-left: 4px solid var(--color-accent); padding-left: 1.5rem; margin: 1.5rem 0; font-style: italic;\"><p>\"GESI adalah pendekatan yang bertujuan untuk memastikan bahwa setiap orang memiliki akses yang setara terhadap sumber daya, kesempatan, dan manfaat dalam semua aspek kehidupan, tanpa memandang gender, latar belakang, atau identitas. Yang dipertaruhkan bukan hanya kesetaraan gender, tetapi juga inklusi sosial bagi semua orang—termasuk mereka yang sering diabaikan atau dikucilkan dalam masyarakat.\"</p><cite>— Ibu Anny Andaryati, Expert GESI</cite></blockquote><h3>Detail Pelatihan</h3><p>Staf dari tim manajemen proyek IREEM berpartisipasi dalam pelatihan GESI ini untuk Program <strong>MENTARI Efisiensi Energi</strong>, yang didanai oleh <strong>UK-PACT</strong> (Partnering for Accelerated Climate Transition).</p><p>Para peserta workshop didorong untuk mempelajari konsep GESI, memahami tantangan dan kebutuhan terkait inklusi sosial dan kesetaraan gender, serta mengeksplorasi solusi praktis untuk menerapkan prinsip GESI dalam berbagai konteks.</p><h3>Keterkaitan GESI dan Energi</h3><p>GESI dan energi memiliki kaitan erat dengan akses yang adil dan setara terhadap energi, seperti yang ditunjukkan oleh proyek <strong>MENTARI Efisiensi Energi</strong>. Kesetaraan gender dan inklusi sosial sangat dipengaruhi oleh akses yang adil terhadap energi, tidak hanya untuk kehidupan sehari-hari.</p><p>Ini menunjukkan pentingnya memastikan bahwa perempuan, anak-anak, dan kelompok kurang beruntung dapat menikmati manfaat dari energi yang bersih, terjangkau, dan berkelanjutan.</p><h3>Kesimpulan</h3><p>Pelatihan Pengenalan GESI menjadi dasar penting bagi upaya IREEM dalam menciptakan budaya tempat kerja yang inklusif. Dengan menerapkan prinsip GESI, kita dapat membina tempat kerja yang lebih inklusif, beragam, dan berfokus pada kesetaraan, yang pada akhirnya akan meningkatkan produktivitas dan kreativitas.</p>",
+    "related": [
+        {
+            "slug": "ireem-gedsi-training",
+            "title": "IREEM Gelar Pelatihan GEDSI untuk Membangun Budaya Organisasi yang Adil dan Inklusif",
+            "date": "07 Juli 2025",
+            "accent": true
+        },
+        {
+            "slug": "gesi-pelatihan-sertifikasi-energi",
+            "title": "Menerapkan Prinsip GESI dalam Program Pelatihan dan Sertifikasi Energi",
+            "date": "04 April 2024",
+            "accent": false
+        },
+        {
+            "slug": "ireem-directorate-gesi-ghg-impact-assessment",
+            "title": "IREEM & Direktorat Konservasi Energi Perkuat Upaya GESI dan Pengurangan GRK",
+            "date": "08 Desember 2025",
+            "accent": true
+        }
+    ]
+}

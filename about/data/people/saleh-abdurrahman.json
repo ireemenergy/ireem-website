@@ -1,0 +1,45 @@
+{
+    "slug": "saleh-abdurrahman",
+    "name": "Dr. Ir. Saleh Abdurrahman, M.Sc.",
+    "role": "Advisory Board",
+    "title": "Dewan Penasihat IREEM",
+    "photo": "https://v2.ireem.id/storage/special-page-staff/September2023/iKvG5aHpKvcj9Sym5UAS.png",
+    "photoLabel": "",
+    "fullBio": [
+        "Dr. Ir. Saleh Abdurrahman, M.Sc. adalah anggota Advisory Board IREEM Indonesia yang memberikan arahan strategis bagi organisasi.",
+        "Dengan pengalaman panjang di sektor pemerintahan dan swasta dalam bidang energi dan lingkungan, beliau membawa perspektif yang berharga bagi pengembangan program IREEM."
+    ],
+    "expertise": [
+        "Kebijakan Energi",
+        "Strategi Organisasi",
+        "Manajemen Lingkungan"
+    ],
+    "education": [
+        {
+            "degree": "M.Sc",
+            "field": "Environmental Science",
+            "institution": "University Abroad"
+        },
+        {
+            "degree": "Ir.",
+            "field": "Engineering",
+            "institution": "Institut Teknologi Bandung"
+        }
+    ],
+    "experience": [
+        {
+            "position": "Advisory Board",
+            "organization": "IREEM Indonesia",
+            "period": "2020 - Sekarang"
+        }
+    ],
+    "stats": [
+        {
+            "value": "30+",
+            "label": "Tahun Pengalaman"
+        }
+    ],
+    "social": {
+        "email": "info@ireem.id"
+    }
+}

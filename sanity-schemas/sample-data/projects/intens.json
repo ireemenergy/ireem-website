@@ -1,0 +1,97 @@
+{
+    "_type": "project",
+    "title": "INTENS – Integrated Energy Efficiency Programme",
+    "slug": {
+        "current": "intens"
+    },
+    "shortDescription": "Program terpadu untuk dekarbonisasi sektor bangunan Indonesia melalui pelatihan, pendampingan teknis, dan pengembangan platform digital SINERGI & AKSELERASI.",
+    "donor": "UK PACT / FCDO",
+    "periodStart": "2022-01-01",
+    "periodEnd": "2025-12-31",
+    "status": "ongoing",
+    "programs": [
+        "energy"
+    ],
+    "activities": [
+        {
+            "activityType": "capacity-building",
+            "forms": [
+                "Pelatihan",
+                "Sertifikasi Energy Manager",
+                "Sertifikasi Energy Auditor",
+                "Sertifikasi Assessor",
+                "Training of Trainers (ToT)",
+                "Pendampingan Teknis"
+            ],
+            "achievements": [
+                {
+                    "label": "Praktisi tersertifikasi",
+                    "value": "174"
+                },
+                {
+                    "label": "Peserta Bimtek pemerintah provinsi",
+                    "value": "450"
+                },
+                {
+                    "label": "Gedung bersertifikasi",
+                    "value": "3 (2 ISO 50001, 1 BGH)"
+                },
+                {
+                    "label": "Potensi reduksi emisi",
+                    "value": "9.550 tCO₂/tahun"
+                }
+            ]
+        },
+        {
+            "activityType": "policy-advisory",
+            "forms": [
+                "Penyusunan rekomendasi kebijakan",
+                "Pengembangan standar IKE",
+                "Panduan implementasi ISO 50005"
+            ],
+            "achievements": [
+                {
+                    "label": "Kontribusi regulasi",
+                    "value": "Permen ESDM No. 3/2025"
+                },
+                {
+                    "label": "Jabatan Fungsional",
+                    "value": "Pengawas Konservasi Energi (GR 33/2023)"
+                }
+            ]
+        },
+        {
+            "activityType": "technical-assistance",
+            "forms": [
+                "Pilot penerapan Manajemen Energi ISO 50005",
+                "Level-2 Energy Audit",
+                "Pilot aplikasi SPEI"
+            ],
+            "achievements": [
+                {
+                    "label": "Institusi menerima pendampingan teknis",
+                    "value": "29"
+                },
+                {
+                    "label": "Gedung mendapat audit energi",
+                    "value": "15"
+                },
+                {
+                    "label": "Gedung tersertifikasi",
+                    "value": "3"
+                }
+            ]
+        }
+    ],
+    "highlights": [
+        "174 praktisi tersertifikasi sebagai Energy Manager/Auditor",
+        "450+ peserta Bimtek pemerintah provinsi",
+        "30 gedung pemerintah menerima pendampingan teknis",
+        "Platform digital SINERGI & AKSELERASI",
+        "Kontribusi pada Permen ESDM No. 3/2025"
+    ],
+    "provinces": [
+        "national"
+    ],
+    "coverImage": null
+}

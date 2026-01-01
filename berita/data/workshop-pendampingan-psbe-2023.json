@@ -1,0 +1,43 @@
+{
+    "schemaVersion": "1.0",
+    "slug": "workshop-pendampingan-psbe-2023",
+    "title": "Workshop Pendampingan Pengisian Kuisioner dan Penyusunan Proposal Kategori Gedung Hemat Energi Peserta PSBE Tahun 2023",
+    "excerpt": "DJEBTKE dan IREEM menyelenggarakan pendampingan pengisian kuisioner dan penyusunan proposal untuk peserta Penghargaan Subroto Bidang Efisiensi Energi (PSBE) 2023.",
+    "author": {
+        "name": "Latifa Andjani Yusuf",
+        "initials": "LA"
+    },
+    "date": "18 Juli 2023, 10:00 WIB",
+    "category": "Penghargaan",
+    "banner": {
+        "image": "../images/berita/workshop-pendampingan-psbe-2023/banner.jpg",
+        "caption": "Workshop pendampingan PSBE 2023 di ICE BSD City, Tangerang"
+    },
+    "content": "<p><strong>Tangerang, Banten</strong> — Dalam rangka meningkatkan penjaringan peserta dan kualitas proposal Penghargaan Subroto Bidang Efisiensi Energi (<strong>PSBE</strong>) Tahun 2023, Direktorat Jenderal Energi Baru Terbarukan dan Konservasi Energi (<strong>DJEBTKE</strong>), Kementerian ESDM bersama tenaga ahli dari <strong>IREEM</strong>, mendapat dukungan dari Kerajaan Inggris Raya dalam program <strong>MENTARI Efisiensi Energi</strong>, menyelenggarakan acara Pendampingan Pengisian Kuisioner dan Penyusunan Proposal Kategori Gedung Hemat Energi.</p><figure class=\"news-article__image\"><img src=\"../images/berita/workshop-pendampingan-psbe-2023/inline-1.jpg\" alt=\"Suasana workshop\"><figcaption>Suasana workshop pendampingan PSBE 2023</figcaption></figure><h3>Pelaksanaan Workshop</h3><p>Pendampingan ini dilaksanakan pada hari <strong>Kamis, 13 Juli 2023</strong> secara hybrid (offline dan online) di <strong>ICE BSD City</strong>. Workshop bertujuan membantu peserta PSBE mendapatkan informasi dan penjelasan rinci mengenai kebutuhan data dalam menyusun proposal dan mengisi kuesioner.</p><figure class=\"news-article__image\"><img src=\"../images/berita/workshop-pendampingan-psbe-2023/inline-2.jpg\" alt=\"Pembukaan acara\"><figcaption>Pembukaan acara pendampingan</figcaption></figure><h3>Rangkaian Acara</h3><p>Acara dimulai dengan menyanyikan lagu Indonesia Raya, dilanjutkan dengan:</p><ul style=\"margin-bottom: 1.5rem; padding-left: 1.5rem;\"><li><strong>Pembukaan</strong> oleh Bapak Gigih Udi Atmo (Direktur Konservasi Energi) secara online</li><li><strong>Materi PP No.33/2023</strong> tentang Konservasi Energi oleh Ibu Devi Laksmi</li><li><strong>Informasi PSBE 2023</strong> oleh Bapak Eko Sudarmawan</li></ul><h3>Kelompok Pendampingan</h3><p>Selama proses pendampingan, peserta terbagi menjadi 5 kelompok:</p><ul style=\"margin-bottom: 1.5rem; padding-left: 1.5rem;\"><li><strong>Kelompok 1:</strong> Gedung hemat energi (retrofited dan tropis)</li><li><strong>Kelompok 2:</strong> Bangunan hijau</li><li><strong>Kelompok 3-4:</strong> Penghematan energi gedung pemerintah pusat</li><li><strong>Kelompok 5:</strong> Penghematan energi gedung pemerintah daerah</li></ul><figure class=\"news-article__image\"><img src=\"../images/berita/workshop-pendampingan-psbe-2023/inline-3.jpg\" alt=\"Diskusi kelompok\"><figcaption>Diskusi kelompok pendampingan</figcaption></figure><h3>Partisipasi Peserta</h3><p>Total peserta yang hadir sebanyak <strong>131 orang</strong> dengan rincian:</p><ul style=\"margin-bottom: 1.5rem; padding-left: 1.5rem;\"><li><strong>85 peserta</strong> online</li><li><strong>46 peserta</strong> offline</li><li><strong>11 peserta wanita</strong> hadir offline</li><li><strong>17 instansi</strong> hadir secara offline</li></ul><p>Acara pendampingan berjalan lancar sesuai agenda. Peserta aktif bertanya dan antusias mengikuti kegiatan.</p><p>Kegiatan ini merupakan bagian dari pelaksanaan Program <strong>MENTARI Efisiensi Energi</strong> yang didukung oleh <strong>UK-PACT</strong> (Partnering for Accelerated Climate Transitions) dan dipimpin oleh <strong>IREEM</strong>.</p>",
+    "related": [
+        {
+            "slug": "penghargaan-efisiensi-energi-nasional-2024",
+            "title": "Penghargaan Efisiensi Energi Nasional 2024: Siapakah yang Layak Raih Subroto Award?",
+            "date": "26 Agustus 2024",
+            "accent": false
+        },
+        {
+            "slug": "pendampingan-penyusunan-proposal-peen-2024",
+            "title": "Pendampingan Penyusunan Proposal PEEN 2024 untuk Penghargaan Subroto",
+            "date": "02 September 2024",
+            "accent": true
+        },
+        {
+            "slug": "pelatihan-sertifikasi-manajer-energi-tegal",
+            "title": "Pelatihan dan Sertifikasi Manajer Energi bagi Pengelola Gedung Pemerintah",
+            "date": "26 September 2023",
+            "accent": false
+        },
+        {
+            "slug": "capacity-building-manajemen-energi-bangunan",
+            "title": "Peningkatan Kapasitas Mendukung Implementasi Manajemen Energi di Sektor Bangunan",
+            "date": "12 September 2025",
+            "accent": true
+        }
+    ]
+}

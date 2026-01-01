@@ -1,0 +1,49 @@
+﻿{
+    "schemaVersion": "1.0",
+    "slug": "kuliah-umum-unsoed-ireem",
+    "title": "Teknik Elektro UNSOED Gelar Kuliah Umum: Kolaborasi UNSOED–IREEM Bahas Peran Insinyur dalam Energi Berkelanjutan",
+    "excerpt": "Program Studi Teknik Elektro Universitas Jenderal Soedirman (UNSOED), bekerja sama dengan Himpunan Mahasiswa Teknik Elektro (HMTE), menyelenggarakan Kuliah Umum seri ke-2 bertema \"Peran Insinyur dalam Transisi Menuju Energi Bersih Berkelanjutan.\"",
+    "author": {
+        "name": "Ardhia Nur Zafira",
+        "initials": "AZ"
+    },
+    "date": "01 Oktober 2025, 10:00 WIB",
+    "category": "Pendidikan",
+    "banner": {
+        "image": "../images/berita/kuliah-umum-unsoed-ireem/banner.jpg",
+        "caption": "Kuliah Umum seri ke-2 Teknik Elektro UNSOED bertema \"Peran Insinyur dalam Transisi Menuju Energi Bersih Berkelanjutan.\""
+    },
+    "content": "<p><strong>Purwokerto, Jawa Tengah</strong> - Program Studi Teknik Elektro Universitas Jenderal Soedirman (UNSOED), bekerja sama dengan Himpunan Mahasiswa Teknik Elektro (HMTE), menyelenggarakan Kuliah Umum seri ke-2 bertema <em>\"Peran Insinyur dalam Transisi Menuju Energi Bersih Berkelanjutan.\"</em> Acara ini menghadirkan pembicara dari industri, pemerintah, dan lembaga penelitian yang berbagi wawasan tentang peran strategis insinyur dalam mendorong peralihan ke energi berkelanjutan.</p><p>Kuliah ini resmi dibuka oleh <strong>Dr. Ir. Nurul Hidayat, S.Pt., M.Kom.</strong>, Wakil Dekan III Fakultas Teknik UNSOED. Dalam sambutannya, beliau menyoroti perubahan iklim dan menipisnya energi fosil sebagai tantangan besar. Beliau mendorong mahasiswa untuk memanfaatkan kesempatan belajar langsung dari para praktisi, memperluas perspektif, dan memperkuat dasar pengetahuan mereka di bidang energi terbarukan.</p><p>Tiga pembicara utama menyampaikan sesinya. <strong>Eko Sudarmawan</strong> dari Kementerian Energi dan Sumber Daya Mineral membahas perjalanan Indonesia menuju Net Zero Emission 2060, dengan menekankan tantangan seperti keterbatasan infrastruktur, kebutuhan investasi signifikan, dan pentingnya riset berkelanjutan tentang teknologi hijau.</p><p>Sementara itu, <strong>Unggung Widhiantoro</strong>, COO IREEM dan pakar energi terbarukan, menegaskan peran krusial insinyur dalam merancang inovasi lintas disiplin. Beliau menyoroti solusi mulai dari sistem pembangkit listrik tenaga surya, turbin angin, hingga manajemen smart grid berbasis teknologi digital.</p><p>Melengkapi diskusi, <strong>I Wayan Arimbawa</strong>, Senior Manager PLN Indonesia Power Adipala PGU, memaparkan potensi energi terbarukan di Indonesia dan peran penting pembangkit listrik dalam mendukung transisi ke energi bersih. Beliau menekankan bahwa keberhasilan transformasi energi memerlukan kolaborasi dari semua pihak, termasuk universitas.</p><p>Sesi tanya jawab interaktif menjadi salah satu highlight, di mana mahasiswa aktif mengajukan pertanyaan tentang prospek karier di sektor energi terbarukan, peran riset kampus dalam mendukung kebijakan pemerintah, dan kontribusi insinyur muda dalam transisi energi global.</p><blockquote class=\"news-article__quote\"><p>\"Gunakan listrik dengan bijak, hemat energi dengan efektif.\"</p><cite>— Eko Sudarmawan, Kementerian ESDM</cite></blockquote><p>Pada penutupan, para pembicara menyampaikan pesan inspiratif: Unggung mendorong mahasiswa untuk mulai membangun portofolio sejak dini dan mengambil peran kepemimpinan; Wayan menyerukan mahasiswa UNSOED untuk menjadi pionir energi terbarukan demi Indonesia Emas 2045; sementara Eko mengingatkan pentingnya kebiasaan hemat energi.</p><p>Kuliah umum ini tidak hanya memperluas pemahaman mahasiswa tentang isu energi global tetapi juga memperkuat koneksi antara akademisi dan praktik industri nyata. Diharapkan lulusan Teknik Elektro UNSOED akan muncul sebagai agen perubahan aktif dalam memajukan transisi energi bersih dan berkelanjutan Indonesia.</p><p style=\"font-size: 0.9rem; color: var(--color-muted); margin-top: 2rem;\"><em>Sumber: unsoed.ac.id, Jumat, 19 September 2025</em></p>",
+    "related": [
+        {
+            "slug": "fgd-profiling-kapal-gap-analysis",
+            "title": "Mendukung Transisi Energi di Sektor Maritim: FGD Profiling Kapal & Gap Analysis",
+            "date": "02 Oktober 2025",
+            "accent": false
+        },
+        {
+            "slug": "ireem-biomassa-asean-congress-2025",
+            "title": "IREEM Dorong Pengembangan Biomassa untuk Mendukung Target Netralitas Karbon",
+            "date": "06 Oktober 2025",
+            "accent": true
+        },
+        {
+            "slug": "ireem-directorate-gesi-ghg-impact-assessment",
+            "title": "IREEM & Direktorat Konservasi Energi Perkuat Upaya GESI dan Pengurangan GRK",
+            "date": "08 Desember 2025",
+            "accent": false
+        },
+        {
+            "slug": "ireem-uk-pact-maritime-energy-training",
+            "title": "Memperkuat Transisi Energi Indonesia: IREEM dan UK PACT Gelar Pelatihan Manajer Energi untuk Sektor Maritim",
+            "date": "27 Oktober 2025",
+            "accent": false
+        },
+        {
+            "slug": "capacity-building-manajemen-energi-bangunan",
+            "title": "Peningkatan Kapasitas Mendukung Implementasi Manajemen Energi di Sektor Bangunan",
+            "date": "12 September 2025",
+            "accent": true
+        }
+    ]
+}

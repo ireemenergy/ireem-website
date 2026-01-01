@@ -1,0 +1,49 @@
+{
+    "schemaVersion": "1.0",
+    "slug": "kick-off-meeting-ike-benchmark",
+    "title": "Kick-Off Meeting Penyusunan Nilai Benchmark IKE: Langkah Strategis Menuju Efisiensi Energi di Bangunan Komersial",
+    "excerpt": "Direktorat Konservasi Energi di bawah Direktorat Jenderal EBTKE Kementerian ESDM menyelenggarakan Kick-Off Meeting untuk pengembangan nilai benchmark Indeks Konsumsi Energi (IKE) di bangunan komersial.",
+    "author": {
+        "name": "Ardhia Nur Zafira",
+        "initials": "AZ"
+    },
+    "date": "22 Juli 2025, 10:00 WIB",
+    "category": "Efisiensi Energi",
+    "banner": {
+        "image": "../images/berita/kick-off-meeting-ike-benchmark/banner.jpeg",
+        "caption": "Kick-Off Meeting Penyusunan Nilai Benchmark IKE di Gedung Slamet Bratanata, Jakarta."
+    },
+    "content": "<p><strong>Jakarta, 18 Juli 2025</strong> '€” Direktorat Konservasi Energi di bawah Direktorat Jenderal Energi Baru, Terbarukan, dan Konservasi Energi (EBTKE), Kementerian Energi dan Sumber Daya Mineral (ESDM), menyelenggarakan Kick-Off Meeting untuk pengembangan nilai benchmark Indeks Konsumsi Energi (IKE) di bangunan komersial. Inisiatif ini merupakan kerja sama dengan program <strong>GIZ-SETI</strong> (Supporting the Energy Transition in Indonesia) dan <strong>International Climate Initiative (IKI)</strong> Pemerintah Jerman.</p><figure class=\"news-article__image\"><img src=\"../images/berita/kick-off-meeting-ike-benchmark/inline-1.jpeg\" alt=\"Suasana Kick-Off Meeting IKE Benchmark\"><figcaption>Peserta Kick-Off Meeting penyusunan nilai benchmark IKE</figcaption></figure><p>Pertemuan yang diselenggarakan di Gedung Slamet Bratanata, Jakarta, menandai dimulainya studi nasional yang bertujuan untuk menetapkan nilai benchmark efisiensi energi untuk lima jenis bangunan utama:</p><ul style=\"margin-bottom: 1.5rem; padding-left: 1.5rem;\"><li>Rumah Sakit Kelas A</li><li>Bandara</li><li>Universitas</li><li>Stasiun Kereta</li><li>Stasiun MRT</li></ul><p>Proyek ini dilaksanakan oleh Institute for Natural Resources, Energy and Environmental Management (IREEM) sebagai mitra pelaksana teknis.</p><p>Kegiatan ini merupakan bagian dari implementasi <strong>Peraturan Pemerintah No. 33 Tahun 2023 tentang Konservasi Energi</strong>, yang berfokus pada peningkatan efisiensi energi di sektor bangunan yang memiliki peran signifikan dalam konsumsi energi nasional.</p><p>Dengan menetapkan nilai benchmark IKE, pemerintah berharap dapat menyediakan standar kinerja energi yang terukur, dapat dibandingkan, dan dapat ditindaklanjuti bagi pengelola bangunan dan pemangku kepentingan terkait. Studi ini diharapkan berlanjut hingga Januari 2026.</p>",
+    "related": [
+        {
+            "slug": "rscm-ireem-audit-energi-hvac-boiler",
+            "title": "Mendorong Rumah Sakit Lebih Berkelanjutan: RSCM dan IREEM Kolaborasi Audit Energi untuk Sistem HVAC dan Boiler",
+            "date": "25 Juli 2025",
+            "accent": false
+        },
+        {
+            "slug": "net-zero-energy-sni-iso-50010",
+            "title": "Menuju Net Zero Energy: Kementerian ESDM dan Komite Teknis 27'€“06 Bahas Draft SNI ISO 50010:2023",
+            "date": "07 Agustus 2025",
+            "accent": true
+        },
+        {
+            "slug": "capacity-building-manajemen-energi-bangunan",
+            "title": "Peningkatan Kapasitas Mendukung Implementasi Manajemen Energi di Sektor Bangunan",
+            "date": "12 September 2025",
+            "accent": false
+        },
+        {
+            "slug": "ireem-directorate-gesi-ghg-impact-assessment",
+            "title": "IREEM & Direktorat Konservasi Energi Perkuat Upaya GESI dan Pengurangan GRK",
+            "date": "08 Desember 2025",
+            "accent": false
+        },
+        {
+            "slug": "ireem-uk-pact-maritime-energy-training",
+            "title": "Memperkuat Transisi Energi Indonesia: IREEM dan UK PACT Gelar Pelatihan Manajer Energi untuk Sektor Maritim",
+            "date": "27 Oktober 2025",
+            "accent": true
+        }
+    ]
+}

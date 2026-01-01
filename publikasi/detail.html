@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publikasi - IREEM</title>
+    <link rel="icon" type="image/x-icon" href="../images/ireemicon2.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="css/publication.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container nav-container">
+            <a href="../index.html" class="logo"><img src="../images/logo.png" alt="IREEM Logo"
+                    style="height: 48px;"></a>
+            <nav class="nav-links">
+                <a href="../about/index.html" class="nav-link" data-i18n="nav.about">Tentang IREEM</a>
+                <a href="../program/index.html" class="nav-link" data-i18n="nav.program">Program</a>
+                <a href="../impact/index.html" class="nav-link" data-i18n="nav.impact">Dampak</a>
+                <a href="index.html" class="nav-link active" data-i18n="nav.publications">Publikasi</a>
+                <a href="../berita/index.html" class="nav-link" data-i18n="nav.news">Berita</a>
+                <a href="../inovasi/index.html" class="nav-link" data-i18n="nav.innovation">Inovasi</a>
+                <a href="../kemitraan/index.html" class="nav-link" data-i18n="nav.partnership">Kemitraan</a>
+                <!-- Mobile CTA Button -->
+                <a href="../kemitraan/proposal.html" class="nav-cta-mobile btn btn-primary"
+                    data-i18n="nav.partnershipCta">Ajukan Kemitraan</a>
+            </nav>
+
+            <!-- Language Switcher -->
+            <div class="lang-switcher">
+                <button data-lang="id" class="active">ID</button>
+                <span>|</span>
+                <button data-lang="en">EN</button>
+            </div>
+
+            <a href="../kemitraan/proposal.html" class="btn btn-primary" data-i18n="nav.partnershipCta">Ajukan
+                Kemitraan</a>
+
+            <!-- Mobile Menu Button -->
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="section" style="padding-top: 8rem;">
+            <div class="container" style="max-width: 1100px;">
+                <!-- Breadcrumb -->
+                <nav style="margin-bottom: 1rem;">
+                    <a href="index.html" style="color: var(--color-muted); text-decoration: none; font-size: 0.9rem;"
+                        data-i18n="publications.detail.backToList">←
+                        Kembali ke
+                        Publikasi</a>
+                </nav>
+
+                <!-- Loading State -->
+                <div id="loading-state" class="loading-state">
+                    <p data-i18n="publications.detail.loading">Memuat publikasi...</p>
+                </div>
+
+                <!-- Error State (hidden by default) -->
+                <div id="error-state" class="error-message" style="display: none;">
+                    <h2 data-i18n="publications.detail.notFoundTitle">Publikasi Tidak Ditemukan</h2>
+                    <p data-i18n="publications.detail.notFoundMessage">Maaf, publikasi yang Anda cari tidak tersedia.
+                    </p>
+                    <a href="index.html" class="btn btn-primary"
+                        data-i18n="publications.detail.backToListButton">Kembali ke Daftar Publikasi</a>
+                </div>
+
+                <!-- Publication Content (hidden until loaded) -->
+                <div id="publication-wrapper" style="display: none;">
+                    <!-- Date -->
+                    <p class="small publication-date" id="publication-date"></p>
+
+                    <!-- Title -->
+                    <h1 class="publication-title" id="publication-title"></h1>
+
+                    <!-- Two Column Layout -->
+                    <div class="publication-layout">
+                        <!-- Main Content -->
+                        <div class="publication-content">
+                            <!-- Banner Image -->
+                            <img id="publication-banner" alt="Banner" class="banner-image">
+
+                            <!-- Description (loaded from JSON) -->
+                            <div class="publication-body" id="publication-content"></div>
+
+                            <!-- Download Section -->
+                            <div class="download-section">
+                                <h4>
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#ef4444"
+                                        stroke-width="2">
+                                        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+                                        <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
+                                        <path d="M12 7v6M9 10l3 3 3-3" />
+                                    </svg> <span data-i18n="publications.detail.downloadTitle">Unduh Publikasi</span>
+                                </h4>
+                                <p data-i18n="publications.detail.downloadDesc">Silakan isi formulir berikut untuk
+                                    mengunduh publikasi ini secara gratis.</p>
+                                <a id="publication-download-link" href="#" target="_blank" class="btn btn-primary">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3" />
+                                    </svg>
+                                    <span data-i18n="publications.detail.downloadButton">Unduh Sekarang</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Sidebar with Metadata -->
+                        <aside class="publication-sidebar">
+                            <img id="publication-cover" alt="Cover" class="sidebar-cover">
+
+                            <h3 class="sidebar-title" id="publication-sidebar-title"></h3>
+
+                            <div class="meta-item">
+                                <p class="meta-label" data-i18n="publications.detail.metaFullTitle">Judul Lengkap</p>
+                                <p class="meta-value" id="meta-full-title"></p>
+                            </div>
+
+                            <div class="meta-item">
+                                <p class="meta-label" data-i18n="publications.detail.metaContributor">Kontributor</p>
+                                <p class="meta-value" id="meta-contributor"></p>
+                            </div>
+
+                            <div class="meta-item">
+                                <p class="meta-label" data-i18n="publications.detail.metaAuthor">Penulis</p>
+                                <p class="meta-value" id="meta-author"></p>
+                            </div>
+
+                            <div class="meta-item">
+                                <p class="meta-label" data-i18n="publications.detail.metaPublisher">Penerbit</p>
+                                <p class="meta-value" id="meta-publisher"></p>
+                            </div>
+
+                            <div class="meta-item">
+                                <p class="meta-label" data-i18n="publications.detail.metaDate">Tanggal Terbit</p>
+                                <p class="meta-value" id="meta-date"></p>
+                            </div>
+
+                            <div class="meta-item">
+                                <p class="meta-label" data-i18n="publications.detail.metaLanguage">Bahasa</p>
+                                <p class="meta-value" id="meta-language"></p>
+                            </div>
+
+                            <div class="meta-item">
+                                <p class="meta-label" data-i18n="publications.detail.metaProgram">Program</p>
+                                <p class="meta-value" id="meta-program"></p>
+                            </div>
+
+                            <div class="meta-item">
+                                <p class="meta-label" data-i18n="publications.detail.metaSupporter">Didukung oleh</p>
+                                <p class="meta-value" id="meta-supporter"></p>
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div>
+                <img src="../images/logo-white.png" alt="IREEM" style="height: 36px; margin-bottom: 1rem;">
+                <p class="small" style="color: rgba(255,255,255,0.6); max-width: 280px; line-height: 1.6;">
+                    Institute for Management of Natural Resources, Energy and Environment.
+                </p>
+            </div>
+            <div>
+                <h5 style="color: white; margin-bottom: 0.75rem; font-size: 0.85rem;" data-i18n="footer.program">Program
+                </h5>
+                <div style="display: flex; flex-direction: column; gap: 0.4rem;">
+                    <a href="../program/energi.html" style="color: rgba(255,255,255,0.6); font-size: 0.8rem;"
+                        data-i18n="footer.energyClimate">Energi & Iklim</a>
+                    <a href="../program/lingkungan.html" style="color: rgba(255,255,255,0.6); font-size: 0.8rem;"
+                        data-i18n="footer.environment">Lingkungan</a>
+                    <a href="../program/sumber-daya.html" style="color: rgba(255,255,255,0.6); font-size: 0.8rem;"
+                        data-i18n="footer.naturalResources">Sumber Daya Alam</a>
+                    <a href="../program/gesi.html" style="color: rgba(255,255,255,0.6); font-size: 0.8rem;"
+                        data-i18n="footer.gesi">GESI</a>
+                </div>
+            </div>
+            <div>
+                <h5 style="color: white; margin-bottom: 0.75rem; font-size: 0.85rem;" data-i18n="footer.contact">Kontak
+                </h5>
+                <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+                    <a href="https://wa.me/6282142740508" target="_blank"
+                        style="color: rgba(255,255,255,0.6); font-size: 0.8rem;">0821-4274-0508</a>
+                    <a href="mailto:info@ireem.id"
+                        style="color: rgba(255,255,255,0.6); font-size: 0.8rem;">info@ireem.id</a>
+                </div>
+            </div>
+            <div>
+                <h5 style="color: white; margin-bottom: 0.75rem; font-size: 0.85rem;" data-i18n="footer.followUs">Ikuti
+                    Kami</h5>
+                <div style="display: flex; gap: 0.75rem;">
+                    <a href="https://www.instagram.com/ireem.id" target="_blank"
+                        style="color: rgba(255,255,255,0.7);">Instagram</a>
+                    <a href="https://www.linkedin.com/company/ireem/" target="_blank"
+                        style="color: rgba(255,255,255,0.7);">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+        <div class="container"
+            style="border-top: 1px solid rgba(255,255,255,0.1); padding-top: 1.5rem; margin-top: 2rem;">
+            <p class="small text-center" style="color: rgba(255,255,255,0.4);">© 2024 IREEM. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Main JS for navigation -->
+    <script src="../js/main.js"></script>
+
+    <!-- i18n Bilingual System -->
+    <script src="../js/i18n/index.js"></script>
+    <script src="../js/i18n/common.js"></script>\r\n
+    <script src="../js/i18n/publikasi.js"></script>
+    <script src="js/publication-detail.js"></script>
+</body>
+
+</html>

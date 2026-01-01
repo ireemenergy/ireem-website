@@ -1,0 +1,43 @@
+{
+    "schemaVersion": "1.0",
+    "slug": "bimtek-manajemen-energi-diy-jateng",
+    "title": "Bimbingan Teknis: Penerapan Manajemen Energi di Bangunan Gedung Pemerintah Wilayah DIY dan Jawa Tengah",
+    "excerpt": "Bimtek penerapan manajemen energi untuk gedung pemerintah di wilayah DIY dan Jawa Tengah diikuti oleh lebih dari 60 instansi dengan 31% peserta perempuan.",
+    "author": {
+        "name": "Latifa Andjani Yusuf",
+        "initials": "LA"
+    },
+    "date": "05 Juni 2023, 10:00 WIB",
+    "category": "Bimbingan Teknis",
+    "banner": {
+        "image": "../images/berita/bimtek-manajemen-energi-diy-jateng/banner.jpg",
+        "caption": "Bimbingan Teknis Manajemen Energi di Yogyakarta"
+    },
+    "content": "<p><strong>Daerah Istimewa Yogyakarta, 13–16 Februari 2023</strong> — <strong>Direktorat Jenderal Energi Baru, Terbarukan dan Konservasi Energi (EBTKE)</strong> melalui <strong>Direktorat Konservasi Energi</strong> bekerja sama dengan Pemerintah Inggris melalui Program <strong>UK-PACT</strong> menyelenggarakan Bimbingan Teknis Penerapan Manajemen Energi untuk Gedung Pemerintah di Wilayah Jawa Tengah.</p><h3>Detail Kegiatan</h3><p>Bimbingan teknis diselenggarakan selama <strong>empat hari</strong> dari tanggal 13 hingga 16 Februari. Lebih dari <strong>60 instansi terkait</strong> dari Provinsi Jawa Tengah menghadiri pelatihan selama 4 hari ini.</p><h3>Partisipasi Gender</h3><p>Bimbingan teknis di wilayah Jawa Tengah dihadiri oleh <strong>31% perempuan</strong> dan <strong>69% laki-laki</strong>, menunjukkan komitmen pada inklusivitas gender dalam program ini.</p><h3>Tujuan Program</h3><p>Tujuan pelaksanaan bimbingan teknis ini adalah untuk meningkatkan kapasitas instansi pemerintah pusat dan daerah dalam menerapkan dan melaporkan kegiatan efisiensi energi dan konservasi di gedung-gedung.</p><p>Program ini juga bertujuan untuk meningkatkan pemahaman peserta tentang penerapan upaya teknis untuk meningkatkan efisiensi energi berdasarkan <strong>SNI ISO 50001</strong> dan <strong>ISO 50005</strong>, sehingga mereka mampu menerapkan upaya tersebut pada gedung yang mereka kelola.</p><h3>Tim Instruktur</h3><ul style=\"margin-bottom: 1.5rem; padding-left: 1.5rem;\"><li><strong>F.F Hendro Gunawan</strong> — Koordinator Kerja Sama dan Bimtek Konservasi Energi, Direktorat EBTKE</li><li><strong>Parlindungan Marpaung</strong> — Ahli Konservasi Energi</li><li><strong>Totok Sulistiyanto</strong> — Ahli Konservasi Energi dan Green Building</li><li><strong>Titovianto Widyantoro</strong> — Ahli Konservasi Energi dan Sistem Manajemen Energi</li><li><strong>Gunawan Wibisono</strong> — Ahli Konservasi Energi</li><li><strong>Rahmi Andarini</strong> — Ahli Konservasi Energi</li></ul><p>Kegiatan ini merupakan bagian dari <strong>Program MENTARI Efisiensi Energi</strong> yang didukung oleh <strong>UK-PACT</strong> (Partnering for Accelerated Climate Transition).</p>",
+    "related": [
+        {
+            "slug": "bimtek-manajemen-energi-jawa-barat",
+            "title": "Bimbingan Teknis: Penerapan Manajemen Energi di Bangunan Gedung Pemerintah Jawa Barat",
+            "date": "05 Juni 2023",
+            "accent": true
+        },
+        {
+            "slug": "bimtek-manajemen-energi-jawa-timur",
+            "title": "Bimbingan Teknis Penerapan Manajemen Energi di Jawa Timur",
+            "date": "14 Desember 2023",
+            "accent": false
+        },
+        {
+            "slug": "bimtek-manajemen-energi-29-provinsi",
+            "title": "Bimtek Manajemen Energi Gedung Pemerintah di 29 Provinsi Indonesia",
+            "date": "23 Juli 2024",
+            "accent": true
+        },
+        {
+            "slug": "31-pengelola-gedung-manajer-energi",
+            "title": "31 Pengelola Gedung Dinyatakan Kompeten Sebagai Manajer Energi",
+            "date": "02 Oktober 2023",
+            "accent": false
+        }
+    ]
+}

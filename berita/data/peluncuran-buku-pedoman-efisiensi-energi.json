@@ -1,0 +1,43 @@
+{
+    "schemaVersion": "1.0",
+    "slug": "peluncuran-buku-pedoman-efisiensi-energi",
+    "title": "Peluncuran Buku Pedoman Efisiensi Energi",
+    "excerpt": "Kementerian ESDM melalui program MENTARI Efisiensi Energi meluncurkan 3 buku panduan mengenai efisiensi energi pada bangunan gedung dalam Forum Bisnis Investasi Proyek Efisiensi Energi.",
+    "author": {
+        "name": "Latifa Andjani Yusuf",
+        "initials": "LA"
+    },
+    "date": "20 Juni 2023, 10:00 WIB",
+    "category": "Publikasi",
+    "banner": {
+        "image": "../images/berita/peluncuran-buku-pedoman-efisiensi-energi/banner.jpg",
+        "caption": "Peluncuran Buku Pedoman Efisiensi Energi di Forum Bisnis Investasi Proyek Efisiensi Energi"
+    },
+    "content": "<p><strong>Bogor</strong> — Dalam acara <strong>Forum Bisnis Investasi Proyek Efisiensi Energi</strong>, Kementerian Energi dan Sumber Daya Mineral (ESDM) dalam pelaksanaan program <strong>MENTARI Efisiensi Energi</strong>, melalui program <strong>UK Partnering for Accelerated Climate Transitions (UK-PACT)</strong> telah melaksanakan kegiatan Launching 3 Buku Panduan.</p><h3>Tiga Buku Panduan yang Diluncurkan</h3><p>Ketiga buku panduan yang diluncurkan adalah:</p><ol style=\"margin-bottom: 1.5rem; padding-left: 1.5rem;\"><li><strong>Panduan Praktis Penerapan Efisiensi Energi pada Bangunan Gedung</strong></li><li><strong>Pedoman Aspek Perubahan Iklim untuk Manajer dan Auditor Energi pada Bangunan Gedung</strong></li><li><strong>Panduan Penerapan Sistem Manajemen Energi pada Bangunan Gedung Berbasis Maturity Level ISO 50005:2021</strong></li></ol><figure class=\"news-article__image\"><img src=\"../images/berita/peluncuran-buku-pedoman-efisiensi-energi/inline-1.jpg\" alt=\"Peluncuran buku pedoman\"><figcaption>Peluncuran tiga buku pedoman efisiensi energi</figcaption></figure><h3>Kolaborasi IREEM dan Direktorat Konservasi Energi</h3><p>Ketiga buku panduan ini merupakan keluaran salah satu portofolio proyek yang disampaikan oleh <strong>Institute for Natural Resources, Energy, and Environment Management (IREEM)</strong> dan konsorsium, dengan berkolaborasi dengan <strong>Direktorat Konservasi Energi</strong>, Kementerian ESDM.</p><h3>Dukungan Kedutaan Besar Inggris</h3><p>Kepala Deputi, Grup <strong>Low Carbon Development, Lingkungan dan Komoditas Berkelanjutan</strong> dari Kedutaan Besar Inggris di Jakarta, <strong>Bapak Alex Lau</strong>, mengharapkan dapat melanjutkan kemitraan dan dukungan yang kuat kepada Pemerintah Indonesia dalam mengurangi emisi GRK di sektor pengelolaan gedung melalui penerapan efisiensi energi.</p><blockquote class=\"news-article__quote\"><p>\"Kami berharap dapat melanjutkan kemitraan dan dukungan yang kuat kepada Pemerintah Indonesia dalam mengurangi emisi GRK di sektor pengelolaan gedung melalui penerapan efisiensi energi.\"</p><cite>— Alex Lau, Kepala Deputi Low Carbon Development, Kedutaan Besar Inggris di Jakarta</cite></blockquote><p>Kegiatan ini merupakan bagian dari Program <strong>MENTARI Efisiensi Energi</strong> yang didukung oleh <strong>UK-PACT</strong> (Partnering for Accelerated Climate Transition).</p>",
+    "related": [
+        {
+            "slug": "training-of-trainer-manajer-auditor-energi",
+            "title": "Training of Trainer: Manajer dan Auditor Energi Dibekali Pengetahuan Perubahan Iklim",
+            "date": "10 Juli 2023",
+            "accent": false
+        },
+        {
+            "slug": "capacity-building-manajemen-energi-bangunan",
+            "title": "Peningkatan Kapasitas Mendukung Implementasi Manajemen Energi di Sektor Bangunan",
+            "date": "12 September 2025",
+            "accent": true
+        },
+        {
+            "slug": "net-zero-energy-sni-iso-50010",
+            "title": "Dari Net-Zero Energy hingga SNI ISO 50010: Tonggak Baru Efisiensi Energi Bangunan Indonesia",
+            "date": "27 Oktober 2024",
+            "accent": false
+        },
+        {
+            "slug": "ireem-uk-pact-iso-50001-certification",
+            "title": "IREEM UK PACT dan Sertifikasi ISO 50001 untuk Rumah Sakit",
+            "date": "08 Oktober 2024",
+            "accent": true
+        }
+    ]
+}

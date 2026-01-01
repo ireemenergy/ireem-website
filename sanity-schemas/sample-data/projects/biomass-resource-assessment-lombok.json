@@ -1,0 +1,38 @@
+{
+    "_type": "project",
+    "title": "Biomass Resource Assessment Lombok",
+    "slug": {
+        "current": "biomass-resource-assessment-lombok"
+    },
+    "shortDescription": "Kajian potensi biomassa dari residu pertanian di Lombok.",
+    "donor": "PEMconsult / DSIF (Denmark)",
+    "periodStart": "2021-01-01",
+    "periodEnd": "2021-12-31",
+    "status": "completed",
+    "programs": [
+        "natural-resources",
+        "energy"
+    ],
+    "activities": [
+        {
+            "activityType": "research",
+            "forms": [
+                "Kajian potensi biomassa dari residu pertanian"
+            ],
+            "achievements": [
+                {
+                    "label": "Lokasi",
+                    "value": "Lombok"
+                }
+            ]
+        }
+    ],
+    "highlights": [
+        "Kajian potensi biomassa dari residu pertanian",
+        "Lokasi: Lombok"
+    ],
+    "provinces": [
+        "ntb"
+    ],
+    "coverImage": null
+}

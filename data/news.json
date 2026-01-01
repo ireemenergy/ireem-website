@@ -1,0 +1,36 @@
+{
+    "news": [
+        {
+            "id": "news-2023-12-training",
+            "title": "IREEM Completes Energy Auditor Training Batch 15",
+            "excerpt": "Another cohort of 45 energy professionals successfully certified through our comprehensive training program in partnership with the Ministry of Energy and Mineral Resources.",
+            "date": "December 2023",
+            "category": "Training",
+            "url": ""
+        },
+        {
+            "id": "news-2023-11-mrv",
+            "title": "National MRV Platform Launch Ceremony",
+            "excerpt": "IREEM celebrates the official launch of the national energy efficiency MRV platform, a milestone in Indonesia's climate commitment tracking.",
+            "date": "November 2023",
+            "category": "Project Update",
+            "url": ""
+        },
+        {
+            "id": "news-2023-10-partnership",
+            "title": "New Partnership Announcement with Development Agency",
+            "excerpt": "IREEM enters strategic partnership to expand capacity building programs across five new provinces.",
+            "date": "October 2023",
+            "category": "Partnership",
+            "url": ""
+        },
+        {
+            "id": "news-2023-09-publication",
+            "title": "New Guidebook Released: Energy Audit Best Practices",
+            "excerpt": "Our latest publication provides comprehensive guidance for investment-grade energy audits tailored to Indonesian context.",
+            "date": "September 2023",
+            "category": "Publication",
+            "url": ""
+        }
+    ]
+}

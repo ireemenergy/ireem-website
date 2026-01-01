@@ -1,0 +1,39 @@
+{
+    "_type": "project",
+    "title": "Circular Economy & Biomass Policy Support",
+    "slug": {
+        "current": "circular-economy-biomass-policy"
+    },
+    "shortDescription": "Integrasi SDA–energi–lingkungan dalam kebijakan untuk ekonomi sirkular dan biomassa.",
+    "donor": "Internal / Donor",
+    "periodStart": "2022-01-01",
+    "periodEnd": null,
+    "status": "ongoing",
+    "programs": [
+        "natural-resources",
+        "environment",
+        "energy"
+    ],
+    "activities": [
+        {
+            "activityType": "policy-advisory",
+            "forms": [
+                "Integrasi SDA–energi–lingkungan dalam kebijakan"
+            ],
+            "achievements": [
+                {
+                    "label": "Fokus",
+                    "value": "Ekonomi sirkular & biomassa"
+                }
+            ]
+        }
+    ],
+    "highlights": [
+        "Integrasi SDA–energi–lingkungan dalam kebijakan",
+        "Ekonomi sirkular & biomassa"
+    ],
+    "provinces": [
+        "national"
+    ],
+    "coverImage": null
+}

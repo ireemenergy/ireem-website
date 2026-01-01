@@ -1,0 +1,38 @@
+{
+    "_type": "project",
+    "title": "Ecosystem Resilience through Education & Stakeholder Collaboration",
+    "slug": {
+        "current": "ecosystem-resilience-education"
+    },
+    "shortDescription": "Edukasi lingkungan dan kolaborasi multipihak untuk ketahanan ekosistem.",
+    "donor": "Internal",
+    "periodStart": "2022-01-01",
+    "periodEnd": "2024-12-31",
+    "status": "completed",
+    "programs": [
+        "environment"
+    ],
+    "activities": [
+        {
+            "activityType": "capacity-building",
+            "forms": [
+                "Edukasi lingkungan",
+                "Kolaborasi multipihak"
+            ],
+            "achievements": [
+                {
+                    "label": "Fokus",
+                    "value": "Ketahanan ekosistem"
+                }
+            ]
+        }
+    ],
+    "highlights": [
+        "Edukasi lingkungan",
+        "Kolaborasi multipihak untuk ketahanan ekosistem"
+    ],
+    "provinces": [
+        "national"
+    ],
+    "coverImage": null
+}

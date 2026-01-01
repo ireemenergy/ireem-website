@@ -1,0 +1,43 @@
+{
+    "schemaVersion": "1.0",
+    "slug": "gesi-pelatihan-sertifikasi-energi",
+    "title": "Menerapkan Prinsip Kesetaraan Gender dan Inklusi Sosial (GESI) dalam Program Pelatihan dan Sertifikasi Energi untuk Pengelola Gedung Pemerintah",
+    "excerpt": "Program pelatihan manajer energi di Bogor mengintegrasikan prinsip GESI untuk mendorong partisipasi perempuan di sektor energi.",
+    "author": {
+        "name": "Latifa Andjani Yusuf",
+        "initials": "LA"
+    },
+    "date": "04 April 2024, 10:00 WIB",
+    "category": "GESI",
+    "banner": {
+        "image": "../images/berita/gesi-pelatihan-sertifikasi-energi/banner.jpg",
+        "caption": "Pelatihan dan Sertifikasi Manajer Energi dengan Prinsip GESI"
+    },
+    "content": "<p><strong>Bogor, 20–23 Februari 2024</strong> — <strong>Konsorsium IREEM</strong> bersama <strong>Direktorat Konservasi Energi, Kementerian ESDM</strong> melalui program <strong>UK-PACT MENTARI Energy Efficiency</strong> menyelenggarakan program peningkatan kapasitas untuk melatih pengelola gedung pemerintah sebagai manajer energi bersertifikat (<strong>SKKNI 80:2015</strong>).</p><figure class=\"news-article__image\"><img src=\"../images/berita/gesi-pelatihan-sertifikasi-energi/inline-1.jpg\" alt=\"Peserta pelatihan\"><figcaption>Peserta pelatihan dan sertifikasi manajer energi</figcaption></figure><h3>Fokus pada GESI</h3><p>Program ini mengintegrasikan konsep <strong>Kesetaraan Gender dan Inklusi Sosial (GESI)</strong> ke dalam manajemen energi. Beberapa fokus utama meliputi:</p><ul style=\"margin-bottom: 1.5rem; padding-left: 1.5rem;\"><li>Mendorong partisipasi perempuan di sektor energi</li><li>Menyediakan dukungan untuk ibu menyusui (ruangan khusus) untuk memastikan akses yang setara terhadap pelatihan</li><li>Melakukan wawancara dengan peserta perempuan untuk berbagi pengalaman dan aspirasi mereka</li></ul><h3>Statistik Partisipasi</h3><p>Dari total <strong>41 peserta</strong>, sebanyak <strong>9 orang adalah perempuan (22%)</strong>. Menurut data ESDM per Agustus 2022, manajer energi perempuan hanya mewakili sekitar <strong>5%</strong> dari seluruh manajer energi bersertifikat.</p><blockquote style=\"border-left: 4px solid var(--color-accent); padding-left: 1.5rem; margin: 1.5rem 0; font-style: italic;\"><p>\"Program ini menjadi langkah penting untuk mendorong lebih banyak perempuan berkontribusi dalam sektor energi Indonesia.\"</p><cite>— Ibu Anny Andaryati, Expert IREEM</cite></blockquote><h3>Standar Kompetensi</h3><p>Pelatihan ini mengacu pada unit kompetensi <strong>SKKNI 80:2015</strong> untuk Manajer Energi di Bangunan Gedung. Peserta mendapatkan pemahaman mendalam tentang sistem manajemen energi dan praktik terbaik untuk meningkatkan efisiensi energi gedung pemerintah.</p><p>Program ini merupakan bagian dari komitmen <strong>UK-PACT</strong> (Partnering for Accelerated Climate Transition) dalam mendukung transisi energi Indonesia yang inklusif dan berkelanjutan.</p>",
+    "related": [
+        {
+            "slug": "ireem-gedsi-training",
+            "title": "IREEM Gelar Pelatihan GEDSI untuk Membangun Budaya Organisasi yang Adil dan Inklusif",
+            "date": "07 Juli 2025",
+            "accent": true
+        },
+        {
+            "slug": "ireem-directorate-gesi-ghg-impact-assessment",
+            "title": "IREEM & Direktorat Konservasi Energi Perkuat Upaya GESI dan Pengurangan GRK",
+            "date": "08 Desember 2025",
+            "accent": false
+        },
+        {
+            "slug": "pelatihan-sertifikasi-manajer-energi-tegal",
+            "title": "Pelatihan dan Sertifikasi Manajer Energi bagi Pengelola Gedung Pemerintah",
+            "date": "26 September 2023",
+            "accent": true
+        },
+        {
+            "slug": "31-pengelola-gedung-manajer-energi",
+            "title": "31 Pengelola Gedung Dinyatakan Kompeten Sebagai Manajer Energi",
+            "date": "02 Oktober 2023",
+            "accent": false
+        }
+    ]
+}

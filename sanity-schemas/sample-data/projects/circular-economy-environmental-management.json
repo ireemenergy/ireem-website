@@ -1,0 +1,39 @@
+{
+    "_type": "project",
+    "title": "Circular Economy & Environmental Management Studies",
+    "slug": {
+        "current": "circular-economy-environmental-management"
+    },
+    "shortDescription": "Studi ekonomi sirkular dan pengelolaan dampak lingkungan.",
+    "donor": "Internal / Kolaboratif",
+    "periodStart": "2022-01-01",
+    "periodEnd": null,
+    "status": "ongoing",
+    "programs": [
+        "environment",
+        "natural-resources"
+    ],
+    "activities": [
+        {
+            "activityType": "research",
+            "forms": [
+                "Studi ekonomi sirkular",
+                "Pengelolaan dampak lingkungan"
+            ],
+            "achievements": [
+                {
+                    "label": "Fokus",
+                    "value": "Ekonomi sirkular & pengelolaan dampak lingkungan"
+                }
+            ]
+        }
+    ],
+    "highlights": [
+        "Studi ekonomi sirkular",
+        "Pengelolaan dampak lingkungan"
+    ],
+    "provinces": [
+        "national"
+    ],
+    "coverImage": null
+}

@@ -1,0 +1,40 @@
+{
+    "_type": "project",
+    "title": "Perencanaan Strategis Mineral dan Batubara 2025–2029",
+    "slug": {
+        "current": "renstra-minerba-2025-2029"
+    },
+    "shortDescription": "Masukan teknis untuk memasukkan aspek keberlanjutan dan prinsip transisi energi dalam dokumen Strategi Minerba 2025–2029.",
+    "donor": "Direktorat Jenderal Minerba, KESDM",
+    "periodStart": "2025-01-01",
+    "periodEnd": "2025-12-31",
+    "status": "ongoing",
+    "programs": [
+        "energy",
+        "natural-resources"
+    ],
+    "activities": [
+        {
+            "activityType": "policy-advisory",
+            "forms": [
+                "Masukan teknis",
+                "Formulasi kebijakan sektoral"
+            ],
+            "achievements": [
+                {
+                    "label": "Dokumen",
+                    "value": "Strategi Minerba 2025–2029"
+                }
+            ]
+        }
+    ],
+    "highlights": [
+        "Aspek keberlanjutan dalam dokumen strategis Minerba",
+        "Prinsip transisi energi",
+        "Formulasi kebijakan sektoral"
+    ],
+    "provinces": [
+        "national"
+    ],
+    "coverImage": null
+}

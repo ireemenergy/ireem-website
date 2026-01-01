@@ -1,0 +1,38 @@
+{
+    "_type": "project",
+    "title": "Regulasi IKE & Lampiran Permen ESDM No. 3/2025",
+    "slug": {
+        "current": "regulasi-ike-permen-esdm-3-2025"
+    },
+    "shortDescription": "Fasilitasi penyusunan & penerimaan standar IKE untuk gedung pemerintah sebagai lampiran resmi Permen ESDM No. 3/2025.",
+    "donor": "KESDM – Direktorat Konservasi Energi",
+    "periodStart": "2024-01-01",
+    "periodEnd": "2025-12-31",
+    "status": "ongoing",
+    "programs": [
+        "energy"
+    ],
+    "activities": [
+        {
+            "activityType": "policy-advisory",
+            "forms": [
+                "Penyusunan standar IKE",
+                "Adopsi regulasi"
+            ],
+            "achievements": [
+                {
+                    "label": "Regulasi",
+                    "value": "Lampiran Permen ESDM No. 3/2025"
+                }
+            ]
+        }
+    ],
+    "highlights": [
+        "Standar IKE untuk gedung pemerintah",
+        "Lampiran resmi Permen ESDM No. 3/2025"
+    ],
+    "provinces": [
+        "national"
+    ],
+    "coverImage": null
+}

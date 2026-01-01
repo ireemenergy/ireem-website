@@ -1,0 +1,78 @@
+{
+    "lastUpdated": "2024-12-26",
+    "totalPublications": 9,
+    "publications": [
+        {
+            "slug": "gesi-card-book",
+            "title": "Buku Kartu GESI – Wanita Teladan dan Pemimpin di Sektor Efisiensi Energi",
+            "excerpt": "Dokumentasi kontribusi perempuan sebagai role model di sektor efisiensi energi.",
+            "coverImage": "../images/publications/gesi-cover.png",
+            "publishedDate": "10 Juni 2025",
+            "program": "MENTARI Energy Efficiency"
+        },
+        {
+            "slug": "model-bisnis-efisiensi-energi",
+            "title": "Kajian Model Bisnis Efisiensi Energi di Sarana dan Prasarana Pemerintah",
+            "excerpt": "Strategi meningkatkan efisiensi energi di infrastruktur pemerintah.",
+            "coverImage": "../images/publications/kajian-bisnis-cover.png",
+            "publishedDate": "Maret 2025",
+            "program": "MENTARI Energy Efficiency"
+        },
+        {
+            "slug": "modul-mv-kinerja-energi",
+            "title": "Modul Pengukuran dan Verifikasi Kinerja Energi",
+            "excerpt": "Panduan komprehensif tentang prinsip audit energi dan M&V.",
+            "coverImage": "../images/publications/mv-cover.png",
+            "publishedDate": "Februari 2025",
+            "program": "MENTARI Energy Efficiency"
+        },
+        {
+            "slug": "panduan-web-portal-peen",
+            "title": "Panduan Penggunaan Web Peserta PEEN",
+            "excerpt": "Instruksi menggunakan web portal Penghargaan Efisiensi Energi Nasional.",
+            "coverImage": "../images/publications/peen-cover.png",
+            "publishedDate": "02 September 2024",
+            "program": "MENTARI Energy Efficiency"
+        },
+        {
+            "slug": "lembar-kerja-manajemen-energi",
+            "title": "Lembar Kerja Panduan Penerapan Sistem Manajemen Energi",
+            "excerpt": "Panduan praktis implementasi sistem manajemen energi pada bangunan gedung.",
+            "coverImage": "../images/publications/worksheet-enms-cover.png",
+            "publishedDate": "03 April 2024",
+            "program": "MENTARI Energy Efficiency"
+        },
+        {
+            "slug": "kompilasi-bimtek-manajemen-energi",
+            "title": "Bimbingan Teknis Penerapan Manajemen Energi Bangunan Gedung Pemerintah",
+            "excerpt": "Kumpulan materi pengajaran bimbingan teknis manajemen energi.",
+            "coverImage": "../images/publications/bimtek-cover.png",
+            "publishedDate": "Desember 2023",
+            "program": "MENTARI Energy Efficiency"
+        },
+        {
+            "slug": "panduan-enms-iso-50005",
+            "title": "Panduan Penerapan Sistem Manajemen Energi ISO 50005:2021",
+            "excerpt": "Panduan praktis manajemen energi berbasis tingkat kematangan.",
+            "coverImage": "../images/publications/iso50005-cover.png",
+            "publishedDate": "22 Juni 2023",
+            "program": "MENTARI Energy Efficiency"
+        },
+        {
+            "slug": "panduan-perubahan-iklim",
+            "title": "Pedoman Aspek Perubahan Iklim untuk Manajer dan Auditor Energi",
+            "excerpt": "Panduan memahami perubahan iklim dan mitigasi di bangunan gedung.",
+            "coverImage": "../images/publications/perubahan-iklim-cover.png",
+            "publishedDate": "22 Juni 2023",
+            "program": "MENTARI Energy Efficiency"
+        },
+        {
+            "slug": "panduan-praktis-efisiensi-energi",
+            "title": "Panduan Praktis Penerapan Efisiensi Energi pada Bangunan Gedung",
+            "excerpt": "Saran praktis menerapkan efisiensi energi pada struktur bangunan.",
+            "coverImage": "../images/publications/panduan-praktis-cover.png",
+            "publishedDate": "22 Juni 2023",
+            "program": "MENTARI Energy Efficiency"
+        }
+    ]
+}

@@ -1,0 +1,87 @@
+{
+    "projects": [
+        {
+            "id": "uk-pact-intens",
+            "title": "UK PACT INTENS - Industrial Energy Efficiency",
+            "description": "Supporting Indonesia's industrial sector transition to low-carbon operations through capacity building and technical assistance for energy management systems.",
+            "donor": "UK PACT",
+            "year": "2022-2024",
+            "tags": [
+                "Energy Transition",
+                "Capacity Building",
+                "Industrial"
+            ],
+            "image": "",
+            "pillar": "energy-transition"
+        },
+        {
+            "id": "strategic-plan-support",
+            "title": "Medium-Term Strategic Plan Development",
+            "description": "Formulating strategic plans for government agencies to integrate energy efficiency and low-carbon development into their operational frameworks.",
+            "donor": "Government Partnership",
+            "year": "2021-2023",
+            "tags": [
+                "Policy Advisory",
+                "Strategic Planning"
+            ],
+            "image": "",
+            "pillar": "energy-transition"
+        },
+        {
+            "id": "mrv-platform",
+            "title": "National MRV System Development",
+            "description": "Developing and implementing Monitoring, Reporting, and Verification (MRV) platforms to track energy savings and emission reductions at national level.",
+            "donor": "International Development Partner",
+            "year": "2020-2023",
+            "tags": [
+                "MRV",
+                "Digital Systems",
+                "National"
+            ],
+            "image": "",
+            "pillar": "environmental-management"
+        },
+        {
+            "id": "energy-auditor-certification",
+            "title": "Energy Auditor Certification Program",
+            "description": "Training and certifying energy professionals across Indonesia to conduct investment-grade energy audits in buildings and industries.",
+            "donor": "Ministry of Energy and Mineral Resources",
+            "year": "2019-2024",
+            "tags": [
+                "Capacity Building",
+                "Certification",
+                "Energy Audit"
+            ],
+            "image": "",
+            "pillar": "energy-transition"
+        },
+        {
+            "id": "natural-resources-assessment",
+            "title": "Natural Resources Baseline Assessment",
+            "description": "Conducting comprehensive baseline assessments of natural resources to inform sustainable management policies and practices.",
+            "donor": "Environmental NGO Partner",
+            "year": "2022",
+            "tags": [
+                "Research",
+                "Assessment",
+                "Natural Resources"
+            ],
+            "image": "",
+            "pillar": "natural-resources"
+        },
+        {
+            "id": "gedsi-guidelines",
+            "title": "GEDSI Integration Guidelines Development",
+            "description": "Developing and disseminating guidelines for integrating Gender Equality, Disability, and Social Inclusion into energy and environment projects.",
+            "donor": "Development Partner",
+            "year": "2023",
+            "tags": [
+                "GEDSI",
+                "Guidelines",
+                "Social Inclusion"
+            ],
+            "image": "",
+            "pillar": "environmental-management"
+        }
+    ]
+}

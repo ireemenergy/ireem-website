@@ -1,0 +1,50 @@
+{
+    "_type": "project",
+    "title": "Carbon Pricing & Environmental Policy Capacity Building",
+    "slug": {
+        "current": "carbon-pricing-environmental-policy"
+    },
+    "shortDescription": "Penguatan kapasitas kebijakan lingkungan dan iklim melalui carbon pricing.",
+    "donor": "UK PACT & partners",
+    "periodStart": "2023-01-01",
+    "periodEnd": "2024-12-31",
+    "status": "completed",
+    "programs": [
+        "environment",
+        "energy"
+    ],
+    "activities": [
+        {
+            "activityType": "capacity-building",
+            "forms": [
+                "Penguatan kapasitas kebijakan lingkungan & iklim"
+            ],
+            "achievements": [
+                {
+                    "label": "Fokus",
+                    "value": "Carbon pricing"
+                }
+            ]
+        },
+        {
+            "activityType": "policy-advisory",
+            "forms": [
+                "Kebijakan carbon pricing"
+            ],
+            "achievements": [
+                {
+                    "label": "Area",
+                    "value": "Kebijakan lingkungan & iklim"
+                }
+            ]
+        }
+    ],
+    "highlights": [
+        "Penguatan kapasitas kebijakan lingkungan & iklim",
+        "Carbon pricing"
+    ],
+    "provinces": [
+        "national"
+    ],
+    "coverImage": null
+}

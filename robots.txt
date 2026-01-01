@@ -1,0 +1,11 @@
+# robots.txt for IREEM Website
+# https://ireem.id
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://ireem.id/sitemap.xml
+
+# Disallow admin or internal directories if any
+Disallow: /docs/

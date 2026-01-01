@@ -1,0 +1,49 @@
+{
+    "_type": "project",
+    "title": "Bimtek Implementasi Manajemen Energi",
+    "slug": {
+        "current": "bimtek-implementasi-manajemen-energi"
+    },
+    "shortDescription": "Seri Bimtek di berbagai kota untuk implementasi SNI ISO 50005 & efisiensi energi di gedung pemerintah.",
+    "donor": "UK PACT / KESDM",
+    "periodStart": "2023-01-01",
+    "periodEnd": "2024-12-31",
+    "status": "completed",
+    "programs": [
+        "energy"
+    ],
+    "activities": [
+        {
+            "activityType": "capacity-building",
+            "forms": [
+                "Seri Bimtek di Tegal, Bogor, Surabaya, Banten, Bandung, Makassar, Balikpapan, Pekanbaru"
+            ],
+            "achievements": [
+                {
+                    "label": "Batch Bimtek",
+                    "value": ">10"
+                },
+                {
+                    "label": "Peserta",
+                    "value": "Ratusan (kementerian, pemda, universitas, rumah sakit, perusahaan)"
+                }
+            ]
+        }
+    ],
+    "highlights": [
+        ">10 batch Bimtek dengan ratusan peserta",
+        "Peserta: kementerian, pemda, universitas, rumah sakit, perusahaan",
+        "Terintegrasi dengan RENSTRA & regulasi energi nasional",
+        "Fokus: implementasi SNI ISO 50005 & efisiensi energi di gedung pemerintah"
+    ],
+    "provinces": [
+        "jawa-barat",
+        "jawa-tengah",
+        "jawa-timur",
+        "banten",
+        "sulawesi-selatan",
+        "kalimantan-timur",
+        "riau"
+    ],
+    "coverImage": null
+}

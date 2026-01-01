@@ -1,0 +1,96 @@
+{
+    "sectionSubtitle": "Mitra Terpercaya Kami",
+    "sectionTitle": "Dipercaya oleh Institusi Terkemuka",
+    "partners": [
+        {
+            "id": "uk-pact",
+            "name": "UK PACT",
+            "logo": "images/partners/uk-pact.png",
+            "url": "https://www.ukpact.co.uk/"
+        },
+        {
+            "id": "kementerian-esdm",
+            "name": "Kementerian ESDM",
+            "logo": "images/partners/kementerian-esdm.png",
+            "url": "https://www.esdm.go.id/"
+        },
+        {
+            "id": "giz",
+            "name": "GIZ",
+            "logo": "images/partners/giz.png",
+            "url": "https://www.giz.de/"
+        },
+        {
+            "id": "kemenkeu",
+            "name": "Kemenkeu",
+            "logo": "images/partners/kemenkeu.png",
+            "url": "https://www.kemenkeu.go.id/"
+        },
+        {
+            "id": "danida",
+            "name": "Danida",
+            "logo": "images/partners/danida.png",
+            "url": "https://um.dk/en/danida"
+        },
+        {
+            "id": "kemenhub",
+            "name": "Kemenhub",
+            "logo": "images/partners/kemenhub.png",
+            "url": "https://dephub.go.id/"
+        },
+        {
+            "id": "south-pole",
+            "name": "South Pole",
+            "logo": "images/partners/south-pole.png",
+            "url": "https://www.southpole.com/"
+        },
+        {
+            "id": "jetp",
+            "name": "JETP Indonesia",
+            "logo": "images/partners/jetp.png",
+            "url": null
+        },
+        {
+            "id": "jawa-tengah",
+            "name": "Jawa Tengah",
+            "logo": "images/partners/jawa-tengah.png",
+            "url": "https://jatengprov.go.id/"
+        },
+        {
+            "id": "magelang",
+            "name": "Kab. Magelang",
+            "logo": "images/partners/magelang.png",
+            "url": null
+        },
+        {
+            "id": "ui",
+            "name": "UI",
+            "logo": "images/partners/ui.png",
+            "url": "https://www.ui.ac.id/"
+        },
+        {
+            "id": "unsoed",
+            "name": "UNSOED",
+            "logo": "images/partners/unsoed.png",
+            "url": "https://unsoed.ac.id/"
+        },
+        {
+            "id": "rscm",
+            "name": "RSCM",
+            "logo": "images/partners/rscm.png",
+            "url": "https://www.rscm.co.id/"
+        },
+        {
+            "id": "evershinetex",
+            "name": "Ever Shine Tex",
+            "logo": "images/partners/evershinetex.png",
+            "url": null
+        },
+        {
+            "id": "lsp-hake",
+            "name": "LSP HAKE",
+            "logo": "images/partners/lsp-hake.png",
+            "url": null
+        }
+    ]
+}
