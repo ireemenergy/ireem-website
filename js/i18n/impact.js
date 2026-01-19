@@ -159,6 +159,42 @@
                     item1: { id: 'Studi biomassa (Sumbawa & Lombok)', en: 'Biomass Study (Sumbawa & Lombok)' }
                 }
             }
+        },
+
+        // Success Stories Section
+        successStories: {
+            subtitle: { id: 'Cerita Sukses', en: 'Success Stories' },
+            heading: { id: 'Testimoni dari Mitra Kami', en: 'Testimonials from Our Partners' },
+            description: { id: 'Suara-suara dari para mitra yang telah merasakan dampak nyata kolaborasi bersama IREEM.', en: 'Voices from partners who have experienced the real impact of collaboration with IREEM.' },
+            viewAll: { id: 'Lihat Semua Cerita Sukses', en: 'View All Success Stories' }
+        },
+
+        // Partners Section
+        partners: {
+            subtitle: { id: 'Klien & Mitra', en: 'Clients & Partners' },
+            heading: { id: 'Mitra Terpercaya IREEM', en: 'IREEM Trusted Partners' },
+            description: { id: 'Kami berkolaborasi dengan berbagai institusi pemerintah, donor internasional, dan sektor swasta untuk mendorong transisi energi dan pembangunan berkelanjutan.', en: 'We collaborate with various government institutions, international donors, and private sector to drive energy transition and sustainable development.' },
+            government: { id: 'Pemerintah', en: 'Government' },
+            donors: { id: 'Donor Internasional', en: 'International Donors' },
+            private: { id: 'Sektor Swasta', en: 'Private Sector' }
+        },
+
+        // Success Story Detail Page
+        successStory: {
+            // Loading & Error States
+            loading: { id: 'Memuat cerita sukses...', en: 'Loading success story...' },
+            notFoundTitle: { id: 'Cerita Sukses Tidak Ditemukan', en: 'Success Story Not Found' },
+            notFoundMessage: { id: 'Maaf, cerita sukses yang Anda cari tidak tersedia.', en: 'Sorry, the success story you are looking for is not available.' },
+            backButton: { id: 'Kembali ke Dampak', en: 'Back to Impact' },
+
+            // Tags Section
+            tagsTitle: { id: 'TOPIK TERKAIT', en: 'RELATED TOPICS' },
+
+            // Related Sections
+            relatedProjects: { id: 'Proyek Terkait', en: 'Related Projects' },
+            relatedNews: { id: 'Berita Terkait', en: 'Related News' },
+            relatedFactsheets: { id: 'FactSheet Terkait', en: 'Related FactSheets' },
+            relatedPublications: { id: 'Publikasi Terkait', en: 'Related Publications' }
         }
     };
 
@@ -168,4 +204,3 @@
     }
 
 })();
-

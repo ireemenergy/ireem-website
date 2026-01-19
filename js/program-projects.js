@@ -34,11 +34,11 @@
         const lang = ProjectsService.getCurrentLang();
 
         const rows = projects.map((project, index) => {
-            // Use bilingual getText for fields that may be { id, en } objects
-            const title = ProjectsService.escapeHtml(ProjectsService.getText(project.title, lang));
-            const donor = ProjectsService.escapeHtml(ProjectsService.getText(project.donor, lang));
+            // Use getText with flat fields (title, titleEn) format
+            const title = ProjectsService.escapeHtml(ProjectsService.getText(project.title, project.titleEn));
+            const donor = ProjectsService.escapeHtml(ProjectsService.getText(project.donor, project.donorEn));
             const period = ProjectsService.formatPeriod(project.periodStart, project.periodEnd);
-            const description = ProjectsService.escapeHtml(ProjectsService.getText(project.shortDescription, lang));
+            const description = ProjectsService.escapeHtml(ProjectsService.getText(project.shortDescription, project.shortDescriptionEn));
             const bgColor = index % 2 === 0 ? '#f8fafc' : 'white';
 
             return `

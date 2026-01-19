@@ -9,12 +9,48 @@
     'use strict';
 
     const lingkungan = {
+        lingkungan: {
+            // Key Solutions for accordions
+            keySolutions: {
+                title: { id: 'Solusi Kunci:', en: 'Key Solutions:' },
+                mrv: { id: 'Sistem MRV Emisi & Lingkungan', en: 'Emission & Environmental MRV System' },
+                audit: { id: 'Audit Lingkungan', en: 'Environmental Audit' },
+                circularStudy: { id: 'Studi Kelayakan Ekonomi Sirkular', en: 'Circular Economy Feasibility Study' }
+            },
+
+            // Explore Section
+            explore: {
+                heading: { id: 'Jelajahi Lebih Lanjut', en: 'Explore More' },
+                subtitle: { id: 'Temukan proyek, publikasi, dan informasi terkait bidang Lingkungan', en: 'Discover projects, publications, and information related to Environment' },
+                database: {
+                    title: { id: 'Database Proyek', en: 'Project Database' },
+                    desc: { id: 'Lihat seluruh proyek IREEM di bidang Lingkungan', en: 'View all IREEM projects in Environment' },
+                    link: { id: 'Lihat Proyek', en: 'View Projects' }
+                },
+                factsheet: {
+                    title: { id: 'FactSheet', en: 'FactSheet' },
+                    desc: { id: 'Ringkasan visual proyek dan capaian bidang Lingkungan', en: 'Visual summary of Environment projects and achievements' },
+                    link: { id: 'Lihat FactSheet', en: 'View FactSheet' }
+                },
+                news: {
+                    title: { id: 'Berita Terkait', en: 'Related News' },
+                    desc: { id: 'Berita dan kegiatan terbaru di bidang Lingkungan', en: 'Latest news and activities in Environment' },
+                    link: { id: 'Lihat Berita', en: 'View News' }
+                },
+                publications: {
+                    title: { id: 'Publikasi', en: 'Publications' },
+                    desc: { id: 'Laporan, kajian, dan dokumen teknis IREEM', en: 'Reports, studies, and IREEM technical documents' },
+                    link: { id: 'Lihat Publikasi', en: 'View Publications' }
+                }
+            }
+        },
+
         // Program Nav
         programNav: {
             energy: { id: 'Energi & Iklim', en: 'Energy & Climate' },
             environment: { id: 'Lingkungan', en: 'Environment' },
             resources: { id: 'Sumber Daya Alam', en: 'Natural Resources' },
-            gesi: { id: 'GESI', en: 'GESI' }
+            gesi: { id: 'GEDSI', en: 'GEDSI' }
         },
 
         // Hero Section
@@ -42,7 +78,7 @@
                 id: 'Pendekatan ini memastikan bahwa kebijakan dan proyek pembangunan tidak hanya patuh regulasi, tetapi juga <strong>berkontribusi nyata pada penurunan dampak lingkungan</strong>.',
                 en: 'This approach ensures that policies and development projects not only comply with regulations, but also <strong>make a real contribution to reducing environmental impact</strong>.'
             },
-            keyServicesTitle: { id: 'Layanan Kunci', en: 'Key Services' },
+            keyServicesTitle: { id: 'Solusi Kunci', en: 'Key Solutions' },
             keyService1: { id: '→ Audit Lingkungan', en: '→ Environmental Audit' },
             keyService2: { id: '→ Sistem MRV Emisi & Lingkungan', en: '→ Emission & Environmental MRV Systems' },
             keyService3: { id: '→ Studi Kelayakan Ekonomi Sirkular', en: '→ Circular Economy Feasibility Studies' }
@@ -50,7 +86,7 @@
 
         // Services & Solutions Section
         services: {
-            title: { id: 'Layanan & Solusi', en: 'Services & Solutions' },
+            title: { id: 'Solusi Kami', en: 'Our Solutions' },
             subtitle: { id: 'Pendampingan teknis dan kebijakan untuk pengelolaan lingkungan berkelanjutan', en: 'Technical and policy assistance for sustainable environmental management' },
 
             // MRV System
@@ -76,7 +112,7 @@
                 intro: { id: 'Penyusunan dan penguatan dokumen lingkungan strategis:', en: 'Preparation and strengthening of strategic environmental documents:' },
                 item1: { id: 'AMDAL untuk proyek infrastruktur dan industri', en: 'EIA for infrastructure and industrial projects' },
                 item2: { id: 'KLHS untuk kebijakan, rencana, dan program pembangunan', en: 'SEA for policies, plans, and development programs' },
-                closing: { id: 'Pendekatan IREEM menekankan substansi dampak dan mitigasi, bukan sekadar kepatuhan administratif.', en: 'IREEM\'s approach emphasizes impact substance and mitigation, not just administrative compliance.' }
+                closing: { id: "Pendekatan IREEM menekankan substansi dampak dan mitigasi, bukan sekadar kepatuhan administratif.", en: "IREEM's approach emphasizes impact substance and mitigation, not just administrative compliance." }
             },
 
             // Circular Economy
@@ -109,7 +145,7 @@
         // Related Programs
         related: {
             title: { id: 'Keterkaitan dengan Program Lain', en: 'Connection with Other Programs' },
-            subtitle: { id: 'Program Lingkungan IREEM terhubung erat dengan bidang kerja lainnya', en: 'IREEM\'s Environment Program is closely connected with other work areas' },
+            subtitle: { id: 'Program Lingkungan IREEM terhubung erat dengan bidang kerja lainnya', en: "IREEM's Environment Program is closely connected with other work areas" },
             energy: {
                 title: { id: 'Energi & Iklim', en: 'Energy & Climate' },
                 description: { id: 'MRV, dekarbonisasi, pasar karbon', en: 'MRV, decarbonization, carbon market' }
@@ -119,7 +155,7 @@
                 description: { id: 'Biomassa, limbah, ekonomi sirkular', en: 'Biomass, waste, circular economy' }
             },
             gesi: {
-                title: { id: 'GESI', en: 'GESI' },
+                title: { id: 'GEDSI', en: 'GEDSI' },
                 description: { id: 'Inklusivitas dalam kebijakan lingkungan', en: 'Inclusivity in environmental policy' }
             }
         },

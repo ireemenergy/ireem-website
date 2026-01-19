@@ -14,7 +14,7 @@
             energy: { id: 'Energi & Iklim', en: 'Energy & Climate' },
             environment: { id: 'Lingkungan', en: 'Environment' },
             resources: { id: 'Sumber Daya Alam', en: 'Natural Resources' },
-            gesi: { id: 'GESI', en: 'GESI' }
+            gesi: { id: 'GEDSI', en: 'GEDSI' }
         },
 
         // Hero Section
@@ -52,7 +52,7 @@
 
         // Services & Solutions Section
         services: {
-            title: { id: 'Layanan & Solusi', en: 'Services & Solutions' },
+            title: { id: 'Solusi Kami', en: 'Our Solutions' },
             subtitle: { id: 'Pendampingan teknis untuk pengelolaan sumber daya alam berkelanjutan', en: 'Technical assistance for sustainable natural resource management' },
 
             // Baseline Assessments
@@ -127,7 +127,7 @@
                 description: { id: 'MRV, polusi, ekonomi sirkular', en: 'MRV, pollution, circular economy' }
             },
             gesi: {
-                title: { id: 'GESI', en: 'GESI' },
+                title: { id: 'GEDSI', en: 'GEDSI' },
                 description: { id: 'Inklusivitas dan keadilan', en: 'Inclusivity and equity' }
             }
         },
@@ -137,6 +137,40 @@
             title: { id: 'Bermitra untuk Konservasi dan Pengelolaan Sumber Daya Alam', en: 'Partner for Conservation and Natural Resource Management' },
             description: { id: 'IREEM membuka peluang kolaborasi dengan pemerintah, donor, dan mitra pembangunan untuk memperkuat pengelolaan sumber daya alam yang berkelanjutan dan berbasis data.', en: 'IREEM opens collaboration opportunities with government, donors, and development partners to strengthen sustainable and data-driven natural resource management.' },
             button: { id: 'Ajukan Kemitraan', en: 'Submit Partnership' }
+        },
+
+        // SDA wrapper for explore section keys (sda.explore.*)
+        sda: {
+            explore: {
+                heading: { id: 'Jelajahi Lebih Lanjut', en: 'Explore More' },
+                subtitle: { id: 'Temukan proyek, publikasi, dan informasi terkait bidang Sumber Daya Alam', en: 'Discover projects, publications, and information related to Natural Resources' },
+                database: {
+                    title: { id: 'Database Proyek', en: 'Project Database' },
+                    desc: { id: 'Lihat seluruh proyek IREEM di bidang Sumber Daya Alam', en: 'View all IREEM projects in Natural Resources' },
+                    link: { id: 'Lihat Proyek', en: 'View Projects' }
+                },
+                factsheet: {
+                    title: { id: 'FactSheet', en: 'FactSheet' },
+                    desc: { id: 'Ringkasan visual proyek dan capaian bidang SDA', en: 'Visual summary of Natural Resources projects and achievements' },
+                    link: { id: 'Lihat FactSheet', en: 'View FactSheet' }
+                },
+                news: {
+                    title: { id: 'Berita Terkait', en: 'Related News' },
+                    desc: { id: 'Berita dan kegiatan terbaru di bidang Sumber Daya Alam', en: 'Latest news and activities in Natural Resources' },
+                    link: { id: 'Lihat Berita', en: 'View News' }
+                },
+                publications: {
+                    title: { id: 'Publikasi', en: 'Publications' },
+                    desc: { id: 'Laporan, kajian, dan dokumen teknis IREEM', en: 'Reports, studies, and IREEM technical documents' },
+                    link: { id: 'Lihat Publikasi', en: 'View Publications' }
+                }
+            },
+            policyFocus: {
+                title: { id: 'Fokus Kebijakan:', en: 'Policy Focus:' },
+                spatial: { id: 'Tata Ruang Berbasis Ekosistem', en: 'Ecosystem-Based Spatial Planning' },
+                watershed: { id: 'Pengelolaan DAS Terpadu', en: 'Integrated Watershed Management' },
+                ecosystem: { id: 'Valuasi Jasa Ekosistem', en: 'Ecosystem Services Valuation' }
+            }
         }
     };
 

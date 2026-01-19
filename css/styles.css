@@ -245,6 +245,18 @@ p {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
+/* Outline button for light backgrounds */
+.btn-outline-dark {
+  background-color: transparent;
+  color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+}
+
+.btn-outline-dark:hover {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
 .btn-text {
   padding: 0;
   color: var(--color-primary);
@@ -312,14 +324,21 @@ p {
 
 .nav-container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   width: 100%;
+  gap: var(--space-8);
+}
+
+.logo {
+  flex-shrink: 0;
 }
 
 .nav-links {
   display: flex;
-  gap: var(--space-8);
+  align-items: center;
+  gap: var(--space-6);
+  flex-grow: 1;
+  justify-content: center;
 }
 
 .nav-link {
@@ -347,6 +366,67 @@ p {
 
 .nav-link:hover::after {
   width: 100%;
+}
+
+/* Navigation Dropdown */
+.nav-dropdown {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+
+.nav-dropdown-trigger {
+  display: inline-flex;
+  align-items: center;
+}
+
+.nav-dropdown-trigger svg {
+  width: 12px;
+  height: 12px;
+  stroke: currentColor;
+  flex-shrink: 0;
+  transition: transform 0.3s ease;
+}
+
+.nav-dropdown:hover .nav-dropdown-trigger svg {
+  transform: rotate(180deg);
+}
+
+.nav-dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  min-width: 180px;
+  padding: 0.5rem 0;
+  border-radius: var(--radius-md);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  margin-top: 0.5rem;
+  z-index: 1000;
+}
+
+.nav-dropdown:hover .nav-dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  margin-top: 0.25rem;
+}
+
+.nav-dropdown-item {
+  display: block;
+  padding: 0.6rem 1.25rem;
+  font-size: var(--text-sm);
+  color: var(--color-text);
+  transition: all 0.2s ease;
+}
+
+.nav-dropdown-item:hover {
+  background: var(--color-bg);
+  color: var(--color-primary);
+  padding-left: 1.5rem;
 }
 
 /* Hide mobile CTA button on desktop - only show in mobile hamburger menu */
@@ -828,16 +908,66 @@ p {
   background-color: white;
 }
 
+/* Responsive - Tablet (iPad) */
+@media (max-width: 1200px) and (min-width: 769px) {
+
+  /* Add horizontal padding to navbar on tablet */
+  .nav-container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  /* Disable hover-based dropdown on tablet, use click instead */
+  .nav-dropdown:hover .nav-dropdown-menu {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  /* Show dropdown only when .open class is added via JS click */
+  .nav-dropdown.open .nav-dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    margin-top: 0.25rem;
+  }
+
+  .nav-dropdown.open .nav-dropdown-trigger svg {
+    transform: rotate(180deg);
+  }
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   :root {
     --text-5xl: 2.5rem;
   }
 
-  /* Add horizontal padding to navbar on mobile */
+  /* Add horizontal padding to navbar on mobile and fix order */
   .nav-container {
     padding-left: 1rem;
     padding-right: 1rem;
+    justify-content: space-between;
+  }
+
+  /* Logo stays left */
+  .nav-container .logo {
+    order: 1;
+  }
+
+  /* Lang switcher in middle */
+  .nav-container .lang-switcher {
+    order: 2;
+    margin-left: auto;
+    margin-right: 1rem;
+  }
+
+  /* Burger button on far right */
+  .nav-container .mobile-menu-btn {
+    order: 3;
+  }
+
+  /* Hide desktop CTA and nav-links in normal flow */
+  .nav-container .btn-primary:not(.nav-cta-mobile) {
+    display: none;
   }
 
   .mobile-menu-btn {
@@ -889,6 +1019,57 @@ p {
 
   .nav-link::after {
     display: none;
+  }
+
+  /* Mobile Dropdown - Click to expand */
+  .nav-dropdown {
+    width: 100%;
+    max-width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-dropdown-trigger {
+    justify-content: center;
+  }
+
+  .nav-dropdown-menu {
+    position: static;
+    transform: none;
+    opacity: 1;
+    visibility: visible;
+    max-height: 0;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    margin-top: 0;
+    padding: 0;
+    width: 100%;
+    transition: max-height 0.3s ease, padding 0.3s ease, margin 0.3s ease;
+  }
+
+  .nav-dropdown.open .nav-dropdown-menu {
+    max-height: 500px;
+    padding: 0.5rem 0;
+    margin-top: 0.5rem;
+  }
+
+  .nav-dropdown.open .nav-dropdown-trigger svg {
+    transform: rotate(180deg);
+  }
+
+  .nav-dropdown-item {
+    color: rgba(255, 255, 255, 0.8);
+    padding: 0.75rem 1.5rem;
+    text-align: center;
+    font-size: 0.95rem;
+  }
+
+  .nav-dropdown-item:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    padding-left: 1.5rem;
   }
 
   /* Mobile CTA Button */

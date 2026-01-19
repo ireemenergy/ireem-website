@@ -17,17 +17,95 @@
     <header class="header">
         <div class="container nav-container">
             <a href="../index.html" class="logo">
-                <img src="../images/logo.png" alt="IREEM Logo" style="height: 48px;">
+                <img src="../images/logo.png" alt="IREEM Logo" style="height: 64px;">
             </a>
 
             <nav class="nav-links">
-                <a href="../about/index.html" class="nav-link" data-i18n="nav.about">Tentang IREEM</a>
-                <a href="index.html" class="nav-link active" data-i18n="nav.program">Program</a>
-                <a href="../impact/index.html" class="nav-link" data-i18n="nav.impact">Dampak</a>
-                <a href="../publikasi/index.html" class="nav-link" data-i18n="nav.publications">Publikasi</a>
-                <a href="../berita/index.html" class="nav-link" data-i18n="nav.news">Berita</a>
-                <a href="../inovasi/index.html" class="nav-link" data-i18n="nav.innovation">Inovasi</a>
-                <a href="../kemitraan/index.html" class="nav-link" data-i18n="nav.partnership">Kemitraan</a>
+                <div class="nav-dropdown">
+                    <a href="../about/index.html" class="nav-link nav-dropdown-trigger" data-i18n="nav.about">
+                        Tentang IREEM
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" style="margin-left: 4px;">
+                            <path d="M6 9l6 6 6-6" />
+                        </svg>
+                    </a>
+                    <div class="nav-dropdown-menu">
+                        <a href="../about/index.html#latar-belakang" class="nav-dropdown-item"
+                            data-i18n="nav.background">Latar Belakang & Sejarah</a>
+                        <a href="../about/index.html#visi-misi" class="nav-dropdown-item"
+                            data-i18n="nav.visionMission">Visi & Misi</a>
+                        <a href="../about/index.html#nilai" class="nav-dropdown-item" data-i18n="nav.values">Nilai-Nilai
+                            IREEM</a>
+                        <a href="../about/index.html#executive-board" class="nav-dropdown-item" data-i18n="nav.team">Tim
+                            Kami</a>
+                    </div>
+                </div>
+                <div class="nav-dropdown">
+                    <a href="../program/index.html" class="nav-link nav-dropdown-trigger active"
+                        data-i18n="nav.program">
+                        Program
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" style="margin-left: 4px;">
+                            <path d="M6 9l6 6 6-6" />
+                        </svg>
+                    </a>
+                    <div class="nav-dropdown-menu">
+                        <a href="../program/energi.html" class="nav-dropdown-item" data-i18n="nav.energy">Energi</a>
+                        <a href="../program/lingkungan.html" class="nav-dropdown-item"
+                            data-i18n="nav.environment">Lingkungan</a>
+                        <a href="../program/sumber-daya.html" class="nav-dropdown-item"
+                            data-i18n="nav.naturalResources">Sumber Daya Alam</a>
+                        <a href="../program/gesi.html" class="nav-dropdown-item" data-i18n="nav.gedsi">GEDSI</a>
+                    </div>
+                </div>
+                <div class="nav-dropdown">
+                    <a href="../portfolio/index.html" class="nav-link nav-dropdown-trigger" data-i18n="nav.portfolio">
+                        Portfolio
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" style="margin-left: 4px;">
+                            <path d="M6 9l6 6 6-6" />
+                        </svg>
+                    </a>
+                    <div class="nav-dropdown-menu">
+                        <a href="../portfolio/index.html" class="nav-dropdown-item"
+                            data-i18n="nav.projectDatabase">Database Proyek</a>
+                        <a href="../inovasi/index.html" class="nav-dropdown-item"
+                            data-i18n="nav.innovation">Aplikasi/Inovasi</a>
+                    </div>
+                </div>
+                <div class="nav-dropdown">
+                    <a href="../impact/index.html" class="nav-link nav-dropdown-trigger" data-i18n="nav.impact">
+                        Dampak
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" style="margin-left: 4px;">
+                            <path d="M6 9l6 6 6-6" />
+                        </svg>
+                    </a>
+                    <div class="nav-dropdown-menu">
+                        <a href="../impact/index.html#impact-stats" class="nav-dropdown-item"
+                            data-i18n="nav.impactStats">IREEM dalam Angka</a>
+                        <a href="../impact/index.html#success-stories" class="nav-dropdown-item"
+                            data-i18n="nav.successStories">Cerita Sukses</a>
+                        <a href="../impact/index.html#partners-section" class="nav-dropdown-item"
+                            data-i18n="nav.partners">Mitra Terpercaya</a>
+                    </div>
+                </div>
+                <div class="nav-dropdown">
+                    <a href="../insights/index.html" class="nav-link nav-dropdown-trigger" data-i18n="nav.insights">
+                        Wawasan
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" style="margin-left: 4px;">
+                            <path d="M6 9l6 6 6-6" />
+                        </svg>
+                    </a>
+                    <div class="nav-dropdown-menu">
+                        <a href="../berita/index.html" class="nav-dropdown-item" data-i18n="nav.news">Berita</a>
+                        <a href="../factsheet/index.html" class="nav-dropdown-item"
+                            data-i18n="nav.factsheet">FactSheet</a>
+                        <a href="../publikasi/index.html" class="nav-dropdown-item"
+                            data-i18n="nav.publications">Publikasi</a>
+                    </div>
+                </div>
                 <!-- Mobile CTA Button -->
                 <a href="../kemitraan/proposal.html" class="nav-cta-mobile btn btn-primary"
                     data-i18n="nav.partnershipCta">Ajukan Kemitraan</a>
@@ -70,7 +148,8 @@
         </div>
 
         <!-- Hero -->
-        <section class="section" style="background-color: #2F6F95; color: white; padding-top: 4rem;">
+        <section class="section"
+            style="background: linear-gradient(rgba(16, 84, 66, 0.85), rgba(16, 84, 66, 0.9)), url('../images/hero-lingkungan.jpg'); background-size: cover; background-position: center; color: white; padding-top: 4rem;">
             <div class="container grid-asymmetric">
                 <div>
                     <p class="small"
@@ -88,7 +167,7 @@
 
         <!-- Pendekatan Kami -->
         <section class="section bg-white">
-            <div class="container grid-asymmetric">
+            <div class="container" style="max-width: 900px;">
                 <div>
                     <h3 class="highlight" data-i18n="approach.title">Pendekatan Kami</h3>
                     <p data-i18n-html="approach.para1">Pertumbuhan ekonomi sering kali masih berbanding lurus dengan
@@ -114,17 +193,6 @@
                         tetapi juga <strong>berkontribusi nyata pada penurunan dampak lingkungan</strong>.
                     </p>
                 </div>
-                <div>
-                    <div class="card" style="background-color: #DCFCE7; border: none;">
-                        <h4 style="color: #166534; margin-bottom: 1rem;" data-i18n="approach.keyServicesTitle">Layanan
-                            Kunci</h4>
-                        <ul style="list-style: none; color: #166534; gap: 0.5rem; display: grid;">
-                            <li data-i18n="approach.keyService1">&rarr; Audit Lingkungan</li>
-                            <li data-i18n="approach.keyService2">&rarr; Sistem MRV Emisi & Lingkungan</li>
-                            <li data-i18n="approach.keyService3">&rarr; Studi Kelayakan Ekonomi Sirkular</li>
-                        </ul>
-                    </div>
-                </div>
             </div>
         </section>
 
@@ -132,7 +200,7 @@
         <section class="section">
             <div class="container">
                 <div class="text-center mb-8">
-                    <h2 data-i18n="services.title">Layanan & Solusi</h2>
+                    <h2 data-i18n="services.title">Solusi Nyata IREEM</h2>
                     <p class="lead" data-i18n="services.subtitle">Pendampingan teknis dan kebijakan untuk pengelolaan
                         lingkungan berkelanjutan</p>
                 </div>
@@ -195,8 +263,29 @@
                     }
 
                     .accordion-item.active .accordion-content {
-                        max-height: 500px;
+                        max-height: 800px;
                         padding: 0 1.5rem 1.5rem 1.5rem;
+                    }
+
+                    .accordion-gallery {
+                        display: grid;
+                        grid-template-columns: repeat(2, 1fr);
+                        gap: 1rem;
+                        margin-top: 1.25rem;
+                    }
+
+                    .accordion-gallery img {
+                        width: 100%;
+                        height: 180px;
+                        object-fit: cover;
+                        border-radius: 10px;
+                        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+                    }
+
+                    @media (max-width: 600px) {
+                        .accordion-gallery {
+                            grid-template-columns: 1fr;
+                        }
                     }
 
                     .accordion-content p,
@@ -236,6 +325,17 @@
                                 mengembangkan sistem MRV yang
                                 terintegrasi
                                 dengan kebijakan nasional dan kebutuhan pelaporan internasional.</p>
+                            <p style="margin-top: 0.75rem; font-weight: 600; color: var(--color-primary);"
+                                data-i18n="lingkungan.keySolutions.title">Solusi
+                                Kunci:</p>
+                            <ul>
+                                <li data-i18n="lingkungan.keySolutions.mrv">Sistem MRV Emisi & Lingkungan</li>
+                            </ul>
+                            <div class="accordion-gallery">
+                                <img src="../images/berita/aplikasi-monitoring-aksi-mitigasi-grk/banner.jpg"
+                                    alt="MRV System">
+                                <img src="../images/akselerasi.png" alt="Platform MRV">
+                            </div>
                         </div>
                     </div>
 
@@ -266,6 +366,18 @@
                             <p style="margin-top: 0.75rem;" data-i18n="services.pollution.closing">Termasuk dukungan
                                 perumusan kebijakan, standar teknis, dan
                                 sistem pemantauan berbasis data.</p>
+                            <p style="margin-top: 0.75rem; font-weight: 600; color: var(--color-primary);"
+                                data-i18n="lingkungan.keySolutions.title">Solusi
+                                Kunci:</p>
+                            <ul>
+                                <li data-i18n="lingkungan.keySolutions.audit">Audit Lingkungan</li>
+                            </ul>
+                            <div class="accordion-gallery">
+                                <img src="../images/berita/bimtek-manajemen-energi-kalimantan/inline-1.jpg"
+                                    alt="Kontrol Polusi 1">
+                                <img src="../images/berita/bimtek-manajemen-energi-kalimantan/inline-2.jpg"
+                                    alt="Kontrol Polusi 2">
+                            </div>
                         </div>
                     </div>
 
@@ -298,6 +410,12 @@
                             <p style="margin-top: 0.75rem;" data-i18n="services.amdal.closing">Pendekatan IREEM
                                 menekankan substansi dampak dan mitigasi,
                                 bukan sekadar kepatuhan administratif.</p>
+                            <div class="accordion-gallery">
+                                <img src="../images/berita/31-pengelola-gedung-manajer-energi/inline-1.jpg"
+                                    alt="AMDAL 1">
+                                <img src="../images/berita/31-pengelola-gedung-manajer-energi/inline-2.jpg"
+                                    alt="AMDAL 2">
+                            </div>
                         </div>
                     </div>
 
@@ -328,6 +446,19 @@
                             <p style="margin-top: 0.75rem;" data-i18n="services.circular.closing">Pendekatan ini sering
                                 dikombinasikan dengan kajian energi
                                 dan sumber daya alam.</p>
+                            <p style="margin-top: 0.75rem; font-weight: 600; color: var(--color-primary);"
+                                data-i18n="lingkungan.keySolutions.title">Solusi
+                                Kunci:</p>
+                            <ul>
+                                <li data-i18n="lingkungan.keySolutions.circularStudy">Studi Kelayakan Ekonomi Sirkular
+                                </li>
+                            </ul>
+                            <div class="accordion-gallery">
+                                <img src="../images/berita/capacity-building-manajemen-energi-bangunan/inline-3.jpg"
+                                    alt="Ekonomi Sirkular 1">
+                                <img src="../images/berita/capacity-building-manajemen-energi-bangunan/inline-4.JPG"
+                                    alt="Ekonomi Sirkular 2">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -351,27 +482,180 @@
             </div>
         </section>
 
-        <!-- Projects Table Section -->
+        <!-- Explore Resources Section -->
         <section class="section bg-white">
             <div class="container">
                 <div class="text-center mb-8">
-                    <h2 data-i18n="projects.title">Pengalaman Proyek di Bidang Lingkungan</h2>
-                    <p class="lead" data-i18n="projects.subtitle">Portofolio proyek bidang Manajemen Lingkungan IREEM
-                    </p>
+                    <h2 data-i18n="lingkungan.explore.heading">Jelajahi Lebih Lanjut</h2>
+                    <p class="lead" data-i18n="lingkungan.explore.subtitle">Temukan proyek, publikasi, dan informasi
+                        terkait bidang Lingkungan</p>
                 </div>
 
-                <!-- Dynamic Projects Container -->
-                <div id="projects-container" data-program="environment">
-                    <!-- Content loaded dynamically from Sanity -->
-                    <p class="text-center" style="padding: 2rem; color: var(--color-muted);"
-                        data-i18n="projects.loading">Memuat proyek...</p>
+                <style>
+                    .explore-grid {
+                        display: grid;
+                        grid-template-columns: repeat(4, 1fr);
+                        gap: 1.5rem;
+                    }
+
+                    .explore-card {
+                        background: white;
+                        border-radius: 16px;
+                        padding: 2rem 1.5rem;
+                        text-align: center;
+                        text-decoration: none;
+                        border: 1px solid #e2e8f0;
+                        transition: all 0.3s ease;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        gap: 1rem;
+                    }
+
+                    .explore-card:hover {
+                        transform: translateY(-8px);
+                        box-shadow: 0 20px 40px rgba(14, 58, 93, 0.15);
+                        border-color: var(--color-primary);
+                    }
+
+                    .explore-icon {
+                        width: 70px;
+                        height: 70px;
+                        border-radius: 16px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+
+                    .explore-card h4 {
+                        color: var(--color-primary);
+                        font-size: 1.1rem;
+                        margin: 0;
+                    }
+
+                    .explore-card p {
+                        color: #64748b;
+                        font-size: 0.9rem;
+                        margin: 0;
+                        line-height: 1.5;
+                    }
+
+                    .explore-card .arrow {
+                        color: var(--color-accent);
+                        margin-top: auto;
+                        font-weight: 600;
+                        display: flex;
+                        align-items: center;
+                        gap: 0.5rem;
+                        font-size: 0.9rem;
+                    }
+
+                    @media (max-width: 992px) {
+                        .explore-grid {
+                            grid-template-columns: repeat(2, 1fr);
+                        }
+                    }
+
+                    @media (max-width: 600px) {
+                        .explore-grid {
+                            grid-template-columns: 1fr;
+                        }
+                    }
+                </style>
+
+                <div class="explore-grid">
+                    <!-- Database Proyek -->
+                    <a href="../portfolio/index.html?sector=environment" class="explore-card">
+                        <div class="explore-icon" style="background: #dbeafe;">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#3b82f6"
+                                stroke-width="2">
+                                <ellipse cx="12" cy="5" rx="9" ry="3" />
+                                <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3" />
+                                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5" />
+                            </svg>
+                        </div>
+                        <h4 data-i18n="lingkungan.explore.database.title">Database Proyek</h4>
+                        <p data-i18n="lingkungan.explore.database.desc">Lihat seluruh proyek IREEM di bidang Lingkungan
+                        </p>
+                        <span class="arrow">
+                            <span data-i18n="lingkungan.explore.database.link">Lihat Proyek</span>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7" />
+                            </svg>
+                        </span>
+                    </a>
+
+                    <!-- FactSheet -->
+                    <a href="../factsheet/index.html?category=lingkungan" class="explore-card">
+                        <div class="explore-icon" style="background: #dcfce7;">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#10b981"
+                                stroke-width="2">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                                <polyline points="14 2 14 8 20 8" />
+                                <line x1="16" y1="13" x2="8" y2="13" />
+                                <line x1="16" y1="17" x2="8" y2="17" />
+                                <polyline points="10 9 9 9 8 9" />
+                            </svg>
+                        </div>
+                        <h4 data-i18n="lingkungan.explore.factsheet.title">FactSheet</h4>
+                        <p data-i18n="lingkungan.explore.factsheet.desc">Ringkasan visual proyek dan capaian bidang
+                            Lingkungan</p>
+                        <span class="arrow">
+                            <span data-i18n="lingkungan.explore.factsheet.link">Lihat FactSheet</span>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7" />
+                            </svg>
+                        </span>
+                    </a>
+
+                    <!-- Berita -->
+                    <a href="../berita/index.html?category=lingkungan" class="explore-card">
+                        <div class="explore-icon" style="background: #fef3c7;">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#f59e0b"
+                                stroke-width="2">
+                                <path
+                                    d="M19 20H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v1m2 13a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2z" />
+                                <line x1="7" y1="8" x2="9" y2="8" />
+                                <line x1="7" y1="12" x2="13" y2="12" />
+                                <line x1="7" y1="16" x2="13" y2="16" />
+                            </svg>
+                        </div>
+                        <h4 data-i18n="lingkungan.explore.news.title">Berita Terkait</h4>
+                        <p data-i18n="lingkungan.explore.news.desc">Berita dan kegiatan terbaru di bidang Lingkungan</p>
+                        <span class="arrow">
+                            <span data-i18n="lingkungan.explore.news.link">Lihat Berita</span>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7" />
+                            </svg>
+                        </span>
+                    </a>
+
+                    <!-- Publikasi -->
+                    <a href="../publikasi/index.html" class="explore-card">
+                        <div class="explore-icon" style="background: #ede9fe;">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#8b5cf6"
+                                stroke-width="2">
+                                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+                                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
+                            </svg>
+                        </div>
+                        <h4 data-i18n="lingkungan.explore.publications.title">Publikasi</h4>
+                        <p data-i18n="lingkungan.explore.publications.desc">Laporan, kajian, dan dokumen teknis IREEM
+                        </p>
+                        <span class="arrow">
+                            <span data-i18n="lingkungan.explore.publications.link">Lihat Publikasi</span>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7" />
+                            </svg>
+                        </span>
+                    </a>
                 </div>
             </div>
         </section>
-
-        <!-- Scripts for dynamic projects -->
-        <script src="../js/projects-service.js"></script>
-        <script src="../js/program-projects.js"></script>
 
         <!-- Mengapa Bermitra dengan IREEM -->
         <section class="section" style="background: linear-gradient(135deg, #2F6F95 0%, #1e4d6b 100%);">

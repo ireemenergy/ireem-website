@@ -42,7 +42,8 @@
             strategicFocus: { id: 'Fokus Strategis', en: 'Strategic Focus' }
         },
         pillars: {
-            heading: { id: '3 Pilar Program', en: '3 Program Pillars' },
+            heading1: { id: '3 Pilar Program', en: '3 Program Pillars' },
+            heading2: { id: '+ 1 Tema Cross-Cutting', en: '+ 1 Cross-Cutting Theme' },
             description: {
                 id: 'Pendekatan holistik kami mencakup seluruh rantai nilai transisi hijau.',
                 en: 'Our holistic approach covers the entire green transition value chain.'
@@ -67,6 +68,13 @@
                     id: 'Konservasi lanskap, pengelolaan air, dan keanekaragaman hayati.',
                     en: 'Landscape conservation, water management, and biodiversity.'
                 }
+            },
+            gesi: {
+                title: { id: 'GEDSI', en: 'GEDSI' },
+                description: {
+                    id: 'Kesetaraan gender dan inklusi sosial dalam transisi energi berkelanjutan.',
+                    en: 'Gender equality and social inclusion in sustainable energy transition.'
+                }
             }
         },
         impact: {
@@ -77,18 +85,18 @@
             },
             viewReport: { id: 'Lihat Laporan Dampak', en: 'View Impact Report' },
             stats: {
-                fundsMobilized: { id: 'USD Dana Dimobilisasi', en: 'USD Funds Mobilized' },
+                trainingParticipants: { id: 'Peserta Pelatihan', en: 'Training Participants' },
                 provincesReached: { id: 'Provinsi Dijangkau', en: 'Provinces Reached' },
                 policiesSupported: { id: 'Kebijakan Nasional Didukung', en: 'National Policies Supported' },
                 auditorsCertified: { id: 'Auditor Energi Tersertifikasi', en: 'Certified Energy Auditors' }
             }
         },
         gallery: {
-            subtitle: { id: 'Galeri Aktivitas', en: 'Activity Gallery' },
+            subtitle: { id: 'Kabar dari Kami', en: 'News from Us' },
             heading: { id: 'Momen Terbaik dari Kegiatan Kami', en: 'Best Moments from Our Activities' },
             description: {
-                id: 'Dokumentasi visual berbagai pelatihan, workshop, dan kegiatan lapangan IREEM bersama para mitra.',
-                en: 'Visual documentation of various trainings, workshops, and field activities with our partners.'
+                id: 'Berita dari berbagai pelatihan, workshop, dan kegiatan lapangan IREEM bersama para mitra.',
+                en: 'News from various trainings, workshops, and field activities with our partners.'
             }
         },
         partners: {
@@ -98,6 +106,37 @@
                 id: 'Kolaborasi dengan berbagai pemangku kepentingan untuk dampak yang lebih luas.',
                 en: 'Collaboration with various stakeholders for broader impact.'
             }
+        },
+        portfolio: {
+            subtitle: { id: 'Proyek Unggulan', en: 'Featured Projects' },
+            heading: { id: 'Lihat Proyek Unggulan Kami', en: 'See Our Featured Projects' },
+            description: {
+                id: 'Inisiatif strategis yang kami kembangkan bersama mitra untuk mendorong transisi energi di Indonesia.',
+                en: 'Strategic initiatives we develop with partners to drive energy transition in Indonesia.'
+            },
+            viewAll: { id: 'Lihat Semua Proyek →', en: 'View All Projects →' }
+        },
+        spotlight: {
+            subtitle: { id: 'Suara Mitra Kami', en: 'Voices of Our Partners' },
+            heading: { id: 'Apa Kata Mereka', en: 'What They Say' }
+        },
+        knowledge: {
+            subtitle: { id: 'Publikasi Terbaru', en: 'Latest Publications' },
+            heading: { id: 'Laporan & Kajian', en: 'Reports & Studies' },
+            description: {
+                id: 'Temuan riset dan rekomendasi kebijakan dari tim ahli IREEM.',
+                en: 'Research findings and policy recommendations from IREEM experts.'
+            },
+            viewAll: { id: 'Lihat Semua Publikasi →', en: 'View All Publications →' }
+        },
+        news: {
+            subtitle: { id: 'Kabar dari Kami', en: 'News from Us' },
+            heading: { id: 'Berita Terbaru', en: 'Latest News' },
+            description: {
+                id: 'Update terkini dari kegiatan dan pencapaian IREEM.',
+                en: 'Latest updates from IREEM activities and achievements.'
+            },
+            viewAll: { id: 'Lihat Semua Berita →', en: 'View All News →' }
         },
         cta: {
             heading: { id: 'Siap Berkolaborasi?', en: 'Ready to Collaborate?' },

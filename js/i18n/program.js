@@ -47,7 +47,7 @@
                 }
             },
             gesi: {
-                title: { id: 'GESI & Inklusi Sosial', en: 'GESI & Social Inclusion' },
+                title: { id: 'GEDSI & Inklusi Sosial', en: 'GEDSI & Social Inclusion' },
                 category: { id: 'Kesetaraan', en: 'Equality' },
                 description: {
                     id: 'Pengarusutamaan Gender, Inklusi Sosial, dan Safeguards dalam setiap proyek pembangunan.',

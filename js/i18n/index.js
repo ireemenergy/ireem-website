@@ -137,7 +137,25 @@
                 if (attr) {
                     el.setAttribute(attr, translated);
                 } else {
-                    el.textContent = translated;
+                    // If element has child elements (like SVG), only replace text nodes
+                    if (el.children.length > 0) {
+                        // Find the first text node and replace it
+                        const childNodes = el.childNodes;
+                        let textNodeFound = false;
+                        for (let i = 0; i < childNodes.length; i++) {
+                            if (childNodes[i].nodeType === Node.TEXT_NODE && childNodes[i].textContent.trim()) {
+                                childNodes[i].textContent = translated + ' ';
+                                textNodeFound = true;
+                                break;
+                            }
+                        }
+                        // If no text node found, prepend one
+                        if (!textNodeFound) {
+                            el.insertBefore(document.createTextNode(translated + ' '), el.firstChild);
+                        }
+                    } else {
+                        el.textContent = translated;
+                    }
                 }
             }
         });

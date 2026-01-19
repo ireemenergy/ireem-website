@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GESI & Inklusi Sosial - Program IREEM</title>
+    <title>GEDSI & Inklusi Sosial - Program IREEM</title>
     <link rel="icon" type="image/x-icon" href="../images/ireemicon2.ico">
 
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -17,17 +17,95 @@
     <header class="header">
         <div class="container nav-container">
             <a href="../index.html" class="logo">
-                <img src="../images/logo.png" alt="IREEM Logo" style="height: 48px;">
+                <img src="../images/logo.png" alt="IREEM Logo" style="height: 64px;">
             </a>
 
             <nav class="nav-links">
-                <a href="../about/index.html" class="nav-link" data-i18n="nav.about">Tentang IREEM</a>
-                <a href="index.html" class="nav-link active" data-i18n="nav.program">Program</a>
-                <a href="../impact/index.html" class="nav-link" data-i18n="nav.impact">Dampak</a>
-                <a href="../publikasi/index.html" class="nav-link" data-i18n="nav.publications">Publikasi</a>
-                <a href="../berita/index.html" class="nav-link" data-i18n="nav.news">Berita</a>
-                <a href="../inovasi/index.html" class="nav-link" data-i18n="nav.innovation">Inovasi</a>
-                <a href="../kemitraan/index.html" class="nav-link" data-i18n="nav.partnership">Kemitraan</a>
+                <div class="nav-dropdown">
+                    <a href="../about/index.html" class="nav-link nav-dropdown-trigger" data-i18n="nav.about">
+                        Tentang IREEM
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" style="margin-left: 4px;">
+                            <path d="M6 9l6 6 6-6" />
+                        </svg>
+                    </a>
+                    <div class="nav-dropdown-menu">
+                        <a href="../about/index.html#latar-belakang" class="nav-dropdown-item"
+                            data-i18n="nav.background">Latar Belakang & Sejarah</a>
+                        <a href="../about/index.html#visi-misi" class="nav-dropdown-item"
+                            data-i18n="nav.visionMission">Visi & Misi</a>
+                        <a href="../about/index.html#nilai" class="nav-dropdown-item" data-i18n="nav.values">Nilai-Nilai
+                            IREEM</a>
+                        <a href="../about/index.html#executive-board" class="nav-dropdown-item" data-i18n="nav.team">Tim
+                            Kami</a>
+                    </div>
+                </div>
+                <div class="nav-dropdown">
+                    <a href="../program/index.html" class="nav-link nav-dropdown-trigger active"
+                        data-i18n="nav.program">
+                        Program
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" style="margin-left: 4px;">
+                            <path d="M6 9l6 6 6-6" />
+                        </svg>
+                    </a>
+                    <div class="nav-dropdown-menu">
+                        <a href="../program/energi.html" class="nav-dropdown-item" data-i18n="nav.energy">Energi</a>
+                        <a href="../program/lingkungan.html" class="nav-dropdown-item"
+                            data-i18n="nav.environment">Lingkungan</a>
+                        <a href="../program/sumber-daya.html" class="nav-dropdown-item"
+                            data-i18n="nav.naturalResources">Sumber Daya Alam</a>
+                        <a href="../program/gesi.html" class="nav-dropdown-item" data-i18n="nav.gedsi">GEDSI</a>
+                    </div>
+                </div>
+                <div class="nav-dropdown">
+                    <a href="../portfolio/index.html" class="nav-link nav-dropdown-trigger" data-i18n="nav.portfolio">
+                        Portfolio
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" style="margin-left: 4px;">
+                            <path d="M6 9l6 6 6-6" />
+                        </svg>
+                    </a>
+                    <div class="nav-dropdown-menu">
+                        <a href="../portfolio/index.html" class="nav-dropdown-item"
+                            data-i18n="nav.projectDatabase">Database Proyek</a>
+                        <a href="../inovasi/index.html" class="nav-dropdown-item"
+                            data-i18n="nav.innovation">Aplikasi/Inovasi</a>
+                    </div>
+                </div>
+                <div class="nav-dropdown">
+                    <a href="../impact/index.html" class="nav-link nav-dropdown-trigger" data-i18n="nav.impact">
+                        Dampak
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" style="margin-left: 4px;">
+                            <path d="M6 9l6 6 6-6" />
+                        </svg>
+                    </a>
+                    <div class="nav-dropdown-menu">
+                        <a href="../impact/index.html#impact-stats" class="nav-dropdown-item"
+                            data-i18n="nav.impactStats">IREEM dalam Angka</a>
+                        <a href="../impact/index.html#success-stories" class="nav-dropdown-item"
+                            data-i18n="nav.successStories">Cerita Sukses</a>
+                        <a href="../impact/index.html#partners-section" class="nav-dropdown-item"
+                            data-i18n="nav.partners">Mitra Terpercaya</a>
+                    </div>
+                </div>
+                <div class="nav-dropdown">
+                    <a href="../insights/index.html" class="nav-link nav-dropdown-trigger" data-i18n="nav.insights">
+                        Wawasan
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" style="margin-left: 4px;">
+                            <path d="M6 9l6 6 6-6" />
+                        </svg>
+                    </a>
+                    <div class="nav-dropdown-menu">
+                        <a href="../berita/index.html" class="nav-dropdown-item" data-i18n="nav.news">Berita</a>
+                        <a href="../factsheet/index.html" class="nav-dropdown-item"
+                            data-i18n="nav.factsheet">FactSheet</a>
+                        <a href="../publikasi/index.html" class="nav-dropdown-item"
+                            data-i18n="nav.publications">Publikasi</a>
+                    </div>
+                </div>
                 <!-- Mobile CTA Button -->
                 <a href="../kemitraan/proposal.html" class="nav-cta-mobile btn btn-primary"
                     data-i18n="nav.partnershipCta">Ajukan Kemitraan</a>
@@ -65,31 +143,31 @@
                     data-i18n="programNav.resources">Sumber Daya Alam</a>
                 <a href="gesi.html" class="btn-text"
                     style="color: var(--color-accent); border-bottom-color: var(--color-accent);"
-                    data-i18n="programNav.gesi">GESI</a>
+                    data-i18n="programNav.GEDSI">GEDSI</a>
             </div>
         </div>
 
         <!-- Hero -->
         <section class="section"
-            style="background: linear-gradient(135deg, #F2A900 0%, #E08A00 100%); color: #0E3A5D; padding-top: 4rem;">
+            style="background: linear-gradient(135deg, rgba(242, 169, 0, 0.92) 0%, rgba(224, 138, 0, 0.92) 100%), url('https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1600&q=80'); background-size: cover; background-position: center; color: #0E3A5D; padding-top: 4rem;">
             <div class="container" style="max-width: 900px;">
                 <p class="small"
                     style="color: rgba(14,58,93,0.7); font-weight: 700; text-transform: uppercase; letter-spacing: 2px;"
                     data-i18n="hero.subtitle">
                     Cross-Cutting Theme</p>
-                <h1 data-i18n="hero.title">Gender Equality & Social Inclusion (GESI)</h1>
+                <h1 data-i18n="hero.title">Gender Equality, Disability & Social Inclusion (GEDSI)</h1>
                 <p class="lead" style="color: rgba(14,58,93,0.9);" data-i18n="hero.description">Memastikan tidak ada
                     yang tertinggal dalam transisi
                     energi, pengelolaan lingkungan, dan pembangunan berkelanjutan.</p>
             </div>
         </section>
 
-        <!-- Pendekatan GESI -->
+        <!-- Pendekatan GEDSI -->
         <section class="section bg-white">
             <div class="container grid-asymmetric">
                 <div>
-                    <h3 class="highlight" data-i18n="approach.title">Pendekatan GESI di IREEM</h3>
-                    <p data-i18n-html="approach.para1">GESI bukan sekadar checklist, melainkan <strong>lensa
+                    <h3 class="highlight" data-i18n="approach.title">Pendekatan GEDSI di IREEM</h3>
+                    <p data-i18n-html="approach.para1">GEDSI bukan sekadar checklist, melainkan <strong>lensa
                             utama</strong> yang digunakan IREEM dalam
                         setiap
                         tahap proyek—mulai dari perencanaan, implementasi, hingga pemantauan dan evaluasi.</p>
@@ -165,11 +243,11 @@
             </div>
         </section>
 
-        <!-- Layanan GESI - Accordion Style -->
+        <!-- Layanan GEDSI - Accordion Style -->
         <section class="section">
             <div class="container">
                 <div class="text-center mb-8">
-                    <h2 data-i18n="services.title">Layanan GESI</h2>
+                    <h2 data-i18n="services.title">Layanan GEDSI</h2>
                     <p class="lead" data-i18n="services.subtitle">Pendampingan untuk integrasi prinsip kesetaraan dan
                         inklusi dalam proyek pembangunan
                     </p>
@@ -303,7 +381,8 @@
                             <ul>
                                 <li data-i18n="services.safeguards.item1">Pencegahan risiko sosial</li>
                                 <li data-i18n-html="services.safeguards.item2">Prinsip <em>do no harm</em></li>
-                                <li data-i18n="services.safeguards.item3">Integrasi GESI dalam desain proyek pembangunan
+                                <li data-i18n="services.safeguards.item3">Integrasi GEDSI dalam desain proyek
+                                    pembangunan
                                 </li>
                             </ul>
                         </div>
@@ -332,7 +411,7 @@
                             <ul>
                                 <li data-i18n="services.capacity.item1">Pengarusutamaan gender</li>
                                 <li data-i18n="services.capacity.item2">Inklusi sosial dalam kebijakan dan proyek</li>
-                                <li data-i18n="services.capacity.item3">Implementasi GESI bagi staf proyek dan pemangku
+                                <li data-i18n="services.capacity.item3">Implementasi GEDSI bagi staf proyek dan pemangku
                                     kepentingan</li>
                             </ul>
                         </div>
@@ -356,25 +435,25 @@
             </div>
         </section>
 
-        <!-- Dampak GESI - Data yang Diperbaiki -->
+        <!-- Dampak GEDSI - Data yang Diperbaiki -->
         <section class="section bg-light">
             <div class="container text-center">
-                <h2 data-i18n="impact.title">Dampak GESI IREEM</h2>
+                <h2 data-i18n="impact.title">Dampak GEDSI IREEM</h2>
                 <div class="grid grid-3" style="margin-top: 2rem; gap: 2rem;">
                     <div class="card" style="padding: 2rem;">
                         <span class="impact-number" style="color: var(--color-accent);">10+</span>
                         <p class="small" style="margin-top: 0.5rem;" data-i18n="impact.stat1.text">Produk pengetahuan
                             dan materi pembelajaran yang
-                            mengintegrasikan perspektif GESI</p>
+                            mengintegrasikan perspektif GEDSI</p>
                         <p class="small" style="color: var(--color-muted); font-size: 0.8rem; margin-top: 0.5rem;"
                             data-i18n="impact.stat1.note">
-                            (modul, panduan, kartu GESI, materi pelatihan)</p>
+                            (modul, panduan, kartu GEDSI, materi pelatihan)</p>
                     </div>
                     <div class="card" style="padding: 2rem;">
                         <span class="impact-number" style="color: var(--color-accent);">300+</span>
                         <p class="small" style="margin-top: 0.5rem;" data-i18n="impact.stat2.text">Pemangku kepentingan
                             mengikuti pelatihan dan
-                            kegiatan yang mengintegrasikan prinsip GESI</p>
+                            kegiatan yang mengintegrasikan prinsip GEDSI</p>
                         <p class="small" style="color: var(--color-muted); font-size: 0.8rem; margin-top: 0.5rem;"
                             data-i18n="impact.stat2.note">
                             (terutama dalam proyek UK PACT – efisiensi energi)</p>
@@ -383,7 +462,7 @@
                         <span class="impact-number" style="color: var(--color-accent);">100%</span>
                         <p class="small" style="margin-top: 0.5rem;" data-i18n="impact.stat3.text">Proyek UK PACT IREEM
                             mengintegrasikan analisis dan
-                            prinsip GESI</p>
+                            prinsip GEDSI</p>
                         <p class="small" style="color: var(--color-muted); font-size: 0.8rem; margin-top: 0.5rem;"
                             data-i18n="impact.stat3.note">
                             (dalam desain dan pelaksanaan)</p>
@@ -392,11 +471,11 @@
             </div>
         </section>
 
-        <!-- Implementasi GESI dalam Proyek -->
+        <!-- Implementasi GEDSI dalam Proyek -->
         <section class="section bg-white">
             <div class="container">
                 <div class="text-center mb-8">
-                    <h2 data-i18n="implementation.title">Implementasi GESI dalam Proyek IREEM</h2>
+                    <h2 data-i18n="implementation.title">Implementasi GEDSI dalam Proyek IREEM</h2>
                     <p class="lead" data-i18n="implementation.subtitle">Praktik nyata penerapan prinsip kesetaraan dan
                         inklusi</p>
                 </div>
@@ -411,9 +490,9 @@
                         </div>
                         <div>
                             <h4 style="margin-bottom: 0.25rem; font-size: 1rem;" data-i18n="implementation.item1.title">
-                                Integrasi GESI dalam Pelatihan</h4>
+                                Integrasi GEDSI dalam Pelatihan</h4>
                             <p class="small" data-i18n="implementation.item1.description">Pelatihan Manajer & Auditor
-                                Energi menyertakan modul GESI</p>
+                                Energi menyertakan modul GEDSI</p>
                         </div>
                     </div>
                     <div class="card"
@@ -426,7 +505,7 @@
                         </div>
                         <div>
                             <h4 style="margin-bottom: 0.25rem; font-size: 1rem;" data-i18n="implementation.item2.title">
-                                Pengembangan Kartu GESI</h4>
+                                Pengembangan Kartu GEDSI</h4>
                             <p class="small" data-i18n="implementation.item2.description">Alat refleksi dan diskusi
                                 untuk fasilitator dan peserta</p>
                         </div>
@@ -459,7 +538,7 @@
                             <h4 style="margin-bottom: 0.25rem; font-size: 1rem;" data-i18n="implementation.item4.title">
                                 Pelatihan Internal</h4>
                             <p class="small" data-i18n="implementation.item4.description">Capacity building staf IREEM
-                                terkait pengarusutamaan GESI</p>
+                                terkait pengarusutamaan GEDSI</p>
                         </div>
                     </div>
                 </div>
@@ -470,8 +549,8 @@
         <section class="section bg-light">
             <div class="container">
                 <div class="text-center mb-8">
-                    <h2 data-i18n="related.title">Posisi GESI dalam Program IREEM</h2>
-                    <p class="lead" data-i18n="related.subtitle">Pendekatan GESI IREEM diterapkan lintas program</p>
+                    <h2 data-i18n="related.title">Posisi GEDSI dalam Program IREEM</h2>
+                    <p class="lead" data-i18n="related.subtitle">Pendekatan GEDSI IREEM diterapkan lintas program</p>
                 </div>
                 <div class="grid grid-3" style="gap: 1.5rem;">
                     <a href="energi.html" class="card"
@@ -515,13 +594,188 @@
             </div>
         </section>
 
+        <!-- Explore Resources Section -->
+        <section class="section bg-white">
+            <div class="container">
+                <div class="text-center mb-8">
+                    <h2 data-i18n="GEDSI.explore.heading">Jelajahi Lebih Lanjut</h2>
+                    <p class="lead" data-i18n="GEDSI.explore.subtitle">Temukan proyek, publikasi, dan informasi terkait
+                        bidang GEDSI</p>
+                </div>
+
+                <style>
+                    .explore-grid {
+                        display: grid;
+                        grid-template-columns: repeat(4, 1fr);
+                        gap: 1.5rem;
+                    }
+
+                    .explore-card {
+                        background: white;
+                        border-radius: 16px;
+                        padding: 2rem 1.5rem;
+                        text-align: center;
+                        text-decoration: none;
+                        border: 1px solid #e2e8f0;
+                        transition: all 0.3s ease;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        gap: 1rem;
+                    }
+
+                    .explore-card:hover {
+                        transform: translateY(-8px);
+                        box-shadow: 0 20px 40px rgba(14, 58, 93, 0.15);
+                        border-color: var(--color-primary);
+                    }
+
+                    .explore-icon {
+                        width: 70px;
+                        height: 70px;
+                        border-radius: 16px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+
+                    .explore-card h4 {
+                        color: var(--color-primary);
+                        font-size: 1.1rem;
+                        margin: 0;
+                    }
+
+                    .explore-card p {
+                        color: #64748b;
+                        font-size: 0.9rem;
+                        margin: 0;
+                        line-height: 1.5;
+                    }
+
+                    .explore-card .arrow {
+                        color: var(--color-accent);
+                        margin-top: auto;
+                        font-weight: 600;
+                        display: flex;
+                        align-items: center;
+                        gap: 0.5rem;
+                        font-size: 0.9rem;
+                    }
+
+                    @media (max-width: 992px) {
+                        .explore-grid {
+                            grid-template-columns: repeat(2, 1fr);
+                        }
+                    }
+
+                    @media (max-width: 600px) {
+                        .explore-grid {
+                            grid-template-columns: 1fr;
+                        }
+                    }
+                </style>
+
+                <div class="explore-grid">
+                    <!-- Database Proyek -->
+                    <a href="../portfolio/index.html?sector=GEDSI" class="explore-card">
+                        <div class="explore-icon" style="background: #dbeafe;">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#3b82f6"
+                                stroke-width="2">
+                                <ellipse cx="12" cy="5" rx="9" ry="3" />
+                                <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3" />
+                                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5" />
+                            </svg>
+                        </div>
+                        <h4 data-i18n="GEDSI.explore.database.title">Database Proyek</h4>
+                        <p data-i18n="GEDSI.explore.database.desc">Lihat seluruh proyek IREEM yang mengintegrasikan
+                            GEDSI
+                        </p>
+                        <span class="arrow">
+                            <span data-i18n="GEDSI.explore.database.link">Lihat Proyek</span>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7" />
+                            </svg>
+                        </span>
+                    </a>
+
+                    <!-- FactSheet -->
+                    <a href="../factsheet/index.html?category=gedsi" class="explore-card">
+                        <div class="explore-icon" style="background: #dcfce7;">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#10b981"
+                                stroke-width="2">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                                <polyline points="14 2 14 8 20 8" />
+                                <line x1="16" y1="13" x2="8" y2="13" />
+                                <line x1="16" y1="17" x2="8" y2="17" />
+                                <polyline points="10 9 9 9 8 9" />
+                            </svg>
+                        </div>
+                        <h4 data-i18n="GEDSI.explore.factsheet.title">FactSheet</h4>
+                        <p data-i18n="GEDSI.explore.factsheet.desc">Ringkasan visual proyek dan capaian bidang GEDSI</p>
+                        <span class="arrow">
+                            <span data-i18n="GEDSI.explore.factsheet.link">Lihat FactSheet</span>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7" />
+                            </svg>
+                        </span>
+                    </a>
+
+                    <!-- Berita -->
+                    <a href="../berita/index.html?category=gedsi" class="explore-card">
+                        <div class="explore-icon" style="background: #fef3c7;">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#f59e0b"
+                                stroke-width="2">
+                                <path
+                                    d="M19 20H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v1m2 13a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2z" />
+                                <line x1="7" y1="8" x2="9" y2="8" />
+                                <line x1="7" y1="12" x2="13" y2="12" />
+                                <line x1="7" y1="16" x2="13" y2="16" />
+                            </svg>
+                        </div>
+                        <h4 data-i18n="GEDSI.explore.news.title">Berita Terkait</h4>
+                        <p data-i18n="GEDSI.explore.news.desc">Berita dan kegiatan terbaru terkait GEDSI</p>
+                        <span class="arrow">
+                            <span data-i18n="GEDSI.explore.news.link">Lihat Berita</span>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7" />
+                            </svg>
+                        </span>
+                    </a>
+
+                    <!-- Publikasi -->
+                    <a href="../publikasi/index.html" class="explore-card">
+                        <div class="explore-icon" style="background: #ede9fe;">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#8b5cf6"
+                                stroke-width="2">
+                                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+                                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
+                            </svg>
+                        </div>
+                        <h4 data-i18n="GEDSI.explore.publications.title">Publikasi</h4>
+                        <p data-i18n="GEDSI.explore.publications.desc">Laporan, kajian, dan dokumen teknis IREEM</p>
+                        <span class="arrow">
+                            <span data-i18n="GEDSI.explore.publications.link">Lihat Publikasi</span>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7" />
+                            </svg>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
         <!-- CTA Section -->
+
         <section class="section" style="background: linear-gradient(135deg, #F2A900 0%, #E08A00 100%);">
             <div class="container" style="text-align: center; max-width: 700px;">
                 <h2 style="color: #0E3A5D;" data-i18n="cta.title">Bermitra untuk Transisi yang Inklusif</h2>
                 <p class="lead" style="margin-bottom: 2rem; color: rgba(14,58,93,0.9);" data-i18n="cta.description">
                     IREEM membuka peluang kolaborasi
-                    untuk mengintegrasikan prinsip GESI
+                    untuk mengintegrasikan prinsip GEDSI
                     dalam kebijakan, proyek, dan program pembangunan berkelanjutan.</p>
                 <a href="../kemitraan/proposal.html" class="btn"
                     style="background: #0E3A5D; color: white; font-size: 1.1rem; padding: 1rem 2.5rem; display: inline-flex; align-items: center; gap: 0.5rem;">
@@ -557,7 +811,7 @@
                         data-i18n="footer.naturalResources">Sumber Daya
                         Alam</a>
                     <a href="gesi.html" style="color: rgba(255,255,255,0.6); font-size: 0.8rem;"
-                        data-i18n="footer.gesi">GESI</a>
+                        data-i18n="footer.GEDSI">GEDSI</a>
                 </div>
             </div>
             <div>

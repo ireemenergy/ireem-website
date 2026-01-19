@@ -12,12 +12,31 @@
         nav: {
             about: { id: 'Tentang IREEM', en: 'About IREEM' },
             program: { id: 'Program', en: 'Programs' },
+            portfolio: { id: 'Portofolio', en: 'Portfolio' },
             impact: { id: 'Dampak', en: 'Impact' },
+            insights: { id: 'Wawasan', en: 'Insights' },
             publications: { id: 'Publikasi', en: 'Publications' },
             news: { id: 'Berita', en: 'News' },
-            innovation: { id: 'Inovasi', en: 'Innovation' },
+            factsheet: { id: 'FactSheet', en: 'FactSheet' },
+            innovation: { id: 'Aplikasi/Inovasi', en: 'Apps/Innovation' },
             partnership: { id: 'Kemitraan', en: 'Partnership' },
-            partnershipCta: { id: 'Ajukan Kemitraan', en: 'Submit Partnership' }
+            partnershipCta: { id: 'Ajukan Kemitraan', en: 'Submit Partnership' },
+            // Dropdown items - About
+            background: { id: 'Latar Belakang & Sejarah', en: 'Background & History' },
+            visionMission: { id: 'Visi & Misi', en: 'Vision & Mission' },
+            values: { id: 'Nilai-Nilai IREEM', en: 'IREEM Values' },
+            team: { id: 'Tim Kami', en: 'Our Team' },
+            // Dropdown items - Program
+            energy: { id: 'Energi', en: 'Energy' },
+            environment: { id: 'Lingkungan', en: 'Environment' },
+            naturalResources: { id: 'Sumber Daya Alam', en: 'Natural Resources' },
+            gedsi: { id: 'GEDSI', en: 'GEDSI' },
+            // Dropdown items - Portfolio
+            projectDatabase: { id: 'Database Proyek', en: 'Project Database' },
+            // Dropdown items - Impact
+            impactStats: { id: 'IREEM dalam Angka', en: 'IREEM in Numbers' },
+            successStories: { id: 'Cerita Sukses', en: 'Success Stories' },
+            partners: { id: 'Mitra Terpercaya', en: 'Trusted Partners' }
         },
         footer: {
             tagline: {
@@ -31,7 +50,7 @@
             energyClimate: { id: 'Energi & Iklim', en: 'Energy & Climate' },
             environment: { id: 'Lingkungan', en: 'Environment' },
             naturalResources: { id: 'Sumber Daya Alam', en: 'Natural Resources' },
-            gesi: { id: 'GESI', en: 'GESI' }
+            gesi: { id: 'GEDSI', en: 'GEDSI' }
         },
         units: {
             million: { id: ' Juta', en: ' Million' },

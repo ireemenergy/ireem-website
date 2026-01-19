@@ -65,13 +65,46 @@ function initNavigation() {
       document.body.style.overflow = navLinks.classList.contains('active') ? 'hidden' : '';
     });
 
-    // Close menu when clicking on a nav link
-    const navLinkItems = navLinks.querySelectorAll('.nav-link');
-    navLinkItems.forEach(link => {
-      link.addEventListener('click', function () {
-        mobileMenuBtn.classList.remove('active');
-        navLinks.classList.remove('active');
-        document.body.style.overflow = '';
+    // Mobile dropdown toggle - click to expand/collapse
+    const dropdownTriggers = navLinks.querySelectorAll('.nav-dropdown-trigger');
+    dropdownTriggers.forEach(trigger => {
+      trigger.addEventListener('click', function (e) {
+        // Only handle on mobile
+        if (window.innerWidth <= 1024) {
+          const dropdown = this.closest('.nav-dropdown');
+          const isOpen = dropdown.classList.contains('open');
+
+          if (isOpen) {
+            // If already open, allow navigation (don't prevent default)
+            // Close menu after navigation
+            mobileMenuBtn.classList.remove('active');
+            navLinks.classList.remove('active');
+            navLinks.querySelectorAll('.nav-dropdown.open').forEach(d => d.classList.remove('open'));
+            document.body.style.overflow = '';
+          } else {
+            // First click - expand dropdown, don't navigate
+            e.preventDefault();
+            // Close other dropdowns
+            navLinks.querySelectorAll('.nav-dropdown.open').forEach(d => {
+              if (d !== dropdown) d.classList.remove('open');
+            });
+            // Open current dropdown
+            dropdown.classList.add('open');
+          }
+        }
+      });
+    });
+
+    // Close menu when clicking on a dropdown item (not trigger)
+    const dropdownItems = navLinks.querySelectorAll('.nav-dropdown-item');
+    dropdownItems.forEach(item => {
+      item.addEventListener('click', function () {
+        if (window.innerWidth <= 1024) {
+          mobileMenuBtn.classList.remove('active');
+          navLinks.classList.remove('active');
+          navLinks.querySelectorAll('.nav-dropdown.open').forEach(d => d.classList.remove('open'));
+          document.body.style.overflow = '';
+        }
       });
     });
 
@@ -80,6 +113,7 @@ function initNavigation() {
       if (!e.target.closest('.nav-links') && !e.target.closest('.mobile-menu-btn')) {
         mobileMenuBtn.classList.remove('active');
         navLinks.classList.remove('active');
+        navLinks.querySelectorAll('.nav-dropdown.open').forEach(d => d.classList.remove('open'));
         document.body.style.overflow = '';
       }
     });

@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FactSheet Detail - IREEM</title>
+    <link rel="icon" type="image/x-icon" href="../images/ireemicon2.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="css/factsheet.css">
+    <!-- jsPDF for PDF generation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="../index.html" class="logo">
+                <img src="../images/logo.png" alt="IREEM Logo" style="height: 64px;">
+            </a>
+
+            <nav class="nav-links">
+                <div class="nav-dropdown">
+                    <a href="../about/index.html" class="nav-link nav-dropdown-trigger" data-i18n="nav.about">
+                        Tentang IREEM
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" style="margin-left: 4px;">
+                            <path d="M6 9l6 6 6-6" />
+                        </svg>
+                    </a>
+                    <div class="nav-dropdown-menu">
+                        <a href="../about/index.html#latar-belakang" class="nav-dropdown-item"
+                            data-i18n="nav.background">Latar Belakang & Sejarah</a>
+                        <a href="../about/index.html#visi-misi" class="nav-dropdown-item"
+                            data-i18n="nav.visionMission">Visi & Misi</a>
+                        <a href="../about/index.html#nilai" class="nav-dropdown-item" data-i18n="nav.values">Nilai-Nilai
+                            IREEM</a>
+                        <a href="../about/index.html#executive-board" class="nav-dropdown-item" data-i18n="nav.team">Tim
+                            Kami</a>
+                    </div>
+                </div>
+                <div class="nav-dropdown">
+                    <a href="../program/index.html" class="nav-link nav-dropdown-trigger" data-i18n="nav.program">
+                        Program
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" style="margin-left: 4px;">
+                            <path d="M6 9l6 6 6-6" />
+                        </svg>
+                    </a>
+                    <div class="nav-dropdown-menu">
+                        <a href="../program/energi.html" class="nav-dropdown-item" data-i18n="nav.energy">Energi</a>
+                        <a href="../program/lingkungan.html" class="nav-dropdown-item"
+                            data-i18n="nav.environment">Lingkungan</a>
+                        <a href="../program/sumber-daya.html" class="nav-dropdown-item"
+                            data-i18n="nav.naturalResources">Sumber Daya Alam</a>
+                        <a href="../program/gesi.html" class="nav-dropdown-item" data-i18n="nav.gedsi">GEDSI</a>
+                    </div>
+                </div>
+                <div class="nav-dropdown">
+                    <a href="../portfolio/index.html" class="nav-link nav-dropdown-trigger" data-i18n="nav.portfolio">
+                        Portfolio
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" style="margin-left: 4px;">
+                            <path d="M6 9l6 6 6-6" />
+                        </svg>
+                    </a>
+                    <div class="nav-dropdown-menu">
+                        <a href="../portfolio/index.html" class="nav-dropdown-item"
+                            data-i18n="nav.projectDatabase">Database Proyek</a>
+                        <a href="../inovasi/index.html" class="nav-dropdown-item"
+                            data-i18n="nav.innovation">Aplikasi/Inovasi</a>
+                    </div>
+                </div>
+                <div class="nav-dropdown">
+                    <a href="../impact/index.html" class="nav-link nav-dropdown-trigger" data-i18n="nav.impact">
+                        Dampak
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" style="margin-left: 4px;">
+                            <path d="M6 9l6 6 6-6" />
+                        </svg>
+                    </a>
+                    <div class="nav-dropdown-menu">
+                        <a href="../impact/index.html#impact-stats" class="nav-dropdown-item"
+                            data-i18n="nav.impactStats">IREEM dalam Angka</a>
+                        <a href="../impact/index.html#success-stories" class="nav-dropdown-item"
+                            data-i18n="nav.successStories">Cerita Sukses</a>
+                        <a href="../impact/index.html#partners-section" class="nav-dropdown-item"
+                            data-i18n="nav.partners">Mitra Terpercaya</a>
+                    </div>
+                </div>
+                <div class="nav-dropdown">
+                    <a href="../insights/index.html" class="nav-link nav-dropdown-trigger active"
+                        data-i18n="nav.insights">
+                        Wawasan
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" style="margin-left: 4px;">
+                            <path d="M6 9l6 6 6-6" />
+                        </svg>
+                    </a>
+                    <div class="nav-dropdown-menu">
+                        <a href="../berita/index.html" class="nav-dropdown-item" data-i18n="nav.news">Berita</a>
+                        <a href="../factsheet/index.html" class="nav-dropdown-item"
+                            data-i18n="nav.factsheet">FactSheet</a>
+                        <a href="../publikasi/index.html" class="nav-dropdown-item"
+                            data-i18n="nav.publications">Publikasi</a>
+                    </div>
+                </div>
+                <!-- Mobile CTA Button -->
+                <a href="../kemitraan/proposal.html" class="nav-cta-mobile btn btn-primary"
+                    data-i18n="nav.partnershipCta">Ajukan Kemitraan</a>
+            </nav>
+
+            <!-- Language Switcher -->
+            <div class="lang-switcher">
+                <button data-lang="id" class="active">ID</button>
+                <span>|</span>
+                <button data-lang="en">EN</button>
+            </div>
+
+            <a href="../kemitraan/proposal.html" class="btn btn-primary" data-i18n="nav.partnershipCta">Ajukan
+                Kemitraan</a>
+
+            <!-- Mobile Menu Button -->
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="section" style="padding-top: 8rem;">
+            <div class="container" style="max-width: 1200px;">
+                <!-- Breadcrumb -->
+                <nav class="breadcrumb">
+                    <a href="index.html" data-i18n="factsheet.detail.back">← Kembali ke FactSheet</a>
+                </nav>
+
+                <!-- Loading State -->
+                <div id="loading-state" class="loading-state">
+                    <div class="spinner"></div>
+                    <p data-i18n="factsheet.detail.loading">Memuat factsheet...</p>
+                </div>
+
+                <!-- Error State -->
+                <div id="error-state" class="error-state" style="display: none;">
+                    <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="var(--color-muted)"
+                        stroke-width="1.5">
+                        <circle cx="12" cy="12" r="10" />
+                        <path d="M12 8v4m0 4h.01" />
+                    </svg>
+                    <h2 data-i18n="factsheet.detail.notFoundTitle">FactSheet Tidak Ditemukan</h2>
+                    <p data-i18n="factsheet.detail.notFoundMessage">Maaf, factsheet yang Anda cari tidak tersedia.</p>
+                    <a href="index.html" class="btn btn-primary" data-i18n="factsheet.detail.backButton">Kembali ke
+                        Daftar</a>
+                </div>
+
+                <!-- Main Content -->
+                <div id="factsheet-content" style="display: none;">
+                    <!-- Header -->
+                    <div class="factsheet-header">
+                        <span class="category-badge" id="factsheet-category"></span>
+                        <h1 id="factsheet-title"></h1>
+                        <p class="factsheet-date" id="factsheet-date"></p>
+                    </div>
+
+                    <!-- Two Column Layout -->
+                    <div class="factsheet-layout">
+                        <!-- Main: One-Pager Viewer -->
+                        <div class="onepager-viewer">
+                            <div class="onepager-frame" id="onepager-frame">
+                                <img id="onepager-image" alt="One Pager" loading="lazy">
+                                <div class="zoom-hint">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <circle cx="11" cy="11" r="8" />
+                                        <path d="m21 21-4.35-4.35M11 8v6m-3-3h6" />
+                                    </svg>
+                                    <span data-i18n="factsheet.detail.clickToZoom">Klik untuk memperbesar</span>
+                                </div>
+                            </div>
+
+                            <!-- Download Actions -->
+                            <div class="download-actions">
+                                <div class="download-dropdown">
+                                    <button id="download-btn" class="btn btn-primary btn-download">
+                                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                            stroke="currentColor" stroke-width="2">
+                                            <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3" />
+                                        </svg>
+                                        <span data-i18n="factsheet.detail.download">Unduh</span>
+                                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                            stroke="currentColor" stroke-width="2">
+                                            <path d="M6 9l6 6 6-6" />
+                                        </svg>
+                                    </button>
+                                    <div class="download-menu" id="download-menu">
+                                        <button class="download-option" id="download-images">
+                                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"
+                                                stroke="currentColor" stroke-width="2">
+                                                <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
+                                                <circle cx="8.5" cy="8.5" r="1.5" />
+                                                <path d="m21 15-5-5L5 21" />
+                                            </svg>
+                                            <span>Unduh Gambar (PNG/JPG)</span>
+                                        </button>
+                                        <button class="download-option" id="download-pdf">
+                                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"
+                                                stroke="currentColor" stroke-width="2">
+                                                <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z" />
+                                                <path d="M14 2v6h6M16 13H8M16 17H8M10 9H8" />
+                                            </svg>
+                                            <span>Unduh PDF</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <button id="share-btn" class="btn btn-outline btn-share">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <circle cx="18" cy="5" r="3" />
+                                        <circle cx="6" cy="12" r="3" />
+                                        <circle cx="18" cy="19" r="3" />
+                                        <path d="m8.59 13.51 6.83 3.98M15.41 6.51l-6.82 3.98" />
+                                    </svg>
+                                    <span data-i18n="factsheet.detail.share">Bagikan</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Sidebar: Metadata -->
+                        <aside class="factsheet-sidebar">
+                            <div class="sidebar-card">
+                                <h3 data-i18n="factsheet.detail.aboutTitle">Tentang FactSheet Ini</h3>
+
+                                <div class="meta-item">
+                                    <span class="meta-label" data-i18n="factsheet.detail.metaProgram">Program</span>
+                                    <span class="meta-value" id="meta-program"></span>
+                                </div>
+
+                                <div class="meta-item">
+                                    <span class="meta-label" data-i18n="factsheet.detail.metaDate">Tanggal</span>
+                                    <span class="meta-value" id="meta-date"></span>
+                                </div>
+
+                                <div class="meta-item">
+                                    <span class="meta-label" data-i18n="factsheet.detail.metaCategory">Kategori</span>
+                                    <span class="meta-value" id="meta-category"></span>
+                                </div>
+
+                                <div class="meta-item description">
+                                    <span class="meta-label"
+                                        data-i18n="factsheet.detail.metaDescription">Deskripsi</span>
+                                    <p class="meta-value" id="meta-description"></p>
+                                </div>
+                            </div>
+
+                            <!-- Related FactSheets -->
+                            <div class="sidebar-card">
+                                <h3 data-i18n="factsheet.detail.relatedTitle">FactSheet Terkait</h3>
+                                <div id="related-factsheets" class="related-list">
+                                    <!-- Will be loaded dynamically -->
+                                </div>
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <button class="lightbox-close" aria-label="Close">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 6L6 18M6 6l12 12" />
+            </svg>
+        </button>
+        <div class="lightbox-content">
+            <img id="lightbox-image" alt="FactSheet Full View">
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Scripts -->
+    <script src="../js/include.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/i18n/index.js"></script>
+    <script src="../js/i18n/common.js"></script>
+    <script src="js/factsheet-detail.js"></script>
+</body>
+
+</html>

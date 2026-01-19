@@ -17,17 +17,95 @@
     <header class="header">
         <div class="container nav-container">
             <a href="../index.html" class="logo">
-                <img src="../images/logo.png" alt="IREEM Logo" style="height: 48px;">
+                <img src="../images/logo.png" alt="IREEM Logo" style="height: 64px;">
             </a>
 
             <nav class="nav-links">
-                <a href="../about/index.html" class="nav-link" data-i18n="nav.about">Tentang IREEM</a>
-                <a href="../program/index.html" class="nav-link" data-i18n="nav.program">Program</a>
-                <a href="../impact/index.html" class="nav-link" data-i18n="nav.impact">Dampak</a>
-                <a href="../publikasi/index.html" class="nav-link" data-i18n="nav.publications">Publikasi</a>
-                <a href="../berita/index.html" class="nav-link" data-i18n="nav.news">Berita</a>
-                <a href="index.html" class="nav-link active" data-i18n="nav.innovation">Inovasi</a>
-                <a href="../kemitraan/index.html" class="nav-link" data-i18n="nav.partnership">Kemitraan</a>
+                <div class="nav-dropdown">
+                    <a href="../about/index.html" class="nav-link nav-dropdown-trigger" data-i18n="nav.about">
+                        Tentang IREEM
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" style="margin-left: 4px;">
+                            <path d="M6 9l6 6 6-6" />
+                        </svg>
+                    </a>
+                    <div class="nav-dropdown-menu">
+                        <a href="../about/index.html#latar-belakang" class="nav-dropdown-item"
+                            data-i18n="nav.background">Latar Belakang & Sejarah</a>
+                        <a href="../about/index.html#visi-misi" class="nav-dropdown-item"
+                            data-i18n="nav.visionMission">Visi & Misi</a>
+                        <a href="../about/index.html#nilai" class="nav-dropdown-item" data-i18n="nav.values">Nilai-Nilai
+                            IREEM</a>
+                        <a href="../about/index.html#executive-board" class="nav-dropdown-item" data-i18n="nav.team">Tim
+                            Kami</a>
+                    </div>
+                </div>
+                <div class="nav-dropdown">
+                    <a href="../program/index.html" class="nav-link nav-dropdown-trigger" data-i18n="nav.program">
+                        Program
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" style="margin-left: 4px;">
+                            <path d="M6 9l6 6 6-6" />
+                        </svg>
+                    </a>
+                    <div class="nav-dropdown-menu">
+                        <a href="../program/energi.html" class="nav-dropdown-item" data-i18n="nav.energy">Energi</a>
+                        <a href="../program/lingkungan.html" class="nav-dropdown-item"
+                            data-i18n="nav.environment">Lingkungan</a>
+                        <a href="../program/sumber-daya.html" class="nav-dropdown-item"
+                            data-i18n="nav.naturalResources">Sumber Daya Alam</a>
+                        <a href="../program/gesi.html" class="nav-dropdown-item" data-i18n="nav.gedsi">GEDSI</a>
+                    </div>
+                </div>
+                <div class="nav-dropdown">
+                    <a href="../portfolio/index.html" class="nav-link nav-dropdown-trigger active"
+                        data-i18n="nav.portfolio">
+                        Portfolio
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" style="margin-left: 4px;">
+                            <path d="M6 9l6 6 6-6" />
+                        </svg>
+                    </a>
+                    <div class="nav-dropdown-menu">
+                        <a href="../portfolio/index.html" class="nav-dropdown-item"
+                            data-i18n="nav.projectDatabase">Database Proyek</a>
+                        <a href="../inovasi/index.html" class="nav-dropdown-item"
+                            data-i18n="nav.innovation">Aplikasi/Inovasi</a>
+                    </div>
+                </div>
+                <div class="nav-dropdown">
+                    <a href="../impact/index.html" class="nav-link nav-dropdown-trigger" data-i18n="nav.impact">
+                        Dampak
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" style="margin-left: 4px;">
+                            <path d="M6 9l6 6 6-6" />
+                        </svg>
+                    </a>
+                    <div class="nav-dropdown-menu">
+                        <a href="../impact/index.html#impact-stats" class="nav-dropdown-item"
+                            data-i18n="nav.impactStats">IREEM dalam Angka</a>
+                        <a href="../impact/index.html#success-stories" class="nav-dropdown-item"
+                            data-i18n="nav.successStories">Cerita Sukses</a>
+                        <a href="../impact/index.html#partners-section" class="nav-dropdown-item"
+                            data-i18n="nav.partners">Mitra Terpercaya</a>
+                    </div>
+                </div>
+                <div class="nav-dropdown">
+                    <a href="../insights/index.html" class="nav-link nav-dropdown-trigger" data-i18n="nav.insights">
+                        Wawasan
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" style="margin-left: 4px;">
+                            <path d="M6 9l6 6 6-6" />
+                        </svg>
+                    </a>
+                    <div class="nav-dropdown-menu">
+                        <a href="../berita/index.html" class="nav-dropdown-item" data-i18n="nav.news">Berita</a>
+                        <a href="../factsheet/index.html" class="nav-dropdown-item"
+                            data-i18n="nav.factsheet">FactSheet</a>
+                        <a href="../publikasi/index.html" class="nav-dropdown-item"
+                            data-i18n="nav.publications">Publikasi</a>
+                    </div>
+                </div>
                 <!-- Mobile CTA Button -->
                 <a href="../kemitraan/proposal.html" class="nav-cta-mobile btn btn-primary"
                     data-i18n="nav.partnershipCta">Ajukan Kemitraan</a>

@@ -14,13 +14,13 @@
             energy: { id: 'Energi & Iklim', en: 'Energy & Climate' },
             environment: { id: 'Lingkungan', en: 'Environment' },
             resources: { id: 'Sumber Daya Alam', en: 'Natural Resources' },
-            gesi: { id: 'GESI', en: 'GESI' }
+            gesi: { id: 'GEDSI', en: 'GEDSI' }
         },
 
         // Hero Section
         hero: {
             subtitle: { id: 'CROSS-CUTTING THEME', en: 'CROSS-CUTTING THEME' },
-            title: { id: 'Gender Equality & Social Inclusion (GESI)', en: 'Gender Equality & Social Inclusion (GESI)' },
+            title: { id: 'Gender Equality & Social Inclusion (GEDSI)', en: 'Gender Equality & Social Inclusion (GEDSI)' },
             description: {
                 id: 'Memastikan tidak ada yang tertinggal dalam transisi energi, pengelolaan lingkungan, dan pembangunan berkelanjutan.',
                 en: 'Ensuring no one is left behind in energy transition, environmental management, and sustainable development.'
@@ -29,7 +29,7 @@
 
         // Approach Section
         approach: {
-            title: { id: 'Pendekatan GESI di IREEM', en: 'GESI Approach at IREEM' },
+            title: { id: 'Pendekatan GEDSI di IREEM', en: 'GEDSI Approach at IREEM' },
             para1: {
                 id: 'GESI bukan sekadar checklist, melainkan <strong>lensa utama</strong> yang digunakan IREEM dalam setiap tahap proyek—mulai dari perencanaan, implementasi, hingga pemantauan dan evaluasi.',
                 en: 'GESI is not just a checklist, but the <strong>main lens</strong> that IREEM uses in every project stage—from planning, implementation, to monitoring and evaluation.'
@@ -55,7 +55,7 @@
 
         // Services Section
         services: {
-            title: { id: 'Layanan GESI', en: 'GESI Services' },
+            title: { id: 'Solusi GEDSI', en: 'GEDSI Solutions' },
             subtitle: { id: 'Pendampingan untuk integrasi prinsip kesetaraan dan inklusi dalam proyek pembangunan', en: 'Assistance for integrating equality and inclusion principles in development projects' },
 
             // Gender Analysis
@@ -89,34 +89,34 @@
 
         // Impact Section
         impact: {
-            title: { id: 'Dampak GESI IREEM', en: 'IREEM GESI Impact' },
+            title: { id: 'Dampak GEDSI IREEM', en: 'IREEM GEDSI Impact' },
             stat1: {
                 number: '10+',
-                text: { id: 'Produk pengetahuan dan materi pembelajaran yang mengintegrasikan perspektif GESI', en: 'Knowledge products and learning materials integrating GESI perspective' },
-                note: { id: '(modul, panduan, kartu GESI, materi pelatihan)', en: '(modules, guides, GESI cards, training materials)' }
+                text: { id: 'Produk pengetahuan dan materi pembelajaran yang mengintegrasikan perspektif GEDSI', en: 'Knowledge products and learning materials integrating GEDSI perspective' },
+                note: { id: '(modul, panduan, kartu GEDSI, materi pelatihan)', en: '(modules, guides, GEDSI cards, training materials)' }
             },
             stat2: {
                 number: '300+',
-                text: { id: 'Pemangku kepentingan mengikuti pelatihan dan kegiatan yang mengintegrasikan prinsip GESI', en: 'Stakeholders participated in training and activities integrating GESI principles' },
+                text: { id: 'Pemangku kepentingan mengikuti pelatihan dan kegiatan yang mengintegrasikan prinsip GEDSI', en: 'Stakeholders participated in training and activities integrating GEDSI principles' },
                 note: { id: '(terutama dalam proyek UK PACT – efisiensi energi)', en: '(mainly in UK PACT project – energy efficiency)' }
             },
             stat3: {
                 number: '100%',
-                text: { id: 'Proyek UK PACT IREEM mengintegrasikan analisis dan prinsip GESI', en: 'IREEM UK PACT projects integrate GESI analysis and principles' },
+                text: { id: 'Proyek UK PACT IREEM mengintegrasikan analisis dan prinsip GEDSI', en: 'IREEM UK PACT projects integrate GEDSI analysis and principles' },
                 note: { id: '(dalam desain dan pelaksanaan)', en: '(in design and implementation)' }
             }
         },
 
         // Implementation Section
         implementation: {
-            title: { id: 'Implementasi GESI dalam Proyek IREEM', en: 'GESI Implementation in IREEM Projects' },
+            title: { id: 'Implementasi GEDSI dalam Proyek IREEM', en: 'GEDSI Implementation in IREEM Projects' },
             subtitle: { id: 'Praktik nyata penerapan prinsip kesetaraan dan inklusi', en: 'Real practices of applying equality and inclusion principles' },
             item1: {
                 title: { id: 'Integrasi GESI dalam Pelatihan', en: 'GESI Integration in Training' },
-                description: { id: 'Pelatihan Manajer & Auditor Energi menyertakan modul GESI', en: 'Energy Manager & Auditor training includes GESI modules' }
+                description: { id: 'Pelatihan Manajer & Auditor Energi menyertakan modul GEDSI', en: 'Energy Manager & Auditor training includes GEDSI modules' }
             },
             item2: {
-                title: { id: 'Pengembangan Kartu GESI', en: 'GESI Card Development' },
+                title: { id: 'Pengembangan Kartu GEDSI', en: 'GEDSI Card Development' },
                 description: { id: 'Alat refleksi dan diskusi untuk fasilitator dan peserta', en: 'Reflection and discussion tool for facilitators and participants' }
             },
             item3: {
@@ -125,14 +125,14 @@
             },
             item4: {
                 title: { id: 'Pelatihan Internal', en: 'Internal Training' },
-                description: { id: 'Capacity building staf IREEM terkait pengarusutamaan GESI', en: 'IREEM staff capacity building on GESI mainstreaming' }
+                description: { id: 'Capacity building staf IREEM terkait pengarusutamaan GEDSI', en: 'IREEM staff capacity building on GEDSI mainstreaming' }
             }
         },
 
         // Related Programs
         related: {
-            title: { id: 'Posisi GESI dalam Program IREEM', en: 'GESI Position in IREEM Programs' },
-            subtitle: { id: 'Pendekatan GESI IREEM diterapkan lintas program', en: "IREEM's GESI approach is applied across programs" },
+            title: { id: 'Posisi GEDSI dalam Program IREEM', en: 'GEDSI Position in IREEM Programs' },
+            subtitle: { id: 'Pendekatan GEDSI IREEM diterapkan lintas program', en: "IREEM's GEDSI approach is applied across programs" },
             energy: {
                 title: { id: 'Energi & Iklim', en: 'Energy & Climate' },
                 description: { id: 'Transisi energi berkeadilan', en: 'Just energy transition' }
@@ -150,8 +150,36 @@
         // CTA Section
         cta: {
             title: { id: 'Bermitra untuk Transisi yang Inklusif', en: 'Partner for Inclusive Transition' },
-            description: { id: 'IREEM membuka peluang kolaborasi untuk mengintegrasikan prinsip GESI dalam kebijakan, proyek, dan program pembangunan berkelanjutan.', en: 'IREEM opens collaboration opportunities to integrate GESI principles in policies, projects, and sustainable development programs.' },
+            description: { id: 'IREEM membuka peluang kolaborasi untuk mengintegrasikan prinsip GEDSI dalam kebijakan, proyek, dan program pembangunan berkelanjutan.', en: 'IREEM opens collaboration opportunities to integrate GEDSI principles in policies, projects, and sustainable development programs.' },
             button: { id: 'Ajukan Kemitraan', en: 'Submit Partnership' }
+        },
+
+        // GEDSI wrapper for explore section keys (GEDSI.explore.*)
+        GEDSI: {
+            explore: {
+                heading: { id: 'Jelajahi Lebih Lanjut', en: 'Explore More' },
+                subtitle: { id: 'Temukan proyek, publikasi, dan informasi terkait bidang GEDSI', en: 'Discover projects, publications, and information related to GEDSI' },
+                database: {
+                    title: { id: 'Database Proyek', en: 'Project Database' },
+                    desc: { id: 'Lihat seluruh proyek IREEM yang mengintegrasikan GEDSI', en: 'View all IREEM projects integrating GEDSI' },
+                    link: { id: 'Lihat Proyek', en: 'View Projects' }
+                },
+                factsheet: {
+                    title: { id: 'FactSheet', en: 'FactSheet' },
+                    desc: { id: 'Ringkasan visual proyek dan capaian bidang GEDSI', en: 'Visual summary of GEDSI projects and achievements' },
+                    link: { id: 'Lihat FactSheet', en: 'View FactSheet' }
+                },
+                news: {
+                    title: { id: 'Berita Terkait', en: 'Related News' },
+                    desc: { id: 'Berita dan kegiatan terbaru terkait GEDSI', en: 'Latest news and activities related to GEDSI' },
+                    link: { id: 'Lihat Berita', en: 'View News' }
+                },
+                publications: {
+                    title: { id: 'Publikasi', en: 'Publications' },
+                    desc: { id: 'Laporan, kajian, dan dokumen teknis IREEM', en: 'Reports, studies, and IREEM technical documents' },
+                    link: { id: 'Lihat Publikasi', en: 'View Publications' }
+                }
+            }
         }
     };
 

@@ -17,17 +17,94 @@
     <header class="header">
         <div class="container nav-container">
             <a href="../index.html" class="logo">
-                <img src="../images/logo.png" alt="IREEM Logo" style="height: 48px;">
+                <img src="../images/logo.png" alt="IREEM Logo" style="height: 64px;">
             </a>
 
             <nav class="nav-links">
-                <a href="../about/index.html" class="nav-link" data-i18n="nav.about">Tentang IREEM</a>
-                <a href="../program/index.html" class="nav-link" data-i18n="nav.program">Program</a>
-                <a href="index.html" class="nav-link active" data-i18n="nav.impact">Dampak</a>
-                <a href="../publikasi/index.html" class="nav-link" data-i18n="nav.publications">Publikasi</a>
-                <a href="../berita/index.html" class="nav-link" data-i18n="nav.news">Berita</a>
-                <a href="../inovasi/index.html" class="nav-link" data-i18n="nav.innovation">Inovasi</a>
-                <a href="../kemitraan/index.html" class="nav-link" data-i18n="nav.partnership">Kemitraan</a>
+                <div class="nav-dropdown">
+                    <a href="../about/index.html" class="nav-link nav-dropdown-trigger" data-i18n="nav.about">
+                        Tentang IREEM
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" style="margin-left: 4px;">
+                            <path d="M6 9l6 6 6-6" />
+                        </svg>
+                    </a>
+                    <div class="nav-dropdown-menu">
+                        <a href="../about/index.html#latar-belakang" class="nav-dropdown-item"
+                            data-i18n="nav.background">Latar Belakang & Sejarah</a>
+                        <a href="../about/index.html#visi-misi" class="nav-dropdown-item"
+                            data-i18n="nav.visionMission">Visi & Misi</a>
+                        <a href="../about/index.html#nilai" class="nav-dropdown-item" data-i18n="nav.values">Nilai-Nilai
+                            IREEM</a>
+                        <a href="../about/index.html#executive-board" class="nav-dropdown-item" data-i18n="nav.team">Tim
+                            Kami</a>
+                    </div>
+                </div>
+                <div class="nav-dropdown">
+                    <a href="../program/index.html" class="nav-link nav-dropdown-trigger" data-i18n="nav.program">
+                        Program
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" style="margin-left: 4px;">
+                            <path d="M6 9l6 6 6-6" />
+                        </svg>
+                    </a>
+                    <div class="nav-dropdown-menu">
+                        <a href="../program/energi.html" class="nav-dropdown-item" data-i18n="nav.energy">Energi</a>
+                        <a href="../program/lingkungan.html" class="nav-dropdown-item"
+                            data-i18n="nav.environment">Lingkungan</a>
+                        <a href="../program/sumber-daya.html" class="nav-dropdown-item"
+                            data-i18n="nav.naturalResources">Sumber Daya Alam</a>
+                        <a href="../program/gesi.html" class="nav-dropdown-item" data-i18n="nav.gedsi">GEDSI</a>
+                    </div>
+                </div>
+                <div class="nav-dropdown">
+                    <a href="../portfolio/index.html" class="nav-link nav-dropdown-trigger" data-i18n="nav.portfolio">
+                        Portfolio
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" style="margin-left: 4px;">
+                            <path d="M6 9l6 6 6-6" />
+                        </svg>
+                    </a>
+                    <div class="nav-dropdown-menu">
+                        <a href="../portfolio/index.html" class="nav-dropdown-item"
+                            data-i18n="nav.projectDatabase">Database Proyek</a>
+                        <a href="../inovasi/index.html" class="nav-dropdown-item"
+                            data-i18n="nav.innovation">Aplikasi/Inovasi</a>
+                    </div>
+                </div>
+                <div class="nav-dropdown">
+                    <a href="../impact/index.html" class="nav-link nav-dropdown-trigger active" data-i18n="nav.impact">
+                        Dampak
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" style="margin-left: 4px;">
+                            <path d="M6 9l6 6 6-6" />
+                        </svg>
+                    </a>
+                    <div class="nav-dropdown-menu">
+                        <a href="../impact/index.html#impact-stats" class="nav-dropdown-item"
+                            data-i18n="nav.impactStats">IREEM dalam Angka</a>
+                        <a href="../impact/index.html#success-stories" class="nav-dropdown-item"
+                            data-i18n="nav.successStories">Cerita Sukses</a>
+                        <a href="../impact/index.html#partners-section" class="nav-dropdown-item"
+                            data-i18n="nav.partners">Mitra Terpercaya</a>
+                    </div>
+                </div>
+                <div class="nav-dropdown">
+                    <a href="../insights/index.html" class="nav-link nav-dropdown-trigger" data-i18n="nav.insights">
+                        Wawasan
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" style="margin-left: 4px;">
+                            <path d="M6 9l6 6 6-6" />
+                        </svg>
+                    </a>
+                    <div class="nav-dropdown-menu">
+                        <a href="../berita/index.html" class="nav-dropdown-item" data-i18n="nav.news">Berita</a>
+                        <a href="../factsheet/index.html" class="nav-dropdown-item"
+                            data-i18n="nav.factsheet">FactSheet</a>
+                        <a href="../publikasi/index.html" class="nav-dropdown-item"
+                            data-i18n="nav.publications">Publikasi</a>
+                    </div>
+                </div>
                 <!-- Mobile CTA Button -->
                 <a href="../kemitraan/proposal.html" class="nav-cta-mobile btn btn-primary"
                     data-i18n="nav.partnershipCta">Ajukan Kemitraan</a>
@@ -78,37 +155,38 @@
 
 
                 <div class="bento-grid">
-                    <!-- Featured: Dana Donor (Large) -->
+                    <!-- Featured: Individu Terjangkau (Large) -->
                     <div class="bento-item bento-large"
                         style="background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 100%); color: white;">
-                        <div class="bento-icon" style="color: #60a5fa;">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                                <path
-                                    d="M12 6v12m-3-2.818l.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                            </svg>
-                        </div>
-                        <span class="bento-number counter" data-target="4" data-prefix="USD " data-suffix=" Juta"
-                            data-i18n-suffix="units.million" style="color: white;">0</span>
-                        <p class="bento-label" style="color: rgba(255,255,255,0.7);" data-i18n="stats.donorFunds.label">
-                            Dana Donor Dimobilisasi</p>
-                        <p style="font-size: 0.75rem; color: rgba(255,255,255,0.5); margin-top: 1rem;"
-                            data-i18n="stats.donorFunds.note">Dukungan dari
-                            mitra internasional untuk mendukung program transisi energi Indonesia</p>
-                    </div>
-
-                    <!-- Individu Terjangkau (Medium) -->
-                    <div class="bento-item bento-tall"
-                        style="background: linear-gradient(180deg, #fef3c7 0%, #fde68a 100%);">
-                        <div class="bento-icon" style="color: #d97706;">
+                        <div class="bento-icon" style="color: #fbbf24;">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
                                 <path
                                     d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M12 6.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z" />
                             </svg>
                         </div>
-                        <span class="bento-number bento-number-md counter" data-target="100000" data-suffix="+"
-                            style="color: #92400e;">0</span>
-                        <p class="bento-label" style="color: #92400e;" data-i18n="stats.individualsReached">Individu
-                            Terjangkau</p>
+                        <span class="bento-number counter" data-target="100000" data-suffix="+"
+                            style="color: white;">0</span>
+                        <p class="bento-label" style="color: rgba(255,255,255,0.7);"
+                            data-i18n="stats.individualsReached">
+                            Individu Terjangkau</p>
+                        <p style="font-size: 0.75rem; color: rgba(255,255,255,0.5); margin-top: 1rem;"
+                            data-i18n="stats.individualsReached.note">Masyarakat yang mendapat manfaat langsung dari
+                            program efisiensi energi dan pembangunan berkelanjutan</p>
+                    </div>
+
+                    <!-- Profesional Tersertifikasi (Tall) -->
+                    <div class="bento-item bento-tall"
+                        style="background: linear-gradient(180deg, #d1fae5 0%, #a7f3d0 100%);">
+                        <div class="bento-icon" style="color: #059669;">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path
+                                    d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5" />
+                            </svg>
+                        </div>
+                        <span class="bento-number bento-number-md counter" data-target="200" data-suffix="+"
+                            style="color: #047857;">0</span>
+                        <p class="bento-label" style="color: #065f46;" data-i18n="stats.certifiedProfessionals">
+                            Profesional Energi Tersertifikasi</p>
                     </div>
 
                     <!-- Provinsi (Small) -->
@@ -143,37 +221,21 @@
                         <p class="bento-label" data-i18n="stats.partnerInstitutions">Institusi Mitra</p>
                     </div>
 
-                    <!-- Profesional Tersertifikasi (Wide) -->
+                    <!-- Peserta Pelatihan (Wide) -->
                     <div class="bento-item bento-wide"
-                        style="background: linear-gradient(135deg, #d1fae5 0%, #a7f3d0 100%); flex-direction: row; align-items: center; gap: 1.5rem;">
-                        <div class="bento-icon" style="color: #059669;">
+                        style="background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%); flex-direction: row; align-items: center; gap: 1.5rem;">
+                        <div class="bento-icon" style="color: #d97706;">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
                                 <path
-                                    d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5" />
+                                    d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
                             </svg>
                         </div>
                         <div>
-                            <span class="bento-number bento-number-md counter" data-target="200" data-suffix="+"
-                                style="color: #047857;">0</span>
-                            <p class="bento-label" style="color: #065f46;" data-i18n="stats.certifiedProfessionals">
-                                Profesional Energi Tersertifikasi</p>
+                            <span class="bento-number bento-number-md counter" data-target="2000" data-suffix="+"
+                                style="color: #92400e;">0</span>
+                            <p class="bento-label" style="color: #92400e;" data-i18n="stats.trainingParticipants">
+                                Peserta Pelatihan</p>
                         </div>
-                    </div>
-
-                    <!-- Peserta Pelatihan -->
-                    <div class="bento-item"
-                        style="background: linear-gradient(135deg, #fee2e2 0%, #fecaca 100%); padding: 1.5rem;">
-                        <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.5rem;">
-                            <div style="color: #dc2626; width: 40px; height: 40px;">
-                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
-                                    <path
-                                        d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
-                                </svg>
-                            </div>
-                            <span class="bento-number bento-number-sm counter" data-target="2000" data-suffix="+"
-                                style="color: #b91c1c;">0</span>
-                        </div>
-                        <p class="bento-label" data-i18n="stats.trainingParticipants">Peserta Pelatihan</p>
                     </div>
 
                     <!-- Tenaga Ahli -->
@@ -249,6 +311,21 @@
                         <p class="bento-label" data-i18n="stats.taInstitutions">Institusi TA</p>
                     </div>
 
+                    <!-- Rencana Strategis - Mengisi grid kosong di baris 4 -->
+                    <div class="bento-item"
+                        style="background: linear-gradient(135deg, #059669 0%, #10b981 100%); color: white;">
+                        <div class="bento-icon-sm" style="color: white;">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path
+                                    d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25z" />
+                            </svg>
+                        </div>
+                        <span class="bento-number bento-number-sm counter" data-target="3"
+                            style="color: white;">0</span>
+                        <p class="bento-label" style="color: rgba(255,255,255,0.9);" data-i18n="stats.strategicPlans">
+                            Rencana Strategis</p>
+                    </div>
+
                     <!-- GEDSI & Pilot - Wide card dengan layout horizontal -->
                     <div class="bento-item bento-wide"
                         style="background: linear-gradient(135deg, #fdf4ff 0%, #fae8ff 100%); flex-direction: row; align-items: center; gap: 2rem; justify-content: space-between;">
@@ -306,25 +383,409 @@
                             style="color: var(--color-secondary);">0</span>
                         <p class="bento-label" data-i18n="stats.feasibilityStudies">Studi Kelayakan</p>
                     </div>
-
-                    <!-- Rencana Strategis - Wide card di baris bawah -->
-                    <div class="bento-item bento-wide"
-                        style="background: linear-gradient(135deg, #059669 0%, #10b981 50%, #34d399 100%); color: white; flex-direction: row; align-items: center; justify-content: center; gap: 2rem; min-height: 120px;">
-                        <p style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 3px; opacity: 0.9; margin-bottom: 0.5rem; font-weight: 600;"
-                            data-i18n="stats.strategicPlans">Rencana Strategis</p>
-                        <span class="bento-number counter" data-target="3"
-                            style="color: white; font-size: 4rem; text-shadow: 0 2px 10px rgba(0,0,0,0.2);">0</span>
-                        <p style="opacity: 0.95; font-size: 1rem; font-weight: 500;" data-i18n="stats.mtsp">Medium-Term
-                            Strategic Plans</p>
-                    </div>
                 </div>
             </div>
             </div>
         </section>
 
+        <!-- Success Stories / Testimonials Section (Same as Homepage) -->
+        <section class="section" id="success-stories" style="background: #f8fafc; overflow: hidden;">
+            <div class="container">
+                <div class="text-center" style="margin-bottom: 2rem;">
+                    <p class="small"
+                        style="color: var(--color-accent); font-weight: 700; text-transform: uppercase; letter-spacing: 2px;"
+                        data-i18n="testimonials.subtitle">
+                        Cerita Sukses
+                    </p>
+                    <h2 data-i18n="testimonials.heading">Apa Kata Mereka Tentang IREEM</h2>
+                </div>
+
+                <!-- Testimonial Slideshow (same structure as homepage) -->
+                <div class="spotlight-slideshow" id="impact-spotlight-container">
+                    <!-- Navigation Buttons -->
+                    <button class="spotlight-nav spotlight-prev" id="impact-spotlight-prev" aria-label="Previous slide">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M15 18l-6-6 6-6" />
+                        </svg>
+                    </button>
+                    <button class="spotlight-nav spotlight-next" id="impact-spotlight-next" aria-label="Next slide">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M9 18l6-6-6-6" />
+                        </svg>
+                    </button>
+
+                    <div class="spotlight-track" id="impact-spotlight-track">
+                        <!-- Testimonials will be loaded from Sanity -->
+                    </div>
+                    <div class="spotlight-dots" id="impact-spotlight-dots"></div>
+                </div>
+            </div>
+
+            <style>
+                /* Spotlight styles - same as homepage */
+                #success-stories .spotlight-slideshow,
+                .section .spotlight-slideshow {
+                    position: relative;
+                    max-width: 1000px;
+                    margin: 0 auto;
+                }
+
+                /* Navigation Buttons */
+                .spotlight-nav {
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    z-index: 10;
+                    width: 48px;
+                    height: 48px;
+                    border-radius: 50%;
+                    background: white;
+                    border: none;
+                    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+                    cursor: pointer;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: var(--color-primary);
+                    transition: all 0.3s ease;
+                }
+
+                .spotlight-nav:hover {
+                    background: var(--color-primary);
+                    color: white;
+                    transform: translateY(-50%) scale(1.1);
+                }
+
+                .spotlight-prev {
+                    left: -24px;
+                }
+
+                .spotlight-next {
+                    right: -24px;
+                }
+
+                @media (max-width: 1100px) {
+                    .spotlight-prev {
+                        left: 10px;
+                    }
+
+                    .spotlight-next {
+                        right: 10px;
+                    }
+                }
+
+                @media (max-width: 768px) {
+                    .spotlight-nav {
+                        width: 40px;
+                        height: 40px;
+                    }
+
+                    .spotlight-prev {
+                        left: 5px;
+                    }
+
+                    .spotlight-next {
+                        right: 5px;
+                    }
+                }
+
+                .spotlight-track {
+                    position: relative;
+                    overflow: hidden;
+                    border-radius: 24px;
+                    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.15);
+                    min-height: 450px;
+                }
+
+                .spotlight-slide {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    display: grid;
+                    grid-template-columns: 320px 1fr;
+                    background: #ffffff;
+                    overflow: hidden;
+                    transition: transform 0.5s ease;
+                }
+
+                .spotlight-photo-wrapper {
+                    position: relative;
+                    overflow: hidden;
+                    background: linear-gradient(180deg, rgba(14, 58, 93, 0.2) 0%, rgba(14, 58, 93, 0.8) 100%);
+                }
+
+                .spotlight-image {
+                    width: 100%;
+                    height: 100%;
+                    min-height: 400px;
+                    object-fit: cover;
+                    object-position: center top;
+                    transition: transform 0.5s ease;
+                }
+
+                .spotlight-slide:hover .spotlight-image {
+                    transform: scale(1.05);
+                }
+
+                .spotlight-content {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    padding: 2rem 2.5rem;
+                    position: relative;
+                    overflow: hidden;
+                }
+
+                .spotlight-quote-icon {
+                    margin-bottom: 1rem;
+                    opacity: 0.8;
+                    flex-shrink: 0;
+                }
+
+                .spotlight-quote {
+                    font-size: 1.1rem;
+                    color: var(--color-primary);
+                    font-style: italic;
+                    line-height: 1.7;
+                    margin: 0 0 1.5rem 0;
+                    position: relative;
+                }
+
+                .spotlight-author-info {
+                    margin-top: auto;
+                    padding-top: 1.5rem;
+                    border-top: 1px solid rgba(14, 58, 93, 0.1);
+                }
+
+                .spotlight-author-details {
+                    margin-bottom: 1rem;
+                }
+
+                .spotlight-author {
+                    color: var(--color-primary);
+                    font-weight: 700;
+                    font-size: 1.2rem;
+                    margin: 0 0 0.25rem 0;
+                }
+
+                .spotlight-position {
+                    color: var(--color-muted);
+                    font-size: 0.9rem;
+                    margin: 0;
+                }
+
+                .spotlight-org {
+                    display: flex;
+                    align-items: center;
+                    gap: 0.75rem;
+                    margin-top: 1rem;
+                }
+
+                .spotlight-org-logo {
+                    height: 32px;
+                    width: auto;
+                    max-width: 80px;
+                    object-fit: contain;
+                }
+
+                .spotlight-org-name {
+                    color: var(--color-muted);
+                    font-size: 0.85rem;
+                    font-weight: 500;
+                }
+
+                .spotlight-badge {
+                    position: absolute;
+                    top: 2rem;
+                    right: 2rem;
+                    padding: 0.35rem 1rem;
+                    background: var(--color-accent);
+                    color: var(--color-primary);
+                    font-size: 0.7rem;
+                    font-weight: 700;
+                    border-radius: 20px;
+                    text-transform: uppercase;
+                    letter-spacing: 0.5px;
+                }
+
+                .spotlight-read-more {
+                    display: inline-flex;
+                    align-items: center;
+                    gap: 0.5rem;
+                    margin-top: 1.25rem;
+                    padding: 0.6rem 1.25rem;
+                    background: var(--color-primary);
+                    color: white;
+                    text-decoration: none;
+                    border-radius: 8px;
+                    font-size: 0.9rem;
+                    font-weight: 600;
+                    transition: all 0.3s ease;
+                }
+
+                .spotlight-read-more:hover {
+                    background: #0a2940;
+                    transform: translateX(5px);
+                }
+
+                .spotlight-read-more svg {
+                    transition: transform 0.3s;
+                }
+
+                .spotlight-read-more:hover svg {
+                    transform: translateX(3px);
+                }
+
+                .spotlight-dots {
+                    display: flex;
+                    justify-content: center;
+                    gap: 0.75rem;
+                    margin-top: 2rem;
+                }
+
+                .spotlight-dot {
+                    width: 12px;
+                    height: 12px;
+                    border-radius: 50%;
+                    background: rgba(14, 58, 93, 0.2);
+                    border: 2px solid rgba(14, 58, 93, 0.3);
+                    cursor: pointer;
+                    transition: all 0.3s ease;
+                }
+
+                .spotlight-dot:hover {
+                    background: rgba(14, 58, 93, 0.4);
+                }
+
+                .spotlight-dot.active {
+                    background: var(--color-primary);
+                    border-color: var(--color-primary);
+                    transform: scale(1.15);
+                }
+
+                @media (max-width: 900px) {
+                    .spotlight-slide {
+                        grid-template-columns: 240px 1fr;
+                    }
+
+                    .spotlight-content {
+                        padding: 2rem;
+                    }
+
+                    .spotlight-quote {
+                        font-size: 1rem;
+                    }
+                }
+
+                @media (max-width: 768px) {
+                    .spotlight-track {
+                        display: grid;
+                        min-height: auto;
+                        height: auto;
+                    }
+
+                    .spotlight-slide {
+                        grid-area: 1 / 1;
+                        grid-template-columns: 1fr;
+                        grid-template-rows: auto auto;
+                        height: auto;
+                        position: relative;
+                        opacity: 0;
+                        pointer-events: none;
+                        transition: opacity 0.5s ease;
+                        transform: none !important;
+                    }
+
+                    .spotlight-slide[data-index="0"] {
+                        opacity: 1;
+                        pointer-events: auto;
+                    }
+
+                    .spotlight-photo-wrapper {
+                        max-height: 250px;
+                        background: linear-gradient(180deg, #e8f4f8 0%, #d1e8ef 100%);
+                    }
+
+                    .spotlight-image {
+                        min-height: auto;
+                        max-height: 250px;
+                        width: 100%;
+                        object-fit: contain;
+                        object-position: center;
+                    }
+
+                    .spotlight-content {
+                        padding: 1.5rem;
+                        text-align: center;
+                        display: flex;
+                        flex-direction: column;
+                        overflow: hidden;
+                    }
+
+                    .spotlight-badge {
+                        position: static;
+                        align-self: center;
+                        order: -1;
+                        margin-bottom: 0.75rem;
+                        font-size: 0.65rem;
+                    }
+
+                    .spotlight-quote-icon {
+                        display: flex;
+                        justify-content: center;
+                    }
+
+                    .spotlight-quote-icon svg {
+                        width: 30px;
+                        height: 30px;
+                    }
+
+                    .spotlight-quote {
+                        font-size: 1rem;
+                        margin-bottom: 1rem;
+                        -webkit-line-clamp: unset;
+                        line-clamp: unset;
+                        max-height: none;
+                        display: block;
+                    }
+
+                    .spotlight-author-info {
+                        text-align: center;
+                        padding-top: 1rem;
+                    }
+
+                    .spotlight-author {
+                        font-size: 1rem;
+                    }
+
+                    .spotlight-position {
+                        font-size: 0.8rem;
+                    }
+
+                    .spotlight-org {
+                        justify-content: center;
+                        flex-direction: column;
+                        gap: 0.5rem;
+                    }
+
+                    .spotlight-org-logo {
+                        height: 24px;
+                    }
+
+                    .spotlight-org-name {
+                        font-size: 0.75rem;
+                    }
+                }
+            </style>
+        </section>
+
+
         <!-- Interactive Coverage Map Section -->
-        <section class="section" id="coverage-map"
-            style="background: linear-gradient(180deg, #f0f9ff 0%, #e0f2fe 100%);">
+        <section class="section" id="coverage-map" style="background: #ffffff;">
             <div class="container">
                 <div class="text-center mb-8">
                     <p class="small"
@@ -717,111 +1178,27 @@
             });
         </script>
 
-        <!-- Project Tables Section -->
-        <section class="section" id="projects-by-activity"
+        <!-- Client & Mitra Section -->
+        <section class="section" id="partners-section"
             style="background: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%);">
             <div class="container">
                 <div class="text-center mb-8">
                     <p class="small"
-                        style="color: var(--color-accent); font-weight: 700; text-transform: uppercase; letter-spacing: 2px;"
-                        data-i18n="projects.subtitle">Portofolio Proyek</p>
-                    <h2 data-i18n="projects.heading">Proyek Berdasarkan Aktivitas</h2>
-                    <p class="lead" style="max-width: 700px; margin: 0 auto;" data-i18n="projects.description">Lihat
-                        detail proyek kami yang
-                        dikelompokkan berdasarkan jenis aktivitas: Capacity Building, Policy & Regulation, dan Pilot
-                        Project.</p>
+                        style="color: var(--color-primary); font-weight: 700; text-transform: uppercase; letter-spacing: 2px;"
+                        data-i18n="partners.subtitle">Jejaring Kolaborasi</p>
+                    <h2 data-i18n="partners.heading">Client & Mitra IREEM</h2>
+                    <p class="lead" style="max-width: 700px; margin: 0 auto;" data-i18n="partners.description">
+                        Partner strategis yang telah berkolaborasi dengan IREEM dalam berbagai proyek transisi energi
+                        dan pembangunan berkelanjutan.</p>
                 </div>
 
-                <!-- Tab Navigation -->
-                <div class="project-tabs"
-                    style="display: flex; justify-content: center; gap: 1rem; margin-bottom: 3rem; flex-wrap: wrap;">
-                    <button class="tab-btn active" onclick="openTab(event, 'capacity-building')"
-                        style="padding: 1rem 2rem; border: none; border-radius: 50px; font-weight: 600; cursor: pointer; transition: all 0.3s ease; background: var(--color-primary); color: white; font-size: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
-                            <path d="M6 12v5c3 3 9 3 12 0v-5" />
-                        </svg>
-                        Capacity Building
-                    </button>
-                    <button class="tab-btn" onclick="openTab(event, 'policy-regulation')"
-                        style="padding: 1rem 2rem; border: 2px solid var(--color-primary); border-radius: 50px; font-weight: 600; cursor: pointer; transition: all 0.3s ease; background: white; color: var(--color-primary); font-size: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
-                            <polyline points="14 2 14 8 20 8" />
-                            <line x1="16" y1="13" x2="8" y2="13" />
-                            <line x1="16" y1="17" x2="8" y2="17" />
-                            <polyline points="10 9 9 9 8 9" />
-                        </svg>
-                        Policy & Regulation
-                    </button>
-                    <button class="tab-btn" onclick="openTab(event, 'pilot-project')"
-                        style="padding: 1rem 2rem; border: 2px solid var(--color-primary); border-radius: 50px; font-weight: 600; cursor: pointer; transition: all 0.3s ease; background: white; color: var(--color-primary); font-size: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
-                        </svg>
-                        Pilot Project
-                    </button>
+                <!-- Partners Grid - Flip Cards -->
+                <div id="impact-partners-grid">
+                    <p style="text-align: center; padding: 3rem; color: var(--color-muted);">Memuat data mitra...</p>
                 </div>
-
-                <!-- Tab Content: Capacity Building -->
-                <div id="capacity-building" class="tab-content" style="display: block;">
-                    <!-- Dynamic content loaded from Sanity -->
-                    <div class="project-cards-grid" style="display: grid; gap: 1.5rem;">
-                        <p style="text-align: center; padding: 3rem; color: var(--color-muted);">Memuat proyek...</p>
-                    </div>
-                </div>
-
-                <!-- Tab Content: Policy & Regulation -->
-                <div id="policy-regulation" class="tab-content" style="display: none;">
-                    <!-- Dynamic content loaded from Sanity -->
-                    <div class="project-cards-grid" style="display: grid; gap: 1.5rem;">
-                        <p style="text-align: center; padding: 3rem; color: var(--color-muted);">Memuat proyek...</p>
-                    </div>
-                </div>
-
-                <!-- Tab Content: Pilot Project -->
-                <div id="pilot-project" class="tab-content" style="display: none;">
-                    <!-- Dynamic content loaded from Sanity -->
-                    <div class="project-cards-grid" style="display: grid; gap: 1.5rem;">
-                        <p style="text-align: center; padding: 3rem; color: var(--color-muted);">Memuat proyek...</p>
-                    </div>
-                </div>
-
             </div>
         </section>
 
-        <!-- Tab Switching Script -->
-        <script>
-            function openTab(evt, tabName) {
-                // Hide all tab contents
-                const tabContents = document.getElementsByClassName('tab-content');
-                for (let i = 0; i < tabContents.length; i++) {
-                    tabContents[i].style.display = 'none';
-                }
-
-                // Remove active class from all buttons
-                const tabBtns = document.getElementsByClassName('tab-btn');
-                for (let i = 0; i < tabBtns.length; i++) {
-                    tabBtns[i].style.background = 'white';
-                    tabBtns[i].style.color = 'var(--color-primary)';
-                    tabBtns[i].style.border = '2px solid var(--color-primary)';
-                }
-
-                // Show the selected tab and mark button as active
-                document.getElementById(tabName).style.display = 'block';
-                evt.currentTarget.style.background = 'var(--color-primary)';
-                evt.currentTarget.style.color = 'white';
-                evt.currentTarget.style.border = 'none';
-            }
-
-        </script>
-
-        <!-- Dynamic Projects Scripts -->
-        <script src="../js/projects-service.js"></script>
-        <script src="../js/impact-projects.js"></script>
 
 
     </main>
@@ -967,6 +1344,10 @@
     <script src="../js/i18n/index.js"></script>
     <script src="../js/i18n/common.js"></script>
     <script src="../js/i18n/impact.js"></script>
+
+    <!-- Impact Page Modules -->
+    <script src="../js/impact-testimonials.js"></script>
+    <script src="../js/impact-partners.js"></script>
 </body>
 
 </html>

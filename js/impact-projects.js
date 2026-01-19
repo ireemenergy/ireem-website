@@ -84,8 +84,9 @@
             ? ProjectsService.getText(activityConfig.formLabel, lang)
             : (lang === 'en' ? 'Activity Forms' : 'Bentuk Aktivitas');
 
-        // Get forms array (may be { id: [], en: [] })
-        const formsArray = ProjectsService.getArray(activity.forms, lang);
+        // Get forms array - handle flat format (forms/formsEn) and object format
+        const forms = lang === 'en' && activity.formsEn?.length ? activity.formsEn : activity.forms;
+        const formsArray = Array.isArray(forms) ? forms : [];
 
         const formsHtml = formsArray.length ? `
             <div>
@@ -132,10 +133,10 @@
         const config = ACTIVITY_TYPES[activityType] || ACTIVITY_TYPES['capacity-building'];
         const borderColor = BORDER_COLORS[index % BORDER_COLORS.length];
 
-        // Use getText for bilingual fields
-        const title = ProjectsService.escapeHtml(ProjectsService.getText(project.title, lang));
-        const description = ProjectsService.escapeHtml(ProjectsService.getText(project.shortDescription, lang));
-        const donor = ProjectsService.escapeHtml(ProjectsService.getText(project.donor, lang));
+        // Use getText with flat fields (title, titleEn) format
+        const title = ProjectsService.escapeHtml(ProjectsService.getText(project.title, project.titleEn));
+        const description = ProjectsService.escapeHtml(ProjectsService.getText(project.shortDescription, project.shortDescriptionEn));
+        const donor = ProjectsService.escapeHtml(ProjectsService.getText(project.donor, project.donorEn));
         const statusLabel = ProjectsService.getStatusLabel(project.status, lang);
 
         // Parse period

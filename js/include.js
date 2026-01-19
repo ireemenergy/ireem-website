@@ -11,9 +11,13 @@
  */
 
 document.addEventListener('DOMContentLoaded', function () {
-    // Load header and footer components
-    loadComponent('#site-header', '/components/header.html', setActiveNav);
-    loadComponent('#site-footer', '/components/footer.html');
+    // Load header component - support both selector names
+    const headerSelector = document.querySelector('#site-header') ? '#site-header' : '#header-placeholder';
+    loadComponent(headerSelector, '/components/header.html', setActiveNav);
+
+    // Load footer component - support both selector names
+    const footerSelector = document.querySelector('#site-footer') ? '#site-footer' : '#footer-placeholder';
+    loadComponent(footerSelector, '/components/footer.html');
 });
 
 /**

@@ -47,25 +47,36 @@
 
     /**
      * GROQ Query for fetching all projects with nested activities
-     * Updated for bilingual fields: forms { id, en }, achievements.label { id, en }
+     * Updated for new schema (Jan 2026):
+     * - Flat bilingual field aliases: title/titleEn, shortDescription/shortDescriptionEn, etc.
+     * - bannerImage instead of coverImage
+     * - activities with forms { id, en } and achievements { label { id, en } }
      */
     const PROJECTS_QUERY = `*[_type == "project"] | order(periodStart desc) {
-        title,
+        _id,
+        "title": title.id,
+        "titleEn": title.en,
         "slug": slug.current,
-        shortDescription,
-        donor,
+        "shortDescription": shortDescription.id,
+        "shortDescriptionEn": shortDescription.en,
+        "donor": donor.id,
+        "donorEn": donor.en,
+        status,
         periodStart,
         periodEnd,
-        status,
         programs,
         provinces,
         activities[]{
             activityType,
-            forms,
-            achievements[]{ label, value }
+            "forms": forms.id,
+            "formsEn": forms.en,
+            achievements[]{ 
+                "label": label.id, 
+                "labelEn": label.en 
+            }
         },
-        highlights,
-        coverImage { asset->{ url } }
+        "bannerImage": bannerImage.asset->url,
+        "bannerImageAlt": bannerImage.alt
     }`;
 
     /**
@@ -210,15 +221,32 @@
 
     /**
      * Get text from bilingual field
-     * Handles both old string format and new { id, en } format
-     * @param {string|Object} field - Field value (string or { id, en })
-     * @param {string} lang - Language code ('id' or 'en')
+     * Supports multiple formats:
+     * 1. Old object format: getText({ id: '...', en: '...' }, lang)
+     * 2. New flat format: getText(idText, enText) - returns based on current lang
+     * 3. Simple string: getText('text', lang) - returns as-is
+     * 
+     * @param {string|Object} field - Field value (string or { id, en }) or ID text
+     * @param {string} langOrEnText - Language code ('id' or 'en') or English text
      * @returns {string} Resolved text
      */
-    function getText(field, lang) {
+    function getText(field, langOrEnText) {
         if (!field) return '';
-        if (typeof field === 'string') return field;
-        lang = lang || getCurrentLang();
+
+        // If field is a string (flat format or simple string)
+        if (typeof field === 'string') {
+            // If langOrEnText is also a string but not 'id' or 'en', 
+            // it's the flat format: getText(title, titleEn)
+            if (typeof langOrEnText === 'string' && langOrEnText !== 'id' && langOrEnText !== 'en') {
+                const lang = getCurrentLang();
+                return (lang === 'en' && langOrEnText) ? langOrEnText : field;
+            }
+            // Simple string, return as-is
+            return field;
+        }
+
+        // Object format { id: '...', en: '...' }
+        const lang = langOrEnText || getCurrentLang();
         return field[lang] || field.id || '';
     }
 

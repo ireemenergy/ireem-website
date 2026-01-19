@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FactSheet - IREEM</title>
+    <link rel="icon" type="image/x-icon" href="../images/ireemicon2.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="css/factsheet.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="../index.html" class="logo">
+                <img src="../images/logo.png" alt="IREEM Logo" style="height: 64px;">
+            </a>
+
+            <nav class="nav-links">
+                <div class="nav-dropdown">
+                    <a href="../about/index.html" class="nav-link nav-dropdown-trigger" data-i18n="nav.about">
+                        Tentang IREEM
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" style="margin-left: 4px;">
+                            <path d="M6 9l6 6 6-6" />
+                        </svg>
+                    </a>
+                    <div class="nav-dropdown-menu">
+                        <a href="../about/index.html#latar-belakang" class="nav-dropdown-item"
+                            data-i18n="nav.background">Latar Belakang & Sejarah</a>
+                        <a href="../about/index.html#visi-misi" class="nav-dropdown-item"
+                            data-i18n="nav.visionMission">Visi & Misi</a>
+                        <a href="../about/index.html#nilai" class="nav-dropdown-item" data-i18n="nav.values">Nilai-Nilai
+                            IREEM</a>
+                        <a href="../about/index.html#executive-board" class="nav-dropdown-item" data-i18n="nav.team">Tim
+                            Kami</a>
+                    </div>
+                </div>
+                <div class="nav-dropdown">
+                    <a href="../program/index.html" class="nav-link nav-dropdown-trigger" data-i18n="nav.program">
+                        Program
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" style="margin-left: 4px;">
+                            <path d="M6 9l6 6 6-6" />
+                        </svg>
+                    </a>
+                    <div class="nav-dropdown-menu">
+                        <a href="../program/energi.html" class="nav-dropdown-item" data-i18n="nav.energy">Energi</a>
+                        <a href="../program/lingkungan.html" class="nav-dropdown-item"
+                            data-i18n="nav.environment">Lingkungan</a>
+                        <a href="../program/sumber-daya.html" class="nav-dropdown-item"
+                            data-i18n="nav.naturalResources">Sumber Daya Alam</a>
+                        <a href="../program/gesi.html" class="nav-dropdown-item" data-i18n="nav.gedsi">GEDSI</a>
+                    </div>
+                </div>
+                <div class="nav-dropdown">
+                    <a href="../portfolio/index.html" class="nav-link nav-dropdown-trigger" data-i18n="nav.portfolio">
+                        Portfolio
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" style="margin-left: 4px;">
+                            <path d="M6 9l6 6 6-6" />
+                        </svg>
+                    </a>
+                    <div class="nav-dropdown-menu">
+                        <a href="../portfolio/index.html" class="nav-dropdown-item"
+                            data-i18n="nav.projectDatabase">Database Proyek</a>
+                        <a href="../inovasi/index.html" class="nav-dropdown-item"
+                            data-i18n="nav.innovation">Aplikasi/Inovasi</a>
+                    </div>
+                </div>
+                <div class="nav-dropdown">
+                    <a href="../impact/index.html" class="nav-link nav-dropdown-trigger" data-i18n="nav.impact">
+                        Dampak
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" style="margin-left: 4px;">
+                            <path d="M6 9l6 6 6-6" />
+                        </svg>
+                    </a>
+                    <div class="nav-dropdown-menu">
+                        <a href="../impact/index.html#impact-stats" class="nav-dropdown-item"
+                            data-i18n="nav.impactStats">IREEM dalam Angka</a>
+                        <a href="../impact/index.html#success-stories" class="nav-dropdown-item"
+                            data-i18n="nav.successStories">Cerita Sukses</a>
+                        <a href="../impact/index.html#partners-section" class="nav-dropdown-item"
+                            data-i18n="nav.partners">Mitra Terpercaya</a>
+                    </div>
+                </div>
+                <div class="nav-dropdown">
+                    <a href="../insights/index.html" class="nav-link nav-dropdown-trigger active"
+                        data-i18n="nav.insights">
+                        Wawasan
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" style="margin-left: 4px;">
+                            <path d="M6 9l6 6 6-6" />
+                        </svg>
+                    </a>
+                    <div class="nav-dropdown-menu">
+                        <a href="../berita/index.html" class="nav-dropdown-item" data-i18n="nav.news">Berita</a>
+                        <a href="../factsheet/index.html" class="nav-dropdown-item"
+                            data-i18n="nav.factsheet">FactSheet</a>
+                        <a href="../publikasi/index.html" class="nav-dropdown-item"
+                            data-i18n="nav.publications">Publikasi</a>
+                    </div>
+                </div>
+                <!-- Mobile CTA Button -->
+                <a href="../kemitraan/proposal.html" class="nav-cta-mobile btn btn-primary"
+                    data-i18n="nav.partnershipCta">Ajukan Kemitraan</a>
+            </nav>
+
+            <!-- Language Switcher -->
+            <div class="lang-switcher">
+                <button data-lang="id" class="active">ID</button>
+                <span>|</span>
+                <button data-lang="en">EN</button>
+            </div>
+
+            <a href="../kemitraan/proposal.html" class="btn btn-primary" data-i18n="nav.partnershipCta">Ajukan
+                Kemitraan</a>
+
+            <!-- Mobile Menu Button -->
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="factsheet-hero">
+            <div class="container">
+                <div class="hero-content">
+                    <p class="tagline" data-i18n="factsheet.hero.tagline">Wawasan Visual</p>
+                    <h1 data-i18n="factsheet.hero.title">FactSheet IREEM</h1>
+                    <p class="lead" data-i18n="factsheet.hero.subtitle">
+                        Rangkuman visual satu halaman dari proyek dan capaian IREEM
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Filter & Grid Section -->
+        <section class="section bg-light">
+            <div class="container">
+                <!-- Category Filter -->
+                <div class="filter-bar">
+                    <button class="filter-btn active" data-category="all"
+                        data-i18n="factsheet.filter.all">Semua</button>
+                    <button class="filter-btn" data-category="energi"
+                        data-i18n="factsheet.filter.energy">Energi</button>
+                    <button class="filter-btn" data-category="lingkungan"
+                        data-i18n="factsheet.filter.environment">Lingkungan</button>
+                    <button class="filter-btn" data-category="sda" data-i18n="factsheet.filter.resources">Sumber Daya
+                        Alam</button>
+                    <button class="filter-btn" data-category="gedsi" data-i18n="factsheet.filter.gedsi">GEDSI</button>
+                </div>
+
+                <!-- FactSheet Grid -->
+                <div id="factsheet-grid" class="factsheet-grid">
+                    <!-- Cards will be loaded dynamically -->
+                </div>
+
+                <!-- Empty State -->
+                <div id="empty-state" class="empty-state" style="display: none;">
+                    <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="var(--color-muted)"
+                        stroke-width="1.5">
+                        <path
+                            d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                    </svg>
+                    <p data-i18n="factsheet.empty">Belum ada factsheet untuk kategori ini</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Scripts -->
+    <script src="../js/include.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/i18n/index.js"></script>
+    <script src="../js/i18n/common.js"></script>
+    <script src="../js/i18n/factsheet.js"></script>
+    <script src="js/factsheet-list.js"></script>
+</body>
+
+</html>

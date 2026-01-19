@@ -15,7 +15,7 @@
                 energy: { id: 'Energi & Iklim', en: 'Energy & Climate' },
                 environment: { id: 'Lingkungan', en: 'Environment' },
                 resources: { id: 'Sumber Daya Alam', en: 'Natural Resources' },
-                gesi: { id: 'GESI', en: 'GESI' }
+                gesi: { id: 'GEDSI', en: 'GEDSI' }
             },
             hero: {
                 tagline: { id: 'Program Utama', en: 'Core Program' },
@@ -27,11 +27,11 @@
             context: {
                 heading: { id: 'Tantangan & Strategi', en: 'Challenges & Strategy' },
                 para1: { id: 'Indonesia memiliki target ambisius Net Zero Emission pada 2060. Namun, tantangan teknis dan finansial di sektor industri dan ketenagalistrikan masih menjadi hambatan utama.', en: 'Indonesia has an ambitious Net Zero Emission target by 2060. However, technical and financial challenges in the industrial and electricity sectors remain major barriers.' },
-                para2: { id: 'Strategi IREEM berfokus pada sisi permintaan (demand-side): membantu industri melakukan efisiensi energi dan beralih ke sumber terbarukan tanpa mengorbankan produktivitas ekonomi.', en: 'IREEM\'s strategy focuses on the demand-side: helping industries achieve energy efficiency and transition to renewable sources without sacrificing economic productivity.' },
-                highlight: { id: 'IREEM bekerja untuk menjembatani kebijakan nasional dengan kebutuhan teknis di lapangan. Strategi kami mengutamakan sisi permintaan (demand-side) dengan solusi nyata yang bisa direplikasi, seperti penerapan sistem manajemen energi (EnMS), audit energi berbasis investasi, hingga pengembangan platform digital pelaporan mitigasi GRK sektor energi.', en: 'IREEM works to bridge national policy with technical needs on the ground. Our strategy prioritizes the demand-side with replicable real solutions, such as implementing energy management systems (EnMS), investment-based energy audits, and developing digital platforms for GHG mitigation reporting in the energy sector.' }
+                para2: { id: 'Strategi IREEM berfokus pada <strong>sisi permintaan (demand-side)</strong>: membantu industri melakukan efisiensi energi dan beralih ke sumber terbarukan tanpa mengorbankan produktivitas ekonomi.', en: "IREEM's strategy focuses on the <strong>demand-side</strong>: helping industries achieve energy efficiency and transition to renewable sources without sacrificing economic productivity." },
+                highlight: { id: '<strong>IREEM bekerja untuk menjembatani kebijakan nasional dengan kebutuhan teknis di lapangan.</strong> Strategi kami mengutamakan sisi permintaan (demand-side) dengan solusi nyata yang bisa direplikasi, seperti penerapan sistem manajemen energi (EnMS), audit energi berbasis investasi, hingga pengembangan platform digital pelaporan mitigasi GRK sektor energi.', en: '<strong>IREEM works to bridge national policy with technical needs on the ground.</strong> Our strategy prioritizes the demand-side with replicable real solutions, such as implementing energy management systems (EnMS), investment-based energy audits, and developing digital platforms for GHG mitigation reporting in the energy sector.' }
             },
             policyFocus: {
-                title: { id: 'Fokus Kebijakan', en: 'Policy Focus' },
+                title: { id: 'Fokus Kebijakan Terkait:', en: 'Related Policy Focus:' },
                 item1: { id: 'Standar Kinerja Energi Minimum (SKEM)', en: 'Minimum Energy Performance Standards (MEPS)' },
                 item2: { id: 'Mekanisme Pasar Karbon', en: 'Carbon Market Mechanisms' },
                 item3: { id: 'Roadmap Dekarbonisasi Industri', en: 'Industrial Decarbonization Roadmap' },
@@ -40,7 +40,7 @@
                 item6: { id: 'Pengembangan ISO 50001 dan BGH untuk Sektor Publik', en: 'ISO 50001 and Green Building Development for Public Sector' }
             },
             services: {
-                heading: { id: 'Layanan & Solusi', en: 'Services & Solutions' },
+                heading: { id: 'Solusi Nyata IREEM', en: 'IREEM Real Solutions' },
                 subtitle: { id: 'Solusi komprehensif untuk transisi energi berkelanjutan', en: 'Comprehensive solutions for sustainable energy transition' },
                 audit: {
                     title: { id: 'Audit Energi & Teknis', en: 'Energy & Technical Audits' },
@@ -105,6 +105,30 @@
                 heading: { id: 'Bermitra untuk Efisiensi Energi', en: 'Partner for Energy Efficiency' },
                 subtitle: { id: 'Tertarik menerapkan efisiensi energi di organisasi Anda? Mari berdiskusi tentang solusi terbaik untuk kebutuhan Anda.', en: 'Interested in implementing energy efficiency in your organization? Let\'s discuss the best solutions for your needs.' },
                 button: { id: 'Ajukan Kemitraan', en: 'Submit Partnership' }
+            },
+            explore: {
+                heading: { id: 'Jelajahi Lebih Lanjut', en: 'Explore More' },
+                subtitle: { id: 'Temukan proyek, publikasi, dan informasi terkait bidang Energi & Iklim', en: 'Discover projects, publications, and information related to Energy & Climate' },
+                database: {
+                    title: { id: 'Database Proyek', en: 'Project Database' },
+                    desc: { id: 'Lihat seluruh proyek IREEM di bidang Energi & Iklim', en: 'View all IREEM projects in Energy & Climate' },
+                    link: { id: 'Lihat Proyek', en: 'View Projects' }
+                },
+                factsheet: {
+                    title: { id: 'FactSheet', en: 'FactSheet' },
+                    desc: { id: 'Ringkasan visual proyek dan capaian bidang Energi', en: 'Visual summary of Energy projects and achievements' },
+                    link: { id: 'Lihat FactSheet', en: 'View FactSheet' }
+                },
+                news: {
+                    title: { id: 'Berita Terkait', en: 'Related News' },
+                    desc: { id: 'Berita dan kegiatan terbaru di bidang Energi & Iklim', en: 'Latest news and activities in Energy & Climate' },
+                    link: { id: 'Lihat Berita', en: 'View News' }
+                },
+                publications: {
+                    title: { id: 'Publikasi', en: 'Publications' },
+                    desc: { id: 'Laporan, kajian, dan dokumen teknis IREEM', en: 'Reports, studies, and IREEM technical documents' },
+                    link: { id: 'Lihat Publikasi', en: 'View Publications' }
+                }
             }
         }
     };
