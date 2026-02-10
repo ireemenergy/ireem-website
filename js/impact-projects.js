@@ -148,8 +148,9 @@
                  style="background: white; border-radius: 16px; padding: 2rem; box-shadow: 0 4px 20px rgba(0,0,0,0.08); border-left: 4px solid ${borderColor}; transition: transform 0.3s ease, box-shadow 0.3s ease;">
                 <div style="display: grid; grid-template-columns: 100px 1fr; gap: 2rem; align-items: start;">
                     <div style="background: ${config.gradient}; color: white; padding: 1rem; border-radius: 12px; text-align: center;">
-                        <div style="font-size: 1.5rem; font-weight: 800;">${startYear}</div>
-                        ${endYear ? `<div style="font-size: 0.75rem; opacity: 0.8;">${endYear}</div>` : ''}
+                        <div style="font-size: 1.25rem; font-weight: 800;">${startYear}</div>
+                        ${endYear && endYear !== startYear ? `<div style="width: 2px; height: 16px; background: rgba(255,255,255,0.5); margin: 4px auto;"></div>
+                        <div style="font-size: 1.25rem; font-weight: 800;">${endYear}</div>` : ''}
                     </div>
                     <div>
                         <h4 style="margin-bottom: 0.5rem; color: var(--color-primary);">${title}</h4>
