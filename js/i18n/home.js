@@ -49,7 +49,7 @@
                 en: 'Our holistic approach covers the entire green transition value chain.'
             },
             energy: {
-                title: { id: 'Energi & Iklim', en: 'Energy & Climate' },
+                title: { id: 'Energi', en: 'Energy' },
                 description: {
                     id: 'Transisi energi berkeadilan, efisiensi industri, dan strategi dekarbonisasi.',
                     en: 'Just energy transition, industrial efficiency, and decarbonization strategies.'
@@ -88,7 +88,7 @@
                 trainingParticipants: { id: 'Peserta Pelatihan', en: 'Training Participants' },
                 provincesReached: { id: 'Provinsi Dijangkau', en: 'Provinces Reached' },
                 policiesSupported: { id: 'Kebijakan Nasional Didukung', en: 'National Policies Supported' },
-                auditorsCertified: { id: 'Auditor Energi Tersertifikasi', en: 'Certified Energy Auditors' }
+                auditorsCertified: { id: 'Profesional Energi Tersertifikasi', en: 'Certified Energy Professionals' }
             }
         },
         gallery: {

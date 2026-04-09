@@ -1,5 +1,5 @@
 /**
- * Energy & Climate Program Page Translations
+ * Energy Program Page Translations
  * Text content for energy program pages
  * 
  * @file energi.js
@@ -12,14 +12,14 @@
         energi: {
             // Sub navigation
             subnav: {
-                energy: { id: 'Energi & Iklim', en: 'Energy & Climate' },
+                energy: { id: 'Energi', en: 'Energy' },
                 environment: { id: 'Lingkungan', en: 'Environment' },
                 resources: { id: 'Sumber Daya Alam', en: 'Natural Resources' },
                 gesi: { id: 'GEDSI', en: 'GEDSI' }
             },
             hero: {
                 tagline: { id: 'Program Utama', en: 'Core Program' },
-                title: { id: 'Energi & Iklim', en: 'Energy & Climate' },
+                title: { id: 'Energi', en: 'Energy' },
                 subtitle: { id: 'Mendorong transisi energi yang adil melalui dekarbonisasi industri, efisiensi energi, dan pendanaan hijau.', en: 'Driving a just energy transition through industrial decarbonization, energy efficiency, and green financing.' },
                 statNumber: { id: '1.5 Juta', en: '1.5 Million' },
                 statLabel: { id: 'Ton CO₂e Potensi Penurunan Emisi per Tahun', en: 'Tons of CO₂e Potential Emission Reduction per Year' }
@@ -80,7 +80,7 @@
             },
             projects: {
                 heading: { id: 'Proyek Unggulan Kami', en: 'Our Featured Projects' },
-                subtitle: { id: 'Portofolio proyek bidang Energi & Iklim IREEM', en: 'IREEM Energy & Climate project portfolio' }
+                subtitle: { id: 'Portofolio proyek bidang Energi IREEM', en: 'IREEM Energy project portfolio' }
             },
             testimonial: {
                 quote: { id: '"Melalui program UK PACT, kami berhasil menerapkan langkah nyata penghematan energi dengan hasil signifikan di berbagai gedung pemerintah."', en: '"Through the UK PACT program, we successfully implemented real energy-saving measures with significant results across various government buildings."' },
@@ -108,10 +108,10 @@
             },
             explore: {
                 heading: { id: 'Jelajahi Lebih Lanjut', en: 'Explore More' },
-                subtitle: { id: 'Temukan proyek, publikasi, dan informasi terkait bidang Energi & Iklim', en: 'Discover projects, publications, and information related to Energy & Climate' },
+                subtitle: { id: 'Temukan proyek, publikasi, dan informasi terkait bidang Energi', en: 'Discover projects, publications, and information related to Energy' },
                 database: {
                     title: { id: 'Database Proyek', en: 'Project Database' },
-                    desc: { id: 'Lihat seluruh proyek IREEM di bidang Energi & Iklim', en: 'View all IREEM projects in Energy & Climate' },
+                    desc: { id: 'Lihat seluruh proyek IREEM di bidang Energi', en: 'View all IREEM projects in Energy' },
                     link: { id: 'Lihat Proyek', en: 'View Projects' }
                 },
                 factsheet: {
@@ -121,7 +121,7 @@
                 },
                 news: {
                     title: { id: 'Berita Terkait', en: 'Related News' },
-                    desc: { id: 'Berita dan kegiatan terbaru di bidang Energi & Iklim', en: 'Latest news and activities in Energy & Climate' },
+                    desc: { id: 'Berita dan kegiatan terbaru di bidang Energi', en: 'Latest news and activities in Energy' },
                     link: { id: 'Lihat Berita', en: 'View News' }
                 },
                 publications: {

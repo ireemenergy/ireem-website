@@ -434,6 +434,12 @@ p {
   display: none;
 }
 
+/* Temporarily hide Aplikasi/Inovasi from navigation */
+a[data-i18n="nav.innovation"].nav-dropdown-item,
+a[data-i18n="nav.innovation"].nav-link {
+  display: none;
+}
+
 /* Language Switcher - Compact Pill Toggle */
 .lang-switcher {
   display: flex;

@@ -23,7 +23,7 @@
         },
         pillars: {
             energy: {
-                title: { id: 'Energi & Iklim', en: 'Energy & Climate' },
+                title: { id: 'Energi', en: 'Energy' },
                 category: { id: 'Energi Berkelanjutan', en: 'Sustainable Energy' },
                 description: {
                     id: 'Transisi energi berkeadilan, efisiensi industri, dan strategi dekarbonisasi untuk mencapai Net Zero Emission 2060.',

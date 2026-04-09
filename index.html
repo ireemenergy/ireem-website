@@ -286,7 +286,7 @@
         </section>
 
         <!-- 2. Milestone Dashboard/Dampak (Data Tiles - Bukti Kuantitatif) -->
-        <section class="section-lg" style="background: #ffffff;">
+        <section class="section-lg" style="background: #f8fafc;">
             <div class="container grid-asymmetric">
                 <div>
                     <h2 class="highlight" data-i18n="impact.heading">Dampak Nyata
@@ -306,8 +306,8 @@
                             Peserta Pelatihan</div>
                     </div>
                     <div>
-                        <div class="impact-number counter" style="color: var(--color-primary);" data-target="20"
-                            data-suffix="+">0</div>
+                        <div class="impact-number counter" style="color: var(--color-primary);" data-target="29"
+                            >0</div>
                         <div class="small" style="color: var(--color-muted);" data-i18n="impact.stats.provincesReached">
                             Provinsi Dijangkau</div>
                     </div>
@@ -320,10 +320,181 @@
                         <div class="impact-number counter" style="color: var(--color-primary);" data-target="200"
                             data-suffix="+">0</div>
                         <div class="small" style="color: var(--color-muted);"
-                            data-i18n="impact.stats.auditorsCertified">Auditor Energi Tersertifikasi</div>
+                            data-i18n="impact.stats.auditorsCertified">Profesional Energi Tersertifikasi</div>
                     </div>
                 </div>
             </div>
+        </section>
+
+        <!-- 8. Dynamic News (Berita Terbaru) - Carousel -->
+        <section class="section news-carousel-section" id="news" style="background: #ffffff; overflow: hidden;">
+            <div class="container">
+                <div class="text-center" style="margin-bottom: 3rem;">
+                    <p class="small"
+                        style="color: var(--color-accent); font-weight: 700; text-transform: uppercase; letter-spacing: 2px;"
+                        data-i18n="news.subtitle">
+                        Kabar dari Kami
+                    </p>
+                    <h2 data-i18n="news.heading">Berita Terbaru</h2>
+                    <p style="color: var(--color-muted); max-width: 600px; margin: 0 auto;"
+                        data-i18n="news.description">
+                        Update terkini dari kegiatan dan pencapaian IREEM.
+                    </p>
+                </div>
+            </div>
+
+            <!-- News Carousel Track - Full Width -->
+            <div class="news-carousel-wrapper">
+                <div class="news-carousel-track" id="home-news-track">
+                    <!-- Cards will be loaded from Sanity -->
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="text-center" style="margin-top: 2rem;">
+                    <a href="berita/" class="btn btn-outline-dark" data-i18n="news.viewAll">Lihat Semua Berita →</a>
+                </div>
+            </div>
+
+            <style>
+                .news-carousel-wrapper {
+                    width: 100%;
+                    overflow: hidden;
+                    padding: 1.5rem 0 2rem 0;
+                }
+
+                .news-carousel-track {
+                    display: flex;
+                    gap: 1.5rem;
+                    animation: newsScroll 40s linear infinite;
+                    width: max-content;
+                }
+
+                .news-carousel-track:hover {
+                    animation-play-state: paused;
+                }
+
+                @keyframes newsScroll {
+                    0% {
+                        transform: translateX(0);
+                    }
+
+                    100% {
+                        transform: translateX(-50%);
+                    }
+                }
+
+                .news-carousel-card {
+                    flex-shrink: 0;
+                    width: 320px;
+                    background: white;
+                    border-radius: 16px;
+                    overflow: hidden;
+                    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+                    transition: transform 0.3s ease, box-shadow 0.3s ease;
+                    text-decoration: none;
+                    display: block;
+                }
+
+                .news-carousel-card:hover {
+                    transform: translateY(-8px);
+                    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.15);
+                }
+
+                .news-carousel-image {
+                    height: 180px;
+                    overflow: hidden;
+                    position: relative;
+                }
+
+                .news-carousel-image img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    transition: transform 0.5s ease;
+                }
+
+                .news-carousel-card:hover .news-carousel-image img {
+                    transform: scale(1.1);
+                }
+
+                .news-carousel-category {
+                    position: absolute;
+                    top: 1rem;
+                    left: 1rem;
+                    padding: 0.25rem 0.75rem;
+                    background: var(--color-secondary);
+                    color: white;
+                    font-size: 0.7rem;
+                    font-weight: 700;
+                    border-radius: 20px;
+                    text-transform: uppercase;
+                }
+
+                .news-carousel-content {
+                    padding: 1.25rem;
+                }
+
+                .news-carousel-date {
+                    font-size: 0.75rem;
+                    color: var(--color-accent);
+                    font-weight: 600;
+                    margin: 0 0 0.5rem 0;
+                }
+
+                .news-carousel-title {
+                    color: var(--color-primary);
+                    font-size: 1.05rem;
+                    font-weight: 700;
+                    line-height: 1.4;
+                    margin: 0 0 0.5rem 0;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;
+                    overflow: hidden;
+                }
+
+                .news-carousel-excerpt {
+                    color: var(--color-muted);
+                    font-size: 0.85rem;
+                    line-height: 1.5;
+                    margin: 0;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;
+                    overflow: hidden;
+                }
+
+                .news-carousel-loading {
+                    width: 320px;
+                    height: 280px;
+                    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+                    background-size: 200% 100%;
+                    animation: skeletonLoading 1.5s infinite;
+                    border-radius: 16px;
+                    flex-shrink: 0;
+                }
+
+                @keyframes skeletonLoading {
+                    0% {
+                        background-position: 200% 0;
+                    }
+
+                    100% {
+                        background-position: -200% 0;
+                    }
+                }
+
+                @media (max-width: 768px) {
+                    .news-carousel-card {
+                        width: 280px;
+                    }
+
+                    .news-carousel-track {
+                        gap: 1rem;
+                    }
+                }
+            </style>
         </section>
 
         <!-- 4 Pillars Section -->
@@ -345,8 +516,8 @@
                                 <path d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
                             </svg>
                         </div>
-                        <h4 data-i18n="pillars.energy.title">Energi & Iklim</h4>
-                        <p class="small" data-i18n="pillars.energy.description">Transisi energi berkeadilan, efisiensi
+                        <h4 data-i18n="pillars.energy.title">Energi</h4>
+                        <p class="small" data-i18n="pillars.energy.description" style="display:none;">Transisi energi berkeadilan, efisiensi
                             industri, dan strategi dekarbonisasi.
                         </p>
                     </a>
@@ -360,7 +531,7 @@
                             </svg>
                         </div>
                         <h4 data-i18n="pillars.environment.title">Manajemen Lingkungan</h4>
-                        <p class="small" data-i18n="pillars.environment.description">Pengelolaan limbah, ekonomi
+                        <p class="small" data-i18n="pillars.environment.description" style="display:none;">Pengelolaan limbah, ekonomi
                             sirkular, dan pengendalian polusi.</p>
                     </a>
 
@@ -373,7 +544,7 @@
                             </svg>
                         </div>
                         <h4 data-i18n="pillars.resources.title">Sumber Daya Alam</h4>
-                        <p class="small" data-i18n="pillars.resources.description">Konservasi lanskap, pengelolaan air,
+                        <p class="small" data-i18n="pillars.resources.description" style="display:none;">Konservasi lanskap, pengelolaan air,
                             dan keanekaragaman hayati.</p>
                     </a>
 
@@ -386,7 +557,7 @@
                             </svg>
                         </div>
                         <h4 data-i18n="pillars.gesi.title">GEDSI</h4>
-                        <p class="small" data-i18n="pillars.gesi.description">Kesetaraan gender dan inklusi sosial
+                        <p class="small" data-i18n="pillars.gesi.description" style="display:none;">Kesetaraan gender dan inklusi sosial
                             dalam
                             transisi energi berkelanjutan.</p>
                     </a>
@@ -445,13 +616,11 @@
                 }
 
                 .logo-item img {
-                    filter: grayscale(100%);
-                    opacity: 0.7;
-                    transition: filter 0.3s ease, opacity 0.3s ease;
+                    opacity: 0.85;
+                    transition: opacity 0.3s ease;
                 }
 
                 .logo-item:hover img {
-                    filter: grayscale(0%);
                     opacity: 1;
                 }
             </style>
@@ -814,176 +983,6 @@
             </div>
         </section>
 
-        <!-- 8. Dynamic News (Berita Terbaru) - Carousel -->
-        <section class="section news-carousel-section" id="news" style="background: #ffffff; overflow: hidden;">
-            <div class="container">
-                <div class="text-center" style="margin-bottom: 3rem;">
-                    <p class="small"
-                        style="color: var(--color-accent); font-weight: 700; text-transform: uppercase; letter-spacing: 2px;"
-                        data-i18n="news.subtitle">
-                        Kabar dari Kami
-                    </p>
-                    <h2 data-i18n="news.heading">Berita Terbaru</h2>
-                    <p style="color: var(--color-muted); max-width: 600px; margin: 0 auto;"
-                        data-i18n="news.description">
-                        Update terkini dari kegiatan dan pencapaian IREEM.
-                    </p>
-                </div>
-            </div>
-
-            <!-- News Carousel Track - Full Width -->
-            <div class="news-carousel-wrapper">
-                <div class="news-carousel-track" id="home-news-track">
-                    <!-- Cards will be loaded from Sanity -->
-                </div>
-            </div>
-
-            <div class="container">
-                <div class="text-center" style="margin-top: 2rem;">
-                    <a href="berita/" class="btn btn-outline-dark" data-i18n="news.viewAll">Lihat Semua Berita →</a>
-                </div>
-            </div>
-
-            <style>
-                .news-carousel-wrapper {
-                    width: 100%;
-                    overflow: hidden;
-                    padding: 1.5rem 0 2rem 0;
-                }
-
-                .news-carousel-track {
-                    display: flex;
-                    gap: 1.5rem;
-                    animation: newsScroll 40s linear infinite;
-                    width: max-content;
-                }
-
-                .news-carousel-track:hover {
-                    animation-play-state: paused;
-                }
-
-                @keyframes newsScroll {
-                    0% {
-                        transform: translateX(0);
-                    }
-
-                    100% {
-                        transform: translateX(-50%);
-                    }
-                }
-
-                .news-carousel-card {
-                    flex-shrink: 0;
-                    width: 320px;
-                    background: white;
-                    border-radius: 16px;
-                    overflow: hidden;
-                    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-                    transition: transform 0.3s ease, box-shadow 0.3s ease;
-                    text-decoration: none;
-                    display: block;
-                }
-
-                .news-carousel-card:hover {
-                    transform: translateY(-8px);
-                    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.15);
-                }
-
-                .news-carousel-image {
-                    height: 180px;
-                    overflow: hidden;
-                    position: relative;
-                }
-
-                .news-carousel-image img {
-                    width: 100%;
-                    height: 100%;
-                    object-fit: cover;
-                    transition: transform 0.5s ease;
-                }
-
-                .news-carousel-card:hover .news-carousel-image img {
-                    transform: scale(1.1);
-                }
-
-                .news-carousel-category {
-                    position: absolute;
-                    top: 1rem;
-                    left: 1rem;
-                    padding: 0.25rem 0.75rem;
-                    background: var(--color-secondary);
-                    color: white;
-                    font-size: 0.7rem;
-                    font-weight: 700;
-                    border-radius: 20px;
-                    text-transform: uppercase;
-                }
-
-                .news-carousel-content {
-                    padding: 1.25rem;
-                }
-
-                .news-carousel-date {
-                    font-size: 0.75rem;
-                    color: var(--color-accent);
-                    font-weight: 600;
-                    margin: 0 0 0.5rem 0;
-                }
-
-                .news-carousel-title {
-                    color: var(--color-primary);
-                    font-size: 1.05rem;
-                    font-weight: 700;
-                    line-height: 1.4;
-                    margin: 0 0 0.5rem 0;
-                    display: -webkit-box;
-                    -webkit-line-clamp: 2;
-                    -webkit-box-orient: vertical;
-                    overflow: hidden;
-                }
-
-                .news-carousel-excerpt {
-                    color: var(--color-muted);
-                    font-size: 0.85rem;
-                    line-height: 1.5;
-                    margin: 0;
-                    display: -webkit-box;
-                    -webkit-line-clamp: 2;
-                    -webkit-box-orient: vertical;
-                    overflow: hidden;
-                }
-
-                .news-carousel-loading {
-                    width: 320px;
-                    height: 280px;
-                    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
-                    background-size: 200% 100%;
-                    animation: skeletonLoading 1.5s infinite;
-                    border-radius: 16px;
-                    flex-shrink: 0;
-                }
-
-                @keyframes skeletonLoading {
-                    0% {
-                        background-position: 200% 0;
-                    }
-
-                    100% {
-                        background-position: -200% 0;
-                    }
-                }
-
-                @media (max-width: 768px) {
-                    .news-carousel-card {
-                        width: 280px;
-                    }
-
-                    .news-carousel-track {
-                        gap: 1rem;
-                    }
-                }
-            </style>
-        </section>
 
     </main>
 

@@ -11,7 +11,7 @@
     const gesi = {
         // Program Nav
         programNav: {
-            energy: { id: 'Energi & Iklim', en: 'Energy & Climate' },
+            energy: { id: 'Energi', en: 'Energy' },
             environment: { id: 'Lingkungan', en: 'Environment' },
             resources: { id: 'Sumber Daya Alam', en: 'Natural Resources' },
             gesi: { id: 'GEDSI', en: 'GEDSI' }
@@ -20,7 +20,7 @@
         // Hero Section
         hero: {
             subtitle: { id: 'CROSS-CUTTING THEME', en: 'CROSS-CUTTING THEME' },
-            title: { id: 'Gender Equality & Social Inclusion (GEDSI)', en: 'Gender Equality & Social Inclusion (GEDSI)' },
+            title: { id: 'Gender Equality, Disability & Social Inclusion (GEDSI)', en: 'Gender Equality, Disability & Social Inclusion (GEDSI)' },
             description: {
                 id: 'Memastikan tidak ada yang tertinggal dalam transisi energi, pengelolaan lingkungan, dan pembangunan berkelanjutan.',
                 en: 'Ensuring no one is left behind in energy transition, environmental management, and sustainable development.'
@@ -134,7 +134,7 @@
             title: { id: 'Posisi GEDSI dalam Program IREEM', en: 'GEDSI Position in IREEM Programs' },
             subtitle: { id: 'Pendekatan GEDSI IREEM diterapkan lintas program', en: "IREEM's GEDSI approach is applied across programs" },
             energy: {
-                title: { id: 'Energi & Iklim', en: 'Energy & Climate' },
+                title: { id: 'Energi', en: 'Energy' },
                 description: { id: 'Transisi energi berkeadilan', en: 'Just energy transition' }
             },
             environment: {

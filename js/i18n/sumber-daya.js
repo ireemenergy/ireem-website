@@ -11,7 +11,7 @@
     const sumberDaya = {
         // Program Nav
         programNav: {
-            energy: { id: 'Energi & Iklim', en: 'Energy & Climate' },
+            energy: { id: 'Energi', en: 'Energy' },
             environment: { id: 'Lingkungan', en: 'Environment' },
             resources: { id: 'Sumber Daya Alam', en: 'Natural Resources' },
             gesi: { id: 'GEDSI', en: 'GEDSI' }
@@ -119,7 +119,7 @@
             title: { id: 'Keterkaitan dengan Program Lain', en: 'Connection with Other Programs' },
             subtitle: { id: 'Program Sumber Daya Alam IREEM terhubung erat dengan bidang kerja lainnya', en: "IREEM's Natural Resources Program is closely connected with other work areas" },
             energy: {
-                title: { id: 'Energi & Iklim', en: 'Energy & Climate' },
+                title: { id: 'Energi', en: 'Energy' },
                 description: { id: 'Dekarbonisasi, biomassa, transisi energi', en: 'Decarbonization, biomass, energy transition' }
             },
             environment: {

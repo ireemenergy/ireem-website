@@ -13,7 +13,7 @@
             hero: {
                 tagline: { id: 'Tentang IREEM', en: 'About IREEM' },
                 title: { id: 'Menjaga Sumber Daya Alam Indonesia untuk Generasi Mendatang', en: 'Preserving Indonesia\'s Natural Resources for Future Generations' },
-                subtitle: { id: 'Kami adalah lembaga swadaya masyarakat (LSM) yang bergerak dalam pengelolaan sumber daya alam, lingkungan, dan energi berkelanjutan.', en: 'We are a non-governmental organization (NGO) working in the management of natural resources, environment, and sustainable energy.' }
+                subtitle: { id: 'Kami adalah non-governmental organization (NGO) yang bergerak dalam pengelolaan sumber daya alam, lingkungan, dan energi berkelanjutan.', en: 'We are a non-governmental organization (NGO) working in the management of natural resources, environment, and sustainable energy.' }
             },
             background: {
                 heading: { id: 'Latar Belakang', en: 'Background' },

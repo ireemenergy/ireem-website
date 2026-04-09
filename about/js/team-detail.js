@@ -289,9 +289,9 @@
                                 <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
                                 <path d="M6 12v5c3 3 9 3 12 0v-5"/>
                             </svg>
-                            <div class="experience-item">
-                                <div class="position">${escapeHtml(degree)}${degree && field ? ' – ' : ''}${escapeHtml(field)}</div>
-                                <div class="org">${escapeHtml(edu.institution || '')}</div>
+                            <div class="education-item">
+                                <div class="degree">${escapeHtml(degree)}${degree && field ? ' – ' : ''}${escapeHtml(field)}</div>
+                                <div class="institution">${escapeHtml(edu.institution || '')}</div>
                             </div>
                         </li>
                     `;

@@ -47,7 +47,7 @@
             contact: { id: 'Kontak', en: 'Contact' },
             followUs: { id: 'Ikuti Kami', en: 'Follow Us' },
             copyright: { id: '© 2024 IREEM. Hak Cipta Dilindungi.', en: '© 2024 IREEM. All Rights Reserved.' },
-            energyClimate: { id: 'Energi & Iklim', en: 'Energy & Climate' },
+            energyClimate: { id: 'Energi', en: 'Energy' },
             environment: { id: 'Lingkungan', en: 'Environment' },
             naturalResources: { id: 'Sumber Daya Alam', en: 'Natural Resources' },
             gesi: { id: 'GEDSI', en: 'GEDSI' }

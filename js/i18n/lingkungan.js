@@ -47,7 +47,7 @@
 
         // Program Nav
         programNav: {
-            energy: { id: 'Energi & Iklim', en: 'Energy & Climate' },
+            energy: { id: 'Energi', en: 'Energy' },
             environment: { id: 'Lingkungan', en: 'Environment' },
             resources: { id: 'Sumber Daya Alam', en: 'Natural Resources' },
             gesi: { id: 'GEDSI', en: 'GEDSI' }
@@ -147,7 +147,7 @@
             title: { id: 'Keterkaitan dengan Program Lain', en: 'Connection with Other Programs' },
             subtitle: { id: 'Program Lingkungan IREEM terhubung erat dengan bidang kerja lainnya', en: "IREEM's Environment Program is closely connected with other work areas" },
             energy: {
-                title: { id: 'Energi & Iklim', en: 'Energy & Climate' },
+                title: { id: 'Energi', en: 'Energy' },
                 description: { id: 'MRV, dekarbonisasi, pasar karbon', en: 'MRV, decarbonization, carbon market' }
             },
             resources: {
