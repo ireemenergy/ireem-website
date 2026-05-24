@@ -47,16 +47,16 @@
 
         // Program Nav
         programNav: {
-            energy: { id: 'Energi', en: 'Energy' },
-            environment: { id: 'Lingkungan', en: 'Environment' },
-            resources: { id: 'Sumber Daya Alam', en: 'Natural Resources' },
+            energy: { id: 'Sistem Energi Berkelanjutan', en: 'Sustainable Energy Systems' },
+            environment: { id: 'Manajemen Lingkungan & Aksi Iklim', en: 'Environmental Management & Climate Action' },
+            resources: { id: 'Tata Kelola Sumber Daya Alam', en: 'Natural Resource Governance' },
             gesi: { id: 'GEDSI', en: 'GEDSI' }
         },
 
         // Hero Section
         hero: {
-            subtitle: { id: 'PROGRAM UTAMA', en: 'MAIN PROGRAM' },
-            title: { id: 'Manajemen Lingkungan', en: 'Environmental Management' },
+            subtitle: { id: 'PROGRAM UTAMA', en: 'MAIN PROGRAMME' },
+            title: { id: 'Manajemen Lingkungan & Aksi Iklim', en: 'Environmental Management & Climate Action' },
             description: {
                 id: 'Integrasi ekonomi sirkular, pengendalian polusi, dan sistem pemantauan lingkungan untuk mendukung pembangunan rendah emisi dan berkelanjutan.',
                 en: 'Integration of circular economy, pollution control, and environmental monitoring systems to support low-emission and sustainable development.'
@@ -111,7 +111,7 @@
                 title: { id: 'AMDAL & KLHS', en: 'EIA & SEA' },
                 intro: { id: 'Penyusunan dan penguatan dokumen lingkungan strategis:', en: 'Preparation and strengthening of strategic environmental documents:' },
                 item1: { id: 'AMDAL untuk proyek infrastruktur dan industri', en: 'EIA for infrastructure and industrial projects' },
-                item2: { id: 'KLHS untuk kebijakan, rencana, dan program pembangunan', en: 'SEA for policies, plans, and development programs' },
+                item2: { id: 'KLHS untuk kebijakan, rencana, dan program pembangunan', en: 'SEA for policies, plans, and development programmes' },
                 closing: { id: "Pendekatan IREEM menekankan substansi dampak dan mitigasi, bukan sekadar kepatuhan administratif.", en: "IREEM's approach emphasizes impact substance and mitigation, not just administrative compliance." }
             },
 
@@ -144,14 +144,14 @@
 
         // Related Programs
         related: {
-            title: { id: 'Keterkaitan dengan Program Lain', en: 'Connection with Other Programs' },
-            subtitle: { id: 'Program Lingkungan IREEM terhubung erat dengan bidang kerja lainnya', en: "IREEM's Environment Program is closely connected with other work areas" },
+            title: { id: 'Keterkaitan dengan Program Lain', en: 'Connection with Other Programmes' },
+            subtitle: { id: 'Program Lingkungan IREEM terhubung erat dengan bidang kerja lainnya', en: "IREEM's Environment Programme is closely connected with other work areas" },
             energy: {
-                title: { id: 'Energi', en: 'Energy' },
+                title: { id: 'Sistem Energi Berkelanjutan', en: 'Sustainable Energy Systems' },
                 description: { id: 'MRV, dekarbonisasi, pasar karbon', en: 'MRV, decarbonization, carbon market' }
             },
             resources: {
-                title: { id: 'Sumber Daya Alam', en: 'Natural Resources' },
+                title: { id: 'Tata Kelola Sumber Daya Alam', en: 'Natural Resource Governance' },
                 description: { id: 'Biomassa, limbah, ekonomi sirkular', en: 'Biomass, waste, circular economy' }
             },
             gesi: {

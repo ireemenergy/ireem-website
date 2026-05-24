@@ -12,22 +12,20 @@
         about: {
             hero: {
                 tagline: { id: 'Tentang IREEM', en: 'About IREEM' },
-                title: { id: 'Menjaga Sumber Daya Alam Indonesia untuk Generasi Mendatang', en: 'Preserving Indonesia\'s Natural Resources for Future Generations' },
-                subtitle: { id: 'Kami adalah non-governmental organization (NGO) yang bergerak dalam pengelolaan sumber daya alam, lingkungan, dan energi berkelanjutan.', en: 'We are a non-governmental organization (NGO) working in the management of natural resources, environment, and sustainable energy.' }
+                title: { id: 'IREEM berdedikasi untuk memajukan pengelolaan berkelanjutan sumber daya alam, sistem energi, dan tata kelola lingkungan', en: 'IREEM is dedicated to advancing sustainable management of natural resources, energy systems, and environmental governance' },
+                subtitle: { id: 'dalam mendukung tujuan pembangunan jangka panjang dan iklim Indonesia.', en: 'in support of Indonesia\'s long-term development and climate objectives.' }
             },
             background: {
                 heading: { id: 'Latar Belakang', en: 'Background' },
-                para1: { id: 'Penggunaan dan konsumsi sumber daya alam, energi, dan lingkungan yang tidak berkelanjutan di Indonesia memiliki dampak global yang serius, terutama dalam bentuk perubahan iklim.', en: 'Unsustainable use and consumption of natural resources, energy, and the environment in Indonesia has serious global impacts, particularly in the form of climate change.' },
-                para2: { id: 'Praktik berlebihan dalam penggunaan bahan bakar fosil dan pengelolaan hutan yang tidak berkelanjutan berkontribusi terhadap emisi Gas Rumah Kaca (GRK), yang memicu pemanasan global.', en: 'Excessive practices in fossil fuel use and unsustainable forest management contribute to greenhouse gas (GHG) emissions, triggering global warming.' },
                 quote: { id: '"Memahami dan menerapkan prinsip-prinsip keberlanjutan sangat penting untuk memastikan kesejahteraan masyarakat saat ini dan menciptakan lingkungan yang sehat untuk generasi mendatang."', en: '"Understanding and applying sustainability principles is essential to ensure the well-being of current society and create a healthy environment for future generations."' },
                 whyTitle: { id: 'Mengapa Ini Penting?', en: 'Why Does This Matter?' },
-                whyContent: { id: 'Untuk mengatasi tantangan ini, diperlukan pendekatan berkelanjutan dalam mengelola sumber daya alam, energi, dan lingkungan.', en: 'To address these challenges, a sustainable approach to managing natural resources, energy, and the environment is needed.' }
+                whyContent: { id: 'Didirikan oleh para profesional pembangunan berkelanjutan dari akademisi, pemerintah, dan industri, IREEM menyatukan tim ahli multidisiplin dengan latar belakang kuat dalam analisis kebijakan, implementasi teknis, penelitian, dan pengembangan kelembagaan.', en: 'Founded by sustainable development professionals from academia, government, and industry, IREEM brings together a multidisciplinary team of experts with strong backgrounds in policy analysis, technical implementation, research, and institutional development.' }
             },
             history: {
                 heading: { id: 'Sejarah Kami', en: 'Our History' },
                 subtitle: { id: 'Dari kampus ke kebijakan nasional', en: 'From campus to national policy' },
                 item1Title: { id: '2016 — Kelahiran CNEE', en: '2016 — Birth of CNEE' },
-                item1Desc: { id: 'IREEM berawal dari inisiatif alumni Program Studi Pengelolaan Sumber Daya Alam dan Lingkungan (PSL) di Institut Pertanian Bogor (IPB).', en: 'IREEM originated from an initiative of alumni from the Natural Resources and Environmental Management Study Program (PSL) at Bogor Agricultural Institute (IPB).' },
+                item1Desc: { id: 'IREEM berawal dari inisiatif alumni Program Studi Pengelolaan Sumber Daya Alam dan Lingkungan (PSL) di Institut Pertanian Bogor (IPB).', en: 'IREEM originated from an initiative of alumni from the Natural Resources and Environmental Management Study Programme (PSL) at Bogor Agricultural Institute (IPB).' },
                 item2Title: { id: 'Transformasi Menjadi IREEM', en: 'Transformation to IREEM' },
                 item2Desc: { id: 'Seiring perkembangan, lembaga ini bertransformasi dalam nomenklatur dan mengambil identitas baru: Institute for Management of Natural Resources, Energy and Environment (IREEM).', en: 'As it developed, the institution transformed in nomenclature and adopted a new identity: Institute for Management of Natural Resources, Energy and Environment (IREEM).' },
                 item3Title: { id: 'Hari Ini — Think & Do Tank', en: 'Today — Think & Do Tank' },
@@ -58,24 +56,23 @@
             },
             vision: {
                 tagline: { id: 'Visi Kami', en: 'Our Vision' },
-                statement: { id: '"Menjadi lembaga terdepan dalam bidang pengelolaan berkelanjutan sumber daya alam, energi, dan lingkungan."', en: '"To become a leading institution in the field of sustainable management of natural resources, energy, and the environment."' }
+                statement: { id: '"Menjadi lembaga terkemuka dalam pengelolaan sumber daya alam, energi, dan lingkungan yang berkelanjutan."', en: '"To become a leading institution in sustainable natural resource, energy, and environmental management."' }
             },
             mission: {
                 tagline: { id: 'Misi Kami', en: 'Our Mission' },
-                heading: { id: 'Tiga Pilar Aksi Strategis', en: 'Three Strategic Action Pillars' },
-                pillar1Title: { id: 'Kajian & Audit Teknis', en: 'Technical Studies & Audits' },
-                pillar1Desc: { id: 'Melakukan kajian kebijakan, audit teknis dan energi, serta studi lingkungan.', en: 'Conducting policy studies, technical and energy audits, and environmental studies.' },
-                pillar2Title: { id: 'Promosi & Asistensi Teknis', en: 'Promotion & Technical Assistance' },
-                pillar2Desc: { id: 'Mempromosikan, menyosialisasikan, melatih, dan memberikan asistensi teknis.', en: 'Promoting, socializing, training, and providing technical assistance.' },
-                pillar3Title: { id: 'Kemitraan Kolaboratif', en: 'Collaborative Partnerships' },
-                pillar3Desc: { id: 'Mengembangkan kemitraan kolaboratif dengan lembaga domestik dan internasional.', en: 'Developing collaborative partnerships with domestic and international institutions.' }
+                pillar1Title: { id: 'Kajian & Audit Teknis', en: 'Policy Studies & Technical Assessment' },
+                pillar1Desc: { id: 'Melakukan kajian kebijakan, penilaian teknis, audit energi, dan penelitian lingkungan untuk mendukung pembangunan berkelanjutan.', en: 'Conduct policy studies, technical assessment, energy audit, and environmental research to support the sustainable development.' },
+                pillar2Title: { id: 'Promosi & Asistensi Teknis', en: 'Knowledge Dissemination & Technical Assistance' },
+                pillar2Desc: { id: 'Mempromosikan diseminasi pengetahuan, pelatihan, dan asistensi teknis dalam pengelolaan sumber daya alam, energi, dan lingkungan yang berkelanjutan untuk pemerintah, masyarakat, dan sektor swasta.', en: 'Promote knowledge disseminate, training, and technical assistance in sustainable natural resource, energy, and environmental management for government, communities and private sector.' },
+                pillar3Title: { id: 'Kemitraan Kolaboratif', en: 'National & International Partnerships' },
+                pillar3Desc: { id: 'Memperkuat kemitraan nasional dan internasional untuk memajukan keberlanjutan, ketahanan iklim, dan inisiatif transisi energi.', en: 'Strengthen national and international partnerships to advance sustainability, climate resilience, and energy transition initiatives.' }
             },
             values: {
                 tagline: { id: 'Nilai-Nilai Kami', en: 'Our Values' },
                 heading: { id: 'Nilai-Nilai yang Memandu Kami', en: 'Values That Guide Us' },
                 description: {
                     id: 'Di IREEM, nilai-nilai inti kami menjadi fondasi bagi setiap langkah dan keputusan yang kami ambil sebagai organisasi. Kami menjunjung <strong style=\"color: #3B82F6;\">integritas</strong> melalui transparansi dan akuntabilitas; membangun <strong style=\"color: #10B981;\">kepercayaan</strong> melalui komitmen dan konsistensi; serta mengedepankan <strong style=\"color: #D97706;\">kecerdikan</strong> dalam menciptakan solusi inovatif berbasis ilmu pengetahuan. Kami percaya bahwa <strong style=\"color: #06B6D4;\">komunikasi</strong> yang terbuka dan kolaboratif adalah kunci sinergi yang efektif, dan bahwa <strong style=\"color: #8B5CF6;\">keberagaman</strong> memperkaya perspektif serta memperkuat inklusivitas di seluruh program kami. Melalui semangat <strong style=\"color: #10B981;\">kemitraan</strong>, kami berkolaborasi lintas sektor untuk memperbesar dampak yang dipandu oleh komitmen kuat untuk <strong style=\"color: #22C55E;\">melindungi</strong> lingkungan dan sumber daya alam sebagai warisan bagi generasi mendatang. Kami mengejar semua ini dengan standar <strong style=\"color: #0E3A5D;\">kinerja tinggi</strong> — berfokus pada hasil, efisiensi, dan kualitas sebagai cerminan dedikasi kami terhadap keberlanjutan.',
-                    en: 'At IREEM, our core values serve as the foundation for every step and decision we make as an organization. We uphold <strong style=\"color: #3B82F6;\">integrity</strong> through transparency and accountability; build <strong style=\"color: #10B981;\">trust</strong> through commitment and consistency; and champion <strong style=\"color: #D97706;\">ingenuity</strong> in creating innovative, science-based solutions. We believe that open and collaborative <strong style=\"color: #06B6D4;\">communication</strong> is the key to effective synergy, and that <strong style=\"color: #8B5CF6;\">diversity</strong> enriches perspectives and strengthens inclusivity across all our programs. Through a spirit of <strong style=\"color: #10B981;\">partnership</strong>, we collaborate across sectors to maximize impact, guided by a strong commitment to <strong style=\"color: #22C55E;\">protecting</strong> the environment and natural resources as a legacy for future generations. We pursue all of this with <strong style=\"color: #0E3A5D;\">high performance</strong> standards — focusing on results, efficiency, and quality as a reflection of our dedication to sustainability.'
+                    en: 'At IREEM, our core values serve as the foundation for every step and decision we make as an organization. We uphold <strong style=\"color: #3B82F6;\">integrity</strong> through transparency and accountability; build <strong style=\"color: #10B981;\">trust</strong> through commitment and consistency; and champion <strong style=\"color: #D97706;\">ingenuity</strong> in creating innovative, science-based solutions. We believe that open and collaborative <strong style=\"color: #06B6D4;\">communication</strong> is the key to effective synergy, and that <strong style=\"color: #8B5CF6;\">diversity</strong> enriches perspectives and strengthens inclusivity across all our programmes. Through a spirit of <strong style=\"color: #10B981;\">partnership</strong>, we collaborate across sectors to maximize impact, guided by a strong commitment to <strong style=\"color: #22C55E;\">protecting</strong> the environment and natural resources as a legacy for future generations. We pursue all of this with <strong style=\"color: #0E3A5D;\">high performance</strong> standards — focusing on results, efficiency, and quality as a reflection of our dedication to sustainability.'
                 },
                 integrity: {
                     id: 'Kami menjunjung tinggi transparansi dan akuntabilitas dalam setiap tindakan dan keputusan yang kami ambil.',
@@ -95,7 +92,7 @@
                 },
                 diversity: {
                     id: 'Keberagaman memperkaya perspektif dan memperkuat inklusivitas di seluruh program kami.',
-                    en: 'Diversity enriches perspectives and strengthens inclusivity across all our programs.'
+                    en: 'Diversity enriches perspectives and strengthens inclusivity across all our programmes.'
                 },
                 partnership: {
                     id: 'Kami berkolaborasi lintas sektor untuk memperbesar dampak dan mencapai tujuan bersama.',

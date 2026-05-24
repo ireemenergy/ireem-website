@@ -11,16 +11,16 @@
     const sumberDaya = {
         // Program Nav
         programNav: {
-            energy: { id: 'Energi', en: 'Energy' },
-            environment: { id: 'Lingkungan', en: 'Environment' },
-            resources: { id: 'Sumber Daya Alam', en: 'Natural Resources' },
+            energy: { id: 'Sistem Energi Berkelanjutan', en: 'Sustainable Energy Systems' },
+            environment: { id: 'Manajemen Lingkungan & Aksi Iklim', en: 'Environmental Management & Climate Action' },
+            resources: { id: 'Tata Kelola Sumber Daya Alam', en: 'Natural Resource Governance' },
             gesi: { id: 'GEDSI', en: 'GEDSI' }
         },
 
         // Hero Section
         hero: {
-            subtitle: { id: 'PROGRAM UTAMA', en: 'MAIN PROGRAM' },
-            title: { id: 'Sumber Daya Alam', en: 'Natural Resources' },
+            subtitle: { id: 'PROGRAM UTAMA', en: 'MAIN PROGRAMME' },
+            title: { id: 'Tata Kelola Sumber Daya Alam', en: 'Natural Resource Governance' },
             description: {
                 id: 'Konservasi lanskap berkelanjutan dan pengelolaan sumber daya alam untuk mendukung pembangunan rendah emisi dan berkeadilan.',
                 en: 'Sustainable landscape conservation and natural resource management to support low-emission and equitable development.'
@@ -116,14 +116,14 @@
 
         // Related Programs
         related: {
-            title: { id: 'Keterkaitan dengan Program Lain', en: 'Connection with Other Programs' },
-            subtitle: { id: 'Program Sumber Daya Alam IREEM terhubung erat dengan bidang kerja lainnya', en: "IREEM's Natural Resources Program is closely connected with other work areas" },
+            title: { id: 'Keterkaitan dengan Program Lain', en: 'Connection with Other Programmes' },
+            subtitle: { id: 'Program Sumber Daya Alam IREEM terhubung erat dengan bidang kerja lainnya', en: "IREEM's Natural Resources Programme is closely connected with other work areas" },
             energy: {
-                title: { id: 'Energi', en: 'Energy' },
+                title: { id: 'Sistem Energi Berkelanjutan', en: 'Sustainable Energy Systems' },
                 description: { id: 'Dekarbonisasi, biomassa, transisi energi', en: 'Decarbonization, biomass, energy transition' }
             },
             environment: {
-                title: { id: 'Lingkungan', en: 'Environment' },
+                title: { id: 'Manajemen Lingkungan & Aksi Iklim', en: 'Environmental Management & Climate Action' },
                 description: { id: 'MRV, polusi, ekonomi sirkular', en: 'MRV, pollution, circular economy' }
             },
             gesi: {

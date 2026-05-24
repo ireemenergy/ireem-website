@@ -12,14 +12,14 @@
         energi: {
             // Sub navigation
             subnav: {
-                energy: { id: 'Energi', en: 'Energy' },
-                environment: { id: 'Lingkungan', en: 'Environment' },
-                resources: { id: 'Sumber Daya Alam', en: 'Natural Resources' },
+                energy: { id: 'Sistem Energi Berkelanjutan', en: 'Sustainable Energy Systems' },
+                environment: { id: 'Manajemen Lingkungan & Aksi Iklim', en: 'Environmental Management & Climate Action' },
+                resources: { id: 'Tata Kelola Sumber Daya Alam', en: 'Natural Resource Governance' },
                 gesi: { id: 'GEDSI', en: 'GEDSI' }
             },
             hero: {
-                tagline: { id: 'Program Utama', en: 'Core Program' },
-                title: { id: 'Energi', en: 'Energy' },
+                tagline: { id: 'Program Utama', en: 'Core Programme' },
+                title: { id: 'Sistem Energi Berkelanjutan', en: 'Sustainable Energy Systems' },
                 subtitle: { id: 'Mendorong transisi energi yang adil melalui dekarbonisasi industri, efisiensi energi, dan pendanaan hijau.', en: 'Driving a just energy transition through industrial decarbonization, energy efficiency, and green financing.' },
                 statNumber: { id: '1.5 Juta', en: '1.5 Million' },
                 statLabel: { id: 'Ton CO₂e Potensi Penurunan Emisi per Tahun', en: 'Tons of CO₂e Potential Emission Reduction per Year' }
@@ -56,7 +56,7 @@
                 },
                 training: {
                     title: { id: 'Pelatihan & Sertifikasi', en: 'Training & Certification' },
-                    desc: { id: 'Program pengembangan kapasitas SDM di bidang energi:', en: 'HR capacity development programs in the energy sector:' },
+                    desc: { id: 'Program pengembangan kapasitas SDM di bidang energi:', en: 'HR capacity development programmes in the energy sector:' },
                     item1: { id: 'Sertifikasi BNSP untuk Manajer Energi dan Auditor Energi', en: 'BNSP Certification for Energy Managers and Energy Auditors' },
                     item2: { id: 'Pelatihan ISO 50001 (Sistem Manajemen Energi)', en: 'ISO 50001 Training (Energy Management System)' },
                     item3: { id: 'Pelatihan BGH (Bangunan Gedung Hijau)', en: 'Green Building Training' },
@@ -83,7 +83,7 @@
                 subtitle: { id: 'Portofolio proyek bidang Energi IREEM', en: 'IREEM Energy project portfolio' }
             },
             testimonial: {
-                quote: { id: '"Melalui program UK PACT, kami berhasil menerapkan langkah nyata penghematan energi dengan hasil signifikan di berbagai gedung pemerintah."', en: '"Through the UK PACT program, we successfully implemented real energy-saving measures with significant results across various government buildings."' },
+                quote: { id: '"Melalui program UK PACT, kami berhasil menerapkan langkah nyata penghematan energi dengan hasil signifikan di berbagai gedung pemerintah."', en: '"Through the UK PACT programme, we successfully implemented real energy-saving measures with significant results across various government buildings."' },
                 author: { id: '— Kementerian Keuangan, 2025', en: '— Ministry of Finance, 2025' }
             },
             caseStudies: {
@@ -94,7 +94,7 @@
                 item1Title: { id: 'UK PACT – Efisiensi Energi Industri', en: 'UK PACT – Industrial Energy Efficiency' },
                 item1Desc: { id: 'Pendampingan 50+ industri padat energi dalam implementasi manajemen energi.', en: 'Supporting 50+ energy-intensive industries in implementing energy management.' },
                 item2Title: { id: 'Modul Pelatihan M&V Energi', en: 'Energy M&V Training Module' },
-                item2Desc: { id: 'Panduan lengkap Measurement & Verification untuk program efisiensi energi.', en: 'Complete Measurement & Verification guide for energy efficiency programs.' },
+                item2Desc: { id: 'Panduan lengkap Measurement & Verification untuk program efisiensi energi.', en: 'Complete Measurement & Verification guide for energy efficiency programmes.' },
                 item3Title: { id: 'Panduan Implementasi ISO 50001', en: 'ISO 50001 Implementation Guide' },
                 item3Desc: { id: 'Langkah-langkah praktis penerapan Sistem Manajemen Energi standar internasional.', en: 'Practical steps for implementing the international Energy Management System standard.' },
                 readMore: { id: 'Baca Selengkapnya →', en: 'Read More →' },

@@ -27,7 +27,7 @@
         stats: {
             donorFunds: {
                 label: { id: 'Dana Donor Dimobilisasi', en: 'Donor Funds Mobilized' },
-                note: { id: 'Dukungan dari mitra internasional untuk mendukung program transisi energi Indonesia', en: 'Support from international partners to support Indonesia\'s energy transition programs' }
+                note: { id: 'Dukungan dari mitra internasional untuk mendukung program transisi energi Indonesia', en: 'Support from international partners to support Indonesia\'s energy transition programmes' }
             },
             individualsReached: { id: 'Individu Terjangkau', en: 'Individuals Reached' },
             provincesReached: { id: 'Provinsi Terjangkau', en: 'Provinces Reached' },

@@ -247,9 +247,9 @@
 
     function getCategoryLabel(category, lang) {
         const labels = {
-            energi: { id: 'Energi', en: 'Energy' },
-            lingkungan: { id: 'Lingkungan', en: 'Environment' },
-            sda: { id: 'Sumber Daya Alam', en: 'Natural Resources' },
+            energi: { id: 'Sistem Energi Berkelanjutan', en: 'Sustainable Energy Systems' },
+            lingkungan: { id: 'Manajemen Lingkungan & Aksi Iklim', en: 'Environmental Management & Climate Action' },
+            sda: { id: 'Tata Kelola Sumber Daya Alam', en: 'Natural Resource Governance' },
             gedsi: { id: 'GEDSI', en: 'GEDSI' }
         };
         return labels[category]?.[lang] || category || 'Proyek';

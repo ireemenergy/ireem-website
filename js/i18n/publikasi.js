@@ -47,7 +47,7 @@
                 metaPublisher: { id: 'Penerbit', en: 'Publisher' },
                 metaDate: { id: 'Tanggal Terbit', en: 'Published Date' },
                 metaLanguage: { id: 'Bahasa', en: 'Language' },
-                metaProgram: { id: 'Program', en: 'Program' },
+                metaProgram: { id: 'Program', en: 'Programme' },
                 metaSupporter: { id: 'Didukung oleh', en: 'Supported by' }
             }
         }

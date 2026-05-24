@@ -11,9 +11,9 @@
     const gesi = {
         // Program Nav
         programNav: {
-            energy: { id: 'Energi', en: 'Energy' },
-            environment: { id: 'Lingkungan', en: 'Environment' },
-            resources: { id: 'Sumber Daya Alam', en: 'Natural Resources' },
+            energy: { id: 'Sistem Energi Berkelanjutan', en: 'Sustainable Energy Systems' },
+            environment: { id: 'Manajemen Lingkungan & Aksi Iklim', en: 'Environmental Management & Climate Action' },
+            resources: { id: 'Tata Kelola Sumber Daya Alam', en: 'Natural Resource Governance' },
             gesi: { id: 'GEDSI', en: 'GEDSI' }
         },
 
@@ -62,9 +62,9 @@
             gender: {
                 title: { id: 'Analisis Gender', en: 'Gender Analysis' },
                 intro: { id: 'Pemetaan peran, akses, dan kontrol gender dalam proyek sektor:', en: 'Mapping gender roles, access, and control in sector projects:' },
-                item1: { id: 'Energi', en: 'Energy' },
-                item2: { id: 'Lingkungan', en: 'Environment' },
-                item3: { id: 'Sumber daya alam', en: 'Natural resources' },
+                item1: { id: 'Sistem Energi Berkelanjutan', en: 'Sustainable Energy Systems' },
+                item2: { id: 'Manajemen Lingkungan & Aksi Iklim', en: 'Environmental Management & Climate Action' },
+                item3: { id: 'Tata Kelola Sumber Daya Alam', en: 'Natural Resource Governance' },
                 closing: { id: 'Digunakan sebagai dasar perancangan intervensi yang lebih adil dan efektif.', en: 'Used as a basis for designing more equitable and effective interventions.' }
             },
 
@@ -131,18 +131,18 @@
 
         // Related Programs
         related: {
-            title: { id: 'Posisi GEDSI dalam Program IREEM', en: 'GEDSI Position in IREEM Programs' },
-            subtitle: { id: 'Pendekatan GEDSI IREEM diterapkan lintas program', en: "IREEM's GEDSI approach is applied across programs" },
+            title: { id: 'Posisi GEDSI dalam Program IREEM', en: 'GEDSI Position in IREEM Programmes' },
+            subtitle: { id: 'Pendekatan GEDSI IREEM diterapkan lintas program', en: "IREEM's GEDSI approach is applied across programmes" },
             energy: {
-                title: { id: 'Energi', en: 'Energy' },
+                title: { id: 'Sistem Energi Berkelanjutan', en: 'Sustainable Energy Systems' },
                 description: { id: 'Transisi energi berkeadilan', en: 'Just energy transition' }
             },
             environment: {
-                title: { id: 'Lingkungan', en: 'Environment' },
+                title: { id: 'Manajemen Lingkungan & Aksi Iklim', en: 'Environmental Management & Climate Action' },
                 description: { id: 'Pengelolaan lingkungan inklusif', en: 'Inclusive environmental management' }
             },
             resources: {
-                title: { id: 'Sumber Daya Alam', en: 'Natural Resources' },
+                title: { id: 'Tata Kelola Sumber Daya Alam', en: 'Natural Resource Governance' },
                 description: { id: 'Konservasi berkeadilan', en: 'Equitable conservation' }
             }
         },
@@ -150,7 +150,7 @@
         // CTA Section
         cta: {
             title: { id: 'Bermitra untuk Transisi yang Inklusif', en: 'Partner for Inclusive Transition' },
-            description: { id: 'IREEM membuka peluang kolaborasi untuk mengintegrasikan prinsip GEDSI dalam kebijakan, proyek, dan program pembangunan berkelanjutan.', en: 'IREEM opens collaboration opportunities to integrate GEDSI principles in policies, projects, and sustainable development programs.' },
+            description: { id: 'IREEM membuka peluang kolaborasi untuk mengintegrasikan prinsip GEDSI dalam kebijakan, proyek, dan program pembangunan berkelanjutan.', en: 'IREEM opens collaboration opportunities to integrate GEDSI principles in policies, projects, and sustainable development programmes.' },
             button: { id: 'Ajukan Kemitraan', en: 'Submit Partnership' }
         },
 

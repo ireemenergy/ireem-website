@@ -62,7 +62,7 @@
             donor: { id: 'PENDONOR', en: 'DONOR' },
             period: { id: 'PERIODE', en: 'PERIOD' },
             status: { id: 'STATUS', en: 'STATUS' },
-            program: { id: 'PROGRAM', en: 'PROGRAM' },
+            program: { id: 'PROGRAM', en: 'PROGRAMME' },
 
             // Section Titles
             activities: { id: 'Bentuk Kegiatan', en: 'Activity Types' },
@@ -79,9 +79,9 @@
             statusOngoing: { id: 'Ongoing', en: 'Ongoing' },
 
             // Program/Sector Names
-            programEnergy: { id: 'Energy', en: 'Energy' },
-            programEnvironment: { id: 'Environment', en: 'Environment' },
-            programNaturalResources: { id: 'Natural Resources', en: 'Natural Resources' },
+            programEnergy: { id: 'Sustainable Energy Systems', en: 'Sustainable Energy Systems' },
+            programEnvironment: { id: 'Environmental Management & Climate Action', en: 'Environmental Management & Climate Action' },
+            programNaturalResources: { id: 'Natural Resource Governance', en: 'Natural Resource Governance' },
             programGedsi: { id: 'GEDSI', en: 'GEDSI' }
         }
     };

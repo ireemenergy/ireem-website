@@ -343,9 +343,9 @@
 
     // Program labels for featured projects
     const FEATURED_PROGRAM_LABELS = {
-        'energy': { id: 'Energi', en: 'Energy' },
-        'environment': { id: 'Lingkungan', en: 'Environment' },
-        'natural-resources': { id: 'Sumber Daya Alam', en: 'Natural Resources' },
+        'energy': { id: 'Sistem Energi Berkelanjutan', en: 'Sustainable Energy Systems' },
+        'environment': { id: 'Manajemen Lingkungan & Aksi Iklim', en: 'Environmental Management & Climate Action' },
+        'natural-resources': { id: 'Tata Kelola Sumber Daya Alam', en: 'Natural Resource Governance' },
         'gesi': { id: 'GEDSI', en: 'GEDSI' }
     };
 
@@ -463,12 +463,12 @@
             {
                 title: lang === 'en' ? 'INTENS - Energy Efficiency Program' : 'INTENS - Program Efisiensi Energi',
                 description: lang === 'en' ? 'Integrated Energy Efficiency Programme for Building Sector.' : 'Program terpadu efisiensi energi untuk sektor bangunan gedung.',
-                category: lang === 'en' ? 'Energy' : 'Energi'
+                category: lang === 'en' ? 'Sustainable Energy Systems' : 'Sistem Energi Berkelanjutan'
             },
             {
                 title: lang === 'en' ? 'AKSELERASI' : 'AKSELERASI',
                 description: lang === 'en' ? 'Accelerating GHG Reduction and Energy Transition.' : 'Akselerasi Penurunan Emisi Gas Rumah Kaca dan Transisi Energi.',
-                category: lang === 'en' ? 'Energy' : 'Energi'
+                category: lang === 'en' ? 'Sustainable Energy Systems' : 'Sistem Energi Berkelanjutan'
             },
             {
                 title: lang === 'en' ? 'Women in Energy' : 'Perempuan dalam Sektor Energi',

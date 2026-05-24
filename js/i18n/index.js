@@ -10,7 +10,7 @@
     'use strict';
 
     const STORAGE_KEY = 'ireem_lang';
-    const DEFAULT_LANG = 'id';
+    const DEFAULT_LANG = 'en';
     const SUPPORTED_LANGS = ['id', 'en'];
 
     // Translation registry - populated by page-specific modules

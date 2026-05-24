@@ -11,7 +11,7 @@
     const common = {
         nav: {
             about: { id: 'Tentang IREEM', en: 'About IREEM' },
-            program: { id: 'Program', en: 'Programs' },
+            program: { id: 'Program', en: 'Programmes' },
             portfolio: { id: 'Portofolio', en: 'Portfolio' },
             impact: { id: 'Dampak', en: 'Impact' },
             insights: { id: 'Wawasan', en: 'Insights' },
@@ -27,9 +27,9 @@
             values: { id: 'Nilai-Nilai IREEM', en: 'IREEM Values' },
             team: { id: 'Tim Kami', en: 'Our Team' },
             // Dropdown items - Program
-            energy: { id: 'Energi', en: 'Energy' },
-            environment: { id: 'Lingkungan', en: 'Environment' },
-            naturalResources: { id: 'Sumber Daya Alam', en: 'Natural Resources' },
+            energy: { id: 'Sistem Energi Berkelanjutan', en: 'Sustainable Energy Systems' },
+            environment: { id: 'Manajemen Lingkungan & Aksi Iklim', en: 'Environmental Management & Climate Action' },
+            naturalResources: { id: 'Tata Kelola Sumber Daya Alam', en: 'Natural Resource Governance' },
             gedsi: { id: 'GEDSI', en: 'GEDSI' },
             // Dropdown items - Portfolio
             projectDatabase: { id: 'Database Proyek', en: 'Project Database' },
@@ -43,13 +43,13 @@
                 id: 'Institute for Management of Natural Resources, Energy and Environment.',
                 en: 'Institute for Management of Natural Resources, Energy and Environment.'
             },
-            program: { id: 'Program', en: 'Programs' },
+            program: { id: 'Program', en: 'Programmes' },
             contact: { id: 'Kontak', en: 'Contact' },
             followUs: { id: 'Ikuti Kami', en: 'Follow Us' },
             copyright: { id: '© 2024 IREEM. Hak Cipta Dilindungi.', en: '© 2024 IREEM. All Rights Reserved.' },
-            energyClimate: { id: 'Energi', en: 'Energy' },
-            environment: { id: 'Lingkungan', en: 'Environment' },
-            naturalResources: { id: 'Sumber Daya Alam', en: 'Natural Resources' },
+            energyClimate: { id: 'Sistem Energi Berkelanjutan', en: 'Sustainable Energy Systems' },
+            environment: { id: 'Manajemen Lingkungan & Aksi Iklim', en: 'Environmental Management & Climate Action' },
+            naturalResources: { id: 'Tata Kelola Sumber Daya Alam', en: 'Natural Resource Governance' },
             gesi: { id: 'GEDSI', en: 'GEDSI' }
         },
         units: {
@@ -60,7 +60,7 @@
             readMore: { id: 'Selengkapnya', en: 'Read More' },
             learnMore: { id: 'Pelajari Lebih Lanjut', en: 'Learn More' },
             viewAll: { id: 'Lihat Semua', en: 'View All' },
-            explorePrograms: { id: 'Jelajahi Program', en: 'Explore Programs' },
+            explorePrograms: { id: 'Jelajahi Program', en: 'Explore Programmes' },
             viewImpact: { id: 'Lihat Jejak Dampak', en: 'View Impact' },
             readFullProfile: { id: 'Baca Profil Lengkap', en: 'Read Full Profile' },
             viewReport: { id: 'Lihat Laporan Dampak', en: 'View Impact Report' },

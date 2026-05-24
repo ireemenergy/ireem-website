@@ -71,8 +71,8 @@
     };
 
     const PROGRAM_LABELS = {
-        id: { 'energy': 'Energi', 'environment': 'Lingkungan', 'natural-resources': 'Sumber Daya Alam', 'gesi': 'GEDSI' },
-        en: { 'energy': 'Energy', 'environment': 'Environment', 'natural-resources': 'Natural Resources', 'gesi': 'GEDSI' }
+        id: { 'energy': 'Sistem Energi Berkelanjutan', 'environment': 'Manajemen Lingkungan & Aksi Iklim', 'natural-resources': 'Tata Kelola Sumber Daya Alam', 'gesi': 'GEDSI' },
+        en: { 'energy': 'Sustainable Energy Systems', 'environment': 'Environmental Management & Climate Action', 'natural-resources': 'Natural Resource Governance', 'gesi': 'GEDSI' }
     };
 
     // Color palette for program tags

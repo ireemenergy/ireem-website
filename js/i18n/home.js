@@ -22,7 +22,7 @@
                 id: 'Kami mempercepat transisi energi dan pengelolaan sumber daya alam yang berkelanjutan dan inklusif (GESI) melalui bukti, kebijakan, dan implementasi nyata.',
                 en: 'We accelerate sustainable and inclusive (GESI) energy transition and natural resource management through evidence, policy, and real implementation.'
             },
-            ctaExplore: { id: 'Jelajahi Program', en: 'Explore Programs' },
+            ctaExplore: { id: 'Jelajahi Program', en: 'Explore Programmes' },
             ctaImpact: { id: 'Lihat Jejak Dampak', en: 'View Impact' }
         },
         intro: {
@@ -42,28 +42,28 @@
             strategicFocus: { id: 'Fokus Strategis', en: 'Strategic Focus' }
         },
         pillars: {
-            heading1: { id: '3 Pilar Program', en: '3 Program Pillars' },
+            heading1: { id: '3 Pilar Program', en: '3 Programme Pillars' },
             heading2: { id: '+ 1 Tema Cross-Cutting', en: '+ 1 Cross-Cutting Theme' },
             description: {
                 id: 'Pendekatan holistik kami mencakup seluruh rantai nilai transisi hijau.',
                 en: 'Our holistic approach covers the entire green transition value chain.'
             },
             energy: {
-                title: { id: 'Energi', en: 'Energy' },
+                title: { id: 'Sistem Energi Berkelanjutan', en: 'Sustainable Energy Systems' },
                 description: {
                     id: 'Transisi energi berkeadilan, efisiensi industri, dan strategi dekarbonisasi.',
                     en: 'Just energy transition, industrial efficiency, and decarbonization strategies.'
                 }
             },
             environment: {
-                title: { id: 'Manajemen Lingkungan', en: 'Environmental Management' },
+                title: { id: 'Manajemen Lingkungan & Aksi Iklim', en: 'Environmental Management & Climate Action' },
                 description: {
                     id: 'Pengelolaan limbah, ekonomi sirkular, dan pengendalian polusi.',
                     en: 'Waste management, circular economy, and pollution control.'
                 }
             },
             resources: {
-                title: { id: 'Sumber Daya Alam', en: 'Natural Resources' },
+                title: { id: 'Tata Kelola Sumber Daya Alam', en: 'Natural Resource Governance' },
                 description: {
                     id: 'Konservasi lanskap, pengelolaan air, dan keanekaragaman hayati.',
                     en: 'Landscape conservation, water management, and biodiversity.'

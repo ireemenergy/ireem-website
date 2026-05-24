@@ -24,9 +24,9 @@
             // Filter Section
             filter: {
                 all: { id: 'Semua', en: 'All' },
-                energy: { id: 'Energi', en: 'Energy' },
-                environment: { id: 'Lingkungan', en: 'Environment' },
-                resources: { id: 'Sumber Daya Alam', en: 'Natural Resources' },
+                energy: { id: 'Sistem Energi Berkelanjutan', en: 'Sustainable Energy Systems' },
+                environment: { id: 'Manajemen Lingkungan & Aksi Iklim', en: 'Environmental Management & Climate Action' },
+                resources: { id: 'Tata Kelola Sumber Daya Alam', en: 'Natural Resource Governance' },
                 gedsi: { id: 'GEDSI', en: 'GEDSI' }
             },
 

@@ -10,7 +10,7 @@
 
     const program = {
         hero: {
-            subtitle: { id: 'PROGRAM KAMI', en: 'OUR PROGRAMS' },
+            subtitle: { id: 'PROGRAM KAMI', en: 'OUR PROGRAMMES' },
             title: { id: 'Empat Pilar Pembangunan Berkelanjutan', en: 'Four Pillars of Sustainable Development' },
             description: {
                 id: 'Pendekatan holistik kami mencakup seluruh rantai nilai transisi hijau Indonesia.',
@@ -18,12 +18,12 @@
             }
         },
         card: {
-            category: { id: 'Program', en: 'Program' },
+            category: { id: 'Program', en: 'Programme' },
             learnMore: { id: 'Pelajari Lebih Lanjut →', en: 'Learn More →' }
         },
         pillars: {
             energy: {
-                title: { id: 'Energi', en: 'Energy' },
+                title: { id: 'Sistem Energi Berkelanjutan', en: 'Sustainable Energy Systems' },
                 category: { id: 'Energi Berkelanjutan', en: 'Sustainable Energy' },
                 description: {
                     id: 'Transisi energi berkeadilan, efisiensi industri, dan strategi dekarbonisasi untuk mencapai Net Zero Emission 2060.',
@@ -31,7 +31,7 @@
                 }
             },
             environment: {
-                title: { id: 'Manajemen Lingkungan', en: 'Environmental Management' },
+                title: { id: 'Manajemen Lingkungan & Aksi Iklim', en: 'Environmental Management & Climate Action' },
                 category: { id: 'Lingkungan Bersih', en: 'Clean Environment' },
                 description: {
                     id: 'Pengelolaan limbah, ekonomi sirkular, MRV emisi, dan pengendalian polusi untuk masa depan yang lebih bersih.',
@@ -39,7 +39,7 @@
                 }
             },
             resources: {
-                title: { id: 'Sumber Daya Alam', en: 'Natural Resources' },
+                title: { id: 'Tata Kelola Sumber Daya Alam', en: 'Natural Resource Governance' },
                 category: { id: 'Konservasi', en: 'Conservation' },
                 description: {
                     id: 'Konservasi lanskap, pengelolaan DAS, dan valuasi keanekaragaman hayati Indonesia.',

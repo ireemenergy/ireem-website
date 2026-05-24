@@ -32,6 +32,17 @@
     const partnersTrack = document.querySelector('#home-partners-track');
     const partnersSection = document.querySelector('.partners-section');
 
+    // Cached partners data for re-rendering on language change
+    let cachedPartners = [];
+
+    // Get current language
+    function getCurrentLang() {
+        if (window.i18n && window.i18n.getCurrentLang) {
+            return window.i18n.getCurrentLang();
+        }
+        return localStorage.getItem('ireem_lang') || 'en';
+    }
+
     // Exit if partners track doesn't exist on page
     if (!partnersTrack) {
         console.warn('[Home Partners] Partners track not found');
@@ -56,6 +67,7 @@
             sectionSubtitle,
             partners[]{
                 name,
+                nameEn,
                 url,
                 logo{
                     asset->{ url }
@@ -81,6 +93,7 @@
                 const validPartners = data.result.partners.filter(p => p.logo?.asset?.url);
 
                 if (validPartners.length > 0) {
+                    cachedPartners = validPartners;
                     renderPartners(validPartners);
                     console.info(`[Home Partners] Loaded ${validPartners.length} partners`);
                 } else {
@@ -146,7 +159,11 @@
         // Apply inline styles matching original HTML
         item.style.cssText = 'display: flex; flex-direction: column; align-items: center; min-width: 180px; padding: 1rem 2rem;';
 
-        const name = escapeHtml(partner.name || '');
+        const lang = getCurrentLang();
+        // Use English name if available and language is EN, fallback to Indonesian name
+        const name = escapeHtml(
+            (lang === 'en' && partner.nameEn) ? partner.nameEn : (partner.name || '')
+        );
         const logoUrl = partner.logo?.asset?.url || '';
 
         // Build logo HTML
@@ -154,17 +171,17 @@
         if (partner.url) {
             item.innerHTML = `
                 <a href="${partner.url}" target="_blank" rel="noopener noreferrer" 
-                   style="display: flex; flex-direction: column; align-items: center; text-decoration: none;">
+                   style="display: flex; flex-direction: column; align-items: center; text-decoration: none; text-align: center;">
                     <img src="${logoUrl}" alt="${name}" loading="lazy"
-                         style="height: 60px; object-fit: contain; margin-bottom: 0.75rem;">
-                    <span style="font-size: 0.75rem; color: var(--color-muted); font-weight: 500;">${name}</span>
+                         style="height: 90px; object-fit: contain; margin-bottom: 0.75rem;">
+                    <span style="font-size: 0.75rem; color: var(--color-muted); font-weight: 500; text-align: center;">${name}</span>
                 </a>
             `;
         } else {
             item.innerHTML = `
                 <img src="${logoUrl}" alt="${name}" loading="lazy"
-                     style="height: 60px; object-fit: contain; margin-bottom: 0.75rem;">
-                <span style="font-size: 0.75rem; color: var(--color-muted); font-weight: 500;">${name}</span>
+                     style="height: 90px; object-fit: contain; margin-bottom: 0.75rem;">
+                <span style="font-size: 0.75rem; color: var(--color-muted); font-weight: 500; text-align: center;">${name}</span>
             `;
         }
 
@@ -198,5 +215,12 @@
     } else {
         init();
     }
+
+    // Re-render partner names when language changes
+    document.addEventListener('languageChanged', function () {
+        if (cachedPartners.length > 0) {
+            renderPartners(cachedPartners);
+        }
+    });
 
 })();

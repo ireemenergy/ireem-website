@@ -52,7 +52,7 @@
                 title: { id: 'Pilot & Pipeline', en: 'Pilot & Pipeline' },
                 description: {
                     id: 'Studi kelayakan (FS), program percontohan, dan kemitraan IGA.',
-                    en: 'Feasibility studies (FS), pilot programs, and IGA partnerships.'
+                    en: 'Feasibility studies (FS), pilot programmes, and IGA partnerships.'
                 },
                 item1: {
                     id: 'Feasibility Study untuk proyek efisiensi energi dan EBT',
@@ -144,7 +144,7 @@
                 title: { id: 'Subnational Acceleration', en: 'Subnational Acceleration' },
                 description: {
                     id: 'Akselerasi program energi terbarukan dan efisiensi di tingkat daerah.',
-                    en: 'Accelerating renewable energy and efficiency programs at the regional level.'
+                    en: 'Accelerating renewable energy and efficiency programmes at the regional level.'
                 },
                 item1: {
                     id: 'Pendampingan penyusunan RUED (Rencana Umum Energi Daerah)',
@@ -152,7 +152,7 @@
                 },
                 item2: {
                     id: 'Program efisiensi energi untuk Pemda',
-                    en: 'Energy efficiency programs for local governments'
+                    en: 'Energy efficiency programmes for local governments'
                 },
                 item3: {
                     id: 'Pengembangan EBT skala kecil dan menengah',
@@ -170,7 +170,7 @@
                 title: { id: 'Proyek Bilateral', en: 'Bilateral Projects' },
                 description: {
                     id: 'Kerjasama langsung dengan donor atau klien untuk implementasi program tertentu.',
-                    en: 'Direct cooperation with donors or clients for specific program implementation.'
+                    en: 'Direct cooperation with donors or clients for specific programme implementation.'
                 },
                 example: { id: 'Contoh: UK PACT, GIZ, USAID', en: 'Examples: UK PACT, GIZ, USAID' }
             },
