@@ -276,24 +276,52 @@
     // ===========================================
     // PORTABLE TEXT RENDERER (Basic)
     // ===========================================
+    function renderPortableTextChildren(children, markDefs = []) {
+        return (children || [])
+            .map(child => {
+                let childText = escapeHtml(child.text || '');
+                if (!childText) return '';
+
+                let isButtonWrapped = false;
+                const marks = child.marks || [];
+
+                marks.forEach(markKey => {
+                    switch (markKey) {
+                        case 'strong': childText = `<strong>${childText}</strong>`; break;
+                        case 'em': childText = `<em>${childText}</em>`; break;
+                        case 'underline': childText = `<u>${childText}</u>`; break;
+                        default: {
+                            const linkDef = markDefs.find(d => d._key === markKey && d._type === 'link');
+                            if (linkDef) {
+                                const href = linkDef.href || '#';
+                                const isButton = linkDef.isButton === true || marks.includes('button');
+
+                                if (isButton && !isButtonWrapped) {
+                                    childText = `<a href="${href}" class="btn-link" target="_blank" rel="noopener">
+                                        ${childText}
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                                        </svg>
+                                    </a>`;
+                                    isButtonWrapped = true;
+                                } else if (!isButtonWrapped) {
+                                    childText = `<a href="${href}" target="_blank" rel="noopener">${childText}</a>`;
+                                }
+                            }
+                        }
+                    }
+                });
+                return childText;
+            })
+            .join('');
+    }
+
     function renderPortableText(blocks) {
         if (!blocks || !Array.isArray(blocks)) return '';
 
         return blocks.map(block => {
             if (block._type === 'block') {
-                const text = (block.children || [])
-                    .map(child => {
-                        let childText = escapeHtml(child.text || '');
-                        // Handle marks (bold, italic, etc.)
-                        if (child.marks && child.marks.length > 0) {
-                            child.marks.forEach(mark => {
-                                if (mark === 'strong') childText = `<strong>${childText}</strong>`;
-                                if (mark === 'em') childText = `<em>${childText}</em>`;
-                            });
-                        }
-                        return childText;
-                    })
-                    .join('');
+                const text = renderPortableTextChildren(block.children, block.markDefs || []);
 
                 switch (block.style) {
                     case 'h1': return `<h1>${text}</h1>`;
@@ -307,12 +335,7 @@
             // Handle list items
             if (block._type === 'list') {
                 const listItems = (block.children || [])
-                    .map(item => {
-                        const itemText = (item.children || [])
-                            .map(c => escapeHtml(c.text || ''))
-                            .join('');
-                        return `<li>${itemText}</li>`;
-                    })
+                    .map(item => `<li>${renderPortableTextChildren(item.children, item.markDefs || [])}</li>`)
                     .join('');
                 return block.listItem === 'number' ? `<ol>${listItems}</ol>` : `<ul>${listItems}</ul>`;
             }

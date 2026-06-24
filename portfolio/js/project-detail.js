@@ -168,16 +168,44 @@
             let text = escapeHtml(child.text || '');
             if (!text) return '';
 
-            (child.marks || []).forEach(markKey => {
+            let isButtonWrapped = false;
+            const marks = child.marks || [];
+
+            marks.forEach(markKey => {
                 switch (markKey) {
                     case 'strong': text = `<strong>${text}</strong>`; break;
                     case 'em': text = `<em>${text}</em>`; break;
                     case 'underline': text = `<u>${text}</u>`; break;
+                    case 'button':
+                        // Button decorator with no link - styled span
+                        if (!isButtonWrapped) {
+                            text = `<span class="btn-link" style="cursor: default;">
+                                ${text}
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                                </svg>
+                            </span>`;
+                            isButtonWrapped = true;
+                        }
+                        break;
                     default:
                         // Check for link annotation
                         const linkDef = markDefs.find(d => d._key === markKey && d._type === 'link');
                         if (linkDef) {
-                            text = `<a href="${linkDef.href || '#'}" target="_blank" rel="noopener">${text}</a>`;
+                            const href = linkDef.href || '#';
+                            const isButton = linkDef.isButton === true || marks.includes('button');
+
+                            if (isButton && !isButtonWrapped) {
+                                text = `<a href="${href}" class="btn-link" target="_blank" rel="noopener">
+                                    ${text}
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                                    </svg>
+                                </a>`;
+                                isButtonWrapped = true;
+                            } else if (!isButtonWrapped) {
+                                text = `<a href="${href}" target="_blank" rel="noopener">${text}</a>`;
+                            }
                         }
                 }
             });
