@@ -61,7 +61,7 @@
             learnMore: { id: 'Pelajari Lebih Lanjut', en: 'Learn More' },
             viewAll: { id: 'Lihat Semua', en: 'View All' },
             explorePrograms: { id: 'Jelajahi Program', en: 'Explore Programmes' },
-            viewImpact: { id: 'Lihat Jejak Dampak', en: 'View Impact' },
+            viewImpact: { id: 'Lihat Dampak Kami', en: 'See Our Impact' },
             readFullProfile: { id: 'Baca Profil Lengkap', en: 'Read Full Profile' },
             viewReport: { id: 'Lihat Laporan Dampak', en: 'View Impact Report' },
             back: { id: 'Kembali', en: 'Back' },

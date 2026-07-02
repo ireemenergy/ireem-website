@@ -226,10 +226,21 @@
             const position = escapeHtml(getText(item.position, lang));
             const organization = escapeHtml(getText(item.organization, lang));
 
-            // Category/type badge - Sanity uses 'category', placeholder uses 'type'
+            // Category/type badge - Sanity uses 'category' (plain string value), placeholder uses 'type'
             let category = getText(item.category, lang);
-            if (!category && item.type) {
-                // For placeholder data, translate type to proper category text
+            // Map Sanity category slug values to localized display labels
+            const categoryMap = {
+                'pemerintah': { id: 'PEMERINTAH', en: 'GOVERNMENT' },
+                'industri': { id: 'INDUSTRI', en: 'INDUSTRY' },
+                'akademisi': { id: 'AKADEMISI', en: 'ACADEMIA' },
+                'komunitas': { id: 'KOMUNITAS', en: 'COMMUNITY' },
+                'pendonor': { id: 'DONOR', en: 'DONOR' },
+                'konsorsium': { id: 'KONSORSIUM', en: 'CONSORTIUM' }
+            };
+            if (categoryMap[category]) {
+                category = categoryMap[category][lang] || categoryMap[category].id;
+            } else if (!category && item.type) {
+                // Fallback for placeholder data
                 const typeMap = {
                     'Government': { id: 'PEMERINTAH', en: 'GOVERNMENT' },
                     'Donor': { id: 'DONOR', en: 'DONOR' },

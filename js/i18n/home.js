@@ -15,15 +15,15 @@
                 en: 'Institute for Natural Resources, Energy, and Environmental Management'
             },
             title: {
-                id: 'Menjembatani Sains, Kebijakan, dan Aksi Iklim di Indonesia.',
-                en: 'Bridging Science, Policy, and Climate Action in Indonesia.'
+                id: 'Menjembatani Sains, Kebijakan, dan Aksi Iklim di Indonesia',
+                en: 'Bridging Science, Policy, and Climate Action in Indonesia'
             },
             subtitle: {
-                id: 'Kami mempercepat transisi energi dan pengelolaan sumber daya alam yang berkelanjutan dan inklusif (GESI) melalui bukti, kebijakan, dan implementasi nyata.',
-                en: 'We accelerate sustainable and inclusive (GESI) energy transition and natural resource management through evidence, policy, and real implementation.'
+                id: 'Kami mempercepat transisi energi dan pengelolaan sumber daya alam yang berkelanjutan dan inklusif (GEDSI) melalui bukti, kebijakan, dan implementasi nyata.',
+                en: 'We accelerate sustainable and inclusive (GEDSI) energy transition and natural resource management through evidence, policy, and real implementation.'
             },
             ctaExplore: { id: 'Jelajahi Program', en: 'Explore Programmes' },
-            ctaImpact: { id: 'Lihat Jejak Dampak', en: 'View Impact' }
+            ctaImpact: { id: 'Lihat Dampak Kami', en: 'See Our Impact' }
         },
         intro: {
             heading: {
