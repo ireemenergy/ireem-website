@@ -38,7 +38,7 @@
             },
             para2: {
                 id: 'IREEM mendukung pemerintah daerah dan mitra pembangunan dalam menyeimbangkan kebutuhan pembangunan ekonomi dengan konservasi ekosistem, melalui pendekatan berbasis lanskap (<em>landscape approach</em>) dan kajian berbasis data.',
-                en: 'IREEM supports local governments and development partners in balancing economic development needs with ecosystem conservation, through a landscape-based approach (<em>landscape approach</em>) and data-driven studies.'
+                en: 'IREEM supports local governments and development partners in balancing economic development needs with ecosystem conservation, through a landscape-based approach (landscape approach) and data-driven studies.'
             },
             callout: {
                 id: 'Pendekatan ini memungkinkan <strong>perencanaan dan pengelolaan sumber daya alam yang terintegrasi</strong> lintas sektor dan lintas wilayah.',

@@ -68,7 +68,7 @@
             title: { id: 'Pendekatan Kami', en: 'Our Approach' },
             para1: {
                 id: 'Pertumbuhan ekonomi sering kali masih berbanding lurus dengan peningkatan limbah, emisi, dan degradasi lingkungan. IREEM membantu memutus hubungan tersebut (<em>decoupling</em>) melalui penerapan manajemen lingkungan berbasis data, ekonomi sirkular, dan sistem pemantauan yang transparan.',
-                en: 'Economic growth is often still directly proportional to increased waste, emissions, and environmental degradation. IREEM helps break this link (<em>decoupling</em>) through the implementation of data-driven environmental management, circular economy, and transparent monitoring systems.'
+                en: 'Economic growth is often still directly proportional to increased waste, emissions, and environmental degradation. IREEM helps break this link (decoupling) through the implementation of data-driven environmental management, circular economy, and transparent monitoring systems.'
             },
             focusTitle: { id: 'Fokus kerja kami mencakup:', en: 'Our work focus includes:' },
             focus1: { id: 'Pengelolaan limbah dan pengendalian polusi industri', en: 'Waste management and industrial pollution control' },

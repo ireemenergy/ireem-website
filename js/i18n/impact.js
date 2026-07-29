@@ -38,7 +38,7 @@
             energyModeling: { id: 'Energy Modelling', en: 'Energy Modelling' },
             nationalGuidelines: { id: 'Panduan Nasional', en: 'National Guidelines' },
             policyRecommendations: { id: 'Rekomendasi Kebijakan', en: 'Policy Recommendations' },
-            taInstitutions: { id: 'Institusi TA', en: 'TA Institutions' },
+            taInstitutions: { id: 'Institusi Penerima Bantuan Teknis (TA)', en: 'Technical Assistance (TA) Recipient Institutions' },
             gedsiProducts: { id: 'Produk GEDSI', en: 'GEDSI Products' },
             pilotProjects: { id: 'Pilot Project', en: 'Pilot Projects' },
             mrvSystems: { id: 'Sistem MRV', en: 'MRV Systems' },
@@ -50,8 +50,8 @@
             subtitle: { id: 'Jangkauan Proyek', en: 'Project Coverage' },
             heading: { id: 'Area Cakupan IREEM', en: 'IREEM Coverage Area' },
             description: {
-                id: 'Kami telah melaksanakan proyek di berbagai provinsi di Indonesia, mencakup 5 wilayah utama.',
-                en: 'We have implemented projects in various provinces in Indonesia, covering 5 main regions.'
+                id: 'Kami telah melaksanakan proyek di berbagai provinsi di Indonesia, mencakup lima wilayah utama.',
+                en: 'We have implemented projects across various provinces in Indonesia, covering five main regions.'
             }
         },
         projects: {
@@ -65,7 +65,7 @@
         // Coverage Area Regions
         regions: {
             // Region buttons
-            btnJawa: { id: 'Pulau Jawa', en: 'Java Island' },
+            btnJawa: { id: 'Jawa', en: 'Java' },
             btnSumatera: { id: 'Sumatera', en: 'Sumatra' },
             btnKalimantan: { id: 'Kalimantan', en: 'Kalimantan' },
             btnSulawesi: { id: 'Sulawesi', en: 'Sulawesi' },
@@ -73,7 +73,7 @@
 
             // Jawa Region
             jawa: {
-                title: { id: 'Pulau Jawa', en: 'Java Island' },
+                title: { id: 'Jawa', en: 'Java' },
                 dki: {
                     title: { id: 'DKI Jakarta', en: 'DKI Jakarta' },
                     item1: { id: 'Kementerian Keuangan (ISO 50001)', en: 'Ministry of Finance (ISO 50001)' },

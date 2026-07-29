@@ -41,7 +41,7 @@
             logo: { asset: { url: '../images/partners/giz.png' } },
             collaboration: {
                 id: 'Dukungan teknis untuk program efisiensi energi dan manajemen lingkungan di Indonesia sejak 2018.',
-                en: 'Technical support for energy efficiency and environmental management programs in Indonesia since 2018.'
+                en: 'Technical support for energy efficiency and environmental management programmes in Indonesia since 2018.'
             },
             projects: ['SAGEN Program', 'Energy Efficiency Advisory']
         },
@@ -51,7 +51,7 @@
             logo: { asset: { url: '../images/partners/uk-pact.png' } },
             collaboration: {
                 id: 'Program flagship dekarbonisasi industri dan peningkatan kapasitas manajemen energi gedung pemerintah.',
-                en: 'Flagship program for industrial decarbonization and government building energy management capacity building.'
+                en: 'Flagship programme for industrial decarbonization and government building energy management capacity building.'
             },
             projects: ['UK-PACT Phase 1', 'UK-PACT Phase 2', 'IKE Development']
         },

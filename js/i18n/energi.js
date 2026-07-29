@@ -18,7 +18,7 @@
                 gesi: { id: 'GEDSI', en: 'GEDSI' }
             },
             hero: {
-                tagline: { id: 'Program Utama', en: 'Core Programme' },
+                tagline: { id: 'Program Utama', en: 'Main Programme' },
                 title: { id: 'Sistem Energi Berkelanjutan', en: 'Sustainable Energy Systems' },
                 subtitle: { id: 'Mendorong transisi energi yang adil melalui dekarbonisasi industri, efisiensi energi, dan pendanaan hijau.', en: 'Driving a just energy transition through industrial decarbonization, energy efficiency, and green financing.' },
                 statNumber: { id: '1.5 Juta', en: '1.5 Million' },
@@ -27,8 +27,8 @@
             context: {
                 heading: { id: 'Tantangan & Strategi', en: 'Challenges & Strategy' },
                 para1: { id: 'Indonesia memiliki target ambisius Net Zero Emission pada 2060. Namun, tantangan teknis dan finansial di sektor industri dan ketenagalistrikan masih menjadi hambatan utama.', en: 'Indonesia has an ambitious Net Zero Emission target by 2060. However, technical and financial challenges in the industrial and electricity sectors remain major barriers.' },
-                para2: { id: 'Strategi IREEM berfokus pada <strong>sisi permintaan (demand-side)</strong>: membantu industri melakukan efisiensi energi dan beralih ke sumber terbarukan tanpa mengorbankan produktivitas ekonomi.', en: "IREEM's strategy focuses on the <strong>demand-side</strong>: helping industries achieve energy efficiency and transition to renewable sources without sacrificing economic productivity." },
-                highlight: { id: '<strong>IREEM bekerja untuk menjembatani kebijakan nasional dengan kebutuhan teknis di lapangan.</strong> Strategi kami mengutamakan sisi permintaan (demand-side) dengan solusi nyata yang bisa direplikasi, seperti penerapan sistem manajemen energi (EnMS), audit energi berbasis investasi, hingga pengembangan platform digital pelaporan mitigasi GRK sektor energi.', en: '<strong>IREEM works to bridge national policy with technical needs on the ground.</strong> Our strategy prioritizes the demand-side with replicable real solutions, such as implementing energy management systems (EnMS), investment-based energy audits, and developing digital platforms for GHG mitigation reporting in the energy sector.' }
+                para2: { id: 'Strategi IREEM berfokus pada <strong>sisi permintaan (<em>demand-side</em>)</strong>: membantu industri melakukan efisiensi energi dan beralih ke sumber terbarukan tanpa mengorbankan produktivitas ekonomi.', en: "IREEM's strategy focuses on the <strong>demand-side</strong>: helping industries achieve energy efficiency and transition to renewable sources without sacrificing economic productivity." },
+                highlight: { id: '<strong>IREEM bekerja untuk menjembatani kebijakan nasional dengan kebutuhan teknis di lapangan.</strong> Strategi kami mengutamakan sisi permintaan (<em>demand-side</em>) dengan solusi nyata yang bisa direplikasi, seperti penerapan sistem manajemen energi (<em>EnMS</em>), audit energi berbasis investasi, hingga pengembangan platform digital pelaporan mitigasi GRK sektor energi.', en: '<strong>IREEM works to bridge national policy with technical needs on the ground.</strong> Our strategy prioritizes the demand-side with replicable real solutions, such as implementing energy management systems (EnMS), investment-based energy audits, and developing digital platforms for GHG mitigation reporting in the energy sector.' }
             },
             policyFocus: {
                 title: { id: 'Fokus Kebijakan Terkait:', en: 'Related Policy Focus:' },

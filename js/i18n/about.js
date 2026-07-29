@@ -1,7 +1,7 @@
 /**
  * About Page Translations
  * Text content for about pages
- * 
+ *
  * @file about.js
  */
 
@@ -12,11 +12,25 @@
         about: {
             hero: {
                 tagline: { id: 'Tentang IREEM', en: 'About IREEM' },
-                title: { id: 'IREEM berdedikasi untuk memajukan pengelolaan berkelanjutan sumber daya alam, sistem energi, dan tata kelola lingkungan', en: 'IREEM is dedicated to advancing sustainable management of natural resources, energy systems, and environmental governance' },
-                subtitle: { id: 'dalam mendukung tujuan pembangunan jangka panjang dan iklim Indonesia.', en: 'in support of Indonesia\'s long-term development and climate objectives.' }
+                title: {
+                    id: 'IREEM berkomitmen memajukan pengelolaan sumber daya alam, sistem energi, dan tata kelola lingkungan yang berkelanjutan.',
+                    en: 'IREEM is committed to advancing sustainable natural resource management, energy systems, and environmental governance.'
+                }
             },
             background: {
                 heading: { id: 'Latar Belakang', en: 'Background' },
+                para3: {
+                    id: 'Institute for Natural Resources, Energy, and Environmental Management (IREEM) adalah organisasi non-pemerintah Indonesia yang independen, didirikan pada tahun 2017. IREEM berdedikasi untuk memajukan pengelolaan berkelanjutan sumber daya alam, sistem energi, dan tata kelola lingkungan dalam mendukung tujuan pembangunan jangka panjang dan iklim Indonesia.',
+                    en: 'The Institute for Natural Resources, Energy, and Environmental Management (IREEM) is an independent Indonesian non-governmental organisation established in 2017. IREEM is dedicated to advancing sustainable management of natural resources, energy systems, and environmental governance in support of Indonesia\'s long-term development and climate objectives.'
+                },
+                para4: {
+                    id: 'Didirikan oleh para profesional pembangunan berkelanjutan dari akademisi, pemerintah, dan industri, IREEM menyatukan tim ahli multidisiplin dengan latar belakang kuat dalam analisis kebijakan, implementasi teknis, penelitian, dan pengembangan kelembagaan. Melalui pendekatan terpadu ini, IREEM menjadi mitra terpercaya bagi lembaga pemerintah, badan pembangunan, dan pemangku kepentingan sektor swasta dalam mewujudkan inisiatif pembangunan berkelanjutan dan rendah karbon.',
+                    en: 'Founded by sustainable development professionals from academia, government, and industry, IREEM brings together a multidisciplinary team of experts with strong backgrounds in policy analysis, technical implementation, research, and institutional development. Through this integrated approach, IREEM serves as a trusted partner for government institutions, development agencies, and private sector stakeholders in delivering sustainable and low-carbon development initiatives.'
+                },
+                para5: {
+                    id: 'IREEM beroperasi sebagai think tank sekaligus mitra implementasi, menjembatani kesenjangan antara penelitian, perumusan kebijakan, dan pelaksanaan di lapangan. Organisasi ini mendorong keberlanjutan dan ketahanan melalui inovasi dalam tata kelola sumber daya alam, percepatan transisi energi bersih, pengelolaan lingkungan, dan penguatan kapasitas kelembagaan.',
+                    en: 'IREEM operates as both a think tank and implementation partner, bridging the gap between research, policy formulation, and practical execution. The organisation promotes sustainability and resilience through innovation in natural resource governance, acceleration of the clean energy transition, environmental management, and institutional capacity strengthening.'
+                },
                 quote: { id: '"Memahami dan menerapkan prinsip-prinsip keberlanjutan sangat penting untuk memastikan kesejahteraan masyarakat saat ini dan menciptakan lingkungan yang sehat untuk generasi mendatang."', en: '"Understanding and applying sustainability principles is essential to ensure the well-being of current society and create a healthy environment for future generations."' },
                 whyTitle: { id: 'Mengapa Ini Penting?', en: 'Why Does This Matter?' },
                 whyContent: { id: 'Didirikan oleh para profesional pembangunan berkelanjutan dari akademisi, pemerintah, dan industri, IREEM menyatukan tim ahli multidisiplin dengan latar belakang kuat dalam analisis kebijakan, implementasi teknis, penelitian, dan pengembangan kelembagaan.', en: 'Founded by sustainable development professionals from academia, government, and industry, IREEM brings together a multidisciplinary team of experts with strong backgrounds in policy analysis, technical implementation, research, and institutional development.' }
@@ -24,16 +38,22 @@
             history: {
                 heading: { id: 'Sejarah Kami', en: 'Our History' },
                 subtitle: { id: 'Dari kampus ke kebijakan nasional', en: 'From campus to national policy' },
-                item1Title: { id: '2016 — Kelahiran CNEE', en: '2016 — Birth of CNEE' },
-                item1Desc: { id: 'IREEM berawal dari inisiatif alumni Program Studi Pengelolaan Sumber Daya Alam dan Lingkungan (PSL) di Institut Pertanian Bogor (IPB).', en: 'IREEM originated from an initiative of alumni from the Natural Resources and Environmental Management Study Programme (PSL) at Bogor Agricultural Institute (IPB).' },
-                item2Title: { id: 'Transformasi Menjadi IREEM', en: 'Transformation to IREEM' },
-                item2Desc: { id: 'Seiring perkembangan, lembaga ini bertransformasi dalam nomenklatur dan mengambil identitas baru: Institute for Management of Natural Resources, Energy and Environment (IREEM).', en: 'As it developed, the institution transformed in nomenclature and adopted a new identity: Institute for Management of Natural Resources, Energy and Environment (IREEM).' },
+                item1Title: { id: '2016 — Kelahiran CNEE', en: '2016 — The Beginning' },
+                item1Desc: {
+                    id: 'IREEM berawal dari inisiatif alumni Program Studi Pengelolaan Sumber Daya Alam dan Lingkungan (PSL) di Institut Pertanian Bogor (IPB), yang pada awalnya dikembangkan melalui Center for Natural Resources, Energy, and Environmental Studies (CNEE).',
+                    en: 'IREEM originated from an initiative by alumni of the Natural Resources and Environmental Management Study Programme (PSL) at Bogor Agricultural University (IPB), which was initially developed through the Center for Natural Resources, Energy, and Environmental Studies (CNEE).'
+                },
+                item2Title: { id: '2017 — Transformasi Menjadi IREEM', en: '2017 — Transformation to IREEM' },
+                item2Desc: {
+                    id: 'Seiring berkembangnya institusi, lembaga ini mengadopsi identitas baru dan berganti nama menjadi Institute for Management of Natural Resources, Energy and Environment (IREEM).',
+                    en: 'As the institution evolved, it adopted a new identity and was renamed the Institute for Management of Natural Resources, Energy and Environment (IREEM).'
+                },
                 item3Title: { id: 'Hari Ini — Think & Do Tank', en: 'Today — Think & Do Tank' },
                 item3Desc: { id: 'Kini IREEM beroperasi sebagai think-and-do tank yang bekerja aktif bersama berbagai pemangku kepentingan.', en: 'Today IREEM operates as a think-and-do tank that actively works with various stakeholders.' }
             },
             director: {
-                tagline: { id: 'Harapan dan Terima Kasih', en: 'Hope and Gratitude' },
-                heading: { id: 'Pesan dari Direktur Eksekutif', en: 'Message from the Executive Director' },
+                tagline: { id: 'Kolaborasi untuk Menciptakan Dampak', en: 'COLLABORATION FOR IMPACT' },
+                heading: { id: 'Pesan dari Direktur Eksekutif IREEM', en: 'Message from the Executive Director' },
                 greeting: { id: 'Salam hangat,', en: 'Warm greetings,' },
                 para1: {
                     id: 'Indonesia menghadapi tantangan besar dalam mewujudkan pembangunan yang berkelanjutan, mulai dari <strong>transisi energi, pengelolaan lingkungan, hingga pemanfaatan sumber daya alam yang adil dan bertanggung jawab.</strong> Tantangan ini membutuhkan pendekatan yang berbasis ilmu pengetahuan, kebijakan yang inklusif, serta aksi nyata yang dapat diimplementasikan di lapangan.',
@@ -74,6 +94,14 @@
                     id: 'Di IREEM, nilai-nilai inti kami menjadi fondasi bagi setiap langkah dan keputusan yang kami ambil sebagai organisasi. Kami menjunjung <strong style=\"color: #3B82F6;\">integritas</strong> melalui transparansi dan akuntabilitas; membangun <strong style=\"color: #10B981;\">kepercayaan</strong> melalui komitmen dan konsistensi; serta mengedepankan <strong style=\"color: #D97706;\">kecerdikan</strong> dalam menciptakan solusi inovatif berbasis ilmu pengetahuan. Kami percaya bahwa <strong style=\"color: #06B6D4;\">komunikasi</strong> yang terbuka dan kolaboratif adalah kunci sinergi yang efektif, dan bahwa <strong style=\"color: #8B5CF6;\">keberagaman</strong> memperkaya perspektif serta memperkuat inklusivitas di seluruh program kami. Melalui semangat <strong style=\"color: #10B981;\">kemitraan</strong>, kami berkolaborasi lintas sektor untuk memperbesar dampak yang dipandu oleh komitmen kuat untuk <strong style=\"color: #22C55E;\">melindungi</strong> lingkungan dan sumber daya alam sebagai warisan bagi generasi mendatang. Kami mengejar semua ini dengan standar <strong style=\"color: #0E3A5D;\">kinerja tinggi</strong> — berfokus pada hasil, efisiensi, dan kualitas sebagai cerminan dedikasi kami terhadap keberlanjutan.',
                     en: 'At IREEM, our core values serve as the foundation for every step and decision we make as an organization. We uphold <strong style=\"color: #3B82F6;\">integrity</strong> through transparency and accountability; build <strong style=\"color: #10B981;\">trust</strong> through commitment and consistency; and champion <strong style=\"color: #D97706;\">ingenuity</strong> in creating innovative, science-based solutions. We believe that open and collaborative <strong style=\"color: #06B6D4;\">communication</strong> is the key to effective synergy, and that <strong style=\"color: #8B5CF6;\">diversity</strong> enriches perspectives and strengthens inclusivity across all our programmes. Through a spirit of <strong style=\"color: #10B981;\">partnership</strong>, we collaborate across sectors to maximize impact, guided by a strong commitment to <strong style=\"color: #22C55E;\">protecting</strong> the environment and natural resources as a legacy for future generations. We pursue all of this with <strong style=\"color: #0E3A5D;\">high performance</strong> standards — focusing on results, efficiency, and quality as a reflection of our dedication to sustainability.'
                 },
+                integrityName: { id: 'Integritas', en: 'Integrity' },
+                trustName: { id: 'Kepercayaan', en: 'Trust' },
+                ingenuityName: { id: 'Kecerdikan', en: 'Ingenuity' },
+                communicationName: { id: 'Komunikasi', en: 'Communication' },
+                diversityName: { id: 'Keberagaman', en: 'Diversity' },
+                partnershipName: { id: 'Kemitraan', en: 'Partnership' },
+                protectingName: { id: 'Melindungi', en: 'Protecting' },
+                performanceName: { id: 'Kinerja Tinggi', en: 'High Performance' },
                 integrity: {
                     id: 'Kami menjunjung tinggi transparansi dan akuntabilitas dalam setiap tindakan dan keputusan yang kami ambil.',
                     en: 'We uphold transparency and accountability in every action and decision we make.'
@@ -108,10 +136,11 @@
                 }
             },
             team: {
-                heading: { id: 'Tim Kami', en: 'Our Team' },
+                heading: { id: 'Our Team', en: 'Our Team' },
                 description: { id: 'Para profesional yang berdedikasi untuk pembangunan berkelanjutan Indonesia', en: 'Professionals dedicated to Indonesia\'s sustainable development' },
                 viewProfile: { id: 'Lihat Profil', en: 'View Profile' },
-                executiveBoard: { id: 'Executive Board', en: 'Executive Board' },
+                profileTitle: { id: 'Profil Tim', en: 'Team Profile' },
+                executiveBoard: { id: 'Jajaran Eksekutif', en: 'Executive Board' },
                 execDesc: { id: 'Pimpinan dan pengurus IREEM', en: 'IREEM leadership and management' },
                 staffProfile: { id: 'Staff Profile', en: 'Staff Profile' },
                 staffDesc: { id: 'Tim profesional yang menggerakkan IREEM', en: 'Professional team driving IREEM' },

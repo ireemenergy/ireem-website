@@ -1060,13 +1060,61 @@
         </section>
 
         <script>
+            // Province IDs for each region (all provinces in region, covered or not)
+            const regionProvinces = {
+                jawa: ['ID-JK', 'ID-JB', 'ID-JT', 'ID-YO', 'ID-JI', 'ID-BT'],
+                sumatera: ['ID-AC', 'ID-SU', 'ID-SB', 'ID-RI', 'ID-SS', 'ID-LA', 'ID-BE', 'ID-JA', 'ID-BB'],
+                kalimantan: ['ID-KB', 'ID-KT', 'ID-KI', 'ID-KS', 'ID-KU'],
+                sulawesi: ['ID-SA', 'ID-ST', 'ID-GO', 'ID-SR', 'ID-SN', 'ID-SG'],
+                nusatenggara: ['ID-BA', 'ID-NB', 'ID-NT']
+            };
+
+            // Provinces where IREEM has run or is running projects.
+            // TODO: ideally this list should be generated dynamically from Sanity CMS
+            //       (e.g., query portfolio/project entries that have a `provinces` field),
+            //       so covered provinces update automatically when new projects are added.
+            // NOTE: ID-KI (Kalimantan Timur) appears in the region detail card but is NOT
+            //       included here — please verify and add if confirmed.
+            const coveredProvinces = [
+                // Jawa (5 provinces — Banten/ID-BT excluded: no project data listed)
+                'ID-JK', 'ID-JB', 'ID-JT', 'ID-YO', 'ID-JI',
+                // Sumatera (7 provinces — Jambi/ID-JA and Bangka Belitung/ID-BB excluded)
+                'ID-AC', 'ID-SU', 'ID-SB', 'ID-RI', 'ID-SS', 'ID-LA', 'ID-BE',
+                // Kalimantan (3 provinces: Tengah, Utara, Selatan)
+                'ID-KT', 'ID-KU', 'ID-KS',
+                // Sulawesi (2 provinces: Utara, Tenggara)
+                'ID-SA', 'ID-SG',
+                // Nusa Tenggara (1 province: NTB)
+                'ID-NB'
+            ];
+
+            // Tracks the "resting" fill for each province — used after hover leaves.
+            // Default is grey; changes when a region button highlights provinces.
+            const provinceBaseColor = {};
+
+            // Tooltip element (shared, lives in main document)
+            const mapTooltip = document.createElement('div');
+            mapTooltip.style.cssText = [
+                'position:fixed',
+                'background:rgba(0,51,102,0.95)',
+                'color:white',
+                'padding:5px 12px',
+                'border-radius:8px',
+                'font-size:0.78rem',
+                'font-weight:600',
+                'pointer-events:none',
+                'display:none',
+                'z-index:9999',
+                'white-space:nowrap',
+                'box-shadow:0 2px 8px rgba(0,0,0,0.25)',
+                'letter-spacing:0.3px'
+            ].join(';');
+            document.body.appendChild(mapTooltip);
+
             function showRegion(regionId) {
-                // Hide all regions
                 document.querySelectorAll('.region-content').forEach(el => el.style.display = 'none');
-                // Show selected region
                 document.getElementById('region-' + regionId).style.display = 'block';
 
-                // Update button styles
                 document.querySelectorAll('.region-btn').forEach(btn => {
                     btn.style.background = 'white';
                     btn.style.color = 'var(--color-primary)';
@@ -1078,103 +1126,101 @@
                 event.target.style.border = 'none';
                 event.target.classList.add('active');
 
-                // Highlight provinces on SVG map
                 highlightProvinces(regionId);
             }
-
-            // Province IDs for each region
-            const regionProvinces = {
-                jawa: ['ID-JK', 'ID-JB', 'ID-JT', 'ID-YO', 'ID-JI', 'ID-BT'],
-                sumatera: ['ID-AC', 'ID-SU', 'ID-SB', 'ID-RI', 'ID-SS', 'ID-LA', 'ID-BE', 'ID-JA', 'ID-BB'],
-                kalimantan: ['ID-KB', 'ID-KT', 'ID-KI', 'ID-KS', 'ID-KU'],
-                sulawesi: ['ID-SA', 'ID-ST', 'ID-GO', 'ID-SR', 'ID-SN', 'ID-SG'],
-                nusatenggara: ['ID-BA', 'ID-NB', 'ID-NT']
-            };
-
-            // Provinces with IREEM projects
-            const ireemProvinces = [
-                // Jawa
-                'ID-JK', 'ID-JB', 'ID-JT', 'ID-YO', 'ID-JI',
-                // Sumatera
-                'ID-AC', 'ID-SU', 'ID-SB', 'ID-RI', 'ID-SS', 'ID-LA', 'ID-BE',
-                // Kalimantan
-                'ID-KT', 'ID-KU', 'ID-KS',
-                // Sulawesi
-                'ID-SA', 'ID-SG',
-                // Nusa Tenggara
-                'ID-NB'
-            ];
 
             function highlightProvinces(regionId) {
                 const svgObject = document.getElementById('indonesia-svg');
                 if (!svgObject || !svgObject.contentDocument) return;
-
                 const svgDoc = svgObject.contentDocument;
-                const provinces = regionProvinces[regionId] || [];
+                const regionList = regionProvinces[regionId] || [];
 
-                // Reset all provinces
+                // Reset all to grey
                 svgDoc.querySelectorAll('path.land').forEach(path => {
                     path.style.fill = '#CCCCCC';
-                    path.style.transition = 'fill 0.3s ease';
+                    provinceBaseColor[path.id] = '#CCCCCC';
                 });
 
-                // Highlight provinces in selected region
-                provinces.forEach(id => {
-                    const province = svgDoc.getElementById(id);
-                    if (province) {
-                        // Blue for provinces with IREEM projects, light blue for others in region
-                        if (ireemProvinces.includes(id)) {
-                            province.style.fill = '#0066CC';
-                        } else {
-                            province.style.fill = '#60A5FA';
-                        }
-                    }
+                // Color the selected region: dark blue for covered, light blue for others
+                regionList.forEach(id => {
+                    const el = svgDoc.getElementById(id);
+                    if (!el) return;
+                    const color = coveredProvinces.includes(id) ? '#0066CC' : '#60A5FA';
+                    el.style.fill = color;
+                    provinceBaseColor[id] = color;
                 });
             }
 
-            // Initialize map when SVG loads
             document.getElementById('indonesia-svg').addEventListener('load', function () {
                 const svgDoc = this.contentDocument;
+                const svgObjectEl = this;
 
-                // Style all IREEM provinces with blue by default
-                ireemProvinces.forEach(id => {
-                    const province = svgDoc.getElementById(id);
-                    if (province) {
-                        province.style.fill = '#60A5FA';
-                        province.style.cursor = 'pointer';
-                        province.style.transition = 'fill 0.3s ease';
-
-                        // Add hover effect
-                        province.addEventListener('mouseenter', function () {
-                            this.style.fill = '#0066CC';
-                        });
-                        province.addEventListener('mouseleave', function () {
-                            if (!this.classList.contains('highlighted')) {
-                                this.style.fill = '#60A5FA';
-                            }
-                        });
-
-                        // Add click to show region
-                        province.addEventListener('click', function () {
-                            const id = this.id;
-                            for (const [region, provinces] of Object.entries(regionProvinces)) {
-                                if (provinces.includes(id)) {
-                                    // Find and click the corresponding button
-                                    document.querySelectorAll('.region-btn').forEach((btn, index) => {
-                                        const regions = ['jawa', 'sumatera', 'kalimantan', 'sulawesi', 'nusatenggara'];
-                                        if (regions[index] === region) {
-                                            btn.click();
-                                        }
-                                    });
-                                    break;
-                                }
-                            }
-                        });
-                    }
+                // Ensure all provinces start grey (SVG default, but explicit for safety)
+                svgDoc.querySelectorAll('path.land').forEach(path => {
+                    path.style.fill = '#CCCCCC';
+                    path.style.transition = 'fill 0.2s ease';
+                    provinceBaseColor[path.id] = '#CCCCCC';
                 });
 
-                // Initial highlight for Jawa
-                highlightProvinces('jawa');
+                // Track mouse position for tooltip (coordinates relative to sub-document)
+                svgDoc.addEventListener('mousemove', function (e) {
+                    const rect = svgObjectEl.getBoundingClientRect();
+                    const x = rect.left + e.clientX;
+                    const y = rect.top + e.clientY;
+                    const tw = mapTooltip.offsetWidth;
+                    const winW = window.innerWidth;
+                    mapTooltip.style.left = (x + 15 + tw > winW ? x - tw - 10 : x + 15) + 'px';
+                    mapTooltip.style.top = (y - 32) + 'px';
+                });
+
+                // Add interaction only to covered provinces
+                coveredProvinces.forEach(id => {
+                    const el = svgDoc.getElementById(id);
+                    if (!el) return;
+
+                    el.style.cursor = 'pointer';
+
+                    el.addEventListener('mouseenter', function () {
+                        this.style.fill = '#0066CC';
+                        mapTooltip.textContent = this.getAttribute('title') || id;
+                        mapTooltip.style.display = 'block';
+                    });
+
+                    el.addEventListener('mouseleave', function () {
+                        this.style.fill = provinceBaseColor[this.id] || '#CCCCCC';
+                        mapTooltip.style.display = 'none';
+                    });
+
+                    // Touch support: tap triggers the click-to-region behavior
+                    el.addEventListener('touchstart', function (e) {
+                        e.preventDefault();
+                        // Show tooltip briefly then navigate to region
+                        mapTooltip.textContent = this.getAttribute('title') || id;
+                        mapTooltip.style.display = 'block';
+                        setTimeout(() => { mapTooltip.style.display = 'none'; }, 1500);
+                        this.dispatchEvent(new MouseEvent('click', { bubbles: true }));
+                    }, { passive: false });
+
+                    // Click province → activate corresponding region button
+                    el.addEventListener('click', function () {
+                        const provinceId = this.id;
+                        const regionKeys = ['jawa', 'sumatera', 'kalimantan', 'sulawesi', 'nusatenggara'];
+                        for (const region of regionKeys) {
+                            if (regionProvinces[region].includes(provinceId)) {
+                                const btn = document.querySelector(`.region-btn[onclick="showRegion('${region}')"]`);
+                                if (btn) btn.click();
+                                break;
+                            }
+                        }
+                    });
+                });
+
+                // Non-covered provinces: cursor indicates non-interactive
+                svgDoc.querySelectorAll('path.land').forEach(path => {
+                    if (!coveredProvinces.includes(path.id)) {
+                        path.style.cursor = 'default';
+                    }
+                });
             });
         </script>
 
