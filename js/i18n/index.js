@@ -109,8 +109,8 @@
 
         // Value should be an object with 'id' and 'en' keys
         if (value && typeof value === 'object') {
-            // Return requested language or fallback to Indonesian
-            return value[lang] || value['id'] || '';
+            // Return requested language or fallback to default language
+            return value[lang] || value[DEFAULT_LANG] || '';
         }
 
         // Direct string value (shouldn't happen but handle gracefully)
