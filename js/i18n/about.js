@@ -57,19 +57,19 @@
                 greeting: { id: 'Salam hangat,', en: 'Warm greetings,' },
                 para1: {
                     id: 'Indonesia menghadapi tantangan besar dalam mewujudkan pembangunan yang berkelanjutan, mulai dari <strong>transisi energi, pengelolaan lingkungan, hingga pemanfaatan sumber daya alam yang adil dan bertanggung jawab.</strong> Tantangan ini membutuhkan pendekatan yang berbasis ilmu pengetahuan, kebijakan yang inklusif, serta aksi nyata yang dapat diimplementasikan di lapangan.',
-                    en: 'Indonesia faces significant challenges in achieving sustainable development, from <strong>energy transition, environmental management, to fair and responsible use of natural resources.</strong> These challenges require a science-based approach, inclusive policies, and real actions that can be implemented on the ground.'
+                    en: 'Indonesia faces significant challenges in achieving sustainable development—from advancing the energy transition and strengthening environmental management to ensuring the equitable and responsible use of natural resources. Addressing these challenges requires science-based approaches, inclusive policies, and concrete actions that can be effectively implemented on the ground.'
                 },
                 para2: {
                     id: 'IREEM hadir sebagai think and do tank yang berupaya menjembatani <strong>sains, kebijakan, dan praktik pembangunan.</strong> Kami bekerja bersama pemerintah, mitra pembangunan, dunia usaha, dan masyarakat untuk mendorong solusi yang tidak hanya berdampak, tetapi juga berkelanjutan dan inklusif.',
-                    en: 'IREEM is here as a think and do tank that seeks to bridge <strong>science, policy, and development practice.</strong> We work with government, development partners, the business community, and society to promote solutions that are not only impactful, but also sustainable and inclusive.'
+                    en: 'IREEM is a think-and-do tank committed to bridging science, policy, and development practice. We collaborate with government institutions, development partners, the private sector, and civil society to advance solutions that are not only impactful but also sustainable and inclusive.'
                 },
                 para3: {
                     id: 'Kami percaya bahwa keberlanjutan tidak dapat dicapai sendiri. Melalui kolaborasi yang kuat dan saling percaya, kami berharap <strong>IREEM dapat menjadi mitra yang berkontribusi nyata dalam upaya bersama membangun Indonesia yang tangguh, rendah emisi, dan berkeadilan bagi semua.</strong>',
-                    en: 'We believe that sustainability cannot be achieved alone. Through strong and trusting collaboration, we hope <strong>IREEM can become a partner that contributes meaningfully to the collective effort of building a resilient, low-emission, and just Indonesia for all.</strong>'
+                    en: 'We believe that sustainability cannot be achieved alone. Through strong partnerships built on mutual trust, IREEM aspires to contribute meaningfully to our collective efforts to build a resilient, low-emission, and equitable Indonesia for all.'
                 },
                 para4: {
                     id: 'Terima kasih atas kepercayaan dan kerja sama yang terus terjalin. Kami terbuka untuk berkolaborasi dan belajar bersama demi masa depan Indonesia yang berkelanjutan.',
-                    en: 'Thank you for the trust and ongoing cooperation. We are open to collaborating and learning together for a sustainable future for Indonesia.'
+                    en: 'Thank you for your continued trust and partnership. We look forward to collaborating, learning, and working together toward a sustainable future for Indonesia.'
                 },
                 regards: { id: 'Hormat kami,', en: 'Best regards,' },
                 position: { id: 'Direktur Eksekutif', en: 'Executive Director' }
