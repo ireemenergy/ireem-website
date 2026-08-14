@@ -82,7 +82,7 @@
                 tagline: { id: 'Misi Kami', en: 'Our Mission' },
                 pillar1Title: { id: 'Kajian & Audit Teknis', en: 'Policy Studies & Technical Assessment' },
                 pillar1Desc: { id: 'Melakukan kajian kebijakan, penilaian teknis, audit energi, dan penelitian lingkungan untuk mendukung pembangunan berkelanjutan.', en: 'Conduct policy studies, technical assessment, energy audit, and environmental research to support the sustainable development.' },
-                pillar2Title: { id: 'Promosi & Asistensi Teknis', en: 'Knowledge Dissemination & Technical Assistance' },
+                pillar2Title: { id: 'Promosi & Asistensi Teknis', en: 'Capacity Building & Technical Assistance' },
                 pillar2Desc: { id: 'Mempromosikan diseminasi pengetahuan, pelatihan, dan asistensi teknis dalam pengelolaan sumber daya alam, energi, dan lingkungan yang berkelanjutan untuk pemerintah, masyarakat, dan sektor swasta.', en: 'Promote knowledge disseminate, training, and technical assistance in sustainable natural resource, energy, and environmental management for government, communities and private sector.' },
                 pillar3Title: { id: 'Kemitraan Kolaboratif', en: 'National & International Partnerships' },
                 pillar3Desc: { id: 'Memperkuat kemitraan nasional dan internasional untuk memajukan keberlanjutan, ketahanan iklim, dan inisiatif transisi energi.', en: 'Strengthen national and international partnerships to advance sustainability, climate resilience, and energy transition initiatives.' }
