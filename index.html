@@ -326,8 +326,8 @@
             </div>
         </section>
 
-        <!-- 8. Dynamic News (Berita Terbaru) - Carousel -->
-        <section class="section news-carousel-section" id="news" style="background: #ffffff; overflow: hidden;">
+        <!-- 8. Dynamic News (Berita Terbaru) - Static Grid -->
+        <section class="section news-carousel-section" id="news" style="background: #ffffff;">
             <div class="container">
                 <div class="text-center" style="margin-bottom: 3rem;">
                     <p class="small"
@@ -341,52 +341,34 @@
                         Update terkini dari kegiatan dan pencapaian IREEM.
                     </p>
                 </div>
-            </div>
 
-            <!-- News Carousel Track - Full Width -->
-            <div class="news-carousel-wrapper">
+                <!-- News Grid - 5 cards static -->
                 <div class="news-carousel-track" id="home-news-track">
                     <!-- Cards will be loaded from Sanity -->
                 </div>
-            </div>
 
-            <div class="container">
-                <div class="text-center" style="margin-top: 2rem;">
+                <div class="text-center" style="margin-top: 2.5rem;">
                     <a href="berita/" class="btn btn-outline-dark" data-i18n="news.viewAll">Lihat Semua Berita →</a>
                 </div>
             </div>
 
             <style>
-                .news-carousel-wrapper {
-                    width: 100%;
-                    overflow: hidden;
-                    padding: 1.5rem 0 2rem 0;
-                }
-
                 .news-carousel-track {
-                    display: flex;
-                    gap: 1.5rem;
-                    animation: newsScroll 80s linear infinite;
-                    width: max-content;
+                    display: grid;
+                    grid-template-columns: repeat(5, 1fr);
+                    gap: 1.25rem;
+                    width: 100%;
                 }
 
-                .news-carousel-track:hover {
-                    animation-play-state: paused;
+                @media (max-width: 1100px) {
+                    .news-carousel-track { grid-template-columns: repeat(3, 1fr); }
                 }
 
-                @keyframes newsScroll {
-                    0% {
-                        transform: translateX(0);
-                    }
-
-                    100% {
-                        transform: translateX(-50%);
-                    }
+                @media (max-width: 640px) {
+                    .news-carousel-track { grid-template-columns: repeat(1, 1fr); }
                 }
 
                 .news-carousel-card {
-                    flex-shrink: 0;
-                    width: 320px;
                     background: white;
                     border-radius: 16px;
                     overflow: hidden;

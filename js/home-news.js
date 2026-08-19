@@ -70,8 +70,8 @@
             const data = await response.json();
 
             if (data.result && data.result.items && data.result.items.length > 0) {
-                // Use all items for carousel
-                renderNews(data.result.items, container);
+                // Show only first 5 items, no scroll
+                renderNews(data.result.items.slice(0, 5), container);
             } else {
                 renderPlaceholderNews(container);
             }
@@ -120,8 +120,7 @@
             `;
         }).join('');
 
-        // Duplicate cards for seamless infinite scroll
-        container.innerHTML = cardsHTML + cardsHTML;
+        container.innerHTML = cardsHTML;
     }
 
     function renderPlaceholderNews(container) {
@@ -170,8 +169,7 @@
             </a>
         `).join('');
 
-        // Duplicate for seamless infinite scroll
-        container.innerHTML = cardsHTML + cardsHTML;
+        container.innerHTML = cardsHTML;
     }
 
     function formatDate(dateString, lang) {
