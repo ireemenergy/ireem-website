@@ -1614,3 +1614,72 @@ a[data-i18n="nav.innovation"].nav-link {
     margin-right: 1rem;
   }
 }
+/* =====================================================
+   Program Folder Tab Navigation
+   ===================================================== */
+
+.program-tabs-section {
+    background: transparent;
+    padding: 0;
+}
+
+.program-tabs-wrapper {
+    display: flex;
+    align-items: flex-end;
+    gap: 5px;
+    overflow-x: auto;
+    padding-bottom: 0;
+    scrollbar-width: none;
+}
+
+.program-tabs-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.program-folder-tab {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.6rem 1.5rem 1rem;
+    border-radius: 10px 10px 0 0;
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    white-space: nowrap;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    flex-shrink: 0;
+    transition: padding-top 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+    position: relative;
+}
+
+.program-folder-tab:not(.active) {
+    background: #f1f3f5;
+    color: #6B7280;
+    border: 1px solid #E5E7EB;
+    border-bottom: none;
+}
+
+.program-folder-tab:not(.active):hover {
+    background: #e5e7eb;
+    color: #374151;
+}
+
+.program-folder-tab.active {
+    color: white;
+    border: none;
+    z-index: 2;
+}
+
+.tab-energi.active      { background: #1E3A5F; }
+.tab-lingkungan.active  { background: #166534; }
+.tab-sda.active         { background: #1B4F72; }
+.tab-gedsi.active       { background: #D97706; }
+
+@media (max-width: 768px) {
+    .program-folder-tab {
+        font-size: 0.65rem;
+        padding: 0.5rem 1rem 0.75rem;
+        letter-spacing: 0.04em;
+    }
+}

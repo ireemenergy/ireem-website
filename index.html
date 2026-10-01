@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="id">
 
 <head>
@@ -326,8 +326,8 @@
             </div>
         </section>
 
-        <!-- 8. Dynamic News (Berita Terbaru) - Static Grid -->
-        <section class="section news-carousel-section" id="news" style="background: #ffffff;">
+        <!-- 8. Dynamic News (Berita Terbaru) - Scrolling Carousel -->
+        <section class="section news-carousel-section" id="news" style="background: #ffffff; overflow: hidden;">
             <div class="container">
                 <div class="text-center" style="margin-bottom: 3rem;">
                     <p class="small"
@@ -341,29 +341,107 @@
                         Update terkini dari kegiatan dan pencapaian IREEM.
                     </p>
                 </div>
+            </div>
 
-                <!-- News Grid - 5 cards static -->
+            <!-- Full-width carousel outside container -->
+            <div class="news-carousel-wrapper">
                 <div class="news-carousel-track" id="home-news-track">
                     <!-- Cards will be loaded from Sanity -->
                 </div>
+            </div>
 
+            <script>
+                (function () {
+                    function initDragScroll() {
+                        const wrapper = document.querySelector('.news-carousel-wrapper');
+                        if (!wrapper) return;
+
+                        let isDown = false, startX, scrollLeft, hasMoved = false;
+
+                        // Prevent browser default drag on all child elements
+                        wrapper.addEventListener('dragstart', e => e.preventDefault());
+
+                        wrapper.addEventListener('mousedown', e => {
+                            if (e.button !== 0) return;
+                            isDown = true;
+                            hasMoved = false;
+                            startX = e.clientX;
+                            scrollLeft = wrapper.scrollLeft;
+                            wrapper.style.cursor = 'grabbing';
+                            wrapper.style.userSelect = 'none';
+                        });
+
+                        document.addEventListener('mouseup', e => {
+                            if (!isDown) return;
+                            isDown = false;
+                            wrapper.style.cursor = 'grab';
+                            wrapper.style.userSelect = '';
+                            // Block click on links if we actually dragged
+                            if (hasMoved) {
+                                e.stopPropagation();
+                            }
+                        });
+
+                        document.addEventListener('mousemove', e => {
+                            if (!isDown) return;
+                            const dx = e.clientX - startX;
+                            if (Math.abs(dx) > 5) hasMoved = true;
+                            wrapper.scrollLeft = scrollLeft - dx;
+                        });
+
+                        // Block link navigation if dragged
+                        wrapper.addEventListener('click', e => {
+                            if (hasMoved) e.preventDefault();
+                        }, true);
+                    }
+
+                    if (document.readyState === 'loading') {
+                        document.addEventListener('DOMContentLoaded', initDragScroll);
+                    } else {
+                        initDragScroll();
+                    }
+                })();
+            </script>
+
+            <div class="container">
                 <div class="text-center" style="margin-top: 2.5rem;">
                     <a href="berita/" class="btn btn-outline-dark" data-i18n="news.viewAll">Lihat Semua Berita →</a>
                 </div>
             </div>
 
             <style>
+                .news-carousel-wrapper {
+                    width: 100%;
+                    overflow-x: auto;
+                    overflow-y: hidden;
+                    padding: 1.5rem 0 2rem 0;
+                    cursor: grab;
+                    scroll-behavior: smooth;
+                    -webkit-overflow-scrolling: touch;
+                    scrollbar-width: none;
+                }
+
+                .news-carousel-wrapper::-webkit-scrollbar {
+                    display: none;
+                }
+
                 .news-carousel-track {
                     display: flex;
-                    flex-wrap: wrap;
                     gap: 1.5rem;
-                    justify-content: center;
-                    width: 100%;
+                    width: max-content;
+                    padding: 0 2rem;
+                }
+
+                .news-carousel-wrapper img,
+                .news-carousel-wrapper a {
+                    -webkit-user-drag: none;
+                    user-drag: none;
+                    pointer-events: auto;
                 }
 
                 .news-carousel-card {
-                    flex: 0 1 calc(33.33% - 1rem);
-                    min-width: 260px;
+                    flex-shrink: 0;
+                    width: 320px;
                     background: white;
                     border-radius: 16px;
                     overflow: hidden;
@@ -443,23 +521,18 @@
                 }
 
                 .news-carousel-loading {
+                    flex-shrink: 0;
                     width: 320px;
                     height: 280px;
                     background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
                     background-size: 200% 100%;
                     animation: skeletonLoading 1.5s infinite;
                     border-radius: 16px;
-                    flex-shrink: 0;
                 }
 
                 @keyframes skeletonLoading {
-                    0% {
-                        background-position: 200% 0;
-                    }
-
-                    100% {
-                        background-position: -200% 0;
-                    }
+                    0% { background-position: 200% 0; }
+                    100% { background-position: -200% 0; }
                 }
 
                 @media (max-width: 768px) {
@@ -1010,13 +1083,13 @@
                         info@ireem.id
                     </a>
                     <a href="https://maps.app.goo.gl/18JrCHCrNfFDt7nh6" target="_blank"
-                        style="color: rgba(255,255,255,0.6); font-size: 0.8rem; display: flex; align-items: center; gap: 0.5rem;">
+                        style="color: rgba(255,255,255,0.6); font-size: 0.8rem; display: flex; align-items: flex-start; gap: 0.5rem;">
                         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                            stroke-width="2">
+                            stroke-width="2" style="flex-shrink: 0; margin-top: 2px;">
                             <path d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
                             <path d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
                         </svg>
-                        Jakarta Selatan
+                        Menara Kadin no. Kav. 3 Lt. 20, Jl. H.R. Rasuna Said, Kuningan Timur, Setiabudi, Jakarta Selatan, DKI Jakarta 12950
                     </a>
                 </div>
             </div>

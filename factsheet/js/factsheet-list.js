@@ -311,17 +311,11 @@
         const sanityData = await fetchFactsheetsFromSanity();
 
         if (sanityData === null) {
-            // Fetch failed, use fallback data
-            console.warn('[FactsheetList] Using fallback data');
-            factsheets = FALLBACK_FACTSHEETS;
-        } else if (sanityData.length === 0) {
-            // No data returned from Sanity, use fallback
-            console.warn('[FactsheetList] No data from Sanity, using fallback');
-            factsheets = FALLBACK_FACTSHEETS;
-        } else {
-            // Success! Use Sanity data
-            factsheets = sanityData;
+            renderError();
+            return;
         }
+
+        factsheets = sanityData;
 
         // Render cards
         renderCards();

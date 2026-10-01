@@ -70,8 +70,7 @@
             const data = await response.json();
 
             if (data.result && data.result.items && data.result.items.length > 0) {
-                // Show only first 5 items, no scroll
-                renderNews(data.result.items.slice(0, 5), container);
+                renderNews(data.result.items, container);
             } else {
                 renderPlaceholderNews(container);
             }
